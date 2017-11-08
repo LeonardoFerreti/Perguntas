@@ -41,22 +41,26 @@ Partial Class frm_base
         'btnAvancar
         '
         Me.btnAvancar.Dock = System.Windows.Forms.DockStyle.Right
+        Me.btnAvancar.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.btnAvancar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAvancar.Location = New System.Drawing.Point(494, 0)
         Me.btnAvancar.Name = "btnAvancar"
         Me.btnAvancar.Size = New System.Drawing.Size(85, 52)
         Me.btnAvancar.TabIndex = 1
         Me.btnAvancar.Text = "Avançar >"
-        Me.btnAvancar.UseVisualStyleBackColor = True
+        Me.btnAvancar.UseVisualStyleBackColor = False
         '
         'btnVoltar
         '
         Me.btnVoltar.Dock = System.Windows.Forms.DockStyle.Left
+        Me.btnVoltar.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnVoltar.Location = New System.Drawing.Point(0, 0)
         Me.btnVoltar.Name = "btnVoltar"
         Me.btnVoltar.Size = New System.Drawing.Size(85, 52)
         Me.btnVoltar.TabIndex = 0
         Me.btnVoltar.Text = "< Voltar"
-        Me.btnVoltar.UseVisualStyleBackColor = True
+        Me.btnVoltar.UseVisualStyleBackColor = False
         '
         'frm_base
         '
@@ -68,6 +72,7 @@ Partial Class frm_base
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MinimizeBox = False
         Me.Name = "frm_base"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)

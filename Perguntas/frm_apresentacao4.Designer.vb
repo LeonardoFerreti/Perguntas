@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frm_apresentacao
+Partial Class frm_apresentacao4
     Inherits frm_base
 
     'Form overrides dispose to clean up the component list.
@@ -24,45 +24,66 @@ Partial Class frm_apresentacao
     Private Sub InitializeComponent()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao1
-        Me.PictureBox2.Location = New System.Drawing.Point(372, 54)
+        Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao5
+        Me.PictureBox2.Location = New System.Drawing.Point(259, 45)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(250, 157)
-        Me.PictureBox2.TabIndex = 2
+        Me.PictureBox2.Size = New System.Drawing.Size(322, 148)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox2.TabIndex = 5
         Me.PictureBox2.TabStop = False
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.apresentacao1
-        Me.PictureBox1.Location = New System.Drawing.Point(218, 162)
+        Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.apresentacao2
+        Me.PictureBox1.Location = New System.Drawing.Point(101, 169)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(114, 154)
+        Me.PictureBox1.Size = New System.Drawing.Size(122, 169)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
         '
-        'frm_apresentacao
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(286, 222)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(260, 13)
+        Me.Label1.TabIndex = 7
+        Me.Label1.Text = "Agora, selecione a(s) palavra(s) funcionais abaixo:"
+        '
+        'CheckedListBox1
+        '
+        Me.CheckedListBox1.CheckOnClick = True
+        Me.CheckedListBox1.FormattingEnabled = True
+        Me.CheckedListBox1.Items.AddRange(New Object() {"Os", "meninos", "brincavam", "de", "bola"})
+        Me.CheckedListBox1.Location = New System.Drawing.Point(288, 238)
+        Me.CheckedListBox1.Name = "CheckedListBox1"
+        Me.CheckedListBox1.Size = New System.Drawing.Size(258, 89)
+        Me.CheckedListBox1.TabIndex = 6
+        '
+        'frm_apresentacao4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(752, 441)
+        Me.ClientSize = New System.Drawing.Size(752, 429)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.CheckedListBox1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
-        Me.HABILITA_VOLTAR = False
-        Me.MaximizeBox = False
-        Me.MOSTRA_BOTAO_VOLTAR = False
-        Me.Name = "frm_apresentacao"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Boas vindas"
+        Me.Name = "frm_apresentacao4"
+        Me.Text = "frm_apreentacao4"
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
+        Me.Controls.SetChildIndex(Me.CheckedListBox1, 0)
+        Me.Controls.SetChildIndex(Me.Label1, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -72,4 +93,6 @@ Partial Class frm_apresentacao
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents CheckedListBox1 As CheckedListBox
 End Class

@@ -30,7 +30,7 @@ Partial Class frm_apresentacao2
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao2
+        Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.palavras_lexicais
         Me.PictureBox2.Location = New System.Drawing.Point(69, 16)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(436, 269)
@@ -55,6 +55,7 @@ Partial Class frm_apresentacao2
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "frm_apresentacao2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Boas vindas"
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)

@@ -89,6 +89,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexao\conexao.vb" />
+    <Compile Include="frm_apresentacao4.Designer.vb">
+      <DependentUpon>frm_apresentacao4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_apresentacao.Designer.vb">
       <DependentUpon>frm_apresentacao.vb</DependentUpon>
     </Compile>
@@ -99,6 +105,12 @@
       <DependentUpon>frm_apresentacao2.vb</DependentUpon>
     </Compile>
     <Compile Include="frm_apresentacao2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_apresentacao3.Designer.vb">
+      <DependentUpon>frm_apresentacao3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao3.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_base.vb">
@@ -131,6 +143,12 @@
     <EmbeddedResource Include="frm_apresentacao2.resx">
       <DependentUpon>frm_apresentacao2.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao3.resx">
+      <DependentUpon>frm_apresentacao3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao4.resx">
+      <DependentUpon>frm_apresentacao4.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_base.resx">
       <DependentUpon>frm_base.vb</DependentUpon>
     </EmbeddedResource>
@@ -162,6 +180,9 @@
       <DependentUpon>Banco.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\balao_apresentacao5.jpg" />
+    <None Include="Resources\balao_apresentacao4.jpg" />
+    <None Include="Resources\palavras_lexicais.jpg" />
     <None Include="Resources\balao_apresentacao2.jpg" />
     <None Include="Resources\apresentacao2.jpg" />
     <None Include="Resources\balao_apresentacao1.jpg" />
