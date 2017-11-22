@@ -83,6 +83,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property apresentacao8() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("apresentacao8", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property balao_apresentacao1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("balao_apresentacao1", resourceCulture)
@@ -116,6 +126,26 @@ Namespace My.Resources
         Friend ReadOnly Property balao_apresentacao5() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("balao_apresentacao5", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property balao_apresentacao6() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("balao_apresentacao6", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property balao_apresentacao7() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("balao_apresentacao7", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

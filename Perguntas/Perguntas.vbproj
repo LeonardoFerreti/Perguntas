@@ -11,7 +11,7 @@
     <AssemblyName>Perguntas</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -28,6 +28,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -113,6 +114,12 @@
     <Compile Include="frm_apresentacao3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_apresentacao5.Designer.vb">
+      <DependentUpon>frm_apresentacao5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao5.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_base.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +156,9 @@
     <EmbeddedResource Include="frm_apresentacao4.resx">
       <DependentUpon>frm_apresentacao4.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao5.resx">
+      <DependentUpon>frm_apresentacao5.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_base.resx">
       <DependentUpon>frm_base.vb</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +190,9 @@
       <DependentUpon>Banco.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\balao_apresentacao7.jpg" />
+    <None Include="Resources\balao_apresentacao6.jpg" />
+    <None Include="Resources\apresentacao8.jpg" />
     <None Include="Resources\balao_apresentacao5.jpg" />
     <None Include="Resources\balao_apresentacao4.jpg" />
     <None Include="Resources\palavras_lexicais.jpg" />
