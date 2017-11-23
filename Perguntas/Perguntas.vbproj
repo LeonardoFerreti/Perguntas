@@ -127,6 +127,12 @@
       <DependentUpon>frm_base.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_Perguntas_Arrastar.Designer.vb">
+      <DependentUpon>frm_Perguntas_Arrastar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Perguntas_Arrastar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -161,6 +167,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_base.resx">
       <DependentUpon>frm_base.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Perguntas_Arrastar.resx">
+      <DependentUpon>frm_Perguntas_Arrastar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
