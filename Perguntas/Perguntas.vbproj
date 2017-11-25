@@ -120,6 +120,18 @@
     <Compile Include="frm_apresentacao5.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_apresentacao6.Designer.vb">
+      <DependentUpon>frm_apresentacao6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_apresentacao7.Designer.vb">
+      <DependentUpon>frm_apresentacao7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao7.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_base.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +177,12 @@
     <EmbeddedResource Include="frm_apresentacao5.resx">
       <DependentUpon>frm_apresentacao5.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao6.resx">
+      <DependentUpon>frm_apresentacao6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao7.resx">
+      <DependentUpon>frm_apresentacao7.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_base.resx">
       <DependentUpon>frm_base.vb</DependentUpon>
     </EmbeddedResource>
@@ -199,6 +217,11 @@
       <DependentUpon>Banco.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\balao9.png" />
+    <None Include="Resources\balao8.png" />
+    <None Include="Resources\balao.jpg" />
+    <None Include="Resources\balao_apresentacao_7_2.png" />
+    <None Include="Resources\balao_apresentacao_7.png" />
     <None Include="Resources\balao_apresentacao7.jpg" />
     <None Include="Resources\balao_apresentacao6.jpg" />
     <None Include="Resources\apresentacao8.jpg" />

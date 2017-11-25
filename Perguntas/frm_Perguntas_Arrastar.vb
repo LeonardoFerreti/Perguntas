@@ -1,28 +1,24 @@
 ﻿Public Class frm_Perguntas_Arrastar
 
-    Private Sub listBox1_MouseDown(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles ListBox1.MouseDown
-        If ListBox1.Items.Count = 0 Then
+    Private Sub listBox_MouseDown(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles ListBox1.MouseDown, ListBox2.MouseDown, ListBox3.MouseDown
+        If CType(sender, ListBox).Items.Count = 0 Then
             Return
         End If
-
-        Dim index As Integer = ListBox1.IndexFromPoint(e.X, e.Y)
-        Dim s As String = ListBox1.Items(index).ToString()
-        Dim dde1 As DragDropEffects = DoDragDrop(s, DragDropEffects.All)
-
-        If dde1 = DragDropEffects.All Then
-            ListBox1.Items.RemoveAt(ListBox1.IndexFromPoint(e.X, e.Y))
+        Dim index As Integer = CType(sender, ListBox).IndexFromPoint(e.X, e.Y)
+        Dim sourceStr As String = CType(sender, ListBox).Items(index).ToString()
+        Dim objDragDropEff As DragDropEffects = DoDragDrop(sourceStr, DragDropEffects.All)
+        If objDragDropEff = DragDropEffects.All Then
+            CType(sender, ListBox).Items.RemoveAt(CType(sender, ListBox).IndexFromPoint(e.X, e.Y))
         End If
     End Sub
 
-    Private Sub listBox2_DragOver(sender As Object, e As System.Windows.Forms.DragEventArgs) Handles ListBox2.DragOver, ListBox2.DragOver
+    Private Sub listBox_DragOver(sender As Object, e As System.Windows.Forms.DragEventArgs) Handles ListBox1.DragOver, ListBox2.DragOver, ListBox3.DragOver
         e.Effect = DragDropEffects.All
     End Sub
-    Private Sub listBox2_DragDrop(sender As Object, e As System.Windows.Forms.DragEventArgs) Handles ListBox2.DragDrop, ListBox3.DragDrop
-        If e.Data.GetDataPresent(DataFormats.StringFormat) Then
-            Dim str As String = DirectCast(e.Data.GetData(DataFormats.StringFormat), String)
 
-            ListBox2.Items.Add(str)
-        End If
+    Private Sub listBox_DragDrop(sender As Object, e As System.Windows.Forms.DragEventArgs) Handles ListBox1.DragDrop, ListBox2.DragDrop, ListBox3.DragDrop
+        Dim str As String = CStr(e.Data.GetData(DataFormats.StringFormat))
+        CType(sender, ListBox).Items.Add(str)
     End Sub
 
 End Class
