@@ -31,7 +31,7 @@ Partial Class frm_apresentacao
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao1
-        Me.PictureBox2.Location = New System.Drawing.Point(372, 54)
+        Me.PictureBox2.Location = New System.Drawing.Point(338, 54)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(250, 157)
         Me.PictureBox2.TabIndex = 2
@@ -39,10 +39,10 @@ Partial Class frm_apresentacao
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.apresentacao1
+        Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem1
         Me.PictureBox1.Location = New System.Drawing.Point(218, 162)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(114, 154)
+        Me.PictureBox1.Size = New System.Drawing.Size(148, 155)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
@@ -59,7 +59,6 @@ Partial Class frm_apresentacao
         Me.MaximizeBox = False
         Me.MOSTRA_BOTAO_VOLTAR = False
         Me.Name = "frm_apresentacao"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Boas vindas"
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)

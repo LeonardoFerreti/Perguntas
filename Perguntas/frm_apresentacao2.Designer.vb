@@ -39,10 +39,10 @@ Partial Class frm_apresentacao2
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.apresentacao2
-        Me.PictureBox1.Location = New System.Drawing.Point(520, 188)
+        Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem2
+        Me.PictureBox1.Location = New System.Drawing.Point(511, 151)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(122, 169)
+        Me.PictureBox1.Size = New System.Drawing.Size(127, 220)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
@@ -55,7 +55,6 @@ Partial Class frm_apresentacao2
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "frm_apresentacao2"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Boas vindas"
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)

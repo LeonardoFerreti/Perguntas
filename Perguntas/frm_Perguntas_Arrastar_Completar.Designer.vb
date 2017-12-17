@@ -109,9 +109,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox4
         '
         Me.TextBox4.AllowDrop = True
+        Me.TextBox4.BackColor = System.Drawing.Color.White
         Me.TextBox4.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox4.Location = New System.Drawing.Point(225, 3)
         Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.ReadOnly = True
         Me.TextBox4.Size = New System.Drawing.Size(69, 22)
         Me.TextBox4.TabIndex = 3
         Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -131,9 +133,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox2
         '
         Me.TextBox2.AllowDrop = True
+        Me.TextBox2.BackColor = System.Drawing.Color.White
         Me.TextBox2.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox2.Location = New System.Drawing.Point(77, 3)
         Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(68, 22)
         Me.TextBox2.TabIndex = 1
         Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -141,9 +145,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox1
         '
         Me.TextBox1.AllowDrop = True
+        Me.TextBox1.BackColor = System.Drawing.Color.White
         Me.TextBox1.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox1.Location = New System.Drawing.Point(3, 3)
         Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(68, 22)
         Me.TextBox1.TabIndex = 0
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -169,9 +175,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox5
         '
         Me.TextBox5.AllowDrop = True
+        Me.TextBox5.BackColor = System.Drawing.Color.White
         Me.TextBox5.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox5.Location = New System.Drawing.Point(219, 3)
         Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.ReadOnly = True
         Me.TextBox5.Size = New System.Drawing.Size(69, 22)
         Me.TextBox5.TabIndex = 3
         Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -179,9 +187,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox6
         '
         Me.TextBox6.AllowDrop = True
+        Me.TextBox6.BackColor = System.Drawing.Color.White
         Me.TextBox6.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox6.Location = New System.Drawing.Point(147, 3)
         Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.ReadOnly = True
         Me.TextBox6.Size = New System.Drawing.Size(66, 22)
         Me.TextBox6.TabIndex = 2
         Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -189,9 +199,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox7
         '
         Me.TextBox7.AllowDrop = True
+        Me.TextBox7.BackColor = System.Drawing.Color.White
         Me.TextBox7.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox7.Location = New System.Drawing.Point(75, 3)
         Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.ReadOnly = True
         Me.TextBox7.Size = New System.Drawing.Size(66, 22)
         Me.TextBox7.TabIndex = 1
         Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -239,9 +251,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox11
         '
         Me.TextBox11.AllowDrop = True
+        Me.TextBox11.BackColor = System.Drawing.Color.White
         Me.TextBox11.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox11.Location = New System.Drawing.Point(76, 3)
         Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.ReadOnly = True
         Me.TextBox11.Size = New System.Drawing.Size(67, 22)
         Me.TextBox11.TabIndex = 1
         Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -249,9 +263,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox12
         '
         Me.TextBox12.AllowDrop = True
+        Me.TextBox12.BackColor = System.Drawing.Color.White
         Me.TextBox12.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox12.Location = New System.Drawing.Point(3, 3)
         Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.ReadOnly = True
         Me.TextBox12.Size = New System.Drawing.Size(67, 22)
         Me.TextBox12.TabIndex = 0
         Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -276,9 +292,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox9
         '
         Me.TextBox9.AllowDrop = True
+        Me.TextBox9.BackColor = System.Drawing.Color.White
         Me.TextBox9.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox9.Location = New System.Drawing.Point(149, 3)
         Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.ReadOnly = True
         Me.TextBox9.Size = New System.Drawing.Size(67, 22)
         Me.TextBox9.TabIndex = 2
         Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -298,9 +316,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox14
         '
         Me.TextBox14.AllowDrop = True
+        Me.TextBox14.BackColor = System.Drawing.Color.White
         Me.TextBox14.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox14.Location = New System.Drawing.Point(3, 3)
         Me.TextBox14.Name = "TextBox14"
+        Me.TextBox14.ReadOnly = True
         Me.TextBox14.Size = New System.Drawing.Size(67, 22)
         Me.TextBox14.TabIndex = 0
         Me.TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -325,9 +345,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox15
         '
         Me.TextBox15.AllowDrop = True
+        Me.TextBox15.BackColor = System.Drawing.Color.White
         Me.TextBox15.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox15.Location = New System.Drawing.Point(149, 3)
         Me.TextBox15.Name = "TextBox15"
+        Me.TextBox15.ReadOnly = True
         Me.TextBox15.Size = New System.Drawing.Size(67, 22)
         Me.TextBox15.TabIndex = 2
         Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -335,9 +357,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox16
         '
         Me.TextBox16.AllowDrop = True
+        Me.TextBox16.BackColor = System.Drawing.Color.White
         Me.TextBox16.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox16.Location = New System.Drawing.Point(76, 3)
         Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.ReadOnly = True
         Me.TextBox16.Size = New System.Drawing.Size(67, 22)
         Me.TextBox16.TabIndex = 1
         Me.TextBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -373,9 +397,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox18
         '
         Me.TextBox18.AllowDrop = True
+        Me.TextBox18.BackColor = System.Drawing.Color.White
         Me.TextBox18.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox18.Location = New System.Drawing.Point(149, 3)
         Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.ReadOnly = True
         Me.TextBox18.Size = New System.Drawing.Size(67, 22)
         Me.TextBox18.TabIndex = 2
         Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -395,9 +421,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox20
         '
         Me.TextBox20.AllowDrop = True
+        Me.TextBox20.BackColor = System.Drawing.Color.White
         Me.TextBox20.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox20.Location = New System.Drawing.Point(3, 3)
         Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.ReadOnly = True
         Me.TextBox20.Size = New System.Drawing.Size(67, 22)
         Me.TextBox20.TabIndex = 0
         Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -421,9 +449,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox21
         '
         Me.TextBox21.AllowDrop = True
+        Me.TextBox21.BackColor = System.Drawing.Color.White
         Me.TextBox21.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox21.Location = New System.Drawing.Point(149, 3)
         Me.TextBox21.Name = "TextBox21"
+        Me.TextBox21.ReadOnly = True
         Me.TextBox21.Size = New System.Drawing.Size(67, 22)
         Me.TextBox21.TabIndex = 2
         Me.TextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -431,9 +461,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox22
         '
         Me.TextBox22.AllowDrop = True
+        Me.TextBox22.BackColor = System.Drawing.Color.White
         Me.TextBox22.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox22.Location = New System.Drawing.Point(76, 3)
         Me.TextBox22.Name = "TextBox22"
+        Me.TextBox22.ReadOnly = True
         Me.TextBox22.Size = New System.Drawing.Size(67, 22)
         Me.TextBox22.TabIndex = 1
         Me.TextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -470,9 +502,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox24
         '
         Me.TextBox24.AllowDrop = True
+        Me.TextBox24.BackColor = System.Drawing.Color.White
         Me.TextBox24.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox24.Location = New System.Drawing.Point(149, 3)
         Me.TextBox24.Name = "TextBox24"
+        Me.TextBox24.ReadOnly = True
         Me.TextBox24.Size = New System.Drawing.Size(67, 22)
         Me.TextBox24.TabIndex = 2
         Me.TextBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -492,9 +526,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox26
         '
         Me.TextBox26.AllowDrop = True
+        Me.TextBox26.BackColor = System.Drawing.Color.White
         Me.TextBox26.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox26.Location = New System.Drawing.Point(3, 3)
         Me.TextBox26.Name = "TextBox26"
+        Me.TextBox26.ReadOnly = True
         Me.TextBox26.Size = New System.Drawing.Size(67, 22)
         Me.TextBox26.TabIndex = 0
         Me.TextBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -516,9 +552,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox28
         '
         Me.TextBox28.AllowDrop = True
+        Me.TextBox28.BackColor = System.Drawing.Color.White
         Me.TextBox28.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox28.Location = New System.Drawing.Point(75, 3)
         Me.TextBox28.Name = "TextBox28"
+        Me.TextBox28.ReadOnly = True
         Me.TextBox28.Size = New System.Drawing.Size(66, 22)
         Me.TextBox28.TabIndex = 1
         Me.TextBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -553,9 +591,11 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'TextBox31
         '
         Me.TextBox31.AllowDrop = True
+        Me.TextBox31.BackColor = System.Drawing.Color.White
         Me.TextBox31.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox31.Location = New System.Drawing.Point(75, 3)
         Me.TextBox31.Name = "TextBox31"
+        Me.TextBox31.ReadOnly = True
         Me.TextBox31.Size = New System.Drawing.Size(66, 22)
         Me.TextBox31.TabIndex = 1
         Me.TextBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center

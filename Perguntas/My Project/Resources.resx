@@ -118,14 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="apresentacao9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apresentacao9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="balao_apresentacao7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\balao_apresentacao7.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="balao_apresentacao5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\balao_apresentacao5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="balao" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\balao.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="imagem2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagem2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="balao_apresentacao_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\balao_apresentacao_9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="apresentacao2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\apresentacao2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,11 +154,11 @@
   <data name="balao8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\balao8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="balao_apresentacao_7_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\balao_apresentacao_7_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="balao_apresentacao_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\balao_apresentacao_8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="apresentacao8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\apresentacao8.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="balao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\balao.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="balao_apresentacao6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\balao_apresentacao6.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,8 +166,23 @@
   <data name="balao_apresentacao4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\balao_apresentacao4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="balao_apresentacao_7_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\balao_apresentacao_7_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="balao9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\balao9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagem1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagem1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagem3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagem3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apresentacao8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apresentacao8.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="balao_apresentacao_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\balao_apresentacao_10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
