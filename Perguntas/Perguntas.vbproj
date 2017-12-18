@@ -96,6 +96,18 @@
     <Compile Include="frm_apresentacao10.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_apresentacao11.Designer.vb">
+      <DependentUpon>frm_apresentacao11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Apresentacao12.Designer.vb">
+      <DependentUpon>frm_Apresentacao12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Apresentacao12.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_apresentacao4.Designer.vb">
       <DependentUpon>frm_apresentacao4.vb</DependentUpon>
     </Compile>
@@ -169,6 +181,12 @@
     <Compile Include="frm_Perguntas_Arrastar_Completar.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_Perguntas_Responder.Designer.vb">
+      <DependentUpon>frm_Perguntas_Responder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Perguntas_Responder.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -191,6 +209,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_apresentacao10.resx">
       <DependentUpon>frm_apresentacao10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao11.resx">
+      <DependentUpon>frm_apresentacao11.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_apresentacao2.resx">
       <DependentUpon>frm_apresentacao2.vb</DependentUpon>
@@ -225,6 +246,9 @@
     <EmbeddedResource Include="frm_Perguntas_Arrastar_Completar.resx">
       <DependentUpon>frm_Perguntas_Arrastar_Completar.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_Perguntas_Responder.resx">
+      <DependentUpon>frm_Perguntas_Responder.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -253,6 +277,7 @@
       <DependentUpon>Banco.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\balao_apresentacao_11.png" />
     <None Include="Resources\balao_apresentacao_10.png" />
     <None Include="Resources\balao_apresentacao_9.png" />
     <None Include="Resources\balao_apresentacao_8.png" />
