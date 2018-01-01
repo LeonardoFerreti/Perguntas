@@ -108,6 +108,42 @@
     <Compile Include="frm_Apresentacao12.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_apresentacao13.Designer.vb">
+      <DependentUpon>frm_apresentacao13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_apresentacao14.Designer.vb">
+      <DependentUpon>frm_apresentacao14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao14.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_apresentacao15.Designer.vb">
+      <DependentUpon>frm_apresentacao15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_apresentacao16.Designer.vb">
+      <DependentUpon>frm_apresentacao16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao16.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_apresentacao17.Designer.vb">
+      <DependentUpon>frm_apresentacao17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao17.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_apresentacao18.Designer.vb">
+      <DependentUpon>frm_apresentacao18.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao18.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_apresentacao4.Designer.vb">
       <DependentUpon>frm_apresentacao4.vb</DependentUpon>
     </Compile>
@@ -181,6 +217,18 @@
     <Compile Include="frm_Perguntas_Arrastar_Completar.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_Perguntas_Combinacoes_Contracoes.Designer.vb">
+      <DependentUpon>frm_Perguntas_Combinacoes_Contracoes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Perguntas_Combinacoes_Contracoes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Perguntas_Contracao_Obliquo.Designer.vb">
+      <DependentUpon>frm_Perguntas_Contracao_Obliquo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Perguntas_Contracao_Obliquo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_Perguntas_Responder.Designer.vb">
       <DependentUpon>frm_Perguntas_Responder.vb</DependentUpon>
     </Compile>
@@ -212,6 +260,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_apresentacao11.resx">
       <DependentUpon>frm_apresentacao11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Apresentacao12.resx">
+      <DependentUpon>frm_Apresentacao12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao13.resx">
+      <DependentUpon>frm_apresentacao13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao14.resx">
+      <DependentUpon>frm_apresentacao14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao15.resx">
+      <DependentUpon>frm_apresentacao15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao16.resx">
+      <DependentUpon>frm_apresentacao16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao17.resx">
+      <DependentUpon>frm_apresentacao17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao18.resx">
+      <DependentUpon>frm_apresentacao18.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_apresentacao2.resx">
       <DependentUpon>frm_apresentacao2.vb</DependentUpon>
@@ -246,6 +315,12 @@
     <EmbeddedResource Include="frm_Perguntas_Arrastar_Completar.resx">
       <DependentUpon>frm_Perguntas_Arrastar_Completar.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_Perguntas_Combinacoes_Contracoes.resx">
+      <DependentUpon>frm_Perguntas_Combinacoes_Contracoes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Perguntas_Contracao_Obliquo.resx">
+      <DependentUpon>frm_Perguntas_Contracao_Obliquo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Perguntas_Responder.resx">
       <DependentUpon>frm_Perguntas_Responder.vb</DependentUpon>
     </EmbeddedResource>
@@ -277,6 +352,15 @@
       <DependentUpon>Banco.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\balao_apresentacao_20.png" />
+    <None Include="Resources\balao_apresentacao_19.png" />
+    <None Include="Resources\balao_apresentacao_18.png" />
+    <None Include="Resources\balao_apresentacao_17.png" />
+    <None Include="Resources\balao_apresentacao_16.png" />
+    <None Include="Resources\balao_apresentacao_15.png" />
+    <None Include="Resources\balao_apresentacao_14.png" />
+    <None Include="Resources\balao_apresentacao_13.png" />
+    <None Include="Resources\balao_apresentacao_111.png" />
     <None Include="Resources\balao_apresentacao_11.png" />
     <None Include="Resources\balao_apresentacao_10.png" />
     <None Include="Resources\balao_apresentacao_9.png" />
