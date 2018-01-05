@@ -168,6 +168,18 @@
     <Compile Include="frm_apresentacao22.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_apresentacao23.Designer.vb">
+      <DependentUpon>frm_apresentacao23.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao23.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_apresentacao24.Designer.vb">
+      <DependentUpon>frm_apresentacao24.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao24.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_apresentacao4.Designer.vb">
       <DependentUpon>frm_apresentacao4.vb</DependentUpon>
     </Compile>
@@ -271,6 +283,12 @@
     <Compile Include="frm_Perguntas_Musica.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_Perguntas_Reescrever_Frases.Designer.vb">
+      <DependentUpon>frm_Perguntas_Reescrever_Frases.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Perguntas_Reescrever_Frases.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_Perguntas_Responder.Designer.vb">
       <DependentUpon>frm_Perguntas_Responder.vb</DependentUpon>
     </Compile>
@@ -339,6 +357,12 @@
     <EmbeddedResource Include="frm_apresentacao22.resx">
       <DependentUpon>frm_apresentacao22.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao23.resx">
+      <DependentUpon>frm_apresentacao23.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao24.resx">
+      <DependentUpon>frm_apresentacao24.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_apresentacao3.resx">
       <DependentUpon>frm_apresentacao3.vb</DependentUpon>
     </EmbeddedResource>
@@ -384,6 +408,9 @@
     <EmbeddedResource Include="frm_Perguntas_Musica.resx">
       <DependentUpon>frm_Perguntas_Musica.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_Perguntas_Reescrever_Frases.resx">
+      <DependentUpon>frm_Perguntas_Reescrever_Frases.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Perguntas_Responder.resx">
       <DependentUpon>frm_Perguntas_Responder.vb</DependentUpon>
     </EmbeddedResource>
@@ -415,6 +442,11 @@
       <DependentUpon>Banco.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\balao_apresentacao_28.png" />
+    <None Include="Resources\balao_musica.png" />
+    <None Include="Resources\balao_apresentacao_29.png" />
+    <None Include="Resources\balao_apresentacao_27.png" />
+    <None Include="Resources\balao_apresentacao_26.png" />
     <None Include="Resources\balao_apresentacao_25.png" />
     <None Include="Resources\balao_apresentacao_24.png" />
     <None Include="Resources\balao_apresentacao_23.png" />
