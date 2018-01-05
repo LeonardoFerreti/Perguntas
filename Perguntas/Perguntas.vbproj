@@ -144,6 +144,30 @@
     <Compile Include="frm_apresentacao18.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_apresentacao19.Designer.vb">
+      <DependentUpon>frm_apresentacao19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao19.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_apresentacao20.Designer.vb">
+      <DependentUpon>frm_apresentacao20.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao20.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_apresentacao21.Designer.vb">
+      <DependentUpon>frm_apresentacao21.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao21.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_apresentacao22.Designer.vb">
+      <DependentUpon>frm_apresentacao22.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_apresentacao22.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_apresentacao4.Designer.vb">
       <DependentUpon>frm_apresentacao4.vb</DependentUpon>
     </Compile>
@@ -205,6 +229,12 @@
       <DependentUpon>frm_base.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_Perguntas_alteracao_verbo.Designer.vb">
+      <DependentUpon>frm_Perguntas_alteracao_verbo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Perguntas_alteracao_verbo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_Perguntas_Arrastar.Designer.vb">
       <DependentUpon>frm_Perguntas_Arrastar.vb</DependentUpon>
     </Compile>
@@ -227,6 +257,18 @@
       <DependentUpon>frm_Perguntas_Contracao_Obliquo.vb</DependentUpon>
     </Compile>
     <Compile Include="frm_Perguntas_Contracao_Obliquo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Perguntas_Frases.Designer.vb">
+      <DependentUpon>frm_Perguntas_Frases.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Perguntas_Frases.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Perguntas_Musica.Designer.vb">
+      <DependentUpon>frm_Perguntas_Musica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Perguntas_Musica.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_Perguntas_Responder.Designer.vb">
@@ -282,8 +324,20 @@
     <EmbeddedResource Include="frm_apresentacao18.resx">
       <DependentUpon>frm_apresentacao18.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao19.resx">
+      <DependentUpon>frm_apresentacao19.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_apresentacao2.resx">
       <DependentUpon>frm_apresentacao2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao20.resx">
+      <DependentUpon>frm_apresentacao20.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao21.resx">
+      <DependentUpon>frm_apresentacao21.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_apresentacao22.resx">
+      <DependentUpon>frm_apresentacao22.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_apresentacao3.resx">
       <DependentUpon>frm_apresentacao3.vb</DependentUpon>
@@ -309,6 +363,9 @@
     <EmbeddedResource Include="frm_base.resx">
       <DependentUpon>frm_base.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_Perguntas_alteracao_verbo.resx">
+      <DependentUpon>frm_Perguntas_alteracao_verbo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Perguntas_Arrastar.resx">
       <DependentUpon>frm_Perguntas_Arrastar.vb</DependentUpon>
     </EmbeddedResource>
@@ -320,6 +377,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Perguntas_Contracao_Obliquo.resx">
       <DependentUpon>frm_Perguntas_Contracao_Obliquo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Perguntas_Frases.resx">
+      <DependentUpon>frm_Perguntas_Frases.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Perguntas_Musica.resx">
+      <DependentUpon>frm_Perguntas_Musica.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Perguntas_Responder.resx">
       <DependentUpon>frm_Perguntas_Responder.vb</DependentUpon>
@@ -352,6 +415,13 @@
       <DependentUpon>Banco.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\balao_apresentacao_25.png" />
+    <None Include="Resources\balao_apresentacao_24.png" />
+    <None Include="Resources\balao_apresentacao_23.png" />
+    <None Include="Resources\balao_apresentacao_22.png" />
+    <None Include="Resources\balao_apresentacao_21.png" />
+    <None Include="Resources\beijo_me_liga.mp4" />
+    <None Include="Resources\Michel Teló - Ei, Psiu, Beijo Me Liga [VIDEO OFICIAL] %281%29.mp4" />
     <None Include="Resources\balao_apresentacao_20.png" />
     <None Include="Resources\balao_apresentacao_19.png" />
     <None Include="Resources\balao_apresentacao_18.png" />
@@ -399,6 +469,25 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="forms\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
