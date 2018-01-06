@@ -56,7 +56,7 @@ Partial Class frm_apresentacao15
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox3)
         Me.Name = "frm_apresentacao15"
-        Me.Text = "frm_apresentacao15"
+        Me.Text = "Desafio: combinações e contrações"
         Me.Controls.SetChildIndex(Me.PictureBox3, 0)
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

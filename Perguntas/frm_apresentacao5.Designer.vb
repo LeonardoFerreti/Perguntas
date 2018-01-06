@@ -82,7 +82,7 @@ Partial Class frm_apresentacao5
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox2)
         Me.Name = "frm_apresentacao5"
-        Me.Text = "frm_apresentacao5"
+        Me.Text = "Desafio: palavras lexicais x palavras funcionais"
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         Me.Controls.SetChildIndex(Me.PictureBox4, 0)
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)

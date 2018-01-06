@@ -82,7 +82,7 @@ Partial Class frm_apresentacao22
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "frm_apresentacao22"
-        Me.Text = "frm_apresentacao22"
+        Me.Text = "Desafio: reordenar palavras"
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         Me.Controls.SetChildIndex(Me.PictureBox4, 0)

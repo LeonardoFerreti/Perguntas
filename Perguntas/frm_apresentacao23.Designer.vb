@@ -82,7 +82,7 @@ Partial Class frm_apresentacao23
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox3)
         Me.Name = "frm_apresentacao23"
-        Me.Text = "frm_apresentacao23"
+        Me.Text = "Desafio: reescrever frases"
         Me.Controls.SetChildIndex(Me.PictureBox3, 0)
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)

@@ -37,6 +37,15 @@ Partial Class frm_Perguntas_Frases
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
@@ -86,20 +95,11 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox46 = New System.Windows.Forms.TextBox()
         Me.TextBox47 = New System.Windows.Forms.TextBox()
         Me.TextBox48 = New System.Windows.Forms.TextBox()
-        Me.TextBox49 = New System.Windows.Forms.TextBox()
         Me.TextBox50 = New System.Windows.Forms.TextBox()
         Me.TextBox51 = New System.Windows.Forms.TextBox()
         Me.TextBox52 = New System.Windows.Forms.TextBox()
+        Me.TextBox49 = New System.Windows.Forms.TextBox()
         Me.TextBox54 = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
         Me.TextBox53 = New System.Windows.Forms.TextBox()
         Me.TextBox55 = New System.Windows.Forms.TextBox()
         Me.TableLayoutPanel1.SuspendLayout()
@@ -371,6 +371,96 @@ Partial Class frm_Perguntas_Frases
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
         Me.TableLayoutPanel4.Size = New System.Drawing.Size(601, 276)
         Me.TableLayoutPanel4.TabIndex = 104
+        '
+        'Label20
+        '
+        Me.Label20.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label20.Location = New System.Drawing.Point(3, 243)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(28, 33)
+        Me.Label20.TabIndex = 69
+        Me.Label20.Text = "10."
+        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label19
+        '
+        Me.Label19.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label19.Location = New System.Drawing.Point(3, 216)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(28, 27)
+        Me.Label19.TabIndex = 68
+        Me.Label19.Text = "9."
+        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label18
+        '
+        Me.Label18.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label18.Location = New System.Drawing.Point(3, 189)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(28, 27)
+        Me.Label18.TabIndex = 67
+        Me.Label18.Text = "8."
+        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label17
+        '
+        Me.Label17.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label17.Location = New System.Drawing.Point(3, 162)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(28, 27)
+        Me.Label17.TabIndex = 66
+        Me.Label17.Text = "7."
+        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label16
+        '
+        Me.Label16.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label16.Location = New System.Drawing.Point(3, 135)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(28, 27)
+        Me.Label16.TabIndex = 65
+        Me.Label16.Text = "6."
+        Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label15
+        '
+        Me.Label15.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label15.Location = New System.Drawing.Point(3, 108)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(28, 27)
+        Me.Label15.TabIndex = 64
+        Me.Label15.Text = "5."
+        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label14
+        '
+        Me.Label14.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label14.Location = New System.Drawing.Point(3, 81)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(28, 27)
+        Me.Label14.TabIndex = 63
+        Me.Label14.Text = "4."
+        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label13
+        '
+        Me.Label13.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label13.Location = New System.Drawing.Point(3, 54)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(28, 27)
+        Me.Label13.TabIndex = 62
+        Me.Label13.Text = "3."
+        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label12
+        '
+        Me.Label12.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label12.Location = New System.Drawing.Point(3, 27)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(28, 27)
+        Me.Label12.TabIndex = 61
+        Me.Label12.Text = "2."
+        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TextBox1
         '
@@ -766,14 +856,6 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox48.Size = New System.Drawing.Size(74, 22)
         Me.TextBox48.TabIndex = 54
         '
-        'TextBox49
-        '
-        Me.TextBox49.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TextBox49.Location = New System.Drawing.Point(117, 246)
-        Me.TextBox49.Name = "TextBox49"
-        Me.TextBox49.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox49.TabIndex = 55
-        '
         'TextBox50
         '
         Me.TextBox50.Dock = System.Windows.Forms.DockStyle.Fill
@@ -798,6 +880,14 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox52.Size = New System.Drawing.Size(74, 22)
         Me.TextBox52.TabIndex = 58
         '
+        'TextBox49
+        '
+        Me.TextBox49.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TextBox49.Location = New System.Drawing.Point(117, 246)
+        Me.TextBox49.Name = "TextBox49"
+        Me.TextBox49.Size = New System.Drawing.Size(74, 22)
+        Me.TextBox49.TabIndex = 55
+        '
         'TextBox54
         '
         Me.TextBox54.Dock = System.Windows.Forms.DockStyle.Fill
@@ -805,96 +895,6 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox54.Name = "TextBox54"
         Me.TextBox54.Size = New System.Drawing.Size(74, 22)
         Me.TextBox54.TabIndex = 60
-        '
-        'Label12
-        '
-        Me.Label12.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label12.Location = New System.Drawing.Point(3, 27)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(28, 27)
-        Me.Label12.TabIndex = 61
-        Me.Label12.Text = "2."
-        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label13
-        '
-        Me.Label13.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label13.Location = New System.Drawing.Point(3, 54)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(28, 27)
-        Me.Label13.TabIndex = 62
-        Me.Label13.Text = "3."
-        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label14
-        '
-        Me.Label14.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label14.Location = New System.Drawing.Point(3, 81)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(28, 27)
-        Me.Label14.TabIndex = 63
-        Me.Label14.Text = "4."
-        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label15
-        '
-        Me.Label15.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label15.Location = New System.Drawing.Point(3, 108)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(28, 27)
-        Me.Label15.TabIndex = 64
-        Me.Label15.Text = "5."
-        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label16
-        '
-        Me.Label16.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label16.Location = New System.Drawing.Point(3, 135)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(28, 27)
-        Me.Label16.TabIndex = 65
-        Me.Label16.Text = "6."
-        Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label17
-        '
-        Me.Label17.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label17.Location = New System.Drawing.Point(3, 162)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(28, 27)
-        Me.Label17.TabIndex = 66
-        Me.Label17.Text = "7."
-        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label18
-        '
-        Me.Label18.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label18.Location = New System.Drawing.Point(3, 189)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(28, 27)
-        Me.Label18.TabIndex = 67
-        Me.Label18.Text = "8."
-        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label19
-        '
-        Me.Label19.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label19.Location = New System.Drawing.Point(3, 216)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(28, 27)
-        Me.Label19.TabIndex = 68
-        Me.Label19.Text = "9."
-        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label20
-        '
-        Me.Label20.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label20.Location = New System.Drawing.Point(3, 243)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(28, 33)
-        Me.Label20.TabIndex = 69
-        Me.Label20.Text = "10."
-        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TextBox53
         '
@@ -919,7 +919,7 @@ Partial Class frm_Perguntas_Frases
         Me.ClientSize = New System.Drawing.Size(619, 488)
         Me.Controls.Add(Me.TableLayoutPanel3)
         Me.Name = "frm_Perguntas_Frases"
-        Me.Text = "frm_Perguntas_Frases"
+        Me.Text = "Organize as frases"
         Me.Controls.SetChildIndex(Me.TableLayoutPanel3, 0)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel2.ResumeLayout(False)

@@ -43,17 +43,20 @@ Partial Class frm_Perguntas_Musica
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         CType(Me.media, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'media
         '
+        Me.media.Dock = System.Windows.Forms.DockStyle.Fill
         Me.media.Enabled = True
-        Me.media.Location = New System.Drawing.Point(348, 29)
+        Me.media.Location = New System.Drawing.Point(3, 18)
         Me.media.Name = "media"
         Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.media.Size = New System.Drawing.Size(292, 305)
+        Me.media.Size = New System.Drawing.Size(332, 354)
         Me.media.TabIndex = 1
         '
         'Label1
@@ -160,7 +163,7 @@ Partial Class frm_Perguntas_Musica
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(184, 281)
+        Me.Label11.Location = New System.Drawing.Point(237, 281)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(50, 15)
         Me.Label11.TabIndex = 12
@@ -212,7 +215,7 @@ Partial Class frm_Perguntas_Musica
         '
         Me.TextBox7.Location = New System.Drawing.Point(96, 273)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(88, 22)
+        Me.TextBox7.Size = New System.Drawing.Size(135, 22)
         Me.TextBox7.TabIndex = 6
         '
         'GroupBox1
@@ -235,27 +238,39 @@ Partial Class frm_Perguntas_Musica
         Me.GroupBox1.Controls.Add(Me.Label8)
         Me.GroupBox1.Controls.Add(Me.Label9)
         Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Location = New System.Drawing.Point(5, 5)
+        Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Left
+        Me.GroupBox1.Location = New System.Drawing.Point(0, 0)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(337, 363)
+        Me.GroupBox1.Size = New System.Drawing.Size(337, 375)
         Me.GroupBox1.TabIndex = 20
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Complete a letra da música:"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.media)
+        Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.GroupBox2.Location = New System.Drawing.Point(337, 0)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(338, 375)
+        Me.GroupBox2.TabIndex = 21
+        Me.GroupBox2.TabStop = False
         '
         'frm_Perguntas_Musica
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(648, 430)
+        Me.ClientSize = New System.Drawing.Size(675, 427)
+        Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.media)
         Me.Name = "frm_Perguntas_Musica"
-        Me.Text = "frm_Perguntas_Musica"
-        Me.Controls.SetChildIndex(Me.media, 0)
+        Me.Text = "Complete a música"
         Me.Controls.SetChildIndex(Me.GroupBox1, 0)
+        Me.Controls.SetChildIndex(Me.GroupBox2, 0)
         CType(Me.media, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -280,4 +295,5 @@ Partial Class frm_Perguntas_Musica
     Friend WithEvents TextBox6 As TextBox
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents GroupBox2 As GroupBox
 End Class

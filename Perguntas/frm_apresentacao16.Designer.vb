@@ -55,7 +55,7 @@ Partial Class frm_apresentacao16
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox3)
         Me.Name = "frm_apresentacao16"
-        Me.Text = "frm_apresentacao16"
+        Me.Text = "Desafio: contração de pronomes oblíquos"
         Me.Controls.SetChildIndex(Me.PictureBox3, 0)
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

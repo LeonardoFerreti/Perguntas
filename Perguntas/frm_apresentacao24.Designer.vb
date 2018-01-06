@@ -108,7 +108,7 @@ Partial Class frm_apresentacao24
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "frm_apresentacao24"
-        Me.Text = "frm_apresentacao24"
+        Me.Text = "Desafio: completar a música"
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         Me.Controls.SetChildIndex(Me.PictureBox5, 0)

@@ -79,7 +79,7 @@ Partial Class frm_apresentacao4
         Me.Controls.Add(Me.CheckedListBox1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Name = "frm_apresentacao4"
-        Me.Text = "frm_apreentacao4"
+        Me.Text = "Desafio: palavras funcionais"
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         Me.Controls.SetChildIndex(Me.CheckedListBox1, 0)
         Me.Controls.SetChildIndex(Me.Label1, 0)

@@ -81,7 +81,7 @@ Partial Class frm_apresentacao6
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "frm_apresentacao6"
-        Me.Text = "Explicação"
+        Me.Text = "Explicação: sílabas"
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox3, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)

@@ -91,7 +91,7 @@ Partial Class frm_Apresentacao12
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "frm_Apresentacao12"
-        Me.Text = "frm_Apresentacao12"
+        Me.Text = "Desafio: preposições"
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         Me.Controls.SetChildIndex(Me.CheckedListBox1, 0)

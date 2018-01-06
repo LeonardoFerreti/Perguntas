@@ -639,7 +639,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.ListBox1)
         Me.Name = "frm_Perguntas_Arrastar_Completar"
-        Me.Text = "frm_Perguntas_Arrastar_Completar"
+        Me.Text = "Arraste e complete as palavras"
         Me.Controls.SetChildIndex(Me.ListBox1, 0)
         Me.Controls.SetChildIndex(Me.TableLayoutPanel1, 0)
         Me.Controls.SetChildIndex(Me.TableLayoutPanel2, 0)

@@ -56,7 +56,7 @@ Partial Class frm_apresentacao19
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "frm_apresentacao19"
-        Me.Text = "frm_apresentacao19"
+        Me.Text = "Explicação: palavras lexicais e palavras funcionais"
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()

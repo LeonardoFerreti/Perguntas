@@ -156,7 +156,7 @@ Partial Class frm_apresentacao20
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "frm_apresentacao20"
-        Me.Text = "frm_apresentacao20"
+        Me.Text = "Desafio: classe gramatical"
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         Me.Controls.SetChildIndex(Me.Label1, 0)

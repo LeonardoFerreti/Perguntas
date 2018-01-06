@@ -425,7 +425,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "frm_Perguntas_alteracao_verbo"
-        Me.Text = "frm_Perguntas_alteracao_verbo"
+        Me.Text = "Alteração de verbos"
         Me.Controls.SetChildIndex(Me.Label1, 0)
         Me.Controls.SetChildIndex(Me.TextBox1, 0)
         Me.Controls.SetChildIndex(Me.Label2, 0)
