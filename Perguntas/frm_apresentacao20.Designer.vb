@@ -41,7 +41,7 @@ Partial Class frm_apresentacao20
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao_22
-        Me.PictureBox2.Location = New System.Drawing.Point(85, 3)
+        Me.PictureBox2.Location = New System.Drawing.Point(185, 49)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(349, 152)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -51,7 +51,7 @@ Partial Class frm_apresentacao20
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem2
-        Me.PictureBox1.Location = New System.Drawing.Point(440, 98)
+        Me.PictureBox1.Location = New System.Drawing.Point(540, 144)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(127, 220)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -61,7 +61,7 @@ Partial Class frm_apresentacao20
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(30, 219)
+        Me.Label1.Location = New System.Drawing.Point(130, 265)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(42, 13)
         Me.Label1.TabIndex = 12
@@ -70,7 +70,7 @@ Partial Class frm_apresentacao20
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(30, 250)
+        Me.Label2.Location = New System.Drawing.Point(130, 296)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(71, 13)
         Me.Label2.TabIndex = 13
@@ -79,7 +79,7 @@ Partial Class frm_apresentacao20
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(32, 310)
+        Me.Label3.Location = New System.Drawing.Point(132, 356)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(45, 13)
         Me.Label3.TabIndex = 15
@@ -88,7 +88,7 @@ Partial Class frm_apresentacao20
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(31, 280)
+        Me.Label4.Location = New System.Drawing.Point(131, 326)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(114, 13)
         Me.Label4.TabIndex = 14
@@ -96,35 +96,35 @@ Partial Class frm_apresentacao20
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(78, 210)
+        Me.TextBox1.Location = New System.Drawing.Point(178, 256)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 22)
         Me.TextBox1.TabIndex = 16
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(107, 241)
+        Me.TextBox2.Location = New System.Drawing.Point(207, 287)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 22)
         Me.TextBox2.TabIndex = 17
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(151, 271)
+        Me.TextBox3.Location = New System.Drawing.Point(251, 317)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 22)
         Me.TextBox3.TabIndex = 18
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(83, 301)
+        Me.TextBox4.Location = New System.Drawing.Point(183, 347)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 22)
         Me.TextBox4.TabIndex = 19
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(202, 301)
+        Me.TextBox5.Location = New System.Drawing.Point(302, 347)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 22)
         Me.TextBox5.TabIndex = 20
@@ -132,7 +132,7 @@ Partial Class frm_apresentacao20
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(186, 309)
+        Me.Label5.Location = New System.Drawing.Point(286, 355)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(13, 13)
         Me.Label5.TabIndex = 21
@@ -142,7 +142,7 @@ Partial Class frm_apresentacao20
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(579, 394)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox4)

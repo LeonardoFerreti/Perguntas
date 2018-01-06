@@ -1,7 +1,7 @@
 ﻿Public Class frm_apresentacao17
     Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
         Me.Close()
-        Dim frm As New frm_apresentacao16
+        Dim frm As New frm_Perguntas_Contracao_Obliquo
         frm.Show()
     End Sub
 

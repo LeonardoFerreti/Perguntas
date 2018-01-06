@@ -127,7 +127,7 @@ Partial Class frm_Perguntas_Frases
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(303, 124)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(392, 124)
         Me.TableLayoutPanel1.TabIndex = 1
         '
         'Label5
@@ -135,7 +135,7 @@ Partial Class frm_Perguntas_Frases
         Me.Label5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label5.Location = New System.Drawing.Point(3, 96)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(297, 28)
+        Me.Label5.Size = New System.Drawing.Size(386, 28)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "5. AMANHÃSERÁUMBELODIA."
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -145,7 +145,7 @@ Partial Class frm_Perguntas_Frases
         Me.Label4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label4.Location = New System.Drawing.Point(3, 72)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(297, 24)
+        Me.Label4.Size = New System.Drawing.Size(386, 24)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "4. VICENTEDEUFLORESPRANAMORADA."
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -155,7 +155,7 @@ Partial Class frm_Perguntas_Frases
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label3.Location = New System.Drawing.Point(3, 48)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(297, 24)
+        Me.Label3.Size = New System.Drawing.Size(386, 24)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "3. MEUPAICOMPROUONTEMBONSLIVROS."
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -165,7 +165,7 @@ Partial Class frm_Perguntas_Frases
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label2.Location = New System.Drawing.Point(3, 24)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(297, 24)
+        Me.Label2.Size = New System.Drawing.Size(386, 24)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "2. PRAMIMVAITRAZERVOCÊOQUE?"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -175,7 +175,7 @@ Partial Class frm_Perguntas_Frases
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label1.Location = New System.Drawing.Point(3, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(297, 24)
+        Me.Label1.Size = New System.Drawing.Size(386, 24)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "1. SURPRESAUMAVAITERMEUFILHO."
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -190,7 +190,7 @@ Partial Class frm_Perguntas_Frases
         Me.TableLayoutPanel2.Controls.Add(Me.Label7, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Label6, 0, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(312, 3)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(401, 3)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 4
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
@@ -198,7 +198,7 @@ Partial Class frm_Perguntas_Frases
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(304, 124)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(392, 124)
         Me.TableLayoutPanel2.TabIndex = 2
         '
         'Label10
@@ -206,7 +206,7 @@ Partial Class frm_Perguntas_Frases
         Me.Label10.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label10.Location = New System.Drawing.Point(3, 96)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(298, 28)
+        Me.Label10.Size = New System.Drawing.Size(386, 28)
         Me.Label10.TabIndex = 5
         Me.Label10.Text = "10.ESSACANETAVAIMANCHARMINHAROUPA."
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -216,7 +216,7 @@ Partial Class frm_Perguntas_Frases
         Me.Label9.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label9.Location = New System.Drawing.Point(3, 72)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(298, 24)
+        Me.Label9.Size = New System.Drawing.Size(386, 24)
         Me.Label9.TabIndex = 4
         Me.Label9.Text = "9. AALUNAÉINTELIGENTE."
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -226,7 +226,7 @@ Partial Class frm_Perguntas_Frases
         Me.Label8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label8.Location = New System.Drawing.Point(3, 48)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(298, 24)
+        Me.Label8.Size = New System.Drawing.Size(386, 24)
         Me.Label8.TabIndex = 3
         Me.Label8.Text = "8. DONAVANDAESTAVALAVANDOOLENÇOL."
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -236,7 +236,7 @@ Partial Class frm_Perguntas_Frases
         Me.Label7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label7.Location = New System.Drawing.Point(3, 24)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(298, 24)
+        Me.Label7.Size = New System.Drawing.Size(386, 24)
         Me.Label7.TabIndex = 2
         Me.Label7.Text = "7. MARTAVAISERMUITOFELIZ."
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -246,7 +246,7 @@ Partial Class frm_Perguntas_Frases
         Me.Label6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label6.Location = New System.Drawing.Point(3, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(298, 24)
+        Me.Label6.Size = New System.Drawing.Size(386, 24)
         Me.Label6.TabIndex = 1
         Me.Label6.Text = "6. OCAFÉTÁBOM."
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -265,7 +265,7 @@ Partial Class frm_Perguntas_Frases
         Me.TableLayoutPanel3.RowCount = 2
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 306.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(619, 436)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(796, 436)
         Me.TableLayoutPanel3.TabIndex = 53
         '
         'GroupBox1
@@ -275,7 +275,7 @@ Partial Class frm_Perguntas_Frases
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupBox1.Location = New System.Drawing.Point(3, 133)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(613, 300)
+        Me.GroupBox1.Size = New System.Drawing.Size(790, 300)
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Separe as sílabas das frases correspondentes:"
@@ -518,7 +518,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox7.Location = New System.Drawing.Point(37, 30)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox7.TabIndex = 7
+        Me.TextBox7.TabIndex = 6
         '
         'TextBox8
         '
@@ -526,7 +526,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox8.Location = New System.Drawing.Point(117, 30)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox8.TabIndex = 8
+        Me.TextBox8.TabIndex = 7
         '
         'TextBox9
         '
@@ -534,7 +534,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox9.Location = New System.Drawing.Point(197, 30)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox9.TabIndex = 9
+        Me.TextBox9.TabIndex = 8
         '
         'TextBox10
         '
@@ -542,7 +542,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox10.Location = New System.Drawing.Point(277, 30)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox10.TabIndex = 10
+        Me.TextBox10.TabIndex = 9
         '
         'TextBox11
         '
@@ -550,7 +550,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox11.Location = New System.Drawing.Point(357, 30)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox11.TabIndex = 11
+        Me.TextBox11.TabIndex = 10
         '
         'TextBox12
         '
@@ -558,7 +558,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox12.Location = New System.Drawing.Point(437, 30)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox12.TabIndex = 12
+        Me.TextBox12.TabIndex = 11
         '
         'TextBox13
         '
@@ -566,7 +566,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox13.Location = New System.Drawing.Point(517, 30)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(81, 22)
-        Me.TextBox13.TabIndex = 13
+        Me.TextBox13.TabIndex = 12
         '
         'TextBox14
         '
@@ -574,7 +574,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox14.Location = New System.Drawing.Point(37, 57)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox14.TabIndex = 14
+        Me.TextBox14.TabIndex = 13
         '
         'TextBox15
         '
@@ -582,7 +582,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox15.Location = New System.Drawing.Point(117, 57)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox15.TabIndex = 15
+        Me.TextBox15.TabIndex = 14
         '
         'TextBox16
         '
@@ -590,7 +590,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox16.Location = New System.Drawing.Point(197, 57)
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox16.TabIndex = 16
+        Me.TextBox16.TabIndex = 15
         '
         'TextBox17
         '
@@ -598,7 +598,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox17.Location = New System.Drawing.Point(277, 57)
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox17.TabIndex = 17
+        Me.TextBox17.TabIndex = 16
         '
         'TextBox18
         '
@@ -606,7 +606,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox18.Location = New System.Drawing.Point(357, 57)
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox18.TabIndex = 18
+        Me.TextBox18.TabIndex = 17
         '
         'TextBox20
         '
@@ -614,7 +614,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox20.Location = New System.Drawing.Point(197, 84)
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox20.TabIndex = 20
+        Me.TextBox20.TabIndex = 21
         '
         'TextBox22
         '
@@ -662,7 +662,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox30.Location = New System.Drawing.Point(37, 138)
         Me.TextBox30.Name = "TextBox30"
         Me.TextBox30.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox30.TabIndex = 30
+        Me.TextBox30.TabIndex = 29
         '
         'TextBox31
         '
@@ -670,7 +670,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox31.Location = New System.Drawing.Point(117, 138)
         Me.TextBox31.Name = "TextBox31"
         Me.TextBox31.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox31.TabIndex = 31
+        Me.TextBox31.TabIndex = 30
         '
         'TextBox32
         '
@@ -678,7 +678,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox32.Location = New System.Drawing.Point(197, 138)
         Me.TextBox32.Name = "TextBox32"
         Me.TextBox32.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox32.TabIndex = 32
+        Me.TextBox32.TabIndex = 31
         '
         'TextBox33
         '
@@ -686,7 +686,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox33.Location = New System.Drawing.Point(277, 138)
         Me.TextBox33.Name = "TextBox33"
         Me.TextBox33.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox33.TabIndex = 33
+        Me.TextBox33.TabIndex = 32
         '
         'TextBox6
         '
@@ -694,7 +694,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox6.Location = New System.Drawing.Point(437, 3)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox6.TabIndex = 34
+        Me.TextBox6.TabIndex = 5
         '
         'TextBox21
         '
@@ -702,7 +702,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox21.Location = New System.Drawing.Point(37, 84)
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox21.TabIndex = 35
+        Me.TextBox21.TabIndex = 19
         '
         'TextBox34
         '
@@ -710,7 +710,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox34.Location = New System.Drawing.Point(117, 84)
         Me.TextBox34.Name = "TextBox34"
         Me.TextBox34.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox34.TabIndex = 36
+        Me.TextBox34.TabIndex = 20
         '
         'TextBox24
         '
@@ -718,7 +718,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox24.Location = New System.Drawing.Point(37, 111)
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox24.TabIndex = 37
+        Me.TextBox24.TabIndex = 24
         '
         'TextBox25
         '
@@ -726,7 +726,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox25.Location = New System.Drawing.Point(117, 111)
         Me.TextBox25.Name = "TextBox25"
         Me.TextBox25.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox25.TabIndex = 38
+        Me.TextBox25.TabIndex = 25
         '
         'TextBox29
         '
@@ -734,7 +734,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox29.Location = New System.Drawing.Point(37, 165)
         Me.TextBox29.Name = "TextBox29"
         Me.TextBox29.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox29.TabIndex = 39
+        Me.TextBox29.TabIndex = 33
         '
         'TextBox35
         '
@@ -742,7 +742,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox35.Location = New System.Drawing.Point(117, 165)
         Me.TextBox35.Name = "TextBox35"
         Me.TextBox35.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox35.TabIndex = 40
+        Me.TextBox35.TabIndex = 34
         '
         'TextBox36
         '
@@ -750,7 +750,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox36.Location = New System.Drawing.Point(197, 165)
         Me.TextBox36.Name = "TextBox36"
         Me.TextBox36.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox36.TabIndex = 41
+        Me.TextBox36.TabIndex = 35
         '
         'TextBox37
         '
@@ -758,7 +758,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox37.Location = New System.Drawing.Point(277, 165)
         Me.TextBox37.Name = "TextBox37"
         Me.TextBox37.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox37.TabIndex = 42
+        Me.TextBox37.TabIndex = 36
         '
         'TextBox38
         '
@@ -766,7 +766,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox38.Location = New System.Drawing.Point(357, 165)
         Me.TextBox38.Name = "TextBox38"
         Me.TextBox38.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox38.TabIndex = 43
+        Me.TextBox38.TabIndex = 37
         '
         'TextBox39
         '
@@ -774,7 +774,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox39.Location = New System.Drawing.Point(37, 192)
         Me.TextBox39.Name = "TextBox39"
         Me.TextBox39.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox39.TabIndex = 44
+        Me.TextBox39.TabIndex = 39
         '
         'TextBox40
         '
@@ -782,7 +782,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox40.Location = New System.Drawing.Point(117, 192)
         Me.TextBox40.Name = "TextBox40"
         Me.TextBox40.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox40.TabIndex = 45
+        Me.TextBox40.TabIndex = 40
         '
         'TextBox41
         '
@@ -790,7 +790,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox41.Location = New System.Drawing.Point(197, 192)
         Me.TextBox41.Name = "TextBox41"
         Me.TextBox41.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox41.TabIndex = 46
+        Me.TextBox41.TabIndex = 41
         '
         'TextBox42
         '
@@ -798,7 +798,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox42.Location = New System.Drawing.Point(277, 192)
         Me.TextBox42.Name = "TextBox42"
         Me.TextBox42.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox42.TabIndex = 47
+        Me.TextBox42.TabIndex = 42
         '
         'TextBox43
         '
@@ -806,7 +806,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox43.Location = New System.Drawing.Point(357, 192)
         Me.TextBox43.Name = "TextBox43"
         Me.TextBox43.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox43.TabIndex = 48
+        Me.TextBox43.TabIndex = 43
         '
         'TextBox44
         '
@@ -814,7 +814,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox44.Location = New System.Drawing.Point(437, 192)
         Me.TextBox44.Name = "TextBox44"
         Me.TextBox44.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox44.TabIndex = 49
+        Me.TextBox44.TabIndex = 44
         '
         'TextBox19
         '
@@ -822,7 +822,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox19.Location = New System.Drawing.Point(437, 57)
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox19.TabIndex = 50
+        Me.TextBox19.TabIndex = 18
         '
         'TextBox45
         '
@@ -830,7 +830,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox45.Location = New System.Drawing.Point(37, 219)
         Me.TextBox45.Name = "TextBox45"
         Me.TextBox45.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox45.TabIndex = 51
+        Me.TextBox45.TabIndex = 45
         '
         'TextBox46
         '
@@ -838,7 +838,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox46.Location = New System.Drawing.Point(117, 219)
         Me.TextBox46.Name = "TextBox46"
         Me.TextBox46.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox46.TabIndex = 52
+        Me.TextBox46.TabIndex = 46
         '
         'TextBox47
         '
@@ -846,7 +846,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox47.Location = New System.Drawing.Point(197, 219)
         Me.TextBox47.Name = "TextBox47"
         Me.TextBox47.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox47.TabIndex = 53
+        Me.TextBox47.TabIndex = 47
         '
         'TextBox48
         '
@@ -854,7 +854,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox48.Location = New System.Drawing.Point(277, 219)
         Me.TextBox48.Name = "TextBox48"
         Me.TextBox48.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox48.TabIndex = 54
+        Me.TextBox48.TabIndex = 48
         '
         'TextBox50
         '
@@ -862,7 +862,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox50.Location = New System.Drawing.Point(197, 246)
         Me.TextBox50.Name = "TextBox50"
         Me.TextBox50.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox50.TabIndex = 56
+        Me.TextBox50.TabIndex = 51
         '
         'TextBox51
         '
@@ -870,7 +870,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox51.Location = New System.Drawing.Point(277, 246)
         Me.TextBox51.Name = "TextBox51"
         Me.TextBox51.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox51.TabIndex = 57
+        Me.TextBox51.TabIndex = 52
         '
         'TextBox52
         '
@@ -878,7 +878,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox52.Location = New System.Drawing.Point(357, 246)
         Me.TextBox52.Name = "TextBox52"
         Me.TextBox52.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox52.TabIndex = 58
+        Me.TextBox52.TabIndex = 53
         '
         'TextBox49
         '
@@ -886,7 +886,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox49.Location = New System.Drawing.Point(117, 246)
         Me.TextBox49.Name = "TextBox49"
         Me.TextBox49.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox49.TabIndex = 55
+        Me.TextBox49.TabIndex = 50
         '
         'TextBox54
         '
@@ -894,7 +894,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox54.Location = New System.Drawing.Point(437, 165)
         Me.TextBox54.Name = "TextBox54"
         Me.TextBox54.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox54.TabIndex = 60
+        Me.TextBox54.TabIndex = 38
         '
         'TextBox53
         '
@@ -902,7 +902,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox53.Location = New System.Drawing.Point(437, 246)
         Me.TextBox53.Name = "TextBox53"
         Me.TextBox53.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox53.TabIndex = 70
+        Me.TextBox53.TabIndex = 54
         '
         'TextBox55
         '
@@ -910,13 +910,13 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox55.Location = New System.Drawing.Point(37, 246)
         Me.TextBox55.Name = "TextBox55"
         Me.TextBox55.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox55.TabIndex = 71
+        Me.TextBox55.TabIndex = 49
         '
         'frm_Perguntas_Frases
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(619, 488)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.TableLayoutPanel3)
         Me.Name = "frm_Perguntas_Frases"
         Me.Text = "Organize as frases"

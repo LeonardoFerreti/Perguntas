@@ -35,7 +35,7 @@ Partial Class frm_apresentacao5
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao6
-        Me.PictureBox3.Location = New System.Drawing.Point(149, 23)
+        Me.PictureBox3.Location = New System.Drawing.Point(178, 27)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(271, 133)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -45,7 +45,7 @@ Partial Class frm_apresentacao5
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem1
-        Me.PictureBox1.Location = New System.Drawing.Point(30, 114)
+        Me.PictureBox1.Location = New System.Drawing.Point(59, 118)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(148, 155)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -55,7 +55,7 @@ Partial Class frm_apresentacao5
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao7
-        Me.PictureBox4.Location = New System.Drawing.Point(439, 136)
+        Me.PictureBox4.Location = New System.Drawing.Point(476, 194)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(308, 133)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -65,7 +65,7 @@ Partial Class frm_apresentacao5
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.imagem3
-        Me.PictureBox2.Location = New System.Drawing.Point(307, 162)
+        Me.PictureBox2.Location = New System.Drawing.Point(344, 220)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(130, 212)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -76,7 +76,7 @@ Partial Class frm_apresentacao5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(752, 429)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox4)

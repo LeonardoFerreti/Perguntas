@@ -31,7 +31,7 @@ Partial Class frm_apresentacao
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao1
-        Me.PictureBox2.Location = New System.Drawing.Point(338, 54)
+        Me.PictureBox2.Location = New System.Drawing.Point(387, 92)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(250, 157)
         Me.PictureBox2.TabIndex = 2
@@ -40,7 +40,7 @@ Partial Class frm_apresentacao
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem1
-        Me.PictureBox1.Location = New System.Drawing.Point(218, 162)
+        Me.PictureBox1.Location = New System.Drawing.Point(267, 200)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(148, 155)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -52,7 +52,7 @@ Partial Class frm_apresentacao
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(752, 441)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.HABILITA_VOLTAR = False

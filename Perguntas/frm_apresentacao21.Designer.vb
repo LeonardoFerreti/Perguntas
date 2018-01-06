@@ -34,7 +34,7 @@ Partial Class frm_apresentacao21
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao_23
-        Me.PictureBox2.Location = New System.Drawing.Point(86, 52)
+        Me.PictureBox2.Location = New System.Drawing.Point(172, 123)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(305, 85)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -44,7 +44,7 @@ Partial Class frm_apresentacao21
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem1
-        Me.PictureBox1.Location = New System.Drawing.Point(409, 108)
+        Me.PictureBox1.Location = New System.Drawing.Point(495, 179)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(148, 155)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -53,7 +53,7 @@ Partial Class frm_apresentacao21
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(86, 241)
+        Me.TextBox1.Location = New System.Drawing.Point(172, 312)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(305, 22)
         Me.TextBox1.TabIndex = 4
@@ -61,7 +61,7 @@ Partial Class frm_apresentacao21
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(82, 226)
+        Me.Label1.Location = New System.Drawing.Point(168, 297)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(121, 13)
         Me.Label1.TabIndex = 5
@@ -71,7 +71,7 @@ Partial Class frm_apresentacao21
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(579, 394)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox2)

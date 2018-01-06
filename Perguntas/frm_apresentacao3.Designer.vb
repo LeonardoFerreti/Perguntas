@@ -33,7 +33,7 @@ Partial Class frm_apresentacao3
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao4
-        Me.PictureBox2.Location = New System.Drawing.Point(223, 31)
+        Me.PictureBox2.Location = New System.Drawing.Point(324, 72)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(258, 133)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -45,7 +45,7 @@ Partial Class frm_apresentacao3
         Me.CheckedListBox1.CheckOnClick = True
         Me.CheckedListBox1.FormattingEnabled = True
         Me.CheckedListBox1.Items.AddRange(New Object() {"Os", "meninos", "brincavam", "de", "bola"})
-        Me.CheckedListBox1.Location = New System.Drawing.Point(278, 225)
+        Me.CheckedListBox1.Location = New System.Drawing.Point(379, 266)
         Me.CheckedListBox1.Name = "CheckedListBox1"
         Me.CheckedListBox1.Size = New System.Drawing.Size(258, 89)
         Me.CheckedListBox1.TabIndex = 4
@@ -53,7 +53,7 @@ Partial Class frm_apresentacao3
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(275, 209)
+        Me.Label1.Location = New System.Drawing.Point(376, 250)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(206, 13)
         Me.Label1.TabIndex = 5
@@ -62,7 +62,7 @@ Partial Class frm_apresentacao3
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem1
-        Me.PictureBox1.Location = New System.Drawing.Point(99, 124)
+        Me.PictureBox1.Location = New System.Drawing.Point(200, 165)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(148, 155)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -73,7 +73,7 @@ Partial Class frm_apresentacao3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(752, 429)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)

@@ -56,7 +56,7 @@ Partial Class frm_Perguntas_Musica
         Me.media.Location = New System.Drawing.Point(3, 18)
         Me.media.Name = "media"
         Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.media.Size = New System.Drawing.Size(332, 354)
+        Me.media.Size = New System.Drawing.Size(453, 415)
         Me.media.TabIndex = 1
         '
         'Label1
@@ -175,6 +175,7 @@ Partial Class frm_Perguntas_Musica
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 22)
         Me.TextBox1.TabIndex = 0
+        Me.TextBox1.Tag = "me notou"
         '
         'TextBox2
         '
@@ -182,6 +183,7 @@ Partial Class frm_Perguntas_Musica
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(87, 22)
         Me.TextBox2.TabIndex = 1
+        Me.TextBox2.Tag = "pra te ter"
         '
         'TextBox3
         '
@@ -189,6 +191,7 @@ Partial Class frm_Perguntas_Musica
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(87, 22)
         Me.TextBox3.TabIndex = 2
+        Me.TextBox3.Tag = "me procurar"
         '
         'TextBox4
         '
@@ -196,6 +199,7 @@ Partial Class frm_Perguntas_Musica
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(87, 22)
         Me.TextBox4.TabIndex = 3
+        Me.TextBox4.Tag = "me esnobou"
         '
         'TextBox5
         '
@@ -203,6 +207,7 @@ Partial Class frm_Perguntas_Musica
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(88, 22)
         Me.TextBox5.TabIndex = 4
+        Me.TextBox5.Tag = "me deixou"
         '
         'TextBox6
         '
@@ -210,6 +215,7 @@ Partial Class frm_Perguntas_Musica
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(88, 22)
         Me.TextBox6.TabIndex = 5
+        Me.TextBox6.Tag = "me liga"
         '
         'TextBox7
         '
@@ -217,6 +223,7 @@ Partial Class frm_Perguntas_Musica
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(135, 22)
         Me.TextBox7.TabIndex = 6
+        Me.TextBox7.Tag = "a noite te encontro"
         '
         'GroupBox1
         '
@@ -241,7 +248,7 @@ Partial Class frm_Perguntas_Musica
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Left
         Me.GroupBox1.Location = New System.Drawing.Point(0, 0)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(337, 375)
+        Me.GroupBox1.Size = New System.Drawing.Size(337, 436)
         Me.GroupBox1.TabIndex = 20
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Complete a letra da música:"
@@ -252,7 +259,7 @@ Partial Class frm_Perguntas_Musica
         Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupBox2.Location = New System.Drawing.Point(337, 0)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(338, 375)
+        Me.GroupBox2.Size = New System.Drawing.Size(459, 436)
         Me.GroupBox2.TabIndex = 21
         Me.GroupBox2.TabStop = False
         '
@@ -260,7 +267,7 @@ Partial Class frm_Perguntas_Musica
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(675, 427)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "frm_Perguntas_Musica"

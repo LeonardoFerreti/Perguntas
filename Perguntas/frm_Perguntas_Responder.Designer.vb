@@ -78,7 +78,7 @@ Partial Class frm_Perguntas_Responder
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox18)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox19)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox20)
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(32, 37)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(139, 48)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(535, 93)
         Me.FlowLayoutPanel1.TabIndex = 1
@@ -305,89 +305,89 @@ Partial Class frm_Perguntas_Responder
         '
         'TextBox21
         '
-        Me.TextBox21.Location = New System.Drawing.Point(59, 189)
+        Me.TextBox21.Location = New System.Drawing.Point(146, 217)
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.Size = New System.Drawing.Size(143, 22)
-        Me.TextBox21.TabIndex = 15
+        Me.TextBox21.TabIndex = 0
         Me.TextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox22
         '
-        Me.TextBox22.Location = New System.Drawing.Point(59, 217)
+        Me.TextBox22.Location = New System.Drawing.Point(146, 245)
         Me.TextBox22.Name = "TextBox22"
         Me.TextBox22.Size = New System.Drawing.Size(143, 22)
-        Me.TextBox22.TabIndex = 16
+        Me.TextBox22.TabIndex = 3
         Me.TextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox23
         '
-        Me.TextBox23.Location = New System.Drawing.Point(59, 245)
+        Me.TextBox23.Location = New System.Drawing.Point(146, 273)
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.Size = New System.Drawing.Size(143, 22)
-        Me.TextBox23.TabIndex = 17
+        Me.TextBox23.TabIndex = 6
         Me.TextBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox24
         '
-        Me.TextBox24.Location = New System.Drawing.Point(59, 273)
+        Me.TextBox24.Location = New System.Drawing.Point(146, 301)
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.Size = New System.Drawing.Size(143, 22)
-        Me.TextBox24.TabIndex = 18
+        Me.TextBox24.TabIndex = 9
         Me.TextBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox25
         '
-        Me.TextBox25.Location = New System.Drawing.Point(216, 189)
+        Me.TextBox25.Location = New System.Drawing.Point(338, 217)
         Me.TextBox25.Name = "TextBox25"
         Me.TextBox25.Size = New System.Drawing.Size(143, 22)
-        Me.TextBox25.TabIndex = 19
+        Me.TextBox25.TabIndex = 1
         Me.TextBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox26
         '
-        Me.TextBox26.Location = New System.Drawing.Point(216, 217)
+        Me.TextBox26.Location = New System.Drawing.Point(338, 245)
         Me.TextBox26.Name = "TextBox26"
         Me.TextBox26.Size = New System.Drawing.Size(143, 22)
-        Me.TextBox26.TabIndex = 20
+        Me.TextBox26.TabIndex = 4
         Me.TextBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox27
         '
-        Me.TextBox27.Location = New System.Drawing.Point(216, 244)
+        Me.TextBox27.Location = New System.Drawing.Point(338, 272)
         Me.TextBox27.Name = "TextBox27"
         Me.TextBox27.Size = New System.Drawing.Size(143, 22)
-        Me.TextBox27.TabIndex = 21
+        Me.TextBox27.TabIndex = 7
         Me.TextBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox28
         '
-        Me.TextBox28.Location = New System.Drawing.Point(371, 244)
+        Me.TextBox28.Location = New System.Drawing.Point(531, 272)
         Me.TextBox28.Name = "TextBox28"
         Me.TextBox28.Size = New System.Drawing.Size(143, 22)
-        Me.TextBox28.TabIndex = 22
+        Me.TextBox28.TabIndex = 8
         Me.TextBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox29
         '
-        Me.TextBox29.Location = New System.Drawing.Point(371, 189)
+        Me.TextBox29.Location = New System.Drawing.Point(531, 217)
         Me.TextBox29.Name = "TextBox29"
         Me.TextBox29.Size = New System.Drawing.Size(143, 22)
-        Me.TextBox29.TabIndex = 23
+        Me.TextBox29.TabIndex = 2
         Me.TextBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox30
         '
-        Me.TextBox30.Location = New System.Drawing.Point(371, 217)
+        Me.TextBox30.Location = New System.Drawing.Point(531, 245)
         Me.TextBox30.Name = "TextBox30"
         Me.TextBox30.Size = New System.Drawing.Size(143, 22)
-        Me.TextBox30.TabIndex = 24
+        Me.TextBox30.TabIndex = 5
         Me.TextBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'frm_Perguntas_Responder
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(579, 394)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.TextBox30)
         Me.Controls.Add(Me.TextBox29)
         Me.Controls.Add(Me.TextBox28)

@@ -82,7 +82,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox1.Location = New System.Drawing.Point(0, 16)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(290, 22)
-        Me.TextBox1.TabIndex = 2
+        Me.TextBox1.TabIndex = 0
+        Me.TextBox1.Tag = "Todos saíram dali nervosos"
         '
         'TextBox2
         '
@@ -90,7 +91,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox2.Location = New System.Drawing.Point(0, 16)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(290, 22)
-        Me.TextBox2.TabIndex = 4
+        Me.TextBox2.TabIndex = 1
+        Me.TextBox2.Tag = "Com certeza ela falou a verdade"
         '
         'Label2
         '
@@ -108,7 +110,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox3.Location = New System.Drawing.Point(0, 16)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(290, 22)
-        Me.TextBox3.TabIndex = 8
+        Me.TextBox3.TabIndex = 3
+        Me.TextBox3.Tag = "Meu namorado me liga todos os dias"
         '
         'Label3
         '
@@ -126,7 +129,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox4.Location = New System.Drawing.Point(0, 16)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(290, 22)
-        Me.TextBox4.TabIndex = 6
+        Me.TextBox4.TabIndex = 2
+        Me.TextBox4.Tag = "Ela tem que encontrar a solução para o problema"
         '
         'Label4
         '
@@ -144,7 +148,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox5.Location = New System.Drawing.Point(0, 16)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(291, 22)
-        Me.TextBox5.TabIndex = 12
+        Me.TextBox5.TabIndex = 6
+        Me.TextBox5.Tag = "As meninas tentaram de novo, mas não conseguiram"
         '
         'Label5
         '
@@ -162,7 +167,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox6.Location = New System.Drawing.Point(0, 16)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(291, 22)
-        Me.TextBox6.TabIndex = 10
+        Me.TextBox6.TabIndex = 5
+        Me.TextBox6.Tag = "Finalmente, André falou comigo sobre a festa"
         '
         'Label6
         '
@@ -180,7 +186,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox7.Location = New System.Drawing.Point(0, 16)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(291, 22)
-        Me.TextBox7.TabIndex = 16
+        Me.TextBox7.TabIndex = 8
+        Me.TextBox7.Tag = "Por favor, silêncioI"
         '
         'Label7
         '
@@ -198,7 +205,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox8.Location = New System.Drawing.Point(0, 16)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(291, 22)
-        Me.TextBox8.TabIndex = 14
+        Me.TextBox8.TabIndex = 7
+        Me.TextBox8.Tag = "Vou amá-lo para sempre"
         '
         'Label8
         '
@@ -216,7 +224,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox9.Location = New System.Drawing.Point(0, 20)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(291, 22)
-        Me.TextBox9.TabIndex = 20
+        Me.TextBox9.TabIndex = 9
+        Me.TextBox9.Tag = "Ana, o que aconteceu?"
         '
         'Label9
         '
@@ -234,7 +243,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox10.Location = New System.Drawing.Point(0, 20)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(290, 22)
-        Me.TextBox10.TabIndex = 18
+        Me.TextBox10.TabIndex = 4
+        Me.TextBox10.Tag = "Tá bom, eu vou passar na sua casa"
         '
         'Label10
         '
@@ -261,7 +271,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TableLayoutPanel1.Controls.Add(Me.Panel4, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel3, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(9, 58)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(113, 102)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 5
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
@@ -376,7 +386,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(609, 371)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "frm_Perguntas_Reescrever_Frases"
         Me.Text = "Reescreva as frases"

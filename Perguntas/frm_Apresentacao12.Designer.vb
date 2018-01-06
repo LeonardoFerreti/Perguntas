@@ -34,7 +34,7 @@ Partial Class frm_Apresentacao12
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao_13
-        Me.PictureBox2.Location = New System.Drawing.Point(203, 21)
+        Me.PictureBox2.Location = New System.Drawing.Point(298, 82)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(333, 151)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -44,7 +44,7 @@ Partial Class frm_Apresentacao12
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem2
-        Me.PictureBox1.Location = New System.Drawing.Point(70, 74)
+        Me.PictureBox1.Location = New System.Drawing.Point(165, 135)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(127, 220)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -54,7 +54,7 @@ Partial Class frm_Apresentacao12
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(206, 189)
+        Me.Label1.Location = New System.Drawing.Point(301, 250)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(138, 13)
         Me.Label1.TabIndex = 12
@@ -65,7 +65,7 @@ Partial Class frm_Apresentacao12
         Me.CheckedListBox1.CheckOnClick = True
         Me.CheckedListBox1.FormattingEnabled = True
         Me.CheckedListBox1.Items.AddRange(New Object() {"Antônio", "veio", "de", "Goiás"})
-        Me.CheckedListBox1.Location = New System.Drawing.Point(209, 205)
+        Me.CheckedListBox1.Location = New System.Drawing.Point(304, 266)
         Me.CheckedListBox1.Name = "CheckedListBox1"
         Me.CheckedListBox1.Size = New System.Drawing.Size(152, 89)
         Me.CheckedListBox1.TabIndex = 11
@@ -75,7 +75,7 @@ Partial Class frm_Apresentacao12
         Me.CheckedListBox2.CheckOnClick = True
         Me.CheckedListBox2.FormattingEnabled = True
         Me.CheckedListBox2.Items.AddRange(New Object() {"Vitória", "esteve", "com", "André", "ontem"})
-        Me.CheckedListBox2.Location = New System.Drawing.Point(367, 205)
+        Me.CheckedListBox2.Location = New System.Drawing.Point(462, 266)
         Me.CheckedListBox2.Name = "CheckedListBox2"
         Me.CheckedListBox2.Size = New System.Drawing.Size(175, 89)
         Me.CheckedListBox2.TabIndex = 13
@@ -84,7 +84,7 @@ Partial Class frm_Apresentacao12
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(579, 394)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.CheckedListBox2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.CheckedListBox1)

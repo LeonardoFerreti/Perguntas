@@ -58,7 +58,7 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.TableLayoutPanel2.Controls.Add(Me.Panel5, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Panel4, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Label2, 0, 0)
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(174, 75)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(290, 118)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 5
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
@@ -78,14 +78,15 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.Panel3.Location = New System.Drawing.Point(4, 133)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(222, 29)
-        Me.Panel3.TabIndex = 8
+        Me.Panel3.TabIndex = 3
         '
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(113, 5)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(88, 22)
-        Me.TextBox2.TabIndex = 2
+        Me.TextBox2.TabIndex = 3
+        Me.TextBox2.Tag = "conosco"
         '
         'Label3
         '
@@ -105,14 +106,15 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.Panel2.Location = New System.Drawing.Point(4, 169)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(222, 33)
-        Me.Panel2.TabIndex = 7
+        Me.Panel2.TabIndex = 4
         '
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(113, 8)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(88, 22)
-        Me.TextBox1.TabIndex = 2
+        Me.TextBox1.TabIndex = 4
+        Me.TextBox1.Tag = "convosco"
         '
         'Label1
         '
@@ -132,7 +134,7 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.Panel6.Location = New System.Drawing.Point(4, 97)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(222, 29)
-        Me.Panel6.TabIndex = 6
+        Me.Panel6.TabIndex = 2
         '
         'TextBox5
         '
@@ -140,6 +142,7 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(88, 22)
         Me.TextBox5.TabIndex = 2
+        Me.TextBox5.Tag = "consigo"
         '
         'Label7
         '
@@ -189,14 +192,15 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.Panel4.Location = New System.Drawing.Point(4, 61)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(222, 29)
-        Me.Panel4.TabIndex = 4
+        Me.Panel4.TabIndex = 0
         '
         'TextBox3
         '
         Me.TextBox3.Location = New System.Drawing.Point(113, 5)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(88, 22)
-        Me.TextBox3.TabIndex = 2
+        Me.TextBox3.TabIndex = 1
+        Me.TextBox3.Tag = "contigo"
         '
         'Label5
         '
@@ -223,7 +227,7 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(579, 394)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.TableLayoutPanel2)
         Me.Name = "frm_Perguntas_Contracao_Obliquo"
         Me.Text = "Contrações de pronomes oblíquos"

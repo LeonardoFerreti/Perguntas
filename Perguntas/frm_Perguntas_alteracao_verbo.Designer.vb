@@ -62,7 +62,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(22, 50)
+        Me.Label1.Location = New System.Drawing.Point(22, 73)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(76, 13)
         Me.Label1.TabIndex = 1
@@ -72,24 +72,26 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.TextBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.Location = New System.Drawing.Point(167, 42)
+        Me.TextBox1.Location = New System.Drawing.Point(167, 65)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(414, 22)
-        Me.TextBox1.TabIndex = 2
+        Me.TextBox1.Size = New System.Drawing.Size(617, 22)
+        Me.TextBox1.TabIndex = 1
+        Me.TextBox1.Tag = "Vamos ajudá-las"
         '
         'TextBox2
         '
         Me.TextBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox2.Location = New System.Drawing.Point(219, 70)
+        Me.TextBox2.Location = New System.Drawing.Point(219, 93)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(362, 22)
-        Me.TextBox2.TabIndex = 4
+        Me.TextBox2.Size = New System.Drawing.Size(565, 22)
+        Me.TextBox2.TabIndex = 2
+        Me.TextBox2.Tag = "Precisamos convencê-los"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(22, 78)
+        Me.Label2.Location = New System.Drawing.Point(22, 101)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(121, 13)
         Me.Label2.TabIndex = 3
@@ -99,15 +101,16 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.TextBox3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox3.Location = New System.Drawing.Point(171, 98)
+        Me.TextBox3.Location = New System.Drawing.Point(171, 121)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(410, 22)
-        Me.TextBox3.TabIndex = 6
+        Me.TextBox3.Size = New System.Drawing.Size(613, 22)
+        Me.TextBox3.TabIndex = 3
+        Me.TextBox3.Tag = "Vamos dividi-lo"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(22, 106)
+        Me.Label3.Location = New System.Drawing.Point(23, 129)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(75, 13)
         Me.Label3.TabIndex = 5
@@ -117,15 +120,16 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.TextBox4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox4.Location = New System.Drawing.Point(269, 126)
+        Me.TextBox4.Location = New System.Drawing.Point(269, 149)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(312, 22)
-        Me.TextBox4.TabIndex = 8
+        Me.TextBox4.Size = New System.Drawing.Size(515, 22)
+        Me.TextBox4.TabIndex = 4
+        Me.TextBox4.Tag = "É fundamental escrevê-las"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(22, 134)
+        Me.Label4.Location = New System.Drawing.Point(22, 157)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(126, 13)
         Me.Label4.TabIndex = 7
@@ -135,42 +139,46 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.TextBox5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox5.Location = New System.Drawing.Point(249, 238)
+        Me.TextBox5.Location = New System.Drawing.Point(249, 261)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(332, 22)
-        Me.TextBox5.TabIndex = 16
+        Me.TextBox5.Size = New System.Drawing.Size(535, 22)
+        Me.TextBox5.TabIndex = 8
+        Me.TextBox5.Tag = "Temos que compreendê-la"
         '
         'TextBox6
         '
         Me.TextBox6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox6.Location = New System.Drawing.Point(272, 210)
+        Me.TextBox6.Location = New System.Drawing.Point(272, 233)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(309, 22)
-        Me.TextBox6.TabIndex = 14
+        Me.TextBox6.Size = New System.Drawing.Size(512, 22)
+        Me.TextBox6.TabIndex = 7
+        Me.TextBox6.Tag = "O camelô vai vendê-las para a torcida"
         '
         'TextBox7
         '
         Me.TextBox7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox7.Location = New System.Drawing.Point(238, 182)
+        Me.TextBox7.Location = New System.Drawing.Point(238, 205)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(343, 22)
-        Me.TextBox7.TabIndex = 12
+        Me.TextBox7.Size = New System.Drawing.Size(546, 22)
+        Me.TextBox7.TabIndex = 6
+        Me.TextBox7.Tag = "É necessário abri-la com cuidado"
         '
         'TextBox8
         '
         Me.TextBox8.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox8.Location = New System.Drawing.Point(238, 154)
+        Me.TextBox8.Location = New System.Drawing.Point(238, 177)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(343, 22)
-        Me.TextBox8.TabIndex = 10
+        Me.TextBox8.Size = New System.Drawing.Size(546, 22)
+        Me.TextBox8.TabIndex = 5
+        Me.TextBox8.Tag = "Vou consertá-la com urgência"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(22, 162)
+        Me.Label8.Location = New System.Drawing.Point(22, 185)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(78, 13)
         Me.Label8.TabIndex = 9
@@ -180,25 +188,27 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.TextBox10.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox10.Location = New System.Drawing.Point(273, 294)
+        Me.TextBox10.Location = New System.Drawing.Point(273, 317)
         Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(307, 22)
-        Me.TextBox10.TabIndex = 20
+        Me.TextBox10.Size = New System.Drawing.Size(510, 22)
+        Me.TextBox10.TabIndex = 10
+        Me.TextBox10.Tag = "É essencial orientá-los nesta atividade"
         '
         'TextBox11
         '
         Me.TextBox11.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox11.Location = New System.Drawing.Point(261, 266)
+        Me.TextBox11.Location = New System.Drawing.Point(261, 289)
         Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(320, 22)
-        Me.TextBox11.TabIndex = 18
+        Me.TextBox11.Size = New System.Drawing.Size(523, 22)
+        Me.TextBox11.TabIndex = 9
+        Me.TextBox11.Tag = "Simone deve encontrá-la na festa"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(95, 50)
+        Me.Label12.Location = New System.Drawing.Point(95, 73)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(67, 13)
         Me.Label12.TabIndex = 23
@@ -208,7 +218,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(139, 78)
+        Me.Label13.Location = New System.Drawing.Point(139, 101)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(74, 13)
         Me.Label13.TabIndex = 24
@@ -218,7 +228,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(96, 106)
+        Me.Label14.Location = New System.Drawing.Point(96, 129)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(69, 13)
         Me.Label14.TabIndex = 25
@@ -228,7 +238,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(147, 134)
+        Me.Label15.Location = New System.Drawing.Point(147, 157)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(119, 13)
         Me.Label15.TabIndex = 26
@@ -238,7 +248,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(96, 162)
+        Me.Label16.Location = New System.Drawing.Point(96, 185)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(64, 13)
         Me.Label16.TabIndex = 27
@@ -247,7 +257,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(157, 162)
+        Me.Label17.Location = New System.Drawing.Point(157, 185)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(79, 13)
         Me.Label17.TabIndex = 28
@@ -256,7 +266,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(157, 189)
+        Me.Label7.Location = New System.Drawing.Point(157, 212)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(76, 13)
         Me.Label7.TabIndex = 31
@@ -266,7 +276,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(117, 189)
+        Me.Label18.Location = New System.Drawing.Point(117, 212)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(41, 13)
         Me.Label18.TabIndex = 30
@@ -275,7 +285,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(22, 189)
+        Me.Label19.Location = New System.Drawing.Point(22, 212)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(97, 13)
         Me.Label19.TabIndex = 29
@@ -284,7 +294,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(191, 219)
+        Me.Label6.Location = New System.Drawing.Point(191, 242)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(81, 13)
         Me.Label6.TabIndex = 34
@@ -294,7 +304,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(133, 219)
+        Me.Label20.Location = New System.Drawing.Point(133, 242)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(60, 13)
         Me.Label20.TabIndex = 33
@@ -303,7 +313,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(22, 219)
+        Me.Label21.Location = New System.Drawing.Point(22, 242)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(110, 13)
         Me.Label21.TabIndex = 32
@@ -313,7 +323,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(153, 247)
+        Me.Label5.Location = New System.Drawing.Point(153, 270)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(93, 13)
         Me.Label5.TabIndex = 36
@@ -322,7 +332,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(23, 247)
+        Me.Label22.Location = New System.Drawing.Point(23, 270)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(132, 13)
         Me.Label22.TabIndex = 35
@@ -331,7 +341,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(209, 275)
+        Me.Label11.Location = New System.Drawing.Point(209, 298)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(51, 13)
         Me.Label11.TabIndex = 39
@@ -341,7 +351,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(147, 275)
+        Me.Label23.Location = New System.Drawing.Point(147, 298)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(63, 13)
         Me.Label23.TabIndex = 38
@@ -350,7 +360,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(23, 275)
+        Me.Label24.Location = New System.Drawing.Point(23, 298)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(128, 13)
         Me.Label24.TabIndex = 37
@@ -359,7 +369,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(183, 300)
+        Me.Label10.Location = New System.Drawing.Point(183, 323)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(88, 13)
         Me.Label10.TabIndex = 42
@@ -369,7 +379,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(127, 300)
+        Me.Label25.Location = New System.Drawing.Point(127, 323)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(57, 13)
         Me.Label25.TabIndex = 41
@@ -378,7 +388,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(22, 300)
+        Me.Label26.Location = New System.Drawing.Point(22, 323)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(109, 13)
         Me.Label26.TabIndex = 40
@@ -388,7 +398,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(593, 418)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label25)
         Me.Controls.Add(Me.Label26)

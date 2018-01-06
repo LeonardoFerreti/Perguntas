@@ -86,11 +86,11 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         Me.TableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
         Me.TableLayoutPanel1.ColumnCount = 1
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 178.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 181.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Panel3, 0, 2)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(12, 42)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(92, 68)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 3
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
@@ -106,7 +106,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(4, 72)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(172, 41)
+        Me.Panel3.Size = New System.Drawing.Size(175, 41)
         Me.Panel3.TabIndex = 4
         '
         'TextBox1
@@ -115,6 +115,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(49, 22)
         Me.TextBox1.TabIndex = 2
+        Me.TextBox1.Tag = "aonde"
         '
         'Label4
         '
@@ -133,7 +134,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(4, 25)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(172, 40)
+        Me.Panel2.Size = New System.Drawing.Size(175, 40)
         Me.Panel2.TabIndex = 3
         '
         'TextBox2
@@ -141,7 +142,8 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox2.Location = New System.Drawing.Point(105, 14)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox2.TabIndex = 2
+        Me.TextBox2.TabIndex = 1
+        Me.TextBox2.Tag = "ao"
         '
         'Label3
         '
@@ -159,7 +161,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(4, 1)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(172, 20)
+        Me.Label1.Size = New System.Drawing.Size(175, 20)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Combinações"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -182,7 +184,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TableLayoutPanel2.Controls.Add(Me.Panel5, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Panel4, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Label2, 0, 0)
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(209, 42)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(383, 67)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 7
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
@@ -210,7 +212,8 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox14.Location = New System.Drawing.Point(112, 11)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox14.TabIndex = 2
+        Me.TextBox14.TabIndex = 11
+        Me.TextBox14.Tag = "naquilo"
         '
         'Label16
         '
@@ -237,7 +240,8 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox13.Location = New System.Drawing.Point(113, 14)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox13.TabIndex = 2
+        Me.TextBox13.TabIndex = 6
+        Me.TextBox13.Tag = "dele"
         '
         'Label15
         '
@@ -264,7 +268,8 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox11.Location = New System.Drawing.Point(112, 11)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox11.TabIndex = 2
+        Me.TextBox11.TabIndex = 10
+        Me.TextBox11.Tag = "naquele"
         '
         'Label13
         '
@@ -291,7 +296,8 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox10.Location = New System.Drawing.Point(113, 11)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox10.TabIndex = 2
+        Me.TextBox10.TabIndex = 5
+        Me.TextBox10.Tag = "daquilo"
         '
         'Label12
         '
@@ -318,7 +324,8 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox9.Location = New System.Drawing.Point(112, 11)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox9.TabIndex = 2
+        Me.TextBox9.TabIndex = 9
+        Me.TextBox9.Tag = "daquela"
         '
         'Label11
         '
@@ -345,7 +352,8 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox8.Location = New System.Drawing.Point(113, 11)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox8.TabIndex = 2
+        Me.TextBox8.TabIndex = 4
+        Me.TextBox8.Tag = "naquela"
         '
         'Label10
         '
@@ -372,7 +380,8 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox7.Location = New System.Drawing.Point(112, 11)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox7.TabIndex = 2
+        Me.TextBox7.TabIndex = 8
+        Me.TextBox7.Tag = "daí"
         '
         'Label9
         '
@@ -399,7 +408,8 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox6.Location = New System.Drawing.Point(113, 11)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox6.TabIndex = 2
+        Me.TextBox6.TabIndex = 3
+        Me.TextBox6.Tag = "dali"
         '
         'Label8
         '
@@ -426,7 +436,8 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox5.Location = New System.Drawing.Point(113, 11)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox5.TabIndex = 2
+        Me.TextBox5.TabIndex = 1
+        Me.TextBox5.Tag = "da"
         '
         'Label7
         '
@@ -453,7 +464,8 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox4.Location = New System.Drawing.Point(112, 11)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox4.TabIndex = 2
+        Me.TextBox4.TabIndex = 7
+        Me.TextBox4.Tag = "dela"
         '
         'Label6
         '
@@ -481,6 +493,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(49, 22)
         Me.TextBox3.TabIndex = 2
+        Me.TextBox3.Tag = "daqui"
         '
         'Label5
         '
@@ -508,7 +521,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(579, 394)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.TableLayoutPanel2)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "frm_Perguntas_Combinacoes_Contracoes"

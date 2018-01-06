@@ -81,10 +81,10 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.ListBox1.AllowDrop = True
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Items.AddRange(New Object() {"PA", "CE", "CON", "PU", "TA", "SAR", "DOR", "SER", "DE", "NAR", "TO", "VER", "DE", "POIS", "VI", "TER", "TE", "COM", "TRO", "VI"})
-        Me.ListBox1.Location = New System.Drawing.Point(15, 8)
+        Me.ListBox1.Location = New System.Drawing.Point(138, 25)
         Me.ListBox1.MultiColumn = True
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(725, 82)
+        Me.ListBox1.Size = New System.Drawing.Size(524, 69)
         Me.ListBox1.TabIndex = 4
         '
         'TableLayoutPanel1
@@ -98,13 +98,14 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox3, 2, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox2, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox1, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(12, 162)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(24, 175)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(297, 30)
         Me.TableLayoutPanel1.TabIndex = 5
+        Me.TableLayoutPanel1.Tag = "comparece"
         '
         'TextBox4
         '
@@ -165,12 +166,13 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel2.Controls.Add(Me.TextBox6, 2, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.TextBox7, 1, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.TextBox8, 0, 0)
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(324, 162)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(449, 175)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 1
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel2.Size = New System.Drawing.Size(291, 30)
         Me.TableLayoutPanel2.TabIndex = 6
+        Me.TableLayoutPanel2.Tag = "computador"
         '
         'TextBox5
         '
@@ -229,12 +231,13 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel3.Controls.Add(Me.TextBox10, 2, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.TextBox11, 1, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.TextBox12, 0, 0)
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(12, 198)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(24, 211)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 1
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel3.Size = New System.Drawing.Size(219, 30)
         Me.TableLayoutPanel3.TabIndex = 7
+        Me.TableLayoutPanel3.Tag = "servidor"
         '
         'TextBox10
         '
@@ -281,13 +284,14 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel4.Controls.Add(Me.TextBox9, 2, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.TextBox13, 1, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.TextBox14, 0, 0)
-        Me.TableLayoutPanel4.Location = New System.Drawing.Point(12, 234)
+        Me.TableLayoutPanel4.Location = New System.Drawing.Point(24, 247)
         Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
         Me.TableLayoutPanel4.RowCount = 2
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel4.Size = New System.Drawing.Size(219, 30)
         Me.TableLayoutPanel4.TabIndex = 8
+        Me.TableLayoutPanel4.Tag = "verdade"
         '
         'TextBox9
         '
@@ -334,13 +338,14 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel5.Controls.Add(Me.TextBox15, 2, 0)
         Me.TableLayoutPanel5.Controls.Add(Me.TextBox16, 1, 0)
         Me.TableLayoutPanel5.Controls.Add(Me.TextBox17, 0, 0)
-        Me.TableLayoutPanel5.Location = New System.Drawing.Point(12, 270)
+        Me.TableLayoutPanel5.Location = New System.Drawing.Point(24, 283)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
         Me.TableLayoutPanel5.RowCount = 2
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel5.Size = New System.Drawing.Size(219, 28)
         Me.TableLayoutPanel5.TabIndex = 8
+        Me.TableLayoutPanel5.Tag = "avisar"
         '
         'TextBox15
         '
@@ -387,12 +392,13 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel6.Controls.Add(Me.TextBox18, 2, 0)
         Me.TableLayoutPanel6.Controls.Add(Me.TextBox19, 1, 0)
         Me.TableLayoutPanel6.Controls.Add(Me.TextBox20, 0, 0)
-        Me.TableLayoutPanel6.Location = New System.Drawing.Point(12, 304)
+        Me.TableLayoutPanel6.Location = New System.Drawing.Point(24, 317)
         Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
         Me.TableLayoutPanel6.RowCount = 1
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel6.Size = New System.Drawing.Size(219, 29)
         Me.TableLayoutPanel6.TabIndex = 9
+        Me.TableLayoutPanel6.Tag = "tomate"
         '
         'TextBox18
         '
@@ -439,12 +445,13 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel7.Controls.Add(Me.TextBox21, 2, 0)
         Me.TableLayoutPanel7.Controls.Add(Me.TextBox22, 1, 0)
         Me.TableLayoutPanel7.Controls.Add(Me.TextBox23, 0, 0)
-        Me.TableLayoutPanel7.Location = New System.Drawing.Point(324, 304)
+        Me.TableLayoutPanel7.Location = New System.Drawing.Point(449, 317)
         Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
         Me.TableLayoutPanel7.RowCount = 1
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel7.Size = New System.Drawing.Size(219, 29)
         Me.TableLayoutPanel7.TabIndex = 11
+        Me.TableLayoutPanel7.Tag = "encontro"
         '
         'TextBox21
         '
@@ -491,13 +498,14 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel8.Controls.Add(Me.TextBox24, 2, 0)
         Me.TableLayoutPanel8.Controls.Add(Me.TextBox25, 1, 0)
         Me.TableLayoutPanel8.Controls.Add(Me.TextBox26, 0, 0)
-        Me.TableLayoutPanel8.Location = New System.Drawing.Point(324, 270)
+        Me.TableLayoutPanel8.Location = New System.Drawing.Point(449, 283)
         Me.TableLayoutPanel8.Name = "TableLayoutPanel8"
         Me.TableLayoutPanel8.RowCount = 2
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel8.Size = New System.Drawing.Size(219, 28)
         Me.TableLayoutPanel8.TabIndex = 10
+        Me.TableLayoutPanel8.Tag = "terminar"
         '
         'TextBox24
         '
@@ -542,12 +550,13 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel9.Controls.Add(Me.TextBox28, 1, 0)
         Me.TableLayoutPanel9.Controls.Add(Me.TextBox29, 0, 0)
-        Me.TableLayoutPanel9.Location = New System.Drawing.Point(324, 235)
+        Me.TableLayoutPanel9.Location = New System.Drawing.Point(449, 248)
         Me.TableLayoutPanel9.Name = "TableLayoutPanel9"
         Me.TableLayoutPanel9.RowCount = 1
         Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel9.Size = New System.Drawing.Size(144, 29)
         Me.TableLayoutPanel9.TabIndex = 13
+        Me.TableLayoutPanel9.Tag = "depois"
         '
         'TextBox28
         '
@@ -580,13 +589,14 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel10.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel10.Controls.Add(Me.TextBox31, 1, 0)
         Me.TableLayoutPanel10.Controls.Add(Me.TextBox32, 0, 0)
-        Me.TableLayoutPanel10.Location = New System.Drawing.Point(324, 201)
+        Me.TableLayoutPanel10.Location = New System.Drawing.Point(449, 214)
         Me.TableLayoutPanel10.Name = "TableLayoutPanel10"
         Me.TableLayoutPanel10.RowCount = 2
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel10.Size = New System.Drawing.Size(144, 28)
         Me.TableLayoutPanel10.TabIndex = 12
+        Me.TableLayoutPanel10.Tag = "verde"
         '
         'TextBox31
         '
@@ -615,7 +625,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(21, 119)
+        Me.Label1.Location = New System.Drawing.Point(21, 144)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(361, 13)
         Me.Label1.TabIndex = 14
@@ -625,7 +635,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(752, 429)
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TableLayoutPanel9)
         Me.Controls.Add(Me.TableLayoutPanel10)

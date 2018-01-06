@@ -7,7 +7,7 @@
 
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
         Me.Hide()
-        Dim frm As New frm_apresentacao19
+        Dim frm As New frm_Perguntas_alteracao_verbo
         frm.Show()
     End Sub
 End Class
