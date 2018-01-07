@@ -22,6 +22,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
@@ -64,6 +65,17 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox31 = New System.Windows.Forms.TextBox()
         Me.TextBox32 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
@@ -74,6 +86,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel8.SuspendLayout()
         Me.TableLayoutPanel9.SuspendLayout()
         Me.TableLayoutPanel10.SuspendLayout()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ListBox1
@@ -117,6 +130,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox4.ReadOnly = True
         Me.TextBox4.Size = New System.Drawing.Size(69, 22)
         Me.TextBox4.TabIndex = 3
+        Me.TextBox4.Tag = "CE"
         Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox3
@@ -141,6 +155,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(68, 22)
         Me.TextBox2.TabIndex = 1
+        Me.TextBox2.Tag = "PA"
         Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox1
@@ -153,6 +168,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(68, 22)
         Me.TextBox1.TabIndex = 0
+        Me.TextBox1.Tag = "COM"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TableLayoutPanel2
@@ -184,6 +200,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox5.ReadOnly = True
         Me.TextBox5.Size = New System.Drawing.Size(69, 22)
         Me.TextBox5.TabIndex = 3
+        Me.TextBox5.Tag = "DOR"
         Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox6
@@ -196,6 +213,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox6.ReadOnly = True
         Me.TextBox6.Size = New System.Drawing.Size(66, 22)
         Me.TextBox6.TabIndex = 2
+        Me.TextBox6.Tag = "TA"
         Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox7
@@ -208,6 +226,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox7.ReadOnly = True
         Me.TextBox7.Size = New System.Drawing.Size(66, 22)
         Me.TextBox7.TabIndex = 1
+        Me.TextBox7.Tag = "PU"
         Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox8
@@ -261,6 +280,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox11.ReadOnly = True
         Me.TextBox11.Size = New System.Drawing.Size(67, 22)
         Me.TextBox11.TabIndex = 1
+        Me.TextBox11.Tag = "VI"
         Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox12
@@ -273,6 +293,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox12.ReadOnly = True
         Me.TextBox12.Size = New System.Drawing.Size(67, 22)
         Me.TextBox12.TabIndex = 0
+        Me.TextBox12.Tag = "SER"
         Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TableLayoutPanel4
@@ -303,6 +324,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox9.ReadOnly = True
         Me.TextBox9.Size = New System.Drawing.Size(67, 22)
         Me.TextBox9.TabIndex = 2
+        Me.TextBox9.Tag = "DE"
         Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox13
@@ -327,6 +349,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox14.ReadOnly = True
         Me.TextBox14.Size = New System.Drawing.Size(67, 22)
         Me.TextBox14.TabIndex = 0
+        Me.TextBox14.Tag = "VER"
         Me.TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TableLayoutPanel5
@@ -357,6 +380,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox15.ReadOnly = True
         Me.TextBox15.Size = New System.Drawing.Size(67, 22)
         Me.TextBox15.TabIndex = 2
+        Me.TextBox15.Tag = "SAR"
         Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox16
@@ -369,6 +393,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox16.ReadOnly = True
         Me.TextBox16.Size = New System.Drawing.Size(67, 22)
         Me.TextBox16.TabIndex = 1
+        Me.TextBox16.Tag = "VI"
         Me.TextBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox17
@@ -410,6 +435,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox18.ReadOnly = True
         Me.TextBox18.Size = New System.Drawing.Size(67, 22)
         Me.TextBox18.TabIndex = 2
+        Me.TextBox18.Tag = "TE"
         Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox19
@@ -434,6 +460,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox20.ReadOnly = True
         Me.TextBox20.Size = New System.Drawing.Size(67, 22)
         Me.TextBox20.TabIndex = 0
+        Me.TextBox20.Tag = "TO"
         Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TableLayoutPanel7
@@ -463,6 +490,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox21.ReadOnly = True
         Me.TextBox21.Size = New System.Drawing.Size(67, 22)
         Me.TextBox21.TabIndex = 2
+        Me.TextBox21.Tag = "TRO"
         Me.TextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox22
@@ -475,6 +503,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox22.ReadOnly = True
         Me.TextBox22.Size = New System.Drawing.Size(67, 22)
         Me.TextBox22.TabIndex = 1
+        Me.TextBox22.Tag = "CON"
         Me.TextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox23
@@ -517,6 +546,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox24.ReadOnly = True
         Me.TextBox24.Size = New System.Drawing.Size(67, 22)
         Me.TextBox24.TabIndex = 2
+        Me.TextBox24.Tag = "NAR"
         Me.TextBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox25
@@ -541,6 +571,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox26.ReadOnly = True
         Me.TextBox26.Size = New System.Drawing.Size(67, 22)
         Me.TextBox26.TabIndex = 0
+        Me.TextBox26.Tag = "TER"
         Me.TextBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TableLayoutPanel9
@@ -568,6 +599,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox28.ReadOnly = True
         Me.TextBox28.Size = New System.Drawing.Size(66, 22)
         Me.TextBox28.TabIndex = 1
+        Me.TextBox28.Tag = "POIS"
         Me.TextBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox29
@@ -608,6 +640,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox31.ReadOnly = True
         Me.TextBox31.Size = New System.Drawing.Size(66, 22)
         Me.TextBox31.TabIndex = 1
+        Me.TextBox31.Tag = "DE"
         Me.TextBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox32
@@ -631,11 +664,105 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.Label1.TabIndex = 14
         Me.Label1.Text = "Arraste as silabas para os quadros abaixo para completar as palavras:"
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(324, 184)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(0, 13)
+        Me.Label2.TabIndex = 15
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(246, 219)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(0, 13)
+        Me.Label3.TabIndex = 16
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(247, 256)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(0, 13)
+        Me.Label4.TabIndex = 17
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(246, 292)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(0, 13)
+        Me.Label5.TabIndex = 18
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(246, 329)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(0, 13)
+        Me.Label6.TabIndex = 19
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(744, 185)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(0, 13)
+        Me.Label7.TabIndex = 20
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(595, 223)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(0, 13)
+        Me.Label8.TabIndex = 21
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(595, 256)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(0, 13)
+        Me.Label9.TabIndex = 22
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(671, 292)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(0, 13)
+        Me.Label10.TabIndex = 23
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(671, 325)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(0, 13)
+        Me.Label11.TabIndex = 24
+        '
+        'TrataErro
+        '
+        Me.TrataErro.ContainerControl = Me
+        '
         'frm_Perguntas_Arrastar_Completar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TableLayoutPanel9)
         Me.Controls.Add(Me.TableLayoutPanel10)
@@ -662,6 +789,16 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.Controls.SetChildIndex(Me.TableLayoutPanel10, 0)
         Me.Controls.SetChildIndex(Me.TableLayoutPanel9, 0)
         Me.Controls.SetChildIndex(Me.Label1, 0)
+        Me.Controls.SetChildIndex(Me.Label2, 0)
+        Me.Controls.SetChildIndex(Me.Label3, 0)
+        Me.Controls.SetChildIndex(Me.Label4, 0)
+        Me.Controls.SetChildIndex(Me.Label5, 0)
+        Me.Controls.SetChildIndex(Me.Label6, 0)
+        Me.Controls.SetChildIndex(Me.Label7, 0)
+        Me.Controls.SetChildIndex(Me.Label8, 0)
+        Me.Controls.SetChildIndex(Me.Label9, 0)
+        Me.Controls.SetChildIndex(Me.Label10, 0)
+        Me.Controls.SetChildIndex(Me.Label11, 0)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         Me.TableLayoutPanel2.ResumeLayout(False)
@@ -682,6 +819,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel9.PerformLayout()
         Me.TableLayoutPanel10.ResumeLayout(False)
         Me.TableLayoutPanel10.PerformLayout()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -729,4 +867,15 @@ Partial Class frm_Perguntas_Arrastar_Completar
     Friend WithEvents TextBox31 As TextBox
     Friend WithEvents TextBox32 As TextBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents TrataErro As ErrorProvider
 End Class

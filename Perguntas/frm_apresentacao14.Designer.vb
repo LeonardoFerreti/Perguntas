@@ -22,11 +22,12 @@ Partial Class frm_apresentacao14
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -35,11 +36,16 @@ Partial Class frm_apresentacao14
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.lblCombinacao = New System.Windows.Forms.Label()
+        Me.lblContracao = New System.Windows.Forms.Label()
+        Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox2
@@ -82,7 +88,7 @@ Partial Class frm_apresentacao14
         '
         'Panel3
         '
-        Me.Panel3.Controls.Add(Me.TextBox3)
+        Me.Panel3.Controls.Add(Me.TextBox5)
         Me.Panel3.Controls.Add(Me.TextBox4)
         Me.Panel3.Controls.Add(Me.Label4)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
@@ -91,12 +97,13 @@ Partial Class frm_apresentacao14
         Me.Panel3.Size = New System.Drawing.Size(157, 43)
         Me.Panel3.TabIndex = 3
         '
-        'TextBox3
+        'TextBox5
         '
-        Me.TextBox3.Location = New System.Drawing.Point(104, 11)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox3.TabIndex = 5
+        Me.TextBox5.Location = New System.Drawing.Point(104, 11)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox5.TabIndex = 5
+        Me.TextBox5.Tag = "dos"
         '
         'TextBox4
         '
@@ -104,6 +111,7 @@ Partial Class frm_apresentacao14
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(45, 22)
         Me.TextBox4.TabIndex = 3
+        Me.TextBox4.Tag = "de"
         '
         'Label4
         '
@@ -154,6 +162,7 @@ Partial Class frm_apresentacao14
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(49, 22)
         Me.TextBox2.TabIndex = 2
+        Me.TextBox2.Tag = "aos"
         '
         'TextBox1
         '
@@ -161,6 +170,7 @@ Partial Class frm_apresentacao14
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(45, 22)
         Me.TextBox1.TabIndex = 0
+        Me.TextBox1.Tag = "a"
         '
         'Label3
         '
@@ -172,11 +182,43 @@ Partial Class frm_apresentacao14
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "+ os ="
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(349, 255)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(229, 13)
+        Me.Label5.TabIndex = 13
+        Me.Label5.Text = "Realize a combinação e a contração abaixo:"
+        '
+        'lblCombinacao
+        '
+        Me.lblCombinacao.AutoSize = True
+        Me.lblCombinacao.Location = New System.Drawing.Point(624, 293)
+        Me.lblCombinacao.Name = "lblCombinacao"
+        Me.lblCombinacao.Size = New System.Drawing.Size(0, 13)
+        Me.lblCombinacao.TabIndex = 14
+        '
+        'lblContracao
+        '
+        Me.lblContracao.AutoSize = True
+        Me.lblContracao.Location = New System.Drawing.Point(625, 339)
+        Me.lblContracao.Name = "lblContracao"
+        Me.lblContracao.Size = New System.Drawing.Size(0, 13)
+        Me.lblContracao.TabIndex = 15
+        '
+        'TrataErro
+        '
+        Me.TrataErro.ContainerControl = Me
+        '
         'frm_apresentacao14
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.Controls.Add(Me.lblContracao)
+        Me.Controls.Add(Me.lblCombinacao)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
@@ -185,6 +227,9 @@ Partial Class frm_apresentacao14
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         Me.Controls.SetChildIndex(Me.TableLayoutPanel1, 0)
+        Me.Controls.SetChildIndex(Me.Label5, 0)
+        Me.Controls.SetChildIndex(Me.lblCombinacao, 0)
+        Me.Controls.SetChildIndex(Me.lblContracao, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel1.ResumeLayout(False)
@@ -192,6 +237,7 @@ Partial Class frm_apresentacao14
         Me.Panel3.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -202,7 +248,7 @@ Partial Class frm_apresentacao14
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox5 As TextBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label2 As Label
@@ -210,4 +256,8 @@ Partial Class frm_apresentacao14
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label3 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents lblCombinacao As Label
+    Friend WithEvents lblContracao As Label
+    Friend WithEvents TrataErro As ErrorProvider
 End Class

@@ -22,12 +22,15 @@ Partial Class frm_apresentacao3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
+        Me.chkList = New System.Windows.Forms.CheckedListBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox2
@@ -40,15 +43,15 @@ Partial Class frm_apresentacao3
         Me.PictureBox2.TabIndex = 3
         Me.PictureBox2.TabStop = False
         '
-        'CheckedListBox1
+        'chkList
         '
-        Me.CheckedListBox1.CheckOnClick = True
-        Me.CheckedListBox1.FormattingEnabled = True
-        Me.CheckedListBox1.Items.AddRange(New Object() {"Os", "meninos", "brincavam", "de", "bola"})
-        Me.CheckedListBox1.Location = New System.Drawing.Point(379, 266)
-        Me.CheckedListBox1.Name = "CheckedListBox1"
-        Me.CheckedListBox1.Size = New System.Drawing.Size(258, 89)
-        Me.CheckedListBox1.TabIndex = 4
+        Me.chkList.CheckOnClick = True
+        Me.chkList.FormattingEnabled = True
+        Me.chkList.Items.AddRange(New Object() {"Os", "meninos", "brincavam", "de", "bola"})
+        Me.chkList.Location = New System.Drawing.Point(379, 266)
+        Me.chkList.Name = "chkList"
+        Me.chkList.Size = New System.Drawing.Size(258, 89)
+        Me.chkList.TabIndex = 4
         '
         'Label1
         '
@@ -69,6 +72,10 @@ Partial Class frm_apresentacao3
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
         '
+        'TrataErro
+        '
+        Me.TrataErro.ContainerControl = Me
+        '
         'frm_apresentacao3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -77,21 +84,23 @@ Partial Class frm_apresentacao3
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.CheckedListBox1)
+        Me.Controls.Add(Me.chkList)
         Me.Name = "frm_apresentacao3"
         Me.Text = "Desafio: palavras lexicais"
-        Me.Controls.SetChildIndex(Me.CheckedListBox1, 0)
+        Me.Controls.SetChildIndex(Me.chkList, 0)
         Me.Controls.SetChildIndex(Me.Label1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents CheckedListBox1 As CheckedListBox
+    Friend WithEvents chkList As CheckedListBox
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents TrataErro As ErrorProvider
 End Class

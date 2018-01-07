@@ -23,12 +23,15 @@ Partial Class frm_apresentacao21
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox2
@@ -57,6 +60,7 @@ Partial Class frm_apresentacao21
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(305, 22)
         Me.TextBox1.TabIndex = 4
+        Me.TextBox1.Tag = "a minha casa foi pintada"
         '
         'Label1
         '
@@ -66,6 +70,10 @@ Partial Class frm_apresentacao21
         Me.Label1.Size = New System.Drawing.Size(121, 13)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Escreva a frase abaixo:"
+        '
+        'TrataErro
+        '
+        Me.TrataErro.ContainerControl = Me
         '
         'frm_apresentacao21
         '
@@ -84,6 +92,7 @@ Partial Class frm_apresentacao21
         Me.Controls.SetChildIndex(Me.Label1, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -93,4 +102,5 @@ Partial Class frm_apresentacao21
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents TrataErro As ErrorProvider
 End Class

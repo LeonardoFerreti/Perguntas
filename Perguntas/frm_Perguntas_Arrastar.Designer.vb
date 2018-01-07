@@ -22,17 +22,23 @@ Partial Class frm_Perguntas_Arrastar
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.listTodasPalavras = New System.Windows.Forms.ListBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.ListBox2 = New System.Windows.Forms.ListBox()
+        Me.lstConteudo = New System.Windows.Forms.ListBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.ListBox3 = New System.Windows.Forms.ListBox()
+        Me.lstFuncionais = New System.Windows.Forms.ListBox()
+        Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
@@ -56,68 +62,99 @@ Partial Class frm_Perguntas_Arrastar
         'GroupBox3
         '
         Me.TableLayoutPanel1.SetColumnSpan(Me.GroupBox3, 2)
-        Me.GroupBox3.Controls.Add(Me.ListBox1)
+        Me.GroupBox3.Controls.Add(Me.Label1)
+        Me.GroupBox3.Controls.Add(Me.listTodasPalavras)
         Me.GroupBox3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupBox3.Location = New System.Drawing.Point(3, 3)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(790, 154)
         Me.GroupBox3.TabIndex = 5
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Selecione uma palavra do quadro abaixo e arraste para o quadro correspondente:"
         '
-        'ListBox1
+        'listTodasPalavras
         '
-        Me.ListBox1.AllowDrop = True
-        Me.ListBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"favor", "a", "aqui", "por", "com", "livro", "novo", "de", "mesa", "bom", "que", "o", "tá(está)", "encontrou", "acontecer", "comparecer", "isso", "essa", "na", "repente", "favor", "certeza", "nome", "no", "luz", "te", "ver", "por", "três", "esperando", "tem", "liga", "me", "menina", "menino", "acontecer", "onde", "avisa", "bom", "amar", "para", "ti", "atrasado", "olhar", "terminar", "verdadeiro", "na", "em", "por", "amor"})
-        Me.ListBox1.Location = New System.Drawing.Point(3, 18)
-        Me.ListBox1.MultiColumn = True
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(784, 133)
-        Me.ListBox1.TabIndex = 3
+        Me.listTodasPalavras.AllowDrop = True
+        Me.listTodasPalavras.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.listTodasPalavras.FormattingEnabled = True
+        Me.listTodasPalavras.Items.AddRange(New Object() {"favor", "a", "aqui", "por", "com", "livro", "novo", "de", "mesa", "bom", "que", "o", "tá(está)", "encontrou", "acontecer", "comparecer", "isso", "essa", "na", "repente", "favor", "certeza", "nome", "no", "luz", "te", "ver", "por", "três", "esperando", "tem", "liga", "me", "menina", "menino", "acontecer", "onde", "avisa", "bom", "amar", "para", "ti", "atrasado", "olhar", "terminar", "verdadeiro", "na", "em", "por", "amor"})
+        Me.listTodasPalavras.Location = New System.Drawing.Point(3, 18)
+        Me.listTodasPalavras.MultiColumn = True
+        Me.listTodasPalavras.Name = "listTodasPalavras"
+        Me.listTodasPalavras.Size = New System.Drawing.Size(784, 133)
+        Me.listTodasPalavras.TabIndex = 3
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.ListBox2)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.lstConteudo)
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupBox1.Location = New System.Drawing.Point(3, 163)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(392, 270)
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Palavras de conteúdo"
         '
-        'ListBox2
+        'lstConteudo
         '
-        Me.ListBox2.AllowDrop = True
-        Me.ListBox2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.Location = New System.Drawing.Point(3, 18)
-        Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(386, 249)
-        Me.ListBox2.TabIndex = 1
+        Me.lstConteudo.AllowDrop = True
+        Me.lstConteudo.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lstConteudo.FormattingEnabled = True
+        Me.lstConteudo.Location = New System.Drawing.Point(3, 18)
+        Me.lstConteudo.Name = "lstConteudo"
+        Me.lstConteudo.Size = New System.Drawing.Size(386, 249)
+        Me.lstConteudo.TabIndex = 1
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.ListBox3)
+        Me.GroupBox2.Controls.Add(Me.Label3)
+        Me.GroupBox2.Controls.Add(Me.lstFuncionais)
         Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupBox2.Location = New System.Drawing.Point(401, 163)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(392, 270)
         Me.GroupBox2.TabIndex = 6
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Palavras funcionais"
         '
-        'ListBox3
+        'lstFuncionais
         '
-        Me.ListBox3.AllowDrop = True
-        Me.ListBox3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ListBox3.FormattingEnabled = True
-        Me.ListBox3.Location = New System.Drawing.Point(3, 18)
-        Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(386, 249)
-        Me.ListBox3.TabIndex = 2
+        Me.lstFuncionais.AllowDrop = True
+        Me.lstFuncionais.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lstFuncionais.FormattingEnabled = True
+        Me.lstFuncionais.Location = New System.Drawing.Point(3, 18)
+        Me.lstFuncionais.Name = "lstFuncionais"
+        Me.lstFuncionais.Size = New System.Drawing.Size(386, 249)
+        Me.lstFuncionais.TabIndex = 2
+        '
+        'TrataErro
+        '
+        Me.TrataErro.ContainerControl = Me
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(4, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(428, 13)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Selecione uma palavra do quadro abaixo e arraste para o quadro correspondente:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(7, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(117, 13)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "Palavras de conteúdo"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(6, 2)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(105, 13)
+        Me.Label3.TabIndex = 6
+        Me.Label3.Text = "Palavras funcionais"
         '
         'frm_Perguntas_Arrastar
         '
@@ -130,16 +167,24 @@ Partial Class frm_Perguntas_Arrastar
         Me.Controls.SetChildIndex(Me.TableLayoutPanel1, 0)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents ListBox2 As ListBox
-    Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents ListBox3 As ListBox
+    Friend WithEvents lstConteudo As ListBox
+    Friend WithEvents listTodasPalavras As ListBox
+    Friend WithEvents lstFuncionais As ListBox
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TrataErro As ErrorProvider
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
 End Class

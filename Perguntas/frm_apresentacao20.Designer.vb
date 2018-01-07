@@ -22,20 +22,23 @@ Partial Class frm_apresentacao20
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox2
@@ -76,67 +79,76 @@ Partial Class frm_apresentacao20
         Me.Label2.TabIndex = 13
         Me.Label2.Text = "Substantivo:"
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(132, 356)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(45, 13)
-        Me.Label3.TabIndex = 15
-        Me.Label3.Text = "Verbos:"
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(131, 326)
+        Me.Label4.Location = New System.Drawing.Point(132, 356)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(114, 13)
-        Me.Label4.TabIndex = 14
-        Me.Label4.Text = "Pronome possessivo:"
+        Me.Label4.Size = New System.Drawing.Size(45, 13)
+        Me.Label4.TabIndex = 15
+        Me.Label4.Text = "Verbos:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(131, 326)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(114, 13)
+        Me.Label3.TabIndex = 14
+        Me.Label3.Text = "Pronome possessivo:"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(178, 256)
+        Me.TextBox1.Location = New System.Drawing.Point(179, 256)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 16
+        Me.TextBox1.TabIndex = 0
+        Me.TextBox1.Tag = "a"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(207, 287)
+        Me.TextBox2.Location = New System.Drawing.Point(208, 287)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox2.TabIndex = 17
+        Me.TextBox2.TabIndex = 1
+        Me.TextBox2.Tag = "casa"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(251, 317)
+        Me.TextBox3.Location = New System.Drawing.Point(252, 317)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox3.TabIndex = 18
+        Me.TextBox3.TabIndex = 2
+        Me.TextBox3.Tag = "minha"
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(183, 347)
+        Me.TextBox4.Location = New System.Drawing.Point(185, 347)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox4.TabIndex = 19
+        Me.TextBox4.TabIndex = 3
+        Me.TextBox4.Tag = "foi"
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(302, 347)
+        Me.TextBox5.Location = New System.Drawing.Point(304, 347)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox5.TabIndex = 20
+        Me.TextBox5.TabIndex = 4
+        Me.TextBox5.Tag = "pintada"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(286, 355)
+        Me.Label5.Location = New System.Drawing.Point(288, 355)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(13, 13)
         Me.Label5.TabIndex = 21
         Me.Label5.Text = "e"
+        '
+        'TrataErro
+        '
+        Me.TrataErro.ContainerControl = Me
         '
         'frm_apresentacao20
         '
@@ -149,8 +161,8 @@ Partial Class frm_apresentacao20
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox2)
@@ -161,8 +173,8 @@ Partial Class frm_apresentacao20
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         Me.Controls.SetChildIndex(Me.Label1, 0)
         Me.Controls.SetChildIndex(Me.Label2, 0)
-        Me.Controls.SetChildIndex(Me.Label4, 0)
         Me.Controls.SetChildIndex(Me.Label3, 0)
+        Me.Controls.SetChildIndex(Me.Label4, 0)
         Me.Controls.SetChildIndex(Me.TextBox1, 0)
         Me.Controls.SetChildIndex(Me.TextBox2, 0)
         Me.Controls.SetChildIndex(Me.TextBox3, 0)
@@ -171,6 +183,7 @@ Partial Class frm_apresentacao20
         Me.Controls.SetChildIndex(Me.Label5, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -180,12 +193,13 @@ Partial Class frm_apresentacao20
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label5 As Label
+    Friend WithEvents TrataErro As ErrorProvider
 End Class

@@ -53,7 +53,9 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox28 = New System.Windows.Forms.TextBox()
         Me.TextBox29 = New System.Windows.Forms.TextBox()
         Me.TextBox30 = New System.Windows.Forms.TextBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.FlowLayoutPanel1.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'FlowLayoutPanel1
@@ -78,7 +80,7 @@ Partial Class frm_Perguntas_Responder
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox18)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox19)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox20)
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(139, 48)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(139, 43)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(535, 93)
         Me.FlowLayoutPanel1.TabIndex = 1
@@ -305,7 +307,7 @@ Partial Class frm_Perguntas_Responder
         '
         'TextBox21
         '
-        Me.TextBox21.Location = New System.Drawing.Point(146, 217)
+        Me.TextBox21.Location = New System.Drawing.Point(106, 53)
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.Size = New System.Drawing.Size(143, 22)
         Me.TextBox21.TabIndex = 0
@@ -313,7 +315,7 @@ Partial Class frm_Perguntas_Responder
         '
         'TextBox22
         '
-        Me.TextBox22.Location = New System.Drawing.Point(146, 245)
+        Me.TextBox22.Location = New System.Drawing.Point(106, 81)
         Me.TextBox22.Name = "TextBox22"
         Me.TextBox22.Size = New System.Drawing.Size(143, 22)
         Me.TextBox22.TabIndex = 3
@@ -321,7 +323,7 @@ Partial Class frm_Perguntas_Responder
         '
         'TextBox23
         '
-        Me.TextBox23.Location = New System.Drawing.Point(146, 273)
+        Me.TextBox23.Location = New System.Drawing.Point(106, 109)
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.Size = New System.Drawing.Size(143, 22)
         Me.TextBox23.TabIndex = 6
@@ -329,7 +331,7 @@ Partial Class frm_Perguntas_Responder
         '
         'TextBox24
         '
-        Me.TextBox24.Location = New System.Drawing.Point(146, 301)
+        Me.TextBox24.Location = New System.Drawing.Point(106, 137)
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.Size = New System.Drawing.Size(143, 22)
         Me.TextBox24.TabIndex = 9
@@ -337,7 +339,7 @@ Partial Class frm_Perguntas_Responder
         '
         'TextBox25
         '
-        Me.TextBox25.Location = New System.Drawing.Point(338, 217)
+        Me.TextBox25.Location = New System.Drawing.Point(298, 53)
         Me.TextBox25.Name = "TextBox25"
         Me.TextBox25.Size = New System.Drawing.Size(143, 22)
         Me.TextBox25.TabIndex = 1
@@ -345,7 +347,7 @@ Partial Class frm_Perguntas_Responder
         '
         'TextBox26
         '
-        Me.TextBox26.Location = New System.Drawing.Point(338, 245)
+        Me.TextBox26.Location = New System.Drawing.Point(298, 81)
         Me.TextBox26.Name = "TextBox26"
         Me.TextBox26.Size = New System.Drawing.Size(143, 22)
         Me.TextBox26.TabIndex = 4
@@ -353,7 +355,7 @@ Partial Class frm_Perguntas_Responder
         '
         'TextBox27
         '
-        Me.TextBox27.Location = New System.Drawing.Point(338, 272)
+        Me.TextBox27.Location = New System.Drawing.Point(298, 108)
         Me.TextBox27.Name = "TextBox27"
         Me.TextBox27.Size = New System.Drawing.Size(143, 22)
         Me.TextBox27.TabIndex = 7
@@ -361,7 +363,7 @@ Partial Class frm_Perguntas_Responder
         '
         'TextBox28
         '
-        Me.TextBox28.Location = New System.Drawing.Point(531, 272)
+        Me.TextBox28.Location = New System.Drawing.Point(491, 108)
         Me.TextBox28.Name = "TextBox28"
         Me.TextBox28.Size = New System.Drawing.Size(143, 22)
         Me.TextBox28.TabIndex = 8
@@ -369,7 +371,7 @@ Partial Class frm_Perguntas_Responder
         '
         'TextBox29
         '
-        Me.TextBox29.Location = New System.Drawing.Point(531, 217)
+        Me.TextBox29.Location = New System.Drawing.Point(491, 53)
         Me.TextBox29.Name = "TextBox29"
         Me.TextBox29.Size = New System.Drawing.Size(143, 22)
         Me.TextBox29.TabIndex = 2
@@ -377,45 +379,48 @@ Partial Class frm_Perguntas_Responder
         '
         'TextBox30
         '
-        Me.TextBox30.Location = New System.Drawing.Point(531, 245)
+        Me.TextBox30.Location = New System.Drawing.Point(491, 81)
         Me.TextBox30.Name = "TextBox30"
         Me.TextBox30.Size = New System.Drawing.Size(143, 22)
         Me.TextBox30.TabIndex = 5
         Me.TextBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.TextBox21)
+        Me.GroupBox1.Controls.Add(Me.TextBox30)
+        Me.GroupBox1.Controls.Add(Me.TextBox22)
+        Me.GroupBox1.Controls.Add(Me.TextBox29)
+        Me.GroupBox1.Controls.Add(Me.TextBox23)
+        Me.GroupBox1.Controls.Add(Me.TextBox28)
+        Me.GroupBox1.Controls.Add(Me.TextBox24)
+        Me.GroupBox1.Controls.Add(Me.TextBox27)
+        Me.GroupBox1.Controls.Add(Me.TextBox25)
+        Me.GroupBox1.Controls.Add(Me.TextBox26)
+        Me.GroupBox1.Location = New System.Drawing.Point(52, 167)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(709, 215)
+        Me.GroupBox1.TabIndex = 10
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Usando as sílabas do quadro acima, tente escrever palavras usando os quadros abai" &
+    "xo:"
         '
         'frm_Perguntas_Responder
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(796, 488)
-        Me.Controls.Add(Me.TextBox30)
-        Me.Controls.Add(Me.TextBox29)
-        Me.Controls.Add(Me.TextBox28)
-        Me.Controls.Add(Me.TextBox27)
-        Me.Controls.Add(Me.TextBox26)
-        Me.Controls.Add(Me.TextBox25)
-        Me.Controls.Add(Me.TextBox24)
-        Me.Controls.Add(Me.TextBox23)
-        Me.Controls.Add(Me.TextBox22)
-        Me.Controls.Add(Me.TextBox21)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Name = "frm_Perguntas_Responder"
-        Me.Text = "frm_Perguntas_Responder"
+        Me.Text = "Forme palavras com sílabas:"
         Me.Controls.SetChildIndex(Me.FlowLayoutPanel1, 0)
-        Me.Controls.SetChildIndex(Me.TextBox21, 0)
-        Me.Controls.SetChildIndex(Me.TextBox22, 0)
-        Me.Controls.SetChildIndex(Me.TextBox23, 0)
-        Me.Controls.SetChildIndex(Me.TextBox24, 0)
-        Me.Controls.SetChildIndex(Me.TextBox25, 0)
-        Me.Controls.SetChildIndex(Me.TextBox26, 0)
-        Me.Controls.SetChildIndex(Me.TextBox27, 0)
-        Me.Controls.SetChildIndex(Me.TextBox28, 0)
-        Me.Controls.SetChildIndex(Me.TextBox29, 0)
-        Me.Controls.SetChildIndex(Me.TextBox30, 0)
+        Me.Controls.SetChildIndex(Me.GroupBox1, 0)
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.FlowLayoutPanel1.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -450,4 +455,5 @@ Partial Class frm_Perguntas_Responder
     Friend WithEvents TextBox28 As TextBox
     Friend WithEvents TextBox29 As TextBox
     Friend WithEvents TextBox30 As TextBox
+    Friend WithEvents GroupBox1 As GroupBox
 End Class

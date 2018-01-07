@@ -22,6 +22,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -53,6 +54,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel11.SuspendLayout()
         Me.Panel10.SuspendLayout()
@@ -64,6 +66,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.Panel4.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -382,6 +385,10 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.Panel2.Size = New System.Drawing.Size(290, 38)
         Me.Panel2.TabIndex = 0
         '
+        'TrataErro
+        '
+        Me.TrataErro.ContainerControl = Me
+        '
         'frm_Perguntas_Reescrever_Frases
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -412,6 +419,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.Panel3.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -447,4 +455,5 @@ Partial Class frm_Perguntas_Reescrever_Frases
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Panel2 As Panel
+    Friend WithEvents TrataErro As ErrorProvider
 End Class

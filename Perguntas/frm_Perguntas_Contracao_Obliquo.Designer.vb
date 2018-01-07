@@ -22,29 +22,32 @@ Partial Class frm_Perguntas_Contracao_Obliquo
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.TableLayoutPanel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.Panel4.SuspendLayout()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TableLayoutPanel2
@@ -57,7 +60,7 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.TableLayoutPanel2.Controls.Add(Me.Panel6, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Panel5, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Panel4, 0, 1)
-        Me.TableLayoutPanel2.Controls.Add(Me.Label2, 0, 0)
+        Me.TableLayoutPanel2.Controls.Add(Me.Label20, 0, 0)
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(290, 118)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 5
@@ -72,7 +75,7 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         '
         'Panel3
         '
-        Me.Panel3.Controls.Add(Me.TextBox2)
+        Me.Panel3.Controls.Add(Me.TextBox3)
         Me.Panel3.Controls.Add(Me.Label3)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(4, 133)
@@ -80,13 +83,13 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.Panel3.Size = New System.Drawing.Size(222, 29)
         Me.Panel3.TabIndex = 3
         '
-        'TextBox2
+        'TextBox3
         '
-        Me.TextBox2.Location = New System.Drawing.Point(113, 5)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(88, 22)
-        Me.TextBox2.TabIndex = 3
-        Me.TextBox2.Tag = "conosco"
+        Me.TextBox3.Location = New System.Drawing.Point(113, 5)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(88, 22)
+        Me.TextBox3.TabIndex = 3
+        Me.TextBox3.Tag = "conosco"
         '
         'Label3
         '
@@ -100,64 +103,64 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         '
         'Panel2
         '
-        Me.Panel2.Controls.Add(Me.TextBox1)
-        Me.Panel2.Controls.Add(Me.Label1)
+        Me.Panel2.Controls.Add(Me.TextBox4)
+        Me.Panel2.Controls.Add(Me.Label4)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(4, 169)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(222, 33)
         Me.Panel2.TabIndex = 4
         '
-        'TextBox1
+        'TextBox4
         '
-        Me.TextBox1.Location = New System.Drawing.Point(113, 8)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(88, 22)
-        Me.TextBox1.TabIndex = 4
-        Me.TextBox1.Tag = "convosco"
+        Me.TextBox4.Location = New System.Drawing.Point(113, 8)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(88, 22)
+        Me.TextBox4.TabIndex = 4
+        Me.TextBox4.Tag = "convosco"
         '
-        'Label1
+        'Label4
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 10)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(98, 21)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "com + vós ="
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(12, 10)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(98, 21)
+        Me.Label4.TabIndex = 1
+        Me.Label4.Text = "com + vós ="
         '
         'Panel6
         '
-        Me.Panel6.Controls.Add(Me.TextBox5)
-        Me.Panel6.Controls.Add(Me.Label7)
+        Me.Panel6.Controls.Add(Me.TextBox2)
+        Me.Panel6.Controls.Add(Me.Label2)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel6.Location = New System.Drawing.Point(4, 97)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(222, 29)
         Me.Panel6.TabIndex = 2
         '
-        'TextBox5
+        'TextBox2
         '
-        Me.TextBox5.Location = New System.Drawing.Point(113, 5)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(88, 22)
-        Me.TextBox5.TabIndex = 2
-        Me.TextBox5.Tag = "consigo"
+        Me.TextBox2.Location = New System.Drawing.Point(113, 5)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(88, 22)
+        Me.TextBox2.TabIndex = 2
+        Me.TextBox2.Tag = "consigo"
         '
-        'Label7
+        'Label2
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(10, 7)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(85, 21)
-        Me.Label7.TabIndex = 1
-        Me.Label7.Text = "com + si ="
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(10, 7)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(85, 21)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "com + si ="
         '
         'Panel5
         '
         Me.Panel5.Controls.Add(Me.Label6)
-        Me.Panel5.Controls.Add(Me.Label4)
+        Me.Panel5.Controls.Add(Me.Label10)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel5.Location = New System.Drawing.Point(4, 25)
         Me.Panel5.Name = "Panel5"
@@ -174,54 +177,58 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.Label6.TabIndex = 3
         Me.Label6.Text = "comigo"
         '
-        'Label4
+        'Label10
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(6, 3)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(106, 21)
-        Me.Label4.TabIndex = 2
-        Me.Label4.Text = "com + mim ="
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(6, 3)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(106, 21)
+        Me.Label10.TabIndex = 2
+        Me.Label10.Text = "com + mim ="
         '
         'Panel4
         '
-        Me.Panel4.Controls.Add(Me.TextBox3)
-        Me.Panel4.Controls.Add(Me.Label5)
+        Me.Panel4.Controls.Add(Me.TextBox1)
+        Me.Panel4.Controls.Add(Me.Label1)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel4.Location = New System.Drawing.Point(4, 61)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(222, 29)
         Me.Panel4.TabIndex = 0
         '
-        'TextBox3
+        'TextBox1
         '
-        Me.TextBox3.Location = New System.Drawing.Point(113, 5)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(88, 22)
-        Me.TextBox3.TabIndex = 1
-        Me.TextBox3.Tag = "contigo"
+        Me.TextBox1.Location = New System.Drawing.Point(113, 5)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(88, 22)
+        Me.TextBox1.TabIndex = 1
+        Me.TextBox1.Tag = "contigo"
         '
-        'Label5
+        'Label1
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(9, 7)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(83, 21)
-        Me.Label5.TabIndex = 1
-        Me.Label5.Text = "com + ti ="
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(9, 7)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(83, 21)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "com + ti ="
         '
-        'Label2
+        'Label20
         '
-        Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(4, 1)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(222, 20)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Contrações"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label20.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label20.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(4, 1)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(222, 20)
+        Me.Label20.TabIndex = 0
+        Me.Label20.Text = "Contrações"
+        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'TrataErro
+        '
+        Me.TrataErro.ContainerControl = Me
         '
         'frm_Perguntas_Contracao_Obliquo
         '
@@ -243,25 +250,27 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.Panel5.PerformLayout()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents Panel6 As Panel
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents Label7 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label2 As Label
     Friend WithEvents Panel5 As Panel
     Friend WithEvents Panel4 As Panel
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Panel2 As Panel
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label6 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label4 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents TrataErro As ErrorProvider
 End Class
