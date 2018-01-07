@@ -6,11 +6,11 @@
     End Sub
 
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
-        If validaDados() Then
-            Me.Hide()
+        ' If validaDados() Then
+        Me.Hide()
             Dim frm As New frm_apresentacao17
             frm.Show()
-        End If
+        '   End If
     End Sub
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged

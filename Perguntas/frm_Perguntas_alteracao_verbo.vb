@@ -6,11 +6,11 @@
     End Sub
 
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
-        If validaDados() Then
-            Me.Hide()
+        '  If validaDados() Then
+        Me.Hide()
             Dim frm As New frm_apresentacao19
             frm.Show()
-        End If
+        '   End If
 
     End Sub
 
@@ -49,52 +49,52 @@
     Private Function validaDados() As Boolean
         validaDados = True
 
-        If Not (TextBox1.Text.ToLower.Trim.Equals(TextBox1.Tag.ToString)) Then
+        If Not (TextBox1.Text.ToLower.Trim.Equals(TextBox1.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label12, "Reescreva corretamente a frase abaixo.")
         End If
 
-        If Not (TextBox2.Text.ToLower.Trim.Equals(TextBox2.Tag.ToString)) Then
+        If Not (TextBox2.Text.ToLower.Trim.Equals(TextBox2.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label13, "Reescreva corretamente a frase abaixo.")
         End If
 
-        If Not (TextBox3.Text.ToLower.Trim.Equals(TextBox3.Tag.ToString)) Then
+        If Not (TextBox3.Text.ToLower.Trim.Equals(TextBox3.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label14, "Reescreva corretamente a frase abaixo.")
         End If
 
-        If Not (TextBox4.Text.ToLower.Trim.Equals(TextBox4.Tag.ToString)) Then
+        If Not (TextBox4.Text.ToLower.Trim.Equals(TextBox4.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label15, "Reescreva corretamente a frase abaixo.")
         End If
 
-        If Not (TextBox5.Text.ToLower.Trim.Equals(TextBox5.Tag.ToString)) Then
+        If Not (TextBox5.Text.ToLower.Trim.Equals(TextBox5.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label5, "Reescreva corretamente a frase abaixo.")
         End If
 
-        If Not (TextBox6.Text.ToLower.Trim.Equals(TextBox6.Tag.ToString)) Then
+        If Not (TextBox6.Text.ToLower.Trim.Equals(TextBox6.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label6, "Reescreva corretamente a frase abaixo.")
         End If
 
-        If Not (TextBox7.Text.ToLower.Trim.Equals(TextBox7.Tag.ToString)) Then
+        If Not (TextBox7.Text.ToLower.Trim.Equals(TextBox7.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label7, "Reescreva corretamente a frase abaixo.")
         End If
         '**
-        If Not (TextBox8.Text.ToLower.Trim.Equals(TextBox8.Tag.ToString)) Then
+        If Not (TextBox8.Text.ToLower.Trim.Equals(TextBox8.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label16, "Reescreva corretamente a frase abaixo.")
         End If
 
-        If Not (TextBox10.Text.ToLower.Trim.Equals(TextBox10.Tag.ToString)) Then
+        If Not (TextBox10.Text.ToLower.Trim.Equals(TextBox10.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label10, "Reescreva corretamente a frase abaixo.")
         End If
 
-        If Not (TextBox11.Text.ToLower.Trim.Equals(TextBox11.Tag.ToString)) Then
+        If Not (TextBox11.Text.ToLower.Trim.Equals(TextBox11.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label11, "Reescreva corretamente a frase abaixo.")
         End If

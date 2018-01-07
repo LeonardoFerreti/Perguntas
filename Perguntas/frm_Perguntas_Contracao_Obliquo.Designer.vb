@@ -85,7 +85,7 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(113, 5)
+        Me.TextBox3.Location = New System.Drawing.Point(129, 5)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(88, 22)
         Me.TextBox3.TabIndex = 3
@@ -113,7 +113,7 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(113, 8)
+        Me.TextBox4.Location = New System.Drawing.Point(129, 8)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(88, 22)
         Me.TextBox4.TabIndex = 4
@@ -141,7 +141,7 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(113, 5)
+        Me.TextBox2.Location = New System.Drawing.Point(129, 5)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(88, 22)
         Me.TextBox2.TabIndex = 2
@@ -199,7 +199,7 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(113, 5)
+        Me.TextBox1.Location = New System.Drawing.Point(129, 5)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(88, 22)
         Me.TextBox1.TabIndex = 1

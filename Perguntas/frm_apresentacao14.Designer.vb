@@ -95,7 +95,7 @@ Partial Class frm_apresentacao14
         Me.Panel3.Location = New System.Drawing.Point(109, 53)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(157, 43)
-        Me.Panel3.TabIndex = 3
+        Me.Panel3.TabIndex = 1
         '
         'TextBox5
         '
@@ -154,14 +154,14 @@ Partial Class frm_apresentacao14
         Me.Panel2.Location = New System.Drawing.Point(109, 4)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(157, 42)
-        Me.Panel2.TabIndex = 2
+        Me.Panel2.TabIndex = 0
         '
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(105, 14)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(49, 22)
-        Me.TextBox2.TabIndex = 2
+        Me.TextBox2.TabIndex = 1
         Me.TextBox2.Tag = "aos"
         '
         'TextBox1

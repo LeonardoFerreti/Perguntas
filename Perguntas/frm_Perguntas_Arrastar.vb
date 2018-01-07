@@ -49,19 +49,19 @@
 
     Private Function validaDados() As Boolean
         validaDados = True
-        If listTodasPalavras.Items.Count > 0 Then
-            validaDados = False
-            TrataErro.SetError(Label1, "Arraste todas as palavras!")
-        End If
+        'If listTodasPalavras.Items.Count > 0 Then
+        '    validaDados = False
+        '    TrataErro.SetError(Label1, "Arraste todas as palavras!")
+        'End If
 
-        If listaConteudo.Count <> lstConteudo.Items.Count Then
-            validaDados = False
-            TrataErro.SetError(Label1, "Arraste todas as palavras!")
-        End If
+        'If listaConteudo.Count <> lstConteudo.Items.Count Then
+        '    validaDados = False
+        '    TrataErro.SetError(Label1, "Arraste todas as palavras!")
+        'End If
 
-        If listaFuncionais.Count <> lstFuncionais.Items.Count Then
+        'If listaFuncionais.Count <> lstFuncionais.Items.Count Then
 
-        End If
+        'End If
 
         Return validaDados
     End Function

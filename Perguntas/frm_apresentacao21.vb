@@ -1,4 +1,8 @@
 ﻿Public Class frm_apresentacao21
+    Private Sub frm_apresentacao21_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+        TextBox1.Focus()
+    End Sub
+
     Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
         Me.Close()
         Dim frm As New frm_apresentacao20

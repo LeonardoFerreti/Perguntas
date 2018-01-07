@@ -6,11 +6,12 @@
     End Sub
 
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
-        If validaDados() Then
-            Me.Hide()
+        '  If validaDados() Then
+        Me.Hide()
             Dim frm As New frm_apresentacao16
             frm.Show()
-        End If
+        '  End If
+
     End Sub
 
     Private Function validaDados() As Boolean

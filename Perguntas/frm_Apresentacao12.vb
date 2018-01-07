@@ -6,9 +6,11 @@
     End Sub
 
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
-        Me.Hide()
-        Dim frm As New frm_apresentacao13
-        frm.Show()
+        If validaDados() Then
+            Me.Hide()
+            Dim frm As New frm_apresentacao13
+            frm.Show()
+        End If
     End Sub
 
     Private Sub chkList_Click(sender As Object, e As EventArgs) Handles chkList1.Click, chkList2.Click
