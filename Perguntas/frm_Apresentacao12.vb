@@ -1,14 +1,28 @@
 ﻿Public Class frm_Apresentacao12
     Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
-        Me.Close()
-        Dim frm As New frm_apresentacao11
-        frm.Show()
+
+
+        Me.Hide()
+
+        For Each form As frm_base In Application.OpenForms
+            If TypeOf form Is frm_apresentacao11 Then
+                form.Show()
+            End If
+        Next
     End Sub
 
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
         If validaDados() Then
             Me.Hide()
-            Dim frm As New frm_apresentacao13
+
+            Dim frm As frm_apresentacao13 = Nothing
+            For Each form As frm_base In Application.OpenForms
+                If TypeOf form Is frm_apresentacao13 Then
+                    frm = form
+                End If
+            Next
+
+            If IsNothing(frm) Then frm = New frm_apresentacao13
             frm.Show()
         End If
     End Sub

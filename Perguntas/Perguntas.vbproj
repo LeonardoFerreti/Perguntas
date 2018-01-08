@@ -295,6 +295,12 @@
     <Compile Include="frm_Perguntas_Responder.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_resultado.Designer.vb">
+      <DependentUpon>frm_resultado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_resultado.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -413,6 +419,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Perguntas_Responder.resx">
       <DependentUpon>frm_Perguntas_Responder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_resultado.resx">
+      <DependentUpon>frm_resultado.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

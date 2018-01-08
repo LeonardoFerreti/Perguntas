@@ -25,15 +25,15 @@ Partial Class frm_Perguntas_Arrastar
         Me.components = New System.ComponentModel.Container()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.listTodasPalavras = New System.Windows.Forms.ListBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.lstConteudo = New System.Windows.Forms.ListBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.lstFuncionais = New System.Windows.Forms.ListBox()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -71,12 +71,21 @@ Partial Class frm_Perguntas_Arrastar
         Me.GroupBox3.TabIndex = 5
         Me.GroupBox3.TabStop = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(4, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(428, 13)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Selecione uma palavra do quadro abaixo e arraste para o quadro correspondente:"
+        '
         'listTodasPalavras
         '
         Me.listTodasPalavras.AllowDrop = True
         Me.listTodasPalavras.Dock = System.Windows.Forms.DockStyle.Fill
         Me.listTodasPalavras.FormattingEnabled = True
-        Me.listTodasPalavras.Items.AddRange(New Object() {"favor", "a", "aqui", "por", "com", "livro", "novo", "de", "mesa", "bom", "que", "o", "tá(está)", "encontrou", "acontecer", "comparecer", "isso", "essa", "na", "repente", "favor", "certeza", "nome", "no", "luz", "te", "ver", "por", "três", "esperando", "tem", "liga", "me", "menina", "menino", "acontecer", "onde", "avisa", "bom", "amar", "para", "ti", "atrasado", "olhar", "terminar", "verdadeiro", "na", "em", "por", "amor"})
+        Me.listTodasPalavras.Items.AddRange(New Object() {"favor", "a", "aqui", "por", "com", "livro", "novo", "de", "mesa", "bom", "que", "o", "tá(está)", "encontrou", "acontecer", "comparecer", "isso", "essa", "na", "repente", "favor", "certeza", "nome", "no", "luz", "te", "ver", "por", "três", "esperando", "tem", "liga", "me", "menina", "menino", "onde", "avisa", "amar", "para", "ti", "atrasado", "olhar", "terminar", "verdadeiro", "na", "em", "por", "amor"})
         Me.listTodasPalavras.Location = New System.Drawing.Point(3, 18)
         Me.listTodasPalavras.MultiColumn = True
         Me.listTodasPalavras.Name = "listTodasPalavras"
@@ -93,6 +102,15 @@ Partial Class frm_Perguntas_Arrastar
         Me.GroupBox1.Size = New System.Drawing.Size(392, 270)
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(7, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(117, 13)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "Palavras de conteúdo"
         '
         'lstConteudo
         '
@@ -115,6 +133,15 @@ Partial Class frm_Perguntas_Arrastar
         Me.GroupBox2.TabIndex = 6
         Me.GroupBox2.TabStop = False
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(6, 2)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(105, 13)
+        Me.Label3.TabIndex = 6
+        Me.Label3.Text = "Palavras funcionais"
+        '
         'lstFuncionais
         '
         Me.lstFuncionais.AllowDrop = True
@@ -128,33 +155,6 @@ Partial Class frm_Perguntas_Arrastar
         'TrataErro
         '
         Me.TrataErro.ContainerControl = Me
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(428, 13)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Selecione uma palavra do quadro abaixo e arraste para o quadro correspondente:"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(7, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(117, 13)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Palavras de conteúdo"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 2)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(105, 13)
-        Me.Label3.TabIndex = 6
-        Me.Label3.Text = "Palavras funcionais"
         '
         'frm_Perguntas_Arrastar
         '

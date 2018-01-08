@@ -99,7 +99,7 @@ Partial Class frm_apresentacao20
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(179, 256)
+        Me.TextBox1.Location = New System.Drawing.Point(188, 256)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 22)
         Me.TextBox1.TabIndex = 2
@@ -107,7 +107,7 @@ Partial Class frm_apresentacao20
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(208, 287)
+        Me.TextBox2.Location = New System.Drawing.Point(217, 287)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 22)
         Me.TextBox2.TabIndex = 3
@@ -115,7 +115,7 @@ Partial Class frm_apresentacao20
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(252, 317)
+        Me.TextBox3.Location = New System.Drawing.Point(261, 317)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 22)
         Me.TextBox3.TabIndex = 4
@@ -123,7 +123,7 @@ Partial Class frm_apresentacao20
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(185, 347)
+        Me.TextBox4.Location = New System.Drawing.Point(194, 347)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 22)
         Me.TextBox4.TabIndex = 5
@@ -131,7 +131,7 @@ Partial Class frm_apresentacao20
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(304, 347)
+        Me.TextBox5.Location = New System.Drawing.Point(313, 347)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 22)
         Me.TextBox5.TabIndex = 6
@@ -140,7 +140,7 @@ Partial Class frm_apresentacao20
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(288, 355)
+        Me.Label5.Location = New System.Drawing.Point(297, 355)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(13, 13)
         Me.Label5.TabIndex = 21

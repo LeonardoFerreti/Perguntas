@@ -22,6 +22,7 @@ Partial Class frm_Perguntas_Responder
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -54,8 +55,11 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox29 = New System.Windows.Forms.TextBox()
         Me.TextBox30 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'FlowLayoutPanel1
@@ -387,6 +391,7 @@ Partial Class frm_Perguntas_Responder
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.TextBox21)
         Me.GroupBox1.Controls.Add(Me.TextBox30)
         Me.GroupBox1.Controls.Add(Me.TextBox22)
@@ -402,8 +407,20 @@ Partial Class frm_Perguntas_Responder
         Me.GroupBox1.Size = New System.Drawing.Size(709, 215)
         Me.GroupBox1.TabIndex = 10
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Usando as sílabas do quadro acima, tente escrever palavras usando os quadros abai" &
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(10, 1)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(454, 13)
+        Me.Label1.TabIndex = 10
+        Me.Label1.Text = "Usando as sílabas do quadro acima, tente escrever palavras usando os quadros abai" &
     "xo:"
+        '
+        'TrataErro
+        '
+        Me.TrataErro.ContainerControl = Me
         '
         'frm_Perguntas_Responder
         '
@@ -420,6 +437,7 @@ Partial Class frm_Perguntas_Responder
         Me.FlowLayoutPanel1.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -456,4 +474,6 @@ Partial Class frm_Perguntas_Responder
     Friend WithEvents TextBox29 As TextBox
     Friend WithEvents TextBox30 As TextBox
     Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TrataErro As ErrorProvider
 End Class

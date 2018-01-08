@@ -25,16 +25,29 @@
 
     Private Sub frm_Perguntas_Arrastar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
         If validaDados() Then
+
             Me.Hide()
-            Dim frm As New frm_apresentacao6
+
+            Dim frm As frm_apresentacao6 = Nothing
+            For Each form As frm_base In Application.OpenForms
+                If TypeOf form Is frm_apresentacao6 Then
+                    frm = form
+                End If
+            Next
+
+            If IsNothing(frm) Then frm = New frm_apresentacao6
             frm.Show()
         End If
     End Sub
 
     Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
-        Me.Close()
-        Dim frm As New frm_apresentacao5
-        frm.Show()
+        Me.Hide()
+
+        For Each form As frm_base In Application.OpenForms
+            If TypeOf form Is frm_apresentacao5 Then
+                form.Show()
+            End If
+        Next
     End Sub
 
     Private Sub frm_Perguntas_Arrastar_Load(sender As Object, e As EventArgs) Handles Me.Load
@@ -43,25 +56,46 @@
                                 "três", "esperando", "tem", "liga", "menina", "menino", "avisa",
                                 "amar", "atrasado", "olhar", "terminar", "verdadeiro", "amor"})
 
-        listaFuncionais.AddRange({"a", "por", "com", "livro", "de", "que", "o", "isso", "essa", "na", "no", "te", "por", "me", "onde", "para", "ti", "na", "em", "por"})
+        listaFuncionais.AddRange({"a", "por", "com", "de", "que", "o", "isso", "essa", "na", "no", "te", "por", "me", "onde", "para", "ti", "na", "em", "por"})
 
     End Sub
 
     Private Function validaDados() As Boolean
         validaDados = True
-        'If listTodasPalavras.Items.Count > 0 Then
-        '    validaDados = False
-        '    TrataErro.SetError(Label1, "Arraste todas as palavras!")
-        'End If
+        TrataErro.SetError(Label1, String.Empty)
+        TrataErro.SetError(Label2, String.Empty)
+        TrataErro.SetError(Label3, String.Empty)
 
-        'If listaConteudo.Count <> lstConteudo.Items.Count Then
-        '    validaDados = False
-        '    TrataErro.SetError(Label1, "Arraste todas as palavras!")
-        'End If
+        If listTodasPalavras.Items.Count > 0 Then
+            ' validaDados = False
+            TrataErro.SetError(Label1, "Arraste todas as palavras!")
+            Return False
+        End If
 
-        'If listaFuncionais.Count <> lstFuncionais.Items.Count Then
+        If listaConteudo.Count <> lstConteudo.Items.Count Then
+            '   validaDados = False
+            TrataErro.SetError(Label2, "Arraste todas as palavras!")
+            Return False
+        End If
 
-        'End If
+        If listaFuncionais.Count <> lstFuncionais.Items.Count Then
+            TrataErro.SetError(Label3, "Arraste todas as palavras!")
+            Return False
+        End If
+
+        For Each item As String In lstConteudo.Items
+            If Not listaConteudo.Contains(item) Then
+                TrataErro.SetError(Label2, "Selecione as palavras de conteúdo corretas!")
+                Return False
+            End If
+        Next
+
+        For Each item As String In lstFuncionais.Items
+            If Not listaFuncionais.Contains(item) Then
+                TrataErro.SetError(Label3, "Selecione as palavras funcionais corretas!")
+                Return False
+            End If
+        Next
 
         Return validaDados
     End Function
