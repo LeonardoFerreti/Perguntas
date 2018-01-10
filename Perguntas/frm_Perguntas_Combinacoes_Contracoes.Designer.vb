@@ -89,7 +89,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         Me.TableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
         Me.TableLayoutPanel1.ColumnCount = 1
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 182.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 187.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Panel3, 0, 2)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label100, 0, 0)
@@ -109,7 +109,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(4, 72)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(180, 41)
+        Me.Panel3.Size = New System.Drawing.Size(181, 41)
         Me.Panel3.TabIndex = 4
         '
         'TextBox2
@@ -137,7 +137,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(4, 25)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(180, 40)
+        Me.Panel2.Size = New System.Drawing.Size(181, 40)
         Me.Panel2.TabIndex = 3
         '
         'TextBox1
@@ -164,7 +164,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Label100.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label100.Location = New System.Drawing.Point(4, 1)
         Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(180, 20)
+        Me.Label100.Size = New System.Drawing.Size(181, 20)
         Me.Label100.TabIndex = 0
         Me.Label100.Text = "Combinações"
         Me.Label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -208,7 +208,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel15.Location = New System.Drawing.Point(197, 193)
         Me.Panel15.Name = "Panel15"
         Me.Panel15.Size = New System.Drawing.Size(192, 35)
-        Me.Panel15.TabIndex = 14
+        Me.Panel15.TabIndex = 11
         '
         'TextBox13
         '
@@ -236,7 +236,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel14.Location = New System.Drawing.Point(4, 235)
         Me.Panel14.Name = "Panel14"
         Me.Panel14.Size = New System.Drawing.Size(186, 39)
-        Me.Panel14.TabIndex = 13
+        Me.Panel14.TabIndex = 6
         '
         'TextBox8
         '
@@ -264,7 +264,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel12.Location = New System.Drawing.Point(197, 151)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(192, 35)
-        Me.Panel12.TabIndex = 12
+        Me.Panel12.TabIndex = 10
         '
         'TextBox12
         '
@@ -292,7 +292,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel11.Location = New System.Drawing.Point(4, 193)
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(186, 35)
-        Me.Panel11.TabIndex = 11
+        Me.Panel11.TabIndex = 5
         '
         'TextBox7
         '
@@ -320,7 +320,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel10.Location = New System.Drawing.Point(197, 109)
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(192, 35)
-        Me.Panel10.TabIndex = 10
+        Me.Panel10.TabIndex = 9
         '
         'TextBox11
         '
@@ -348,7 +348,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel9.Location = New System.Drawing.Point(4, 151)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(186, 35)
-        Me.Panel9.TabIndex = 9
+        Me.Panel9.TabIndex = 4
         '
         'TextBox6
         '
@@ -404,7 +404,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel7.Location = New System.Drawing.Point(4, 109)
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(186, 35)
-        Me.Panel7.TabIndex = 7
+        Me.Panel7.TabIndex = 3
         '
         'TextBox5
         '
@@ -432,7 +432,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel6.Location = New System.Drawing.Point(4, 25)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(186, 35)
-        Me.Panel6.TabIndex = 6
+        Me.Panel6.TabIndex = 1
         '
         'TextBox3
         '
@@ -460,7 +460,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel5.Location = New System.Drawing.Point(197, 25)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(192, 35)
-        Me.Panel5.TabIndex = 5
+        Me.Panel5.TabIndex = 7
         '
         'TextBox9
         '
@@ -488,7 +488,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel4.Location = New System.Drawing.Point(4, 67)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(186, 35)
-        Me.Panel4.TabIndex = 4
+        Me.Panel4.TabIndex = 2
         '
         'TextBox4
         '

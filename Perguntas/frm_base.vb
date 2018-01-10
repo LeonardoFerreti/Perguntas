@@ -44,4 +44,9 @@
         RaiseEvent btn_voltar_click(sender, e)
     End Sub
 
+    Private Sub frm_base_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        If MsgBox("Deseja realmente sair do sistema?", MsgBoxStyle.YesNo, "") = MsgBoxResult.Yes Then
+            Process.GetCurrentProcess().Kill()
+        End If
+    End Sub
 End Class

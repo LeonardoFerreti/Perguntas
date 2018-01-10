@@ -3,15 +3,21 @@
     Private listaFuncionais As New List(Of String)
 
     Private Sub listBox_MouseDown(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles listTodasPalavras.MouseDown, lstConteudo.MouseDown, lstFuncionais.MouseDown
-        If CType(sender, ListBox).Items.Count = 0 Then
-            Return
-        End If
-        Dim index As Integer = CType(sender, ListBox).IndexFromPoint(e.X, e.Y)
-        Dim sourceStr As String = CType(sender, ListBox).Items(index).ToString()
-        Dim objDragDropEff As DragDropEffects = DoDragDrop(sourceStr, DragDropEffects.All)
-        If objDragDropEff = DragDropEffects.All Then
-            CType(sender, ListBox).Items.RemoveAt(CType(sender, ListBox).IndexFromPoint(e.X, e.Y))
-        End If
+        Try
+            If CType(sender, ListBox).Items.Count = 0 Then
+                Return
+            End If
+            Dim index As Integer = CType(sender, ListBox).IndexFromPoint(e.X, e.Y)
+
+            Dim sourceStr As String = CType(sender, ListBox).Items(index).ToString()
+            Dim objDragDropEff As DragDropEffects = DoDragDrop(sourceStr, DragDropEffects.All)
+            If objDragDropEff = DragDropEffects.All Then
+                CType(sender, ListBox).Items.RemoveAt(CType(sender, ListBox).IndexFromPoint(e.X, e.Y))
+            End If
+        Catch ex As Exception
+
+        End Try
+
     End Sub
 
     Private Sub listBox_DragOver(sender As Object, e As System.Windows.Forms.DragEventArgs) Handles listTodasPalavras.DragOver, lstFuncionais.DragOver, lstConteudo.DragOver
@@ -56,7 +62,7 @@
                                 "três", "esperando", "tem", "liga", "menina", "menino", "avisa",
                                 "amar", "atrasado", "olhar", "terminar", "verdadeiro", "amor"})
 
-        listaFuncionais.AddRange({"a", "por", "com", "de", "que", "o", "isso", "essa", "na", "no", "te", "por", "me", "onde", "para", "ti", "na", "em", "por"})
+        listaFuncionais.AddRange({"a", "por", "com", "de", "que", "o", "isso", "essa", "na", "no", "te", "por", "me", "onde", "para", "ti", "na", "em"})
 
     End Sub
 

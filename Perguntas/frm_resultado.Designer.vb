@@ -29,6 +29,7 @@ Partial Class frm_resultado
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(579, 394)
+        Me.ControlBox = False
         Me.HABILITA_VOLTAR = False
         Me.MOSTRA_BOTAO_VOLTAR = False
         Me.Name = "frm_resultado"
