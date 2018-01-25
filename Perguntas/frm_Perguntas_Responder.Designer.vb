@@ -35,7 +35,6 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.TextBox10 = New System.Windows.Forms.TextBox()
         Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
         Me.TextBox13 = New System.Windows.Forms.TextBox()
         Me.TextBox14 = New System.Windows.Forms.TextBox()
         Me.TextBox15 = New System.Windows.Forms.TextBox()
@@ -57,6 +56,7 @@ Partial Class frm_Perguntas_Responder
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.TextBox12 = New System.Windows.Forms.TextBox()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -75,7 +75,6 @@ Partial Class frm_Perguntas_Responder
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox9)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox10)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox11)
-        Me.FlowLayoutPanel1.Controls.Add(Me.TextBox12)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox13)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox14)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox15)
@@ -84,6 +83,7 @@ Partial Class frm_Perguntas_Responder
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox18)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox19)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox20)
+        Me.FlowLayoutPanel1.Controls.Add(Me.TextBox12)
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(139, 43)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(535, 93)
@@ -97,7 +97,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(55, 22)
         Me.TextBox1.TabIndex = 0
-        Me.TextBox1.Text = "neio"
+        Me.TextBox1.Text = "lelo"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox2
@@ -152,7 +152,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox6.ReadOnly = True
         Me.TextBox6.Size = New System.Drawing.Size(55, 22)
         Me.TextBox6.TabIndex = 5
-        Me.TextBox6.Text = "man"
+        Me.TextBox6.Text = "ponta"
         Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox7
@@ -196,7 +196,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox10.ReadOnly = True
         Me.TextBox10.Size = New System.Drawing.Size(55, 22)
         Me.TextBox10.TabIndex = 9
-        Me.TextBox10.Text = "sau"
+        Me.TextBox10.Text = "bon"
         Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox11
@@ -207,24 +207,13 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox11.ReadOnly = True
         Me.TextBox11.Size = New System.Drawing.Size(55, 22)
         Me.TextBox11.TabIndex = 10
-        Me.TextBox11.Text = "dor"
+        Me.TextBox11.Text = "mente"
         Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox12
-        '
-        Me.TextBox12.BackColor = System.Drawing.Color.White
-        Me.TextBox12.Location = New System.Drawing.Point(186, 31)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.ReadOnly = True
-        Me.TextBox12.Size = New System.Drawing.Size(55, 22)
-        Me.TextBox12.TabIndex = 11
-        Me.TextBox12.Text = "puta"
-        Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox13
         '
         Me.TextBox13.BackColor = System.Drawing.Color.White
-        Me.TextBox13.Location = New System.Drawing.Point(247, 31)
+        Me.TextBox13.Location = New System.Drawing.Point(186, 31)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.ReadOnly = True
         Me.TextBox13.Size = New System.Drawing.Size(55, 22)
@@ -235,7 +224,7 @@ Partial Class frm_Perguntas_Responder
         'TextBox14
         '
         Me.TextBox14.BackColor = System.Drawing.Color.White
-        Me.TextBox14.Location = New System.Drawing.Point(308, 31)
+        Me.TextBox14.Location = New System.Drawing.Point(247, 31)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.ReadOnly = True
         Me.TextBox14.Size = New System.Drawing.Size(55, 22)
@@ -246,67 +235,67 @@ Partial Class frm_Perguntas_Responder
         'TextBox15
         '
         Me.TextBox15.BackColor = System.Drawing.Color.White
-        Me.TextBox15.Location = New System.Drawing.Point(369, 31)
+        Me.TextBox15.Location = New System.Drawing.Point(308, 31)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.ReadOnly = True
         Me.TextBox15.Size = New System.Drawing.Size(55, 22)
         Me.TextBox15.TabIndex = 14
-        Me.TextBox15.Text = "mento"
+        Me.TextBox15.Text = "doso"
         Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox16
         '
         Me.TextBox16.BackColor = System.Drawing.Color.White
-        Me.TextBox16.Location = New System.Drawing.Point(430, 31)
+        Me.TextBox16.Location = New System.Drawing.Point(369, 31)
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.ReadOnly = True
         Me.TextBox16.Size = New System.Drawing.Size(55, 22)
         Me.TextBox16.TabIndex = 15
-        Me.TextBox16.Text = "mal"
+        Me.TextBox16.Text = "mento"
         Me.TextBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox17
         '
         Me.TextBox17.BackColor = System.Drawing.Color.White
-        Me.TextBox17.Location = New System.Drawing.Point(3, 59)
+        Me.TextBox17.Location = New System.Drawing.Point(430, 31)
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.ReadOnly = True
         Me.TextBox17.Size = New System.Drawing.Size(55, 22)
         Me.TextBox17.TabIndex = 16
-        Me.TextBox17.Text = "com"
+        Me.TextBox17.Text = "mal"
         Me.TextBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox18
         '
         Me.TextBox18.BackColor = System.Drawing.Color.White
-        Me.TextBox18.Location = New System.Drawing.Point(64, 59)
+        Me.TextBox18.Location = New System.Drawing.Point(3, 59)
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.ReadOnly = True
         Me.TextBox18.Size = New System.Drawing.Size(55, 22)
         Me.TextBox18.TabIndex = 17
-        Me.TextBox18.Text = "mina"
+        Me.TextBox18.Text = "feliz"
         Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox19
         '
         Me.TextBox19.BackColor = System.Drawing.Color.White
-        Me.TextBox19.Location = New System.Drawing.Point(125, 59)
+        Me.TextBox19.Location = New System.Drawing.Point(64, 59)
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.ReadOnly = True
         Me.TextBox19.Size = New System.Drawing.Size(55, 22)
         Me.TextBox19.TabIndex = 18
-        Me.TextBox19.Text = "dou"
+        Me.TextBox19.Text = "minando"
         Me.TextBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox20
         '
         Me.TextBox20.BackColor = System.Drawing.Color.White
-        Me.TextBox20.Location = New System.Drawing.Point(186, 59)
+        Me.TextBox20.Location = New System.Drawing.Point(125, 59)
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.ReadOnly = True
         Me.TextBox20.Size = New System.Drawing.Size(55, 22)
         Me.TextBox20.TabIndex = 19
-        Me.TextBox20.Text = "tor"
+        Me.TextBox20.Text = "pé"
         Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox21
@@ -422,6 +411,17 @@ Partial Class frm_Perguntas_Responder
         '
         Me.TrataErro.ContainerControl = Me
         '
+        'TextBox12
+        '
+        Me.TextBox12.BackColor = System.Drawing.Color.White
+        Me.TextBox12.Location = New System.Drawing.Point(186, 59)
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.ReadOnly = True
+        Me.TextBox12.Size = New System.Drawing.Size(55, 22)
+        Me.TextBox12.TabIndex = 20
+        Me.TextBox12.Text = "para"
+        Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'frm_Perguntas_Responder
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -454,7 +454,6 @@ Partial Class frm_Perguntas_Responder
     Friend WithEvents TextBox9 As TextBox
     Friend WithEvents TextBox10 As TextBox
     Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox12 As TextBox
     Friend WithEvents TextBox13 As TextBox
     Friend WithEvents TextBox14 As TextBox
     Friend WithEvents TextBox15 As TextBox
@@ -476,4 +475,5 @@ Partial Class frm_Perguntas_Responder
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Label1 As Label
     Friend WithEvents TrataErro As ErrorProvider
+    Friend WithEvents TextBox12 As TextBox
 End Class

@@ -91,7 +91,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         '
         Me.ListBox1.AllowDrop = True
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"LI", "CON", "PU", "TA", "SAR", "DOR", "SER", "DE", "NAR", "TO", "VER", "DE", "POIS", "VI", "TER", "TE", "COM", "TRO", "VI"})
+        Me.ListBox1.Items.AddRange(New Object() {"LI", "CON", "PU", "TA", "SAR", "DOR", "SER", "DE", "NAR", "TO", "VER", "DE", "POIS", "VI", "TER", "TE", "TRO", "VI"})
         Me.ListBox1.Location = New System.Drawing.Point(138, 25)
         Me.ListBox1.MultiColumn = True
         Me.ListBox1.Name = "ListBox1"

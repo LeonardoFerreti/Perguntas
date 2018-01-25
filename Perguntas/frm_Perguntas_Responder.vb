@@ -29,7 +29,7 @@
     End Sub
 
     Private Sub frm_Perguntas_Responder_Load(sender As Object, e As EventArgs) Handles Me.Load
-        listaPalavras.AddRange({"torneio", "maltratado", "chapeuzinho", "verdadeiro", "maldade", "mandou", "casamento", "saudade", "computador", "termina"})
+        listaPalavras.AddRange({"paralelo", "maltratado", "chapeuzinho", "verdadeiro", "maldade", "pontapé", "casamento", "bondoso", "felizmente", "terminando"})
     End Sub
 
     Private Function validaDados() As Boolean

@@ -30,10 +30,10 @@ Partial Class frm_apresentacao8
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao_8
+        Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao3
         Me.PictureBox2.Location = New System.Drawing.Point(274, 100)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(447, 212)
+        Me.PictureBox2.Size = New System.Drawing.Size(447, 210)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox2.TabIndex = 11
         Me.PictureBox2.TabStop = False

@@ -85,7 +85,7 @@ Partial Class frm_Perguntas_Arrastar
         Me.listTodasPalavras.AllowDrop = True
         Me.listTodasPalavras.Dock = System.Windows.Forms.DockStyle.Fill
         Me.listTodasPalavras.FormattingEnabled = True
-        Me.listTodasPalavras.Items.AddRange(New Object() {"favor", "a", "aqui", "por", "com", "livro", "novo", "de", "mesa", "bom", "que", "o", "tá(está)", "encontrou", "acontecer", "comparecer", "isso", "essa", "na", "repente", "favor", "certeza", "nome", "no", "luz", "te", "ver", "três", "esperando", "tem", "liga", "me", "menina", "menino", "onde", "avisa", "bom", "amar", "para", "ti", "atrasado", "olhar", "terminar", "verdadeiro", "na", "em", "amor", "apontador"})
+        Me.listTodasPalavras.Items.AddRange(New Object() {"favor", "a", "aqui", "por", "com", "livro", "novo", "de", "mesa", "bom", "que", "o", "tá(está)", "encontrou", "acontecer", "comparecer", "isso", "essa", "na", "repente", "favor", "certeza", "nome", "no", "luz", "te", "ver", "três", "esperando", "tem", "liga", "me", "menina", "menino", "onde", "avisa", "amar", "para", "ti", "atrasado", "olhar", "terminar", "verdadeiro", "em", "amor", "apontador"})
         Me.listTodasPalavras.Location = New System.Drawing.Point(3, 18)
         Me.listTodasPalavras.MultiColumn = True
         Me.listTodasPalavras.Name = "listTodasPalavras"
