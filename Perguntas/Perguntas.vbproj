@@ -451,6 +451,10 @@
       <DependentUpon>Banco.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\balao2.png" />
+    <None Include="Resources\balao1.png" />
+    <None Include="Resources\bln3.png" />
+    <None Include="Resources\bln2.png" />
     <None Include="Resources\balao_apresentacao_28.png" />
     <None Include="Resources\balao_musica.png" />
     <None Include="Resources\balao_apresentacao_29.png" />

@@ -35,7 +35,7 @@ Partial Class frm_apresentacao4
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao5
+        Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao2
         Me.PictureBox2.Location = New System.Drawing.Point(337, 77)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(322, 148)

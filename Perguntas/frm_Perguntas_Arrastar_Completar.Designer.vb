@@ -27,8 +27,6 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
@@ -93,7 +91,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         '
         Me.ListBox1.AllowDrop = True
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"PA", "CE", "CON", "PU", "TA", "SAR", "DOR", "SER", "DE", "NAR", "TO", "VER", "DE", "POIS", "VI", "TER", "TE", "COM", "TRO", "VI"})
+        Me.ListBox1.Items.AddRange(New Object() {"LI", "CON", "PU", "TA", "SAR", "DOR", "SER", "DE", "NAR", "TO", "VER", "DE", "POIS", "VI", "TER", "TE", "COM", "TRO", "VI"})
         Me.ListBox1.Location = New System.Drawing.Point(138, 25)
         Me.ListBox1.MultiColumn = True
         Me.ListBox1.Name = "ListBox1"
@@ -102,21 +100,16 @@ Partial Class frm_Perguntas_Arrastar_Completar
         '
         'TableLayoutPanel1
         '
-        Me.TableLayoutPanel1.ColumnCount = 4
+        Me.TableLayoutPanel1.ColumnCount = 2
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox4, 3, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox3, 2, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox2, 1, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox1, 0, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox4, 1, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox3, 0, 0)
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(24, 175)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 2
+        Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(297, 30)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(145, 30)
         Me.TableLayoutPanel1.TabIndex = 5
         Me.TableLayoutPanel1.Tag = "comparece"
         '
@@ -125,51 +118,25 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox4.AllowDrop = True
         Me.TextBox4.BackColor = System.Drawing.Color.White
         Me.TextBox4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TextBox4.Location = New System.Drawing.Point(225, 3)
+        Me.TextBox4.Location = New System.Drawing.Point(75, 3)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.ReadOnly = True
-        Me.TextBox4.Size = New System.Drawing.Size(69, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(67, 22)
         Me.TextBox4.TabIndex = 3
-        Me.TextBox4.Tag = "CE"
+        Me.TextBox4.Tag = "LI"
         Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox3
         '
         Me.TextBox3.Dock = System.Windows.Forms.DockStyle.Top
         Me.TextBox3.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(151, 3)
+        Me.TextBox3.Location = New System.Drawing.Point(3, 3)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.ReadOnly = True
-        Me.TextBox3.Size = New System.Drawing.Size(68, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(66, 22)
         Me.TextBox3.TabIndex = 2
-        Me.TextBox3.Text = "RE"
+        Me.TextBox3.Text = "DA"
         Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox2
-        '
-        Me.TextBox2.AllowDrop = True
-        Me.TextBox2.BackColor = System.Drawing.Color.White
-        Me.TextBox2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TextBox2.Location = New System.Drawing.Point(77, 3)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.ReadOnly = True
-        Me.TextBox2.Size = New System.Drawing.Size(68, 22)
-        Me.TextBox2.TabIndex = 1
-        Me.TextBox2.Tag = "PA"
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox1
-        '
-        Me.TextBox1.AllowDrop = True
-        Me.TextBox1.BackColor = System.Drawing.Color.White
-        Me.TextBox1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TextBox1.Location = New System.Drawing.Point(3, 3)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(68, 22)
-        Me.TextBox1.TabIndex = 0
-        Me.TextBox1.Tag = "COM"
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TableLayoutPanel2
         '
@@ -829,8 +796,6 @@ Partial Class frm_Perguntas_Arrastar_Completar
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents TextBox6 As TextBox
