@@ -30,7 +30,7 @@ Partial Class frm_apresentacao
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao1
+        Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao0
         Me.PictureBox2.Location = New System.Drawing.Point(387, 92)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(250, 157)
@@ -56,7 +56,6 @@ Partial Class frm_apresentacao
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.HABILITA_VOLTAR = False
-        Me.MaximizeBox = False
         Me.MOSTRA_BOTAO_VOLTAR = False
         Me.Name = "frm_apresentacao"
         Me.Text = "Boas vindas"

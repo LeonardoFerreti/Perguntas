@@ -5,7 +5,7 @@
         Me.Hide()
 
         For Each form As frm_base In Application.OpenForms
-            If TypeOf form Is frm_apresentacao18 Then
+            If TypeOf form Is frm_Perguntas_alteracao_verbo Then
                 form.Show()
             End If
         Next

@@ -4,7 +4,7 @@
         Me.Hide()
 
         For Each form As frm_base In Application.OpenForms
-            If TypeOf form Is frm_apresentacao22 Then
+            If TypeOf form Is frm_Perguntas_Frases Then
                 form.Show()
             End If
         Next

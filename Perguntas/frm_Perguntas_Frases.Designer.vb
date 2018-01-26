@@ -1047,8 +1047,8 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox50.Location = New System.Drawing.Point(37, 246)
         Me.TextBox50.Name = "TextBox50"
         Me.TextBox50.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox50.TabIndex = 50
-        Me.TextBox50.Tag = "caneta"
+        Me.TextBox50.TabIndex = 49
+        Me.TextBox50.Tag = "essa"
         '
         'TextBox54
         '
@@ -1065,8 +1065,8 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox49.Location = New System.Drawing.Point(117, 246)
         Me.TextBox49.Name = "TextBox49"
         Me.TextBox49.Size = New System.Drawing.Size(74, 22)
-        Me.TextBox49.TabIndex = 49
-        Me.TextBox49.Tag = "essa"
+        Me.TextBox49.TabIndex = 50
+        Me.TextBox49.Tag = "caneta"
         '
         'TrataErro
         '
