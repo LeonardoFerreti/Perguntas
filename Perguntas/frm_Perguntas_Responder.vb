@@ -28,7 +28,7 @@
 
     End Sub
 
-    Private Sub frm_Perguntas_Responder_Load(sender As Object, e As EventArgs) Handles Me.Load
+    Private Sub frm_Perguntas_Responder_Load(sender As Object, e As EventArgs) Handles Me._Load
         listaPalavras.AddRange({"paralelo", "maltratado", "chapeuzinho", "verdadeiro", "maldade", "pontapé", "casamento", "bondoso", "felizmente", "terminando"})
     End Sub
 

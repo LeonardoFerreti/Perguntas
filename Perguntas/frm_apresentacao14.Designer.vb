@@ -27,14 +27,12 @@ Partial Class frm_apresentacao14
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New Perguntas.usr_textbox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New Perguntas.usr_textbox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.lblCombinacao = New System.Windows.Forms.Label()
@@ -83,45 +81,36 @@ Partial Class frm_apresentacao14
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(270, 100)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(260, 100)
         Me.TableLayoutPanel1.TabIndex = 12
         '
         'Panel3
         '
         Me.Panel3.Controls.Add(Me.TextBox5)
-        Me.Panel3.Controls.Add(Me.TextBox4)
         Me.Panel3.Controls.Add(Me.Label4)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(109, 53)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(157, 43)
+        Me.Panel3.Size = New System.Drawing.Size(147, 43)
         Me.Panel3.TabIndex = 1
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(104, 11)
+        Me.TextBox5.Location = New System.Drawing.Point(82, 13)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(56, 22)
         Me.TextBox5.TabIndex = 5
         Me.TextBox5.Tag = "dos"
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(4, 11)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(45, 22)
-        Me.TextBox4.TabIndex = 3
-        Me.TextBox4.Tag = "de"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(50, 10)
+        Me.Label4.Location = New System.Drawing.Point(5, 12)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(56, 21)
+        Me.Label4.Size = New System.Drawing.Size(77, 21)
         Me.Label4.TabIndex = 4
-        Me.Label4.Text = "+ os ="
+        Me.Label4.Text = "de + os ="
         '
         'Label2
         '
@@ -148,39 +137,30 @@ Partial Class frm_apresentacao14
         'Panel2
         '
         Me.Panel2.Controls.Add(Me.TextBox2)
-        Me.Panel2.Controls.Add(Me.TextBox1)
         Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(109, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(157, 42)
+        Me.Panel2.Size = New System.Drawing.Size(147, 42)
         Me.Panel2.TabIndex = 0
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(105, 14)
+        Me.TextBox2.Location = New System.Drawing.Point(82, 12)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(56, 22)
         Me.TextBox2.TabIndex = 1
         Me.TextBox2.Tag = "aos"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(5, 14)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(45, 22)
-        Me.TextBox1.TabIndex = 0
-        Me.TextBox1.Tag = "a"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(51, 13)
+        Me.Label3.Location = New System.Drawing.Point(5, 12)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(56, 21)
+        Me.Label3.Size = New System.Drawing.Size(68, 21)
         Me.Label3.TabIndex = 1
-        Me.Label3.Text = "+ os ="
+        Me.Label3.Text = "a + os ="
         '
         'Label5
         '
@@ -194,7 +174,7 @@ Partial Class frm_apresentacao14
         'lblCombinacao
         '
         Me.lblCombinacao.AutoSize = True
-        Me.lblCombinacao.Location = New System.Drawing.Point(624, 293)
+        Me.lblCombinacao.Location = New System.Drawing.Point(614, 293)
         Me.lblCombinacao.Name = "lblCombinacao"
         Me.lblCombinacao.Size = New System.Drawing.Size(0, 13)
         Me.lblCombinacao.TabIndex = 14
@@ -202,7 +182,7 @@ Partial Class frm_apresentacao14
         'lblContracao
         '
         Me.lblContracao.AutoSize = True
-        Me.lblContracao.Location = New System.Drawing.Point(625, 339)
+        Me.lblContracao.Location = New System.Drawing.Point(615, 339)
         Me.lblContracao.Name = "lblContracao"
         Me.lblContracao.Size = New System.Drawing.Size(0, 13)
         Me.lblContracao.TabIndex = 15
@@ -248,16 +228,14 @@ Partial Class frm_apresentacao14
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents lblCombinacao As Label
     Friend WithEvents lblContracao As Label
     Friend WithEvents TrataErro As ErrorProvider
+    Friend WithEvents TextBox5 As usr_textbox
+    Friend WithEvents TextBox2 As usr_textbox
 End Class

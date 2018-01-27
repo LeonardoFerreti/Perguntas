@@ -27,6 +27,10 @@
 
     End Sub
 
+    Private Sub frm_Perguntas_Combinacoes_Contracoes_Shown(sender As Object, e As EventArgs) Handles Me._Shown
+        TextBox1.Focus()
+    End Sub
+
     Private Function validaDados() As Boolean
         validaDados = True
 

@@ -56,9 +56,9 @@
         Next
     End Sub
 
-    Private Sub frm_Perguntas_Arrastar_Load(sender As Object, e As EventArgs) Handles Me.Load
+    Private Sub frm_Perguntas_Arrastar_Load(sender As Object, e As EventArgs) Handles Me._Load
         listaConteudo.AddRange({"favor", "aqui", "livro", "novo", "mesa", "bom", "tá(está)", "encontrou",
-                                "acontecer", "comparecer", "repente", "favor", "apontador", "amor", "certeza", "nome", "luz", "ver", "três", "esperando", "tem", "liga", "menina", "menino", "avisa",
+                                "acontecer", "comparecer", "repente", "apontador", "amor", "certeza", "nome", "luz", "ver", "três", "esperando", "tem", "liga", "menina", "menino", "avisa",
                                 "amar", "atrasado", "olhar", "terminar", "verdadeiro"})
 
         listaFuncionais.AddRange({"a", "por", "com", "de", "que", "o", "isso", "essa", "na", "no", "te", "me", "onde", "para", "ti", "em"})

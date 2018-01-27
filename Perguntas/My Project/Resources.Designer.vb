@@ -591,6 +591,26 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to A Licença MIT (MIT)
+        '''
+        '''Copyright (c) 2014 Ignace Maes
+        '''
+        '''É concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia
+        '''deste software e arquivos de documentação associados (o &quot;Software&quot;), para lidar
+        '''no Software sem restrições, incluindo, sem limitação, os direitos
+        '''usar, copiar, modificar, fundir, publicar, distribuir, sublicenciar e / ou vender
+        '''cópias do Software, e para permitir que pessoas a quem o Software seja
+        '''fornecido para fazê-lo, sujeito às seguintes condições:
+        '''
+        '''O aviso de dir [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property license() As String
+            Get
+                Return ResourceManager.GetString("license", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property palavras_lexicais() As System.Drawing.Bitmap

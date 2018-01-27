@@ -26,6 +26,10 @@
         End If
     End Sub
 
+    Private Sub frm_Perguntas_Frases_Shown(sender As Object, e As EventArgs) Handles Me._Shown
+        TextBox1.Focus()
+    End Sub
+
     Private Function ValidaDados()
         ValidaDados = True
         TrataErro.SetError(Label21, String.Empty)

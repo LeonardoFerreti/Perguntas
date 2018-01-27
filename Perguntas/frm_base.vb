@@ -1,5 +1,8 @@
-﻿Public Class frm_base
+﻿
+Public Class frm_base
 
+    Public Event _Load(sender As Object, e As EventArgs)
+    Public Event _Shown(sender As Object, e As EventArgs)
     Public Event btn_avancar_click(sender As Object, e As EventArgs)
     Public Event btn_voltar_click(sender As Object, e As EventArgs)
 
@@ -51,4 +54,17 @@
             e.Cancel = True
         End If
     End Sub
+
+    Private Sub frm_base_Load(sender As Object, e As EventArgs) Handles Me.Load
+        'Dim SkinManager As MaterialSkinManager = MaterialSkinManager.Instance
+        'SkinManager.AddFormToManage(Me)
+        'SkinManager.Theme = MaterialSkinManager.Themes.LIGHT
+        'SkinManager.ColorScheme = New ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE)
+        'RaiseEvent _Load(sender, e)
+    End Sub
+
+    Private Sub frm_base_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+        RaiseEvent _Shown(sender, e)
+    End Sub
+
 End Class

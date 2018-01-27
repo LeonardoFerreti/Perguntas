@@ -28,17 +28,18 @@
         Next
     End Sub
 
-    Private Sub frm_Perguntas_Musica_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Me.Cursor = Cursors.AppStarting
-        Dim b() As Byte = My.Resources.beijo_me_liga
-        System.IO.File.WriteAllBytes(arquivo, b)
-        Me.media.URL = arquivo
-        Me.media.Ctlcontrols.play()
-    End Sub
+    ''Private Sub frm_Perguntas_Musica_Load(sender As Object, e As EventArgs) Handles Me.Load
+    ''    Me.Cursor = Cursors.AppStarting
+    ''    Dim b() As Byte = My.Resources.beijo_me_liga
+    ''    System.IO.File.WriteAllBytes(arquivo, b)
+    ''    Me.media.URL = arquivo
+    ''    Me.media.Ctlcontrols.play()
+    ''End Sub
 
-    Private Sub frm_Perguntas_Musica_Shown(sender As Object, e As EventArgs) Handles Me.Shown
-        Me.Cursor = Cursors.Default
-    End Sub
+    ''Private Sub frm_Perguntas_Musica_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+    ''    Me.Cursor = Cursors.Default
+    ''    TextBox1.Focus()
+    ''End Sub
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
         TrataErro.SetError(Label12, String.Empty)
@@ -98,6 +99,10 @@
         If Not TextBox7.Text.ToLower.Trim.Equals(TextBox7.Tag.ToString.ToLower) Then
             validaDados = False
             TrataErro.SetError(Label18, "palavra incorreta!")
+        End If
+        If Not Textbox8.Text.ToLower.Trim.Equals(Textbox8.Tag.ToString.ToLower) Then
+            validaDados = False
+            TrataErro.SetError(Label19, "palavra incorreta!")
         End If
         Return validaDados
     End Function

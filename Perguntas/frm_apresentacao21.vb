@@ -1,5 +1,5 @@
 ﻿Public Class frm_apresentacao21
-    Private Sub frm_apresentacao21_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+    Private Sub frm_apresentacao21_Shown(sender As Object, e As EventArgs) Handles Me._Shown
         TextBox1.Focus()
     End Sub
 

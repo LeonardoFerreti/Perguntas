@@ -24,39 +24,39 @@ Partial Class frm_Perguntas_Responder
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
-        Me.TextBox27 = New System.Windows.Forms.TextBox()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
-        Me.TextBox30 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New usr_textbox()
+        Me.TextBox2 = New usr_textbox()
+        Me.TextBox3 = New usr_textbox()
+        Me.TextBox4 = New usr_textbox()
+        Me.TextBox5 = New usr_textbox()
+        Me.TextBox6 = New usr_textbox()
+        Me.TextBox7 = New usr_textbox()
+        Me.TextBox8 = New usr_textbox()
+        Me.TextBox9 = New usr_textbox()
+        Me.TextBox10 = New usr_textbox()
+        Me.TextBox11 = New usr_textbox()
+        Me.TextBox13 = New usr_textbox()
+        Me.TextBox14 = New usr_textbox()
+        Me.TextBox15 = New usr_textbox()
+        Me.TextBox16 = New usr_textbox()
+        Me.TextBox17 = New usr_textbox()
+        Me.TextBox18 = New usr_textbox()
+        Me.TextBox19 = New usr_textbox()
+        Me.TextBox20 = New usr_textbox()
+        Me.TextBox12 = New usr_textbox()
+        Me.TextBox21 = New usr_textbox()
+        Me.TextBox22 = New usr_textbox()
+        Me.TextBox23 = New usr_textbox()
+        Me.TextBox24 = New usr_textbox()
+        Me.TextBox25 = New usr_textbox()
+        Me.TextBox26 = New usr_textbox()
+        Me.TextBox27 = New usr_textbox()
+        Me.TextBox28 = New usr_textbox()
+        Me.TextBox29 = New usr_textbox()
+        Me.TextBox30 = New usr_textbox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -298,6 +298,17 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox20.Text = "pé"
         Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TextBox12
+        '
+        Me.TextBox12.BackColor = System.Drawing.Color.White
+        Me.TextBox12.Location = New System.Drawing.Point(186, 59)
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.ReadOnly = True
+        Me.TextBox12.Size = New System.Drawing.Size(55, 22)
+        Me.TextBox12.TabIndex = 20
+        Me.TextBox12.Text = "para"
+        Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TextBox21
         '
         Me.TextBox21.Location = New System.Drawing.Point(106, 53)
@@ -410,17 +421,6 @@ Partial Class frm_Perguntas_Responder
         'TrataErro
         '
         Me.TrataErro.ContainerControl = Me
-        '
-        'TextBox12
-        '
-        Me.TextBox12.BackColor = System.Drawing.Color.White
-        Me.TextBox12.Location = New System.Drawing.Point(186, 59)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.ReadOnly = True
-        Me.TextBox12.Size = New System.Drawing.Size(55, 22)
-        Me.TextBox12.TabIndex = 20
-        Me.TextBox12.Text = "para"
-        Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'frm_Perguntas_Responder
         '

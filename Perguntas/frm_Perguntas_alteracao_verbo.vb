@@ -116,5 +116,7 @@
         Return validaDados
     End Function
 
-
+    Private Sub frm_Perguntas_alteracao_verbo_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+        TextBox1.Focus()
+    End Sub
 End Class

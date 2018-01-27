@@ -57,61 +57,61 @@ Partial Class frm_Perguntas_Frases
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New Perguntas.usr_textbox()
+        Me.TextBox2 = New Perguntas.usr_textbox()
+        Me.TextBox3 = New Perguntas.usr_textbox()
+        Me.TextBox4 = New Perguntas.usr_textbox()
+        Me.TextBox5 = New Perguntas.usr_textbox()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.TextBox27 = New System.Windows.Forms.TextBox()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
-        Me.TextBox30 = New System.Windows.Forms.TextBox()
-        Me.TextBox31 = New System.Windows.Forms.TextBox()
-        Me.TextBox32 = New System.Windows.Forms.TextBox()
-        Me.TextBox33 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
-        Me.TextBox34 = New System.Windows.Forms.TextBox()
-        Me.TextBox35 = New System.Windows.Forms.TextBox()
-        Me.TextBox36 = New System.Windows.Forms.TextBox()
-        Me.TextBox37 = New System.Windows.Forms.TextBox()
-        Me.TextBox38 = New System.Windows.Forms.TextBox()
-        Me.TextBox39 = New System.Windows.Forms.TextBox()
-        Me.TextBox40 = New System.Windows.Forms.TextBox()
-        Me.TextBox41 = New System.Windows.Forms.TextBox()
-        Me.TextBox42 = New System.Windows.Forms.TextBox()
-        Me.TextBox43 = New System.Windows.Forms.TextBox()
-        Me.TextBox44 = New System.Windows.Forms.TextBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox45 = New System.Windows.Forms.TextBox()
-        Me.TextBox46 = New System.Windows.Forms.TextBox()
-        Me.TextBox47 = New System.Windows.Forms.TextBox()
-        Me.TextBox48 = New System.Windows.Forms.TextBox()
-        Me.TextBox51 = New System.Windows.Forms.TextBox()
-        Me.TextBox52 = New System.Windows.Forms.TextBox()
-        Me.TextBox53 = New System.Windows.Forms.TextBox()
-        Me.TextBox50 = New System.Windows.Forms.TextBox()
-        Me.TextBox54 = New System.Windows.Forms.TextBox()
-        Me.TextBox49 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New Perguntas.usr_textbox()
+        Me.TextBox8 = New Perguntas.usr_textbox()
+        Me.TextBox9 = New Perguntas.usr_textbox()
+        Me.TextBox10 = New Perguntas.usr_textbox()
+        Me.TextBox11 = New Perguntas.usr_textbox()
+        Me.TextBox12 = New Perguntas.usr_textbox()
+        Me.TextBox13 = New Perguntas.usr_textbox()
+        Me.TextBox14 = New Perguntas.usr_textbox()
+        Me.TextBox15 = New Perguntas.usr_textbox()
+        Me.TextBox16 = New Perguntas.usr_textbox()
+        Me.TextBox17 = New Perguntas.usr_textbox()
+        Me.TextBox18 = New Perguntas.usr_textbox()
+        Me.TextBox22 = New Perguntas.usr_textbox()
+        Me.TextBox23 = New Perguntas.usr_textbox()
+        Me.TextBox24 = New Perguntas.usr_textbox()
+        Me.TextBox27 = New Perguntas.usr_textbox()
+        Me.TextBox28 = New Perguntas.usr_textbox()
+        Me.TextBox29 = New Perguntas.usr_textbox()
+        Me.TextBox30 = New Perguntas.usr_textbox()
+        Me.TextBox31 = New Perguntas.usr_textbox()
+        Me.TextBox32 = New Perguntas.usr_textbox()
+        Me.TextBox33 = New Perguntas.usr_textbox()
+        Me.TextBox6 = New Perguntas.usr_textbox()
+        Me.TextBox20 = New Perguntas.usr_textbox()
+        Me.TextBox21 = New Perguntas.usr_textbox()
+        Me.TextBox25 = New Perguntas.usr_textbox()
+        Me.TextBox26 = New Perguntas.usr_textbox()
+        Me.TextBox34 = New Perguntas.usr_textbox()
+        Me.TextBox35 = New Perguntas.usr_textbox()
+        Me.TextBox36 = New Perguntas.usr_textbox()
+        Me.TextBox37 = New Perguntas.usr_textbox()
+        Me.TextBox38 = New Perguntas.usr_textbox()
+        Me.TextBox39 = New Perguntas.usr_textbox()
+        Me.TextBox40 = New Perguntas.usr_textbox()
+        Me.TextBox41 = New Perguntas.usr_textbox()
+        Me.TextBox42 = New Perguntas.usr_textbox()
+        Me.TextBox43 = New Perguntas.usr_textbox()
+        Me.TextBox44 = New Perguntas.usr_textbox()
+        Me.TextBox19 = New Perguntas.usr_textbox()
+        Me.TextBox45 = New Perguntas.usr_textbox()
+        Me.TextBox46 = New Perguntas.usr_textbox()
+        Me.TextBox47 = New Perguntas.usr_textbox()
+        Me.TextBox48 = New Perguntas.usr_textbox()
+        Me.TextBox51 = New Perguntas.usr_textbox()
+        Me.TextBox52 = New Perguntas.usr_textbox()
+        Me.TextBox53 = New Perguntas.usr_textbox()
+        Me.TextBox50 = New Perguntas.usr_textbox()
+        Me.TextBox54 = New Perguntas.usr_textbox()
+        Me.TextBox49 = New Perguntas.usr_textbox()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
@@ -1108,11 +1108,6 @@ Partial Class frm_Perguntas_Frases
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label11 As Label
     Friend WithEvents Label20 As Label
     Friend WithEvents Label19 As Label
@@ -1123,55 +1118,6 @@ Partial Class frm_Perguntas_Frases
     Friend WithEvents Label14 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label12 As Label
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents TextBox22 As TextBox
-    Friend WithEvents TextBox23 As TextBox
-    Friend WithEvents TextBox24 As TextBox
-    Friend WithEvents TextBox27 As TextBox
-    Friend WithEvents TextBox28 As TextBox
-    Friend WithEvents TextBox29 As TextBox
-    Friend WithEvents TextBox30 As TextBox
-    Friend WithEvents TextBox31 As TextBox
-    Friend WithEvents TextBox32 As TextBox
-    Friend WithEvents TextBox33 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox20 As TextBox
-    Friend WithEvents TextBox21 As TextBox
-    Friend WithEvents TextBox25 As TextBox
-    Friend WithEvents TextBox26 As TextBox
-    Friend WithEvents TextBox34 As TextBox
-    Friend WithEvents TextBox35 As TextBox
-    Friend WithEvents TextBox36 As TextBox
-    Friend WithEvents TextBox37 As TextBox
-    Friend WithEvents TextBox38 As TextBox
-    Friend WithEvents TextBox39 As TextBox
-    Friend WithEvents TextBox40 As TextBox
-    Friend WithEvents TextBox41 As TextBox
-    Friend WithEvents TextBox42 As TextBox
-    Friend WithEvents TextBox43 As TextBox
-    Friend WithEvents TextBox44 As TextBox
-    Friend WithEvents TextBox19 As TextBox
-    Friend WithEvents TextBox45 As TextBox
-    Friend WithEvents TextBox46 As TextBox
-    Friend WithEvents TextBox47 As TextBox
-    Friend WithEvents TextBox48 As TextBox
-    Friend WithEvents TextBox51 As TextBox
-    Friend WithEvents TextBox52 As TextBox
-    Friend WithEvents TextBox53 As TextBox
-    Friend WithEvents TextBox50 As TextBox
-    Friend WithEvents TextBox54 As TextBox
-    Friend WithEvents TextBox49 As TextBox
     Friend WithEvents Label30 As Label
     Friend WithEvents Label29 As Label
     Friend WithEvents Label25 As Label
@@ -1183,4 +1129,58 @@ Partial Class frm_Perguntas_Frases
     Friend WithEvents Label22 As Label
     Friend WithEvents Label21 As Label
     Friend WithEvents TrataErro As ErrorProvider
+    Friend WithEvents TextBox1 As usr_textbox
+    Friend WithEvents TextBox2 As usr_textbox
+    Friend WithEvents TextBox3 As usr_textbox
+    Friend WithEvents TextBox4 As usr_textbox
+    Friend WithEvents TextBox5 As usr_textbox
+    Friend WithEvents TextBox7 As usr_textbox
+    Friend WithEvents TextBox8 As usr_textbox
+    Friend WithEvents TextBox9 As usr_textbox
+    Friend WithEvents TextBox10 As usr_textbox
+    Friend WithEvents TextBox11 As usr_textbox
+    Friend WithEvents TextBox12 As usr_textbox
+    Friend WithEvents TextBox13 As usr_textbox
+    Friend WithEvents TextBox14 As usr_textbox
+    Friend WithEvents TextBox15 As usr_textbox
+    Friend WithEvents TextBox16 As usr_textbox
+    Friend WithEvents TextBox17 As usr_textbox
+    Friend WithEvents TextBox18 As usr_textbox
+    Friend WithEvents TextBox22 As usr_textbox
+    Friend WithEvents TextBox23 As usr_textbox
+    Friend WithEvents TextBox24 As usr_textbox
+    Friend WithEvents TextBox27 As usr_textbox
+    Friend WithEvents TextBox28 As usr_textbox
+    Friend WithEvents TextBox29 As usr_textbox
+    Friend WithEvents TextBox30 As usr_textbox
+    Friend WithEvents TextBox31 As usr_textbox
+    Friend WithEvents TextBox32 As usr_textbox
+    Friend WithEvents TextBox33 As usr_textbox
+    Friend WithEvents TextBox6 As usr_textbox
+    Friend WithEvents TextBox20 As usr_textbox
+    Friend WithEvents TextBox21 As usr_textbox
+    Friend WithEvents TextBox25 As usr_textbox
+    Friend WithEvents TextBox26 As usr_textbox
+    Friend WithEvents TextBox34 As usr_textbox
+    Friend WithEvents TextBox35 As usr_textbox
+    Friend WithEvents TextBox36 As usr_textbox
+    Friend WithEvents TextBox37 As usr_textbox
+    Friend WithEvents TextBox38 As usr_textbox
+    Friend WithEvents TextBox39 As usr_textbox
+    Friend WithEvents TextBox40 As usr_textbox
+    Friend WithEvents TextBox41 As usr_textbox
+    Friend WithEvents TextBox42 As usr_textbox
+    Friend WithEvents TextBox43 As usr_textbox
+    Friend WithEvents TextBox44 As usr_textbox
+    Friend WithEvents TextBox19 As usr_textbox
+    Friend WithEvents TextBox45 As usr_textbox
+    Friend WithEvents TextBox46 As usr_textbox
+    Friend WithEvents TextBox47 As usr_textbox
+    Friend WithEvents TextBox48 As usr_textbox
+    Friend WithEvents TextBox51 As usr_textbox
+    Friend WithEvents TextBox52 As usr_textbox
+    Friend WithEvents TextBox53 As usr_textbox
+    Friend WithEvents TextBox50 As usr_textbox
+    Friend WithEvents TextBox54 As usr_textbox
+    Friend WithEvents TextBox49 As usr_textbox
 End Class

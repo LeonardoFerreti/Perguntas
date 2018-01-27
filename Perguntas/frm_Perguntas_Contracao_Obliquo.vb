@@ -27,6 +27,10 @@
         End If
     End Sub
 
+    Private Sub frm_Perguntas_Contracao_Obliquo_Shown(sender As Object, e As EventArgs) Handles Me._Shown
+        TextBox1.Focus()
+    End Sub
+
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
         TrataErro.SetError(Label1, String.Empty)
     End Sub

@@ -36,23 +36,25 @@ Partial Class frm_Perguntas_Musica
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New Perguntas.usr_textbox()
+        Me.TextBox2 = New Perguntas.usr_textbox()
+        Me.TextBox3 = New Perguntas.usr_textbox()
+        Me.TextBox4 = New Perguntas.usr_textbox()
+        Me.TextBox5 = New Perguntas.usr_textbox()
+        Me.TextBox6 = New Perguntas.usr_textbox()
+        Me.TextBox7 = New Perguntas.usr_textbox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Textbox8 = New Perguntas.usr_textbox()
+        Me.Label19 = New System.Windows.Forms.Label()
         CType(Me.media, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -173,7 +175,7 @@ Partial Class frm_Perguntas_Musica
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(237, 281)
+        Me.Label11.Location = New System.Drawing.Point(157, 308)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(50, 15)
         Me.Label11.TabIndex = 12
@@ -233,10 +235,12 @@ Partial Class frm_Perguntas_Musica
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(135, 22)
         Me.TextBox7.TabIndex = 6
-        Me.TextBox7.Tag = "a noite te encontro"
+        Me.TextBox7.Tag = "a noite"
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Label19)
+        Me.GroupBox1.Controls.Add(Me.Textbox8)
         Me.GroupBox1.Controls.Add(Me.Label18)
         Me.GroupBox1.Controls.Add(Me.Label17)
         Me.GroupBox1.Controls.Add(Me.Label16)
@@ -270,6 +274,62 @@ Partial Class frm_Perguntas_Musica
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Complete a letra da música:"
         '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(237, 281)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(0, 13)
+        Me.Label18.TabIndex = 19
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(177, 251)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(0, 13)
+        Me.Label17.TabIndex = 18
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(206, 209)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(0, 13)
+        Me.Label16.TabIndex = 17
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(201, 179)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(0, 13)
+        Me.Label15.TabIndex = 16
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(194, 130)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(0, 13)
+        Me.Label14.TabIndex = 15
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(255, 86)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(0, 13)
+        Me.Label13.TabIndex = 14
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(177, 27)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(0, 13)
+        Me.Label12.TabIndex = 13
+        '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.media)
@@ -284,61 +344,21 @@ Partial Class frm_Perguntas_Musica
         '
         Me.TrataErro.ContainerControl = Me
         '
-        'Label12
+        'Textbox8
         '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(177, 27)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(0, 13)
-        Me.Label12.TabIndex = 13
+        Me.Textbox8.Location = New System.Drawing.Point(18, 301)
+        Me.Textbox8.Name = "Textbox8"
+        Me.Textbox8.Size = New System.Drawing.Size(135, 22)
+        Me.Textbox8.TabIndex = 20
+        Me.Textbox8.Tag = "te encontro"
         '
-        'Label13
+        'Label19
         '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(255, 86)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(0, 13)
-        Me.Label13.TabIndex = 14
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(194, 130)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(0, 13)
-        Me.Label14.TabIndex = 15
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(201, 179)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(0, 13)
-        Me.Label15.TabIndex = 16
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(206, 209)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(0, 13)
-        Me.Label16.TabIndex = 17
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(177, 251)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(0, 13)
-        Me.Label17.TabIndex = 18
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(285, 281)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(0, 13)
-        Me.Label18.TabIndex = 19
+        Me.Label19.AutoSize = True
+        Me.Label19.Location = New System.Drawing.Point(213, 310)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(0, 13)
+        Me.Label19.TabIndex = 21
         '
         'frm_Perguntas_Musica
         '
@@ -372,13 +392,6 @@ Partial Class frm_Perguntas_Musica
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents TrataErro As ErrorProvider
@@ -389,4 +402,13 @@ Partial Class frm_Perguntas_Musica
     Friend WithEvents Label14 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label12 As Label
+    Friend WithEvents Textbox8 As usr_textbox
+    Friend WithEvents TextBox1 As usr_textbox
+    Friend WithEvents TextBox2 As usr_textbox
+    Friend WithEvents TextBox3 As usr_textbox
+    Friend WithEvents TextBox4 As usr_textbox
+    Friend WithEvents TextBox5 As usr_textbox
+    Friend WithEvents TextBox6 As usr_textbox
+    Friend WithEvents TextBox7 As usr_textbox
+    Friend WithEvents Label19 As Label
 End Class

@@ -25,43 +25,43 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.components = New System.ComponentModel.Container()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New Perguntas.usr_textbox()
+        Me.TextBox3 = New Perguntas.usr_textbox()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New Perguntas.usr_textbox()
+        Me.TextBox6 = New Perguntas.usr_textbox()
+        Me.TextBox7 = New Perguntas.usr_textbox()
+        Me.TextBox8 = New Perguntas.usr_textbox()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.TextBox10 = New Perguntas.usr_textbox()
+        Me.TextBox11 = New Perguntas.usr_textbox()
+        Me.TextBox12 = New Perguntas.usr_textbox()
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
+        Me.TextBox9 = New Perguntas.usr_textbox()
+        Me.TextBox13 = New Perguntas.usr_textbox()
+        Me.TextBox14 = New Perguntas.usr_textbox()
         Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
+        Me.TextBox15 = New Perguntas.usr_textbox()
+        Me.TextBox16 = New Perguntas.usr_textbox()
+        Me.TextBox17 = New Perguntas.usr_textbox()
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.TextBox18 = New Perguntas.usr_textbox()
+        Me.TextBox19 = New Perguntas.usr_textbox()
+        Me.TextBox20 = New Perguntas.usr_textbox()
         Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
+        Me.TextBox21 = New Perguntas.usr_textbox()
+        Me.TextBox22 = New Perguntas.usr_textbox()
+        Me.TextBox23 = New Perguntas.usr_textbox()
         Me.TableLayoutPanel8 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
+        Me.TextBox24 = New Perguntas.usr_textbox()
+        Me.TextBox25 = New Perguntas.usr_textbox()
+        Me.TextBox26 = New Perguntas.usr_textbox()
         Me.TableLayoutPanel9 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
+        Me.TextBox28 = New Perguntas.usr_textbox()
+        Me.TextBox29 = New Perguntas.usr_textbox()
         Me.TableLayoutPanel10 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TextBox31 = New System.Windows.Forms.TextBox()
-        Me.TextBox32 = New System.Windows.Forms.TextBox()
+        Me.TextBox31 = New Perguntas.usr_textbox()
+        Me.TextBox32 = New Perguntas.usr_textbox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -794,43 +794,15 @@ Partial Class frm_Perguntas_Arrastar_Completar
 
     Friend WithEvents ListBox1 As ListBox
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
     Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox12 As TextBox
     Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents TextBox14 As TextBox
     Friend WithEvents TableLayoutPanel5 As TableLayoutPanel
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents TextBox17 As TextBox
     Friend WithEvents TableLayoutPanel6 As TableLayoutPanel
-    Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents TextBox19 As TextBox
-    Friend WithEvents TextBox20 As TextBox
     Friend WithEvents TableLayoutPanel7 As TableLayoutPanel
-    Friend WithEvents TextBox21 As TextBox
-    Friend WithEvents TextBox22 As TextBox
-    Friend WithEvents TextBox23 As TextBox
     Friend WithEvents TableLayoutPanel8 As TableLayoutPanel
-    Friend WithEvents TextBox24 As TextBox
-    Friend WithEvents TextBox25 As TextBox
-    Friend WithEvents TextBox26 As TextBox
     Friend WithEvents TableLayoutPanel9 As TableLayoutPanel
-    Friend WithEvents TextBox28 As TextBox
-    Friend WithEvents TextBox29 As TextBox
     Friend WithEvents TableLayoutPanel10 As TableLayoutPanel
-    Friend WithEvents TextBox31 As TextBox
-    Friend WithEvents TextBox32 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
@@ -843,4 +815,32 @@ Partial Class frm_Perguntas_Arrastar_Completar
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents TrataErro As ErrorProvider
+    Friend WithEvents TextBox4 As usr_textbox
+    Friend WithEvents TextBox3 As usr_textbox
+    Friend WithEvents TextBox5 As usr_textbox
+    Friend WithEvents TextBox6 As usr_textbox
+    Friend WithEvents TextBox7 As usr_textbox
+    Friend WithEvents TextBox8 As usr_textbox
+    Friend WithEvents TextBox10 As usr_textbox
+    Friend WithEvents TextBox11 As usr_textbox
+    Friend WithEvents TextBox12 As usr_textbox
+    Friend WithEvents TextBox9 As usr_textbox
+    Friend WithEvents TextBox13 As usr_textbox
+    Friend WithEvents TextBox14 As usr_textbox
+    Friend WithEvents TextBox15 As usr_textbox
+    Friend WithEvents TextBox16 As usr_textbox
+    Friend WithEvents TextBox17 As usr_textbox
+    Friend WithEvents TextBox18 As usr_textbox
+    Friend WithEvents TextBox19 As usr_textbox
+    Friend WithEvents TextBox20 As usr_textbox
+    Friend WithEvents TextBox21 As usr_textbox
+    Friend WithEvents TextBox22 As usr_textbox
+    Friend WithEvents TextBox23 As usr_textbox
+    Friend WithEvents TextBox24 As usr_textbox
+    Friend WithEvents TextBox25 As usr_textbox
+    Friend WithEvents TextBox26 As usr_textbox
+    Friend WithEvents TextBox28 As usr_textbox
+    Friend WithEvents TextBox29 As usr_textbox
+    Friend WithEvents TextBox31 As usr_textbox
+    Friend WithEvents TextBox32 As usr_textbox
 End Class

@@ -4,7 +4,7 @@
         Application.Exit()
     End Sub
 
-    Private Sub frm_resultado_Load(sender As Object, e As EventArgs) Handles Me.Load
+    Private Sub frm_resultado_Load(sender As Object, e As EventArgs) Handles Me._Load
         Me.btnAvancar.Text = "Concluir"
     End Sub
 

@@ -73,5 +73,7 @@
         TextBox1.Focus()
     End Sub
 
-
+    Private Sub frm_apresentacao20_Shown(sender As Object, e As EventArgs) Handles Me._Shown
+        TextBox1.Focus()
+    End Sub
 End Class
