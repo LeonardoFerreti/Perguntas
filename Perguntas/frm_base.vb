@@ -1,8 +1,6 @@
 ﻿
 Public Class frm_base
 
-    Public Event _Load(sender As Object, e As EventArgs)
-    Public Event _Shown(sender As Object, e As EventArgs)
     Public Event btn_avancar_click(sender As Object, e As EventArgs)
     Public Event btn_voltar_click(sender As Object, e As EventArgs)
 
@@ -13,7 +11,8 @@ Public Class frm_base
         End Get
         Set(ByVal value As Boolean)
             _mostra_botao_voltar = value
-            btnVoltar.Visible = value
+
+            btn_voltar.Visible = value
         End Set
     End Property
 
@@ -24,7 +23,8 @@ Public Class frm_base
         End Get
         Set(ByVal value As Boolean)
             _habilita_voltar = value
-            btnVoltar.Enabled = value
+
+            btn_voltar.Enabled = value
         End Set
     End Property
 
@@ -35,15 +35,16 @@ Public Class frm_base
         End Get
         Set(ByVal value As Boolean)
             _habilita_avancar = value
-            btnAvancar.Enabled = value
+
+            btn_avancar.Enabled = value
         End Set
     End Property
 
-    Private Sub btnAvancar_Click(sender As Object, e As EventArgs) Handles btnAvancar.Click
+    Private Sub btnAvancar_Click(sender As Object, e As EventArgs) Handles btn_avancar.Click
         RaiseEvent btn_avancar_click(sender, e)
     End Sub
 
-    Private Sub btnVoltar_Click(sender As Object, e As EventArgs) Handles btnVoltar.Click
+    Private Sub btnVoltar_Click(sender As Object, e As EventArgs) Handles btn_voltar.Click
         RaiseEvent btn_voltar_click(sender, e)
     End Sub
 
@@ -53,18 +54,6 @@ Public Class frm_base
         Else
             e.Cancel = True
         End If
-    End Sub
-
-    Private Sub frm_base_Load(sender As Object, e As EventArgs) Handles Me.Load
-        'Dim SkinManager As MaterialSkinManager = MaterialSkinManager.Instance
-        'SkinManager.AddFormToManage(Me)
-        'SkinManager.Theme = MaterialSkinManager.Themes.LIGHT
-        'SkinManager.ColorScheme = New ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE)
-        'RaiseEvent _Load(sender, e)
-    End Sub
-
-    Private Sub frm_base_Shown(sender As Object, e As EventArgs) Handles Me.Shown
-        RaiseEvent _Shown(sender, e)
     End Sub
 
 End Class

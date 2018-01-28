@@ -4,7 +4,7 @@
 
         Me.Hide()
 
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_Perguntas_Contracao_Obliquo Then
                 form.Show()
             End If
@@ -15,14 +15,16 @@
         Me.Hide()
 
         Dim frm As frm_apresentacao18 = Nothing
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_apresentacao18 Then
                 frm = form
             End If
         Next
 
         If IsNothing(frm) Then frm = New frm_apresentacao18
+        Me.Hide()
         frm.Show()
+        frm.Focus()
     End Sub
 
 

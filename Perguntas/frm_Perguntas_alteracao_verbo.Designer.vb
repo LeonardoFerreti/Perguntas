@@ -108,7 +108,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(598, 22)
         Me.TextBox3.TabIndex = 3
-        Me.TextBox3.Tag = "Vamos dividi-lo"
+        Me.TextBox3.Tag = "Vamos dividi-lo?"
         '
         'Label3
         '
@@ -485,20 +485,20 @@ Partial Class frm_Perguntas_alteracao_verbo
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox1 As usr_textbox
+    Friend WithEvents TextBox2 As usr_textbox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox3 As usr_textbox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox4 As usr_textbox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents TextBox5 As usr_textbox
+    Friend WithEvents TextBox6 As usr_textbox
+    Friend WithEvents TextBox7 As usr_textbox
+    Friend WithEvents TextBox8 As usr_textbox
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents TextBox10 As usr_textbox
+    Friend WithEvents TextBox11 As usr_textbox
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label

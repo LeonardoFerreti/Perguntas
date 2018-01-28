@@ -3,7 +3,7 @@
 
         Me.Hide()
 
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_Perguntas_Reescrever_Frases Then
                 form.Show()
             End If
@@ -12,17 +12,19 @@
 
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
 
-        Me.Hide()
+        '        Me.Hide()
 
         Dim frm As frm_Perguntas_Musica = Nothing
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_Perguntas_Musica Then
                 frm = form
             End If
         Next
 
         If IsNothing(frm) Then frm = New frm_Perguntas_Musica
+        Me.Hide()
         frm.Show()
+        frm.Focus()
     End Sub
 
 

@@ -573,43 +573,43 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents Label200 As Label
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox2 As usr_textbox
     Friend WithEvents Label2 As Label
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox1 As usr_textbox
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel5 As Panel
-    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents TextBox9 As usr_textbox
     Friend WithEvents Label9 As Label
     Friend WithEvents Panel4 As Panel
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox4 As usr_textbox
     Friend WithEvents Label4 As Label
     Friend WithEvents Panel15 As Panel
-    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents TextBox13 As usr_textbox
     Friend WithEvents Label13 As Label
     Friend WithEvents Panel14 As Panel
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents TextBox8 As usr_textbox
     Friend WithEvents Label8 As Label
     Friend WithEvents Panel12 As Panel
-    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents TextBox12 As usr_textbox
     Friend WithEvents Label12 As Label
     Friend WithEvents Panel11 As Panel
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents TextBox7 As usr_textbox
     Friend WithEvents Label7 As Label
     Friend WithEvents Panel10 As Panel
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents TextBox11 As usr_textbox
     Friend WithEvents Label11 As Label
     Friend WithEvents Panel9 As Panel
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents TextBox6 As usr_textbox
     Friend WithEvents Label6 As Label
     Friend WithEvents Panel8 As Panel
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents TextBox10 As usr_textbox
     Friend WithEvents Label10 As Label
     Friend WithEvents Panel7 As Panel
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents TextBox5 As usr_textbox
     Friend WithEvents Label5 As Label
     Friend WithEvents Panel6 As Panel
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox3 As usr_textbox
     Friend WithEvents Label3 As Label
     Friend WithEvents TrataErro As ErrorProvider
 End Class

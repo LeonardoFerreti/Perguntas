@@ -4,7 +4,7 @@
 
         Me.Hide()
 
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_apresentacao21 Then
                 form.Show()
             End If
@@ -16,14 +16,16 @@
         Me.Hide()
 
         Dim frm As frm_Perguntas_Frases = Nothing
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_Perguntas_Frases Then
                 frm = form
             End If
         Next
 
         If IsNothing(frm) Then frm = New frm_Perguntas_Frases
+        Me.Hide()
         frm.Show()
+        frm.Focus()
     End Sub
 
 

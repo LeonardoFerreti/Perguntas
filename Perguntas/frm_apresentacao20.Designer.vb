@@ -29,11 +29,11 @@ Partial Class frm_apresentacao20
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New usr_textbox()
-        Me.TextBox2 = New usr_textbox()
-        Me.TextBox3 = New usr_textbox()
-        Me.TextBox4 = New usr_textbox()
-        Me.TextBox5 = New usr_textbox()
+        Me.TextBox1 = New Perguntas.usr_textbox()
+        Me.TextBox2 = New Perguntas.usr_textbox()
+        Me.TextBox3 = New Perguntas.usr_textbox()
+        Me.TextBox4 = New Perguntas.usr_textbox()
+        Me.TextBox5 = New Perguntas.usr_textbox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -44,7 +44,7 @@ Partial Class frm_apresentacao20
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao_22
-        Me.PictureBox2.Location = New System.Drawing.Point(185, 49)
+        Me.PictureBox2.Location = New System.Drawing.Point(185, 84)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(349, 152)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -195,11 +195,11 @@ Partial Class frm_apresentacao20
     Friend WithEvents Label2 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents TrataErro As ErrorProvider
+    Friend WithEvents TextBox1 As usr_textbox
+    Friend WithEvents TextBox2 As usr_textbox
+    Friend WithEvents TextBox3 As usr_textbox
+    Friend WithEvents TextBox4 As usr_textbox
+    Friend WithEvents TextBox5 As usr_textbox
 End Class

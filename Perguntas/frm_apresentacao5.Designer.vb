@@ -35,7 +35,7 @@ Partial Class frm_apresentacao5
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao6
-        Me.PictureBox3.Location = New System.Drawing.Point(178, 27)
+        Me.PictureBox3.Location = New System.Drawing.Point(140, 63)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(271, 133)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -45,7 +45,7 @@ Partial Class frm_apresentacao5
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem1
-        Me.PictureBox1.Location = New System.Drawing.Point(59, 118)
+        Me.PictureBox1.Location = New System.Drawing.Point(23, 181)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(148, 155)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -55,7 +55,7 @@ Partial Class frm_apresentacao5
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao7
-        Me.PictureBox4.Location = New System.Drawing.Point(476, 194)
+        Me.PictureBox4.Location = New System.Drawing.Point(455, 194)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(308, 133)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -82,7 +82,7 @@ Partial Class frm_apresentacao5
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox2)
         Me.Name = "frm_apresentacao5"
-        Me.Text = "Desafio: palavras lexicais x palavras funcionais"
+        Me.Text = "Desafio: palavras de conteúdo x palavras funcionais"
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         Me.Controls.SetChildIndex(Me.PictureBox4, 0)
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)

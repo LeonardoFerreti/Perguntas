@@ -24,24 +24,24 @@ Partial Class frm_Perguntas_Reescrever_Frases
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New usr_textbox()
-        Me.TextBox2 = New usr_textbox()
+        Me.TextBox1 = New Perguntas.usr_textbox()
+        Me.TextBox2 = New Perguntas.usr_textbox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New usr_textbox()
+        Me.TextBox3 = New Perguntas.usr_textbox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New usr_textbox()
+        Me.TextBox4 = New Perguntas.usr_textbox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New usr_textbox()
+        Me.TextBox5 = New Perguntas.usr_textbox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New usr_textbox()
+        Me.TextBox6 = New Perguntas.usr_textbox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New usr_textbox()
+        Me.TextBox7 = New Perguntas.usr_textbox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New usr_textbox()
+        Me.TextBox8 = New Perguntas.usr_textbox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox9 = New usr_textbox()
+        Me.TextBox9 = New Perguntas.usr_textbox()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox10 = New usr_textbox()
+        Me.TextBox10 = New Perguntas.usr_textbox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel11 = New System.Windows.Forms.Panel()
@@ -81,21 +81,33 @@ Partial Class frm_Perguntas_Reescrever_Frases
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.White
         Me.TextBox1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.TextBox1.ForeColor = System.Drawing.Color.Black
         Me.TextBox1.Location = New System.Drawing.Point(0, 16)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(290, 22)
+        Me.TextBox1.somenteLeitura = False
         Me.TextBox1.TabIndex = 0
         Me.TextBox1.Tag = "Todos saíram dali nervosos"
+        Me.TextBox1.Texto = ""
+        Me.TextBox1.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox1.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.White
         Me.TextBox2.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.TextBox2.ForeColor = System.Drawing.Color.Black
         Me.TextBox2.Location = New System.Drawing.Point(0, 16)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(290, 22)
+        Me.TextBox2.somenteLeitura = False
         Me.TextBox2.TabIndex = 1
         Me.TextBox2.Tag = "Com certeza ela falou a verdade"
+        Me.TextBox2.Texto = ""
+        Me.TextBox2.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox2.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label2
         '
@@ -109,12 +121,18 @@ Partial Class frm_Perguntas_Reescrever_Frases
         '
         'TextBox3
         '
+        Me.TextBox3.BackColor = System.Drawing.Color.White
         Me.TextBox3.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.TextBox3.ForeColor = System.Drawing.Color.Black
         Me.TextBox3.Location = New System.Drawing.Point(0, 16)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(290, 22)
+        Me.TextBox3.somenteLeitura = False
         Me.TextBox3.TabIndex = 3
         Me.TextBox3.Tag = "Meu namorado me liga todos os dias"
+        Me.TextBox3.Texto = ""
+        Me.TextBox3.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox3.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label3
         '
@@ -128,12 +146,18 @@ Partial Class frm_Perguntas_Reescrever_Frases
         '
         'TextBox4
         '
+        Me.TextBox4.BackColor = System.Drawing.Color.White
         Me.TextBox4.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.TextBox4.ForeColor = System.Drawing.Color.Black
         Me.TextBox4.Location = New System.Drawing.Point(0, 16)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(290, 22)
+        Me.TextBox4.somenteLeitura = False
         Me.TextBox4.TabIndex = 2
         Me.TextBox4.Tag = "Ela tem que encontrar a solução para o problema"
+        Me.TextBox4.Texto = ""
+        Me.TextBox4.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox4.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label4
         '
@@ -147,12 +171,18 @@ Partial Class frm_Perguntas_Reescrever_Frases
         '
         'TextBox5
         '
+        Me.TextBox5.BackColor = System.Drawing.Color.White
         Me.TextBox5.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.TextBox5.ForeColor = System.Drawing.Color.Black
         Me.TextBox5.Location = New System.Drawing.Point(0, 16)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(291, 22)
+        Me.TextBox5.somenteLeitura = False
         Me.TextBox5.TabIndex = 6
         Me.TextBox5.Tag = "As meninas tentaram de novo, mas não conseguiram"
+        Me.TextBox5.Texto = ""
+        Me.TextBox5.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox5.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label5
         '
@@ -166,12 +196,18 @@ Partial Class frm_Perguntas_Reescrever_Frases
         '
         'TextBox6
         '
+        Me.TextBox6.BackColor = System.Drawing.Color.White
         Me.TextBox6.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.TextBox6.ForeColor = System.Drawing.Color.Black
         Me.TextBox6.Location = New System.Drawing.Point(0, 16)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(291, 22)
+        Me.TextBox6.somenteLeitura = False
         Me.TextBox6.TabIndex = 5
         Me.TextBox6.Tag = "Finalmente, André falou comigo sobre a festa"
+        Me.TextBox6.Texto = ""
+        Me.TextBox6.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox6.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label6
         '
@@ -185,12 +221,18 @@ Partial Class frm_Perguntas_Reescrever_Frases
         '
         'TextBox7
         '
+        Me.TextBox7.BackColor = System.Drawing.Color.White
         Me.TextBox7.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.TextBox7.ForeColor = System.Drawing.Color.Black
         Me.TextBox7.Location = New System.Drawing.Point(0, 16)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(291, 22)
+        Me.TextBox7.somenteLeitura = False
         Me.TextBox7.TabIndex = 8
-        Me.TextBox7.Tag = "Por favor, silêncioI"
+        Me.TextBox7.Tag = "Por favor, silêncio!"
+        Me.TextBox7.Texto = ""
+        Me.TextBox7.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox7.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label7
         '
@@ -204,12 +246,18 @@ Partial Class frm_Perguntas_Reescrever_Frases
         '
         'TextBox8
         '
+        Me.TextBox8.BackColor = System.Drawing.Color.White
         Me.TextBox8.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.TextBox8.ForeColor = System.Drawing.Color.Black
         Me.TextBox8.Location = New System.Drawing.Point(0, 16)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(291, 22)
+        Me.TextBox8.somenteLeitura = False
         Me.TextBox8.TabIndex = 7
         Me.TextBox8.Tag = "Vou amá-lo para sempre"
+        Me.TextBox8.Texto = ""
+        Me.TextBox8.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox8.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label8
         '
@@ -223,12 +271,18 @@ Partial Class frm_Perguntas_Reescrever_Frases
         '
         'TextBox9
         '
+        Me.TextBox9.BackColor = System.Drawing.Color.White
         Me.TextBox9.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.TextBox9.ForeColor = System.Drawing.Color.Black
         Me.TextBox9.Location = New System.Drawing.Point(0, 20)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(291, 22)
+        Me.TextBox9.somenteLeitura = False
         Me.TextBox9.TabIndex = 9
         Me.TextBox9.Tag = "Ana, o que aconteceu?"
+        Me.TextBox9.Texto = ""
+        Me.TextBox9.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox9.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label9
         '
@@ -242,12 +296,18 @@ Partial Class frm_Perguntas_Reescrever_Frases
         '
         'TextBox10
         '
+        Me.TextBox10.BackColor = System.Drawing.Color.White
         Me.TextBox10.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.TextBox10.ForeColor = System.Drawing.Color.Black
         Me.TextBox10.Location = New System.Drawing.Point(0, 20)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(290, 22)
+        Me.TextBox10.somenteLeitura = False
         Me.TextBox10.TabIndex = 4
         Me.TextBox10.Tag = "Tá bom, eu vou passar na sua casa"
+        Me.TextBox10.Texto = ""
+        Me.TextBox10.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox10.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label10
         '
@@ -425,24 +485,14 @@ Partial Class frm_Perguntas_Reescrever_Frases
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox6 As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox7 As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox9 As TextBox
     Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox10 As TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents Panel11 As Panel
@@ -456,4 +506,14 @@ Partial Class frm_Perguntas_Reescrever_Frases
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Panel2 As Panel
     Friend WithEvents TrataErro As ErrorProvider
+    Friend WithEvents TextBox1 As usr_textbox
+    Friend WithEvents TextBox2 As usr_textbox
+    Friend WithEvents TextBox3 As usr_textbox
+    Friend WithEvents TextBox4 As usr_textbox
+    Friend WithEvents TextBox5 As usr_textbox
+    Friend WithEvents TextBox6 As usr_textbox
+    Friend WithEvents TextBox7 As usr_textbox
+    Friend WithEvents TextBox8 As usr_textbox
+    Friend WithEvents TextBox9 As usr_textbox
+    Friend WithEvents TextBox10 As usr_textbox
 End Class

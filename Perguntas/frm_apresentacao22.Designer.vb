@@ -45,7 +45,7 @@ Partial Class frm_apresentacao22
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao_24
-        Me.PictureBox2.Location = New System.Drawing.Point(341, 23)
+        Me.PictureBox2.Location = New System.Drawing.Point(356, 63)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(245, 84)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -55,7 +55,7 @@ Partial Class frm_apresentacao22
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem2
-        Me.PictureBox1.Location = New System.Drawing.Point(592, 37)
+        Me.PictureBox1.Location = New System.Drawing.Point(607, 90)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(127, 220)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize

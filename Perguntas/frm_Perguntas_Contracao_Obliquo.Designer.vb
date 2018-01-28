@@ -257,18 +257,18 @@ Partial Class frm_Perguntas_Contracao_Obliquo
 
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents Panel6 As Panel
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox2 As usr_textbox
     Friend WithEvents Label2 As Label
     Friend WithEvents Panel5 As Panel
     Friend WithEvents Panel4 As Panel
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox1 As usr_textbox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label20 As Label
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox3 As usr_textbox
     Friend WithEvents Label3 As Label
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox4 As usr_textbox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label10 As Label

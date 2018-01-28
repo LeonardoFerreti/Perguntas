@@ -7,7 +7,7 @@
 
         Me.Hide()
 
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_apresentacao13 Then
                 form.Show()
             End If
@@ -17,17 +17,19 @@
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
         If validaDados() Then
 
-            Me.Hide()
+            '        Me.Hide()
 
             Dim frm As frm_apresentacao15 = Nothing
-            For Each form As frm_base In Application.OpenForms
+            For Each form As Control In Application.OpenForms
                 If TypeOf form Is frm_apresentacao15 Then
                     frm = form
                 End If
             Next
 
             If IsNothing(frm) Then frm = New frm_apresentacao15
+            Me.Hide()
             frm.Show()
+            frm.Focus()
         End If
 
     End Sub
@@ -43,12 +45,12 @@
     Private Function validaDados() As Boolean
         validaDados = True
 
-        If Not TextBox2.Text.ToLower.Trim.Equals(TextBox2.Tag.ToString.ToLower) Then
+        If Not TextBox2.Texto.ToLower.Trim.Equals(TextBox2.Tag.ToString.ToLower) Then
             validaDados = False
             TrataErro.SetError(lblCombinacao, "Informe a combinação correta.")
         End If
 
-        If Not TextBox5.Text.ToLower.Trim.Equals(TextBox5.Tag.ToString.ToLower) Then
+        If Not TextBox5.Texto.ToLower.Trim.Equals(TextBox5.Tag.ToString.ToLower) Then
             validaDados = False
             TrataErro.SetError(lblContracao, "Informe a contração correta.")
         End If

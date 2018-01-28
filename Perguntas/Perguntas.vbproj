@@ -63,6 +63,18 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
@@ -72,9 +84,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Import Include="MaterialSkin" />
-    <Import Include="MaterialSkin.Animations" />
-    <Import Include="MaterialSkin.Controls" />
+    <Import Include="MetroFramework.Controls" />
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
     <Import Include="System.Collections" />
@@ -92,7 +102,7 @@
       <DependentUpon>usr_textbox.vb</DependentUpon>
     </Compile>
     <Compile Include="controles\usr_textbox.vb">
-      <SubType>Component</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="frm_apresentacao10.Designer.vb">
       <DependentUpon>frm_apresentacao10.vb</DependentUpon>
@@ -322,6 +332,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="controles\usr_textbox.resx">
+      <DependentUpon>usr_textbox.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_apresentacao.resx">
       <DependentUpon>frm_apresentacao.vb</DependentUpon>
     </EmbeddedResource>

@@ -18,13 +18,13 @@
 
     Private Sub listBox_DragDrop(sender As Object, e As System.Windows.Forms.DragEventArgs) Handles TextBox4.DragDrop, TextBox11.DragDrop, TextBox12.DragDrop, TextBox14.DragDrop, TextBox9.DragDrop, TextBox16.DragDrop, TextBox15.DragDrop, TextBox20.DragDrop, TextBox18.DragDrop, TextBox7.DragDrop, TextBox6.DragDrop, TextBox31.DragDrop, TextBox28.DragDrop, TextBox26.DragDrop, TextBox24.DragDrop, TextBox22.DragDrop, TextBox21.DragDrop, TextBox5.DragDrop
         Dim str As String = CStr(e.Data.GetData(DataFormats.StringFormat))
-        CType(sender, TextBox).Text = str
+        CType(sender, usr_textbox).Texto = str
     End Sub
 
     Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
         Me.Hide()
 
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_apresentacao7 Then
                 form.Show()
             End If
@@ -33,17 +33,19 @@
 
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
         If validaDados() Then
-            Me.Hide()
+            '    Me.Hide()
 
             Dim frm As frm_apresentacao8 = Nothing
-            For Each form As frm_base In Application.OpenForms
+            For Each form As Control In Application.OpenForms
                 If TypeOf form Is frm_apresentacao8 Then
                     frm = form
                 End If
             Next
 
             If IsNothing(frm) Then frm = New frm_apresentacao8
+            Me.Hide()
             frm.Show()
+            frm.Focus()
         End If
 
     End Sub
@@ -61,65 +63,66 @@
         TrataErro.SetError(Label10, String.Empty)
         TrataErro.SetError(Label11, String.Empty)
 
-        If Not TextBox4.Text.ToLower.Trim.Equals(TextBox4.Tag.ToString.ToLower) Then
+        If Not TextBox4.Texto.ToLower.Trim.Equals(TextBox4.Tag.ToString.ToLower) Then
             validaDados = False
             TrataErro.SetError(Label2, "Preencha a palavra corretamente.")
         End If
 
-        If Not (TextBox11.Text.ToLower.Trim.Equals(TextBox11.Tag.ToString.ToLower) OrElse
-            TextBox12.Text.ToLower.Trim.Equals(TextBox12.Tag.ToString.ToLower)) Then
+        If Not (TextBox11.Texto.ToLower.Trim.Equals(TextBox11.Tag.ToString.ToLower) OrElse
+            TextBox12.Texto.ToLower.Trim.Equals(TextBox12.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label3, "Preencha a palavra corretamente.")
         End If
 
-        If Not (TextBox14.Text.ToLower.Trim.Equals(TextBox14.Tag.ToString.ToLower) OrElse
-            TextBox9.Text.ToLower.Trim.Equals(TextBox9.Tag.ToString.ToLower)) Then
+        If Not (TextBox14.Texto.ToLower.Trim.Equals(TextBox14.Tag.ToString.ToLower) OrElse
+            TextBox9.Texto.ToLower.Trim.Equals(TextBox9.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label4, "Preencha a palavra corretamente.")
         End If
 
-        If Not (TextBox16.Text.ToLower.Trim.Equals(TextBox16.Tag.ToString.ToLower) OrElse
-            TextBox15.Text.ToLower.Trim.Equals(TextBox15.Tag.ToString.ToLower)) Then
+        If Not (TextBox16.Texto.ToLower.Trim.Equals(TextBox16.Tag.ToString.ToLower) OrElse
+            TextBox15.Texto.ToLower.Trim.Equals(TextBox15.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label5, "Preencha a palavra corretamente.")
         End If
 
-        If Not (TextBox20.Text.ToLower.Trim.Equals(TextBox20.Tag.ToString.ToLower) OrElse
-            TextBox18.Text.ToLower.Trim.Equals(TextBox18.Tag.ToString.ToLower)) Then
+        If Not (TextBox20.Texto.ToLower.Trim.Equals(TextBox20.Tag.ToString.ToLower) OrElse
+            TextBox18.Texto.ToLower.Trim.Equals(TextBox18.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label6, "Preencha a palavra corretamente.")
         End If
 
-        If Not (TextBox7.Text.ToLower.Trim.Equals(TextBox7.Tag.ToString.ToLower) OrElse
-            TextBox6.Text.ToLower.Trim.Equals(TextBox6.Tag.ToString.ToLower) OrElse
-            TextBox5.Text.ToLower.Trim.Equals(TextBox5.Tag.ToString.ToLower)) Then
+        If Not (TextBox7.Texto.ToLower.Trim.Equals(TextBox7.Tag.ToString.ToLower) OrElse
+            TextBox6.Texto.ToLower.Trim.Equals(TextBox6.Tag.ToString.ToLower) OrElse
+            TextBox5.Texto.ToLower.Trim.Equals(TextBox5.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label7, "Preencha a palavra corretamente.")
         End If
 
-        If Not (TextBox31.Text.ToLower.Trim.Equals(TextBox31.Tag.ToString.ToLower)) Then
+        If Not (TextBox31.Texto.ToLower.Trim.Equals(TextBox31.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label8, "Preencha a palavra corretamente.")
         End If
 
-        If Not (TextBox28.Text.ToLower.Trim.Equals(TextBox28.Tag.ToString.ToLower)) Then
+        If Not (TextBox28.Texto.ToLower.Trim.Equals(TextBox28.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label9, "Preencha a palavra corretamente.")
         End If
 
-        If Not (TextBox26.Text.ToLower.Trim.Equals(TextBox26.Tag.ToString.ToLower) OrElse
-            TextBox24.Text.ToLower.Trim.Equals(TextBox24.Tag.ToString.ToLower)) Then
+        If Not (TextBox26.Texto.ToLower.Trim.Equals(TextBox26.Tag.ToString.ToLower) OrElse
+            TextBox24.Texto.ToLower.Trim.Equals(TextBox24.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label10, "Preencha a palavra corretamente.")
         End If
 
-        If Not (TextBox22.Text.ToLower.Trim.Equals(TextBox22.Tag.ToString.ToLower) OrElse
-            TextBox21.Text.ToLower.Trim.Equals(TextBox21.Tag.ToString.ToLower)) Then
+        If Not (TextBox22.Texto.ToLower.Trim.Equals(TextBox22.Tag.ToString.ToLower) OrElse
+            TextBox21.Texto.ToLower.Trim.Equals(TextBox21.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label11, "Preencha a palavra corretamente.")
         End If
 
         Return validaDados
     End Function
+
 
 End Class

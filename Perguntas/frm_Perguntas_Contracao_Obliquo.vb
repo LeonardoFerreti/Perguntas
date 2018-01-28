@@ -3,7 +3,7 @@
 
         Me.Hide()
 
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_apresentacao16 Then
                 form.Show()
             End If
@@ -13,21 +13,23 @@
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
         If validaDados() Then
 
-            Me.Hide()
+            '      Me.Hide()
 
             Dim frm As frm_apresentacao17 = Nothing
-            For Each form As frm_base In Application.OpenForms
+            For Each form As Control In Application.OpenForms
                 If TypeOf form Is frm_apresentacao17 Then
                     frm = form
                 End If
             Next
 
             If IsNothing(frm) Then frm = New frm_apresentacao17
+            Me.Hide()
             frm.Show()
+            frm.Focus()
         End If
     End Sub
 
-    Private Sub frm_Perguntas_Contracao_Obliquo_Shown(sender As Object, e As EventArgs) Handles Me._Shown
+    Private Sub frm_Perguntas_Contracao_Obliquo_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         TextBox1.Focus()
     End Sub
 
@@ -46,22 +48,22 @@
 
     Private Function validaDados() As Boolean
         validaDados = True
-        If Not (TextBox1.Text.ToLower.Trim.Equals(TextBox1.Tag.ToString)) Then
+        If Not (TextBox1.Texto.ToLower.Trim.Equals(TextBox1.Tag.ToString)) Then
             validaDados = False
             TrataErro.SetError(Label1, "Preencha o pronome corretamente.")
         End If
 
-        If Not (TextBox2.Text.ToLower.Trim.Equals(TextBox2.Tag.ToString)) Then
+        If Not (TextBox2.Texto.ToLower.Trim.Equals(TextBox2.Tag.ToString)) Then
             validaDados = False
             TrataErro.SetError(Label2, "Preencha o pronome corretamente.")
         End If
 
-        If Not (TextBox3.Text.ToLower.Trim.Equals(TextBox3.Tag.ToString)) Then
+        If Not (TextBox3.Texto.ToLower.Trim.Equals(TextBox3.Tag.ToString)) Then
             validaDados = False
             TrataErro.SetError(Label3, "Preencha o pronome corretamente.")
         End If
 
-        If Not (TextBox4.Text.ToLower.Trim.Equals(TextBox4.Tag.ToString)) Then
+        If Not (TextBox4.Texto.ToLower.Trim.Equals(TextBox4.Tag.ToString)) Then
             validaDados = False
             TrataErro.SetError(Label4, "Preencha o pronome corretamente.")
         End If

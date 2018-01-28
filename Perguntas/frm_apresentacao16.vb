@@ -4,7 +4,7 @@
 
         Me.Hide()
 
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_Perguntas_Combinacoes_Contracoes Then
                 form.Show()
             End If
@@ -13,17 +13,19 @@
 
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
 
-        Me.Hide()
+        '     Me.Hide()
 
         Dim frm As frm_Perguntas_Contracao_Obliquo = Nothing
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_Perguntas_Contracao_Obliquo Then
                 frm = form
             End If
         Next
 
         If IsNothing(frm) Then frm = New frm_Perguntas_Contracao_Obliquo
+        Me.Hide()
         frm.Show()
+        frm.Focus()
     End Sub
 
 

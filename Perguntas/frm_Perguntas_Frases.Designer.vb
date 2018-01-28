@@ -139,15 +139,15 @@ Partial Class frm_Perguntas_Frases
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(341, 124)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(324, 73)
         Me.TableLayoutPanel1.TabIndex = 1
         '
         'Label5
         '
         Me.Label5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label5.Location = New System.Drawing.Point(3, 96)
+        Me.Label5.Location = New System.Drawing.Point(3, 56)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(335, 28)
+        Me.Label5.Size = New System.Drawing.Size(318, 17)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "5. AMANHÃSERÁUMBELODIA."
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -155,9 +155,9 @@ Partial Class frm_Perguntas_Frases
         'Label4
         '
         Me.Label4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label4.Location = New System.Drawing.Point(3, 72)
+        Me.Label4.Location = New System.Drawing.Point(3, 42)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(335, 24)
+        Me.Label4.Size = New System.Drawing.Size(318, 14)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "4. VICENTEDEUFLORESPRANAMORADA."
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -165,9 +165,9 @@ Partial Class frm_Perguntas_Frases
         'Label3
         '
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label3.Location = New System.Drawing.Point(3, 48)
+        Me.Label3.Location = New System.Drawing.Point(3, 28)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(335, 24)
+        Me.Label3.Size = New System.Drawing.Size(318, 14)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "3. MEUPAICOMPROUONTEMBONSLIVROS."
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -175,9 +175,9 @@ Partial Class frm_Perguntas_Frases
         'Label2
         '
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label2.Location = New System.Drawing.Point(3, 24)
+        Me.Label2.Location = New System.Drawing.Point(3, 14)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(335, 24)
+        Me.Label2.Size = New System.Drawing.Size(318, 14)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "2. PRAMIMVAITRAZERVOCÊOQUE?"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -187,7 +187,7 @@ Partial Class frm_Perguntas_Frases
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label1.Location = New System.Drawing.Point(3, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(335, 24)
+        Me.Label1.Size = New System.Drawing.Size(318, 14)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "1. SURPRESAUMAVAITERMEUFILHO."
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -202,7 +202,7 @@ Partial Class frm_Perguntas_Frases
         Me.TableLayoutPanel2.Controls.Add(Me.Label7, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Label6, 0, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(350, 3)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(333, 3)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 4
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
@@ -210,15 +210,15 @@ Partial Class frm_Perguntas_Frases
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(443, 124)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(420, 73)
         Me.TableLayoutPanel2.TabIndex = 2
         '
         'Label10
         '
         Me.Label10.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label10.Location = New System.Drawing.Point(3, 96)
+        Me.Label10.Location = New System.Drawing.Point(3, 56)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(437, 28)
+        Me.Label10.Size = New System.Drawing.Size(414, 17)
         Me.Label10.TabIndex = 5
         Me.Label10.Text = "10.ESSACANETAVAIMANCHARMINHAROUPA."
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -226,9 +226,9 @@ Partial Class frm_Perguntas_Frases
         'Label9
         '
         Me.Label9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label9.Location = New System.Drawing.Point(3, 72)
+        Me.Label9.Location = New System.Drawing.Point(3, 42)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(437, 24)
+        Me.Label9.Size = New System.Drawing.Size(414, 14)
         Me.Label9.TabIndex = 4
         Me.Label9.Text = "9. AALUNAÉINTELIGENTE."
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -236,9 +236,9 @@ Partial Class frm_Perguntas_Frases
         'Label8
         '
         Me.Label8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label8.Location = New System.Drawing.Point(3, 48)
+        Me.Label8.Location = New System.Drawing.Point(3, 28)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(437, 24)
+        Me.Label8.Size = New System.Drawing.Size(414, 14)
         Me.Label8.TabIndex = 3
         Me.Label8.Text = "8. DONAVANDAESTAVALAVANDOOLENÇOL."
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -246,9 +246,9 @@ Partial Class frm_Perguntas_Frases
         'Label7
         '
         Me.Label7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label7.Location = New System.Drawing.Point(3, 24)
+        Me.Label7.Location = New System.Drawing.Point(3, 14)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(437, 24)
+        Me.Label7.Size = New System.Drawing.Size(414, 14)
         Me.Label7.TabIndex = 2
         Me.Label7.Text = "7. MARTAVAISERMUITOFELIZ."
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -258,7 +258,7 @@ Partial Class frm_Perguntas_Frases
         Me.Label6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label6.Location = New System.Drawing.Point(3, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(437, 24)
+        Me.Label6.Size = New System.Drawing.Size(414, 14)
         Me.Label6.TabIndex = 1
         Me.Label6.Text = "6. OCAFÉTÁBOM."
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -272,12 +272,12 @@ Partial Class frm_Perguntas_Frases
         Me.TableLayoutPanel3.Controls.Add(Me.TableLayoutPanel2, 1, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.GroupBox1, 0, 1)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(20, 60)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 2
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 306.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(796, 436)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(756, 385)
         Me.TableLayoutPanel3.TabIndex = 53
         '
         'GroupBox1
@@ -286,9 +286,9 @@ Partial Class frm_Perguntas_Frases
         Me.GroupBox1.Controls.Add(Me.Label22)
         Me.GroupBox1.Controls.Add(Me.TableLayoutPanel4)
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupBox1.Location = New System.Drawing.Point(3, 133)
+        Me.GroupBox1.Location = New System.Drawing.Point(3, 82)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(790, 300)
+        Me.GroupBox1.Size = New System.Drawing.Size(750, 300)
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Separe as sílabas das frases correspondentes:"
@@ -1076,7 +1076,7 @@ Partial Class frm_Perguntas_Frases
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.ClientSize = New System.Drawing.Size(796, 517)
         Me.Controls.Add(Me.TableLayoutPanel3)
         Me.Name = "frm_Perguntas_Frases"
         Me.Text = "Organize as frases"

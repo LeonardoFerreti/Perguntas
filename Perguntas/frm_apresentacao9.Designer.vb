@@ -99,7 +99,7 @@ Partial Class frm_apresentacao9
 
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox1 As usr_textbox
     Friend WithEvents Label1 As Label
     Friend WithEvents TrataErro As ErrorProvider
 End Class

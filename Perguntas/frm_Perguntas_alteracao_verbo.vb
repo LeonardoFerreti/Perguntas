@@ -2,7 +2,7 @@
     Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
         Me.Hide()
 
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_apresentacao18 Then
                 form.Show()
             End If
@@ -12,18 +12,19 @@
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
         If validaDados() Then
 
-            Me.Hide()
+            '  Me.Hide()
 
             Dim frm As frm_apresentacao19 = Nothing
-            For Each form As frm_base In Application.OpenForms
+            For Each form As Control In Application.OpenForms
                 If TypeOf form Is frm_apresentacao19 Then
                     frm = form
                 End If
             Next
 
             If IsNothing(frm) Then frm = New frm_apresentacao19
+            Me.Hide()
             frm.Show()
-
+            frm.Focus()
         End If
 
     End Sub
@@ -63,54 +64,126 @@
     Private Function validaDados() As Boolean
         validaDados = True
 
-        If Not (TextBox1.Text.ToLower.Trim.Equals(TextBox1.Tag.ToString.ToLower)) Then
+        Dim str As String = String.Empty
+
+        str = TextBox1.Texto
+        If str.EndsWith(".") Then
+            str = str.Remove(str.LastIndexOf("."))
+        End If
+
+        If Not (str.ToLower.Trim.Equals(TextBox1.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label12, "Reescreva corretamente a frase abaixo.")
+        Else
+            TrataErro.SetError(Label12, String.Empty)
         End If
 
-        If Not (TextBox2.Text.ToLower.Trim.Equals(TextBox2.Tag.ToString.ToLower)) Then
+        str = TextBox2.Texto
+        If str.EndsWith(".") Then
+            str = str.Remove(str.LastIndexOf("."))
+        End If
+
+        If Not (str.ToLower.Trim.Equals(TextBox2.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label13, "Reescreva corretamente a frase abaixo.")
+        Else
+            TrataErro.SetError(Label13, String.Empty)
         End If
 
-        If Not (TextBox3.Text.ToLower.Trim.Equals(TextBox3.Tag.ToString.ToLower)) Then
+        str = TextBox3.Texto
+        If str.EndsWith(".") Then
+            str = str.Remove(str.LastIndexOf("."))
+        End If
+
+        If Not (str.ToLower.Trim.Equals(TextBox3.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label14, "Reescreva corretamente a frase abaixo.")
+        Else
+            TrataErro.SetError(Label14, String.Empty)
         End If
 
-        If Not (TextBox4.Text.ToLower.Trim.Equals(TextBox4.Tag.ToString.ToLower)) Then
+        str = TextBox4.Texto
+        If str.EndsWith(".") Then
+            str = str.Remove(str.LastIndexOf("."))
+        End If
+
+        If Not (str.ToLower.Trim.Equals(TextBox4.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label15, "Reescreva corretamente a frase abaixo.")
+        Else
+            TrataErro.SetError(Label15, String.Empty)
         End If
 
-        If Not (TextBox5.Text.ToLower.Trim.Equals(TextBox5.Tag.ToString.ToLower)) Then
+        str = TextBox5.Texto
+        If str.EndsWith(".") Then
+            str = str.Remove(str.LastIndexOf("."))
+        End If
+
+        If Not (str.ToLower.Trim.Equals(TextBox5.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label5, "Reescreva corretamente a frase abaixo.")
+        Else
+            TrataErro.SetError(Label5, String.Empty)
         End If
 
-        If Not (TextBox6.Text.ToLower.Trim.Equals(TextBox6.Tag.ToString.ToLower)) Then
+        str = TextBox6.Texto
+        If str.EndsWith(".") Then
+            str = str.Remove(str.LastIndexOf("."))
+        End If
+
+        If Not (str.ToLower.Trim.Equals(TextBox6.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label6, "Reescreva corretamente a frase abaixo.")
+        Else
+            TrataErro.SetError(Label6, String.Empty)
         End If
 
-        If Not (TextBox7.Text.ToLower.Trim.Equals(TextBox7.Tag.ToString.ToLower)) Then
+        str = TextBox7.Texto
+        If str.EndsWith(".") Then
+            str = str.Remove(str.LastIndexOf("."))
+        End If
+
+        If Not (str.ToLower.Trim.Equals(TextBox7.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label7, "Reescreva corretamente a frase abaixo.")
+        Else
+            TrataErro.SetError(Label7, String.Empty)
         End If
         '**
-        If Not (TextBox8.Text.ToLower.Trim.Equals(TextBox8.Tag.ToString.ToLower)) Then
-            validaDados = False
-            TrataErro.SetError(Label16, "Reescreva corretamente a frase abaixo.")
+        str = TextBox8.Texto
+        If str.EndsWith(".") Then
+            str = str.Remove(str.LastIndexOf("."))
         End If
 
-        If Not (TextBox10.Text.ToLower.Trim.Equals(TextBox10.Tag.ToString.ToLower)) Then
+        If Not (str.ToLower.Trim.Equals(TextBox8.Tag.ToString.ToLower)) Then
+            validaDados = False
+            TrataErro.SetError(Label17, "Reescreva corretamente a frase abaixo.")
+        Else
+            TrataErro.SetError(Label17, String.Empty)
+        End If
+
+        str = TextBox10.Texto
+        If str.EndsWith(".") Then
+            str = str.Remove(str.LastIndexOf("."))
+        End If
+
+        If Not (str.ToLower.Trim.Equals(TextBox10.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label10, "Reescreva corretamente a frase abaixo.")
+        Else
+            TrataErro.SetError(Label10, String.Empty)
         End If
 
-        If Not (TextBox11.Text.ToLower.Trim.Equals(TextBox11.Tag.ToString.ToLower)) Then
+        str = TextBox11.Texto
+        If str.EndsWith(".") Then
+            str = str.Remove(str.LastIndexOf("."))
+        End If
+
+        If Not (str.ToLower.Trim.Equals(TextBox11.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label11, "Reescreva corretamente a frase abaixo.")
+        Else
+            TrataErro.SetError(Label11, String.Empty)
         End If
 
         Return validaDados

@@ -35,7 +35,7 @@ Partial Class frm_apresentacao7
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.Perguntas.My.Resources.Resources.balao9
-        Me.PictureBox4.Location = New System.Drawing.Point(599, 199)
+        Me.PictureBox4.Location = New System.Drawing.Point(569, 199)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(185, 107)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -45,7 +45,7 @@ Partial Class frm_apresentacao7
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao8
-        Me.PictureBox2.Location = New System.Drawing.Point(188, 55)
+        Me.PictureBox2.Location = New System.Drawing.Point(185, 84)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(261, 107)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -55,7 +55,7 @@ Partial Class frm_apresentacao7
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem1
-        Me.PictureBox1.Location = New System.Drawing.Point(62, 113)
+        Me.PictureBox1.Location = New System.Drawing.Point(46, 168)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(148, 155)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -65,7 +65,7 @@ Partial Class frm_apresentacao7
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.Perguntas.My.Resources.Resources.imagem3
-        Me.PictureBox3.Location = New System.Drawing.Point(452, 210)
+        Me.PictureBox3.Location = New System.Drawing.Point(433, 199)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(130, 212)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize

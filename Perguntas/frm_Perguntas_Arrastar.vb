@@ -32,31 +32,33 @@
     Private Sub frm_Perguntas_Arrastar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
         If validaDados() Then
 
-            Me.Hide()
+            '    Me.Hide()
 
             Dim frm As frm_apresentacao6 = Nothing
-            For Each form As frm_base In Application.OpenForms
+            For Each form As Control In Application.OpenForms
                 If TypeOf form Is frm_apresentacao6 Then
                     frm = form
                 End If
             Next
 
             If IsNothing(frm) Then frm = New frm_apresentacao6
+            Me.Hide()
             frm.Show()
+            frm.Focus()
         End If
     End Sub
 
     Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
         Me.Hide()
 
-        For Each form As frm_base In Application.OpenForms
+        For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_apresentacao5 Then
                 form.Show()
             End If
         Next
     End Sub
 
-    Private Sub frm_Perguntas_Arrastar_Load(sender As Object, e As EventArgs) Handles Me._Load
+    Private Sub frm_Perguntas_Arrastar_Load(sender As Object, e As EventArgs) Handles Me.Load
         listaConteudo.AddRange({"favor", "aqui", "livro", "novo", "mesa", "bom", "tá(está)", "encontrou",
                                 "acontecer", "comparecer", "repente", "apontador", "amor", "certeza", "nome", "luz", "ver", "três", "esperando", "tem", "liga", "menina", "menino", "avisa",
                                 "amar", "atrasado", "olhar", "terminar", "verdadeiro"})
