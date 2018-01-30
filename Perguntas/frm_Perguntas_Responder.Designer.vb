@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_Perguntas_Responder
-    Inherits frm_base
+     Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -64,6 +64,7 @@ Partial Class frm_Perguntas_Responder
         '
         'FlowLayoutPanel1
         '
+        Me.FlowLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox1)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox2)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox3)
@@ -511,6 +512,7 @@ Partial Class frm_Perguntas_Responder
         '
         'GroupBox1
         '
+        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.TextBox21)
         Me.GroupBox1.Controls.Add(Me.TextBox30)
@@ -531,6 +533,7 @@ Partial Class frm_Perguntas_Responder
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(10, 1)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(292, 13)
@@ -541,22 +544,25 @@ Partial Class frm_Perguntas_Responder
         '
         Me.TrataErro.ContainerControl = Me
         '
+
+        '
         'frm_Perguntas_Responder
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.BackColor = System.Drawing.Color.White
+
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Name = "frm_Perguntas_Responder"
         Me.Text = "Forme palavras com sílabas:"
-        Me.Controls.SetChildIndex(Me.FlowLayoutPanel1, 0)
-        Me.Controls.SetChildIndex(Me.GroupBox1, 0)
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -594,4 +600,5 @@ Partial Class frm_Perguntas_Responder
     Friend WithEvents TextBox29 As usr_textbox
     Friend WithEvents TextBox30 As usr_textbox
     Friend WithEvents TextBox12 As usr_textbox
+
 End Class

@@ -1,7 +1,7 @@
 ﻿Public Class frm_Perguntas_Responder
     Private listaPalavras As New List(Of String)
 
-    Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
+    Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me._btn_voltar_click
         Me.Hide()
 
         For Each form As Control In Application.OpenForms
@@ -11,8 +11,8 @@
         Next
     End Sub
 
-    Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
-        If validaDados Then
+    Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me._btn_avancar_click
+        If validaDados() Then
             'Me.Hide()
 
             Dim frm As frm_apresentacao11 = Nothing
@@ -31,6 +31,7 @@
     End Sub
 
     Private Sub frm_Perguntas_Responder_Load(sender As Object, e As EventArgs) Handles Me.Load
+
         listaPalavras.AddRange({"paralelo", "maltratado", "chapeuzinho", "verdadeiro", "maldade", "pontapé", "casamento", "bondoso", "felizmente", "terminando"})
     End Sub
 

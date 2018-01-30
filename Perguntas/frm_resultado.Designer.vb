@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_resultado
-    Inherits frm_base
+     Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -28,13 +28,16 @@ Partial Class frm_resultado
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
+        Me.BTN_AVANCAR_TEXT = "CONCLUIR"
+        Me.BTN_VOLTAR_VISIBLE = False
         Me.ClientSize = New System.Drawing.Size(579, 394)
-        Me.ControlBox = False
-        Me.HABILITA_VOLTAR = False
-        Me.MOSTRA_BOTAO_VOLTAR = False
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_resultado"
         Me.Text = "Resultado"
         Me.ResumeLayout(False)
 
     End Sub
+
+
 End Class

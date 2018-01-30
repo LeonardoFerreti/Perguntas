@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_apresentacao20
-    Inherits frm_base
+    Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -25,17 +25,18 @@ Partial Class frm_apresentacao20
         Me.components = New System.ComponentModel.Container()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox1 = New Perguntas.usr_textbox()
         Me.TextBox2 = New Perguntas.usr_textbox()
         Me.TextBox3 = New Perguntas.usr_textbox()
         Me.TextBox4 = New Perguntas.usr_textbox()
         Me.TextBox5 = New Perguntas.usr_textbox()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
+
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -61,94 +62,151 @@ Partial Class frm_apresentacao20
         Me.PictureBox1.TabIndex = 10
         Me.PictureBox1.TabStop = False
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(130, 265)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(42, 13)
-        Me.Label1.TabIndex = 12
-        Me.Label1.Text = "Artigo:"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(130, 296)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(71, 13)
-        Me.Label2.TabIndex = 13
-        Me.Label2.Text = "Substantivo:"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(132, 356)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(45, 13)
-        Me.Label4.TabIndex = 15
-        Me.Label4.Text = "Verbos:"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(131, 326)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(114, 13)
-        Me.Label3.TabIndex = 14
-        Me.Label3.Text = "Pronome possessivo:"
-        '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.White
+        Me.TextBox1.ForeColor = System.Drawing.Color.Black
         Me.TextBox1.Location = New System.Drawing.Point(188, 256)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox1.somenteLeitura = False
         Me.TextBox1.TabIndex = 2
         Me.TextBox1.Tag = "a"
+        Me.TextBox1.Texto = ""
+        Me.TextBox1.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox1.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(217, 287)
+        Me.TextBox2.BackColor = System.Drawing.Color.White
+        Me.TextBox2.ForeColor = System.Drawing.Color.Black
+        Me.TextBox2.Location = New System.Drawing.Point(223, 287)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox2.somenteLeitura = False
         Me.TextBox2.TabIndex = 3
         Me.TextBox2.Tag = "casa"
+        Me.TextBox2.Texto = ""
+        Me.TextBox2.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox2.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(261, 317)
+        Me.TextBox3.BackColor = System.Drawing.Color.White
+        Me.TextBox3.ForeColor = System.Drawing.Color.Black
+        Me.TextBox3.Location = New System.Drawing.Point(288, 317)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox3.somenteLeitura = False
         Me.TextBox3.TabIndex = 4
         Me.TextBox3.Tag = "minha"
+        Me.TextBox3.Texto = ""
+        Me.TextBox3.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox3.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox4
         '
+        Me.TextBox4.BackColor = System.Drawing.Color.White
+        Me.TextBox4.ForeColor = System.Drawing.Color.Black
         Me.TextBox4.Location = New System.Drawing.Point(194, 347)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(95, 22)
+        Me.TextBox4.somenteLeitura = False
         Me.TextBox4.TabIndex = 5
         Me.TextBox4.Tag = "foi"
+        Me.TextBox4.Texto = ""
+        Me.TextBox4.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox4.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(313, 347)
+        Me.TextBox5.BackColor = System.Drawing.Color.White
+        Me.TextBox5.ForeColor = System.Drawing.Color.Black
+        Me.TextBox5.Location = New System.Drawing.Point(309, 347)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(93, 22)
+        Me.TextBox5.somenteLeitura = False
         Me.TextBox5.TabIndex = 6
         Me.TextBox5.Tag = "pintada"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(297, 355)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(13, 13)
-        Me.Label5.TabIndex = 21
-        Me.Label5.Text = "e"
+        Me.TextBox5.Texto = ""
+        Me.TextBox5.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox5.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TrataErro
         '
         Me.TrataErro.ContainerControl = Me
+        '
+
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.White
+
+        Me.Label1.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(131, 258)
+
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(54, 19)
+        Me.Label1.TabIndex = 25
+        Me.Label1.Text = "Artigo:"
+        '
+        'MaterialLabel1
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.White
+
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(131, 289)
+
+        Me.Label2.Name = "MaterialLabel1"
+        Me.Label2.Size = New System.Drawing.Size(89, 18)
+        Me.Label2.TabIndex = 26
+        Me.Label2.Text = "Substantivo:"
+        '
+        'MaterialLabel2
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.White
+
+        Me.Label3.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(131, 317)
+
+        Me.Label3.Name = "MaterialLabel2"
+        Me.Label3.Size = New System.Drawing.Size(155, 19)
+        Me.Label3.TabIndex = 27
+        Me.Label3.Text = "Pronome possessivo:"
+        '
+        'MaterialLabel3
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.White
+
+        Me.Label4.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(131, 349)
+
+        Me.Label4.Name = "MaterialLabel3"
+        Me.Label4.Size = New System.Drawing.Size(61, 19)
+        Me.Label4.TabIndex = 28
+        Me.Label4.Text = "Verbos:"
+        '
+        'MaterialLabel4
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.White
+
+        Me.Label5.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(290, 349)
+
+        Me.Label5.Name = "MaterialLabel4"
+        Me.Label5.Size = New System.Drawing.Size(17, 19)
+        Me.Label5.TabIndex = 29
+        Me.Label5.Text = "e"
         '
         'frm_apresentacao20
         '
@@ -156,31 +214,21 @@ Partial Class frm_apresentacao20
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.BackColor = System.Drawing.Color.White
+
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "frm_apresentacao20"
         Me.Text = "Desafio: classe gramatical"
-        Me.Controls.SetChildIndex(Me.PictureBox1, 0)
-        Me.Controls.SetChildIndex(Me.PictureBox2, 0)
-        Me.Controls.SetChildIndex(Me.Label1, 0)
-        Me.Controls.SetChildIndex(Me.Label2, 0)
-        Me.Controls.SetChildIndex(Me.Label3, 0)
-        Me.Controls.SetChildIndex(Me.Label4, 0)
-        Me.Controls.SetChildIndex(Me.TextBox1, 0)
-        Me.Controls.SetChildIndex(Me.TextBox2, 0)
-        Me.Controls.SetChildIndex(Me.TextBox3, 0)
-        Me.Controls.SetChildIndex(Me.TextBox4, 0)
-        Me.Controls.SetChildIndex(Me.TextBox5, 0)
-        Me.Controls.SetChildIndex(Me.Label5, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
@@ -191,15 +239,16 @@ Partial Class frm_apresentacao20
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label5 As Label
     Friend WithEvents TrataErro As ErrorProvider
     Friend WithEvents TextBox1 As usr_textbox
     Friend WithEvents TextBox2 As usr_textbox
     Friend WithEvents TextBox3 As usr_textbox
     Friend WithEvents TextBox4 As usr_textbox
     Friend WithEvents TextBox5 As usr_textbox
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+
 End Class

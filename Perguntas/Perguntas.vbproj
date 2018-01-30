@@ -39,6 +39,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>Perguntas.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,6 +50,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DocumentationFile>Perguntas.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <OptionExplicit>On</OptionExplicit>
@@ -63,18 +65,6 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
@@ -84,6 +74,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Import Include="MaterialSkin" />
     <Import Include="MetroFramework.Controls" />
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
@@ -98,11 +89,23 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controles\controle_navegacao.Designer.vb">
+      <DependentUpon>controle_navegacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controles\controle_navegacao.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="controles\usr_textbox.Designer.vb">
       <DependentUpon>usr_textbox.vb</DependentUpon>
     </Compile>
     <Compile Include="controles\usr_textbox.vb">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="forms\frm.Designer.vb">
+      <DependentUpon>frm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frm.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_apresentacao10.Designer.vb">
       <DependentUpon>frm_apresentacao10.vb</DependentUpon>
@@ -332,8 +335,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="controles\controle_navegacao.resx">
+      <DependentUpon>controle_navegacao.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="controles\usr_textbox.resx">
       <DependentUpon>usr_textbox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frm.resx">
+      <DependentUpon>frm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_apresentacao.resx">
       <DependentUpon>frm_apresentacao.vb</DependentUpon>
@@ -460,7 +469,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <None Include="Resources\balao0.png" />
     <None Include="Resources\balao11.png" />
     <None Include="Resources\balao7.png" />
@@ -530,7 +538,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="forms\" />
+    <None Include="Resources\img_fechar.png" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="AxWMPLib">

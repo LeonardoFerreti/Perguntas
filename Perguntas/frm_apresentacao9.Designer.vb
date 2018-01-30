@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_apresentacao9
-    Inherits frm_base
+     Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -25,9 +25,11 @@ Partial Class frm_apresentacao9
         Me.components = New System.ComponentModel.Container()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.TextBox1 = New usr_textbox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New Perguntas.usr_textbox()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
+        'Me.btn_avancar = New MaterialSkin.Controls.MaterialRaisedButton()
+        'Me.btn_voltar = New MaterialSkin.Controls.MaterialRaisedButton()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -55,24 +57,37 @@ Partial Class frm_apresentacao9
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.White
+        Me.TextBox1.ForeColor = System.Drawing.Color.Black
         Me.TextBox1.Location = New System.Drawing.Point(159, 283)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(251, 22)
+        Me.TextBox1.somenteLeitura = False
         Me.TextBox1.TabIndex = 15
         Me.TextBox1.Tag = "verdadeiro"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(156, 267)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(138, 13)
-        Me.Label1.TabIndex = 16
-        Me.Label1.Text = "Escreva no campo abaixo:"
+        Me.TextBox1.Texto = ""
+        Me.TextBox1.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox1.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TrataErro
         '
         Me.TrataErro.ContainerControl = Me
+        '
+
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.White
+
+        Me.Label1.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(155, 261)
+
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(185, 19)
+        Me.Label1.TabIndex = 41
+        Me.Label1.Text = "Escreva no campo abaixo:"
         '
         'frm_apresentacao9
         '
@@ -80,15 +95,14 @@ Partial Class frm_apresentacao9
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.Label1)
+        Me.BackColor = System.Drawing.Color.White
+        'Me.Controls.Add(Me.btn_avancar)
+        'Me.Controls.Add(Me.btn_voltar)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Name = "frm_apresentacao9"
         Me.Text = "Desafio: sílabas e palavras"
-        Me.Controls.SetChildIndex(Me.PictureBox2, 0)
-        Me.Controls.SetChildIndex(Me.PictureBox1, 0)
-        Me.Controls.SetChildIndex(Me.TextBox1, 0)
-        Me.Controls.SetChildIndex(Me.Label1, 0)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
@@ -100,6 +114,7 @@ Partial Class frm_apresentacao9
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TextBox1 As usr_textbox
-    Friend WithEvents Label1 As Label
     Friend WithEvents TrataErro As ErrorProvider
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+
 End Class

@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_Perguntas_Musica
-    Inherits frm_base
+     Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -44,6 +44,8 @@ Partial Class frm_Perguntas_Musica
         Me.TextBox6 = New Perguntas.usr_textbox()
         Me.TextBox7 = New Perguntas.usr_textbox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Textbox8 = New Perguntas.usr_textbox()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -53,8 +55,7 @@ Partial Class frm_Perguntas_Musica
         Me.Label12 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.Textbox8 = New Perguntas.usr_textbox()
-        Me.Label19 = New System.Windows.Forms.Label()
+
         CType(Me.media, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -65,10 +66,10 @@ Partial Class frm_Perguntas_Musica
         '
         Me.media.Dock = System.Windows.Forms.DockStyle.Fill
         Me.media.Enabled = True
-        Me.media.Location = New System.Drawing.Point(3, 18)
+        Me.media.Location = New System.Drawing.Point(3, 16)
         Me.media.Name = "media"
         Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.media.Size = New System.Drawing.Size(453, 415)
+        Me.media.Size = New System.Drawing.Size(453, 355)
         Me.media.TabIndex = 1
         '
         'Label1
@@ -183,62 +184,105 @@ Partial Class frm_Perguntas_Musica
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.White
+        Me.TextBox1.ForeColor = System.Drawing.Color.Black
         Me.TextBox1.Location = New System.Drawing.Point(74, 21)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox1.somenteLeitura = False
         Me.TextBox1.TabIndex = 0
         Me.TextBox1.Tag = "me notou"
+        Me.TextBox1.Texto = ""
+        Me.TextBox1.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox1.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.White
+        Me.TextBox2.ForeColor = System.Drawing.Color.Black
         Me.TextBox2.Location = New System.Drawing.Point(165, 80)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(87, 22)
+        Me.TextBox2.somenteLeitura = False
         Me.TextBox2.TabIndex = 1
         Me.TextBox2.Tag = "pra te ter"
+        Me.TextBox2.Texto = ""
+        Me.TextBox2.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox2.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox3
         '
+        Me.TextBox3.BackColor = System.Drawing.Color.White
+        Me.TextBox3.ForeColor = System.Drawing.Color.Black
         Me.TextBox3.Location = New System.Drawing.Point(104, 124)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(87, 22)
+        Me.TextBox3.somenteLeitura = False
         Me.TextBox3.TabIndex = 2
         Me.TextBox3.Tag = "me procurar"
+        Me.TextBox3.Texto = ""
+        Me.TextBox3.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox3.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox4
         '
+        Me.TextBox4.BackColor = System.Drawing.Color.White
+        Me.TextBox4.ForeColor = System.Drawing.Color.Black
         Me.TextBox4.Location = New System.Drawing.Point(14, 172)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(87, 22)
+        Me.TextBox4.somenteLeitura = False
         Me.TextBox4.TabIndex = 3
         Me.TextBox4.Tag = "me esnobou"
+        Me.TextBox4.Texto = ""
+        Me.TextBox4.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox4.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox5
         '
+        Me.TextBox5.BackColor = System.Drawing.Color.White
+        Me.TextBox5.ForeColor = System.Drawing.Color.Black
         Me.TextBox5.Location = New System.Drawing.Point(13, 202)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(88, 22)
+        Me.TextBox5.somenteLeitura = False
         Me.TextBox5.TabIndex = 4
         Me.TextBox5.Tag = "me deixou"
+        Me.TextBox5.Texto = ""
+        Me.TextBox5.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox5.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox6
         '
+        Me.TextBox6.BackColor = System.Drawing.Color.White
+        Me.TextBox6.ForeColor = System.Drawing.Color.Black
         Me.TextBox6.Location = New System.Drawing.Point(88, 243)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(88, 22)
+        Me.TextBox6.somenteLeitura = False
         Me.TextBox6.TabIndex = 5
         Me.TextBox6.Tag = "me liga"
+        Me.TextBox6.Texto = ""
+        Me.TextBox6.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox6.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox7
         '
+        Me.TextBox7.BackColor = System.Drawing.Color.White
+        Me.TextBox7.ForeColor = System.Drawing.Color.Black
         Me.TextBox7.Location = New System.Drawing.Point(96, 273)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(135, 22)
+        Me.TextBox7.somenteLeitura = False
         Me.TextBox7.TabIndex = 6
         Me.TextBox7.Tag = "a noite"
+        Me.TextBox7.Texto = ""
+        Me.TextBox7.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox7.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'GroupBox1
         '
+        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox1.Controls.Add(Me.Label19)
         Me.GroupBox1.Controls.Add(Me.Textbox8)
         Me.GroupBox1.Controls.Add(Me.Label18)
@@ -266,13 +310,35 @@ Partial Class frm_Perguntas_Musica
         Me.GroupBox1.Controls.Add(Me.Label8)
         Me.GroupBox1.Controls.Add(Me.Label9)
         Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.GroupBox1.Location = New System.Drawing.Point(0, 0)
+        Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Location = New System.Drawing.Point(0, 66)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(337, 436)
+        Me.GroupBox1.Size = New System.Drawing.Size(337, 375)
         Me.GroupBox1.TabIndex = 20
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Complete a letra da música:"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Location = New System.Drawing.Point(213, 310)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(0, 13)
+        Me.Label19.TabIndex = 21
+        '
+        'Textbox8
+        '
+        Me.Textbox8.BackColor = System.Drawing.Color.White
+        Me.Textbox8.ForeColor = System.Drawing.Color.Black
+        Me.Textbox8.Location = New System.Drawing.Point(18, 301)
+        Me.Textbox8.Name = "Textbox8"
+        Me.Textbox8.Size = New System.Drawing.Size(135, 22)
+        Me.Textbox8.somenteLeitura = False
+        Me.Textbox8.TabIndex = 20
+        Me.Textbox8.Tag = "te encontro"
+        Me.Textbox8.Texto = ""
+        Me.Textbox8.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.Textbox8.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label18
         '
@@ -332,11 +398,14 @@ Partial Class frm_Perguntas_Musica
         '
         'GroupBox2
         '
+        Me.GroupBox2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox2.Controls.Add(Me.media)
-        Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupBox2.Location = New System.Drawing.Point(337, 0)
+        Me.GroupBox2.Location = New System.Drawing.Point(337, 66)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(459, 436)
+        Me.GroupBox2.Size = New System.Drawing.Size(459, 374)
         Me.GroupBox2.TabIndex = 21
         Me.GroupBox2.TabStop = False
         '
@@ -344,39 +413,26 @@ Partial Class frm_Perguntas_Musica
         '
         Me.TrataErro.ContainerControl = Me
         '
-        'Textbox8
-        '
-        Me.Textbox8.Location = New System.Drawing.Point(18, 301)
-        Me.Textbox8.Name = "Textbox8"
-        Me.Textbox8.Size = New System.Drawing.Size(135, 22)
-        Me.Textbox8.TabIndex = 20
-        Me.Textbox8.Tag = "te encontro"
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(213, 310)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(0, 13)
-        Me.Label19.TabIndex = 21
+
         '
         'frm_Perguntas_Musica
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.BackColor = System.Drawing.Color.White
+
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "frm_Perguntas_Musica"
         Me.Text = "Complete a música"
-        Me.Controls.SetChildIndex(Me.GroupBox1, 0)
-        Me.Controls.SetChildIndex(Me.GroupBox2, 0)
         CType(Me.media, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -411,4 +467,5 @@ Partial Class frm_Perguntas_Musica
     Friend WithEvents TextBox6 As usr_textbox
     Friend WithEvents TextBox7 As usr_textbox
     Friend WithEvents Label19 As Label
+
 End Class

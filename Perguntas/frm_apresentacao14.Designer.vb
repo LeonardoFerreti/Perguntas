@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_apresentacao14
-    Inherits frm_base
+    Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -34,10 +34,10 @@ Partial Class frm_apresentacao14
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TextBox2 = New Perguntas.usr_textbox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.lblCombinacao = New System.Windows.Forms.Label()
         Me.lblContracao = New System.Windows.Forms.Label()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
@@ -68,6 +68,7 @@ Partial Class frm_apresentacao14
         '
         'TableLayoutPanel1
         '
+        Me.TableLayoutPanel1.BackColor = System.Drawing.Color.White
         Me.TableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
         Me.TableLayoutPanel1.ColumnCount = 2
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 104.0!))
@@ -76,7 +77,7 @@ Partial Class frm_apresentacao14
         Me.TableLayoutPanel1.Controls.Add(Me.Label2, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 1, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(349, 270)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(349, 278)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
@@ -96,11 +97,17 @@ Partial Class frm_apresentacao14
         '
         'TextBox5
         '
+        Me.TextBox5.BackColor = System.Drawing.Color.White
+        Me.TextBox5.ForeColor = System.Drawing.Color.Black
         Me.TextBox5.Location = New System.Drawing.Point(82, 13)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(56, 22)
+        Me.TextBox5.somenteLeitura = False
         Me.TextBox5.TabIndex = 5
         Me.TextBox5.Tag = "dos"
+        Me.TextBox5.Texto = ""
+        Me.TextBox5.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox5.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label4
         '
@@ -146,11 +153,17 @@ Partial Class frm_apresentacao14
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.White
+        Me.TextBox2.ForeColor = System.Drawing.Color.Black
         Me.TextBox2.Location = New System.Drawing.Point(82, 12)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(56, 22)
+        Me.TextBox2.somenteLeitura = False
         Me.TextBox2.TabIndex = 1
         Me.TextBox2.Tag = "aos"
+        Me.TextBox2.Texto = ""
+        Me.TextBox2.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox2.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label3
         '
@@ -162,19 +175,10 @@ Partial Class frm_apresentacao14
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "a + os ="
         '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(349, 255)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(229, 13)
-        Me.Label5.TabIndex = 13
-        Me.Label5.Text = "Realize a combinação e a contração abaixo:"
-        '
         'lblCombinacao
         '
         Me.lblCombinacao.AutoSize = True
-        Me.lblCombinacao.Location = New System.Drawing.Point(614, 293)
+        Me.lblCombinacao.Location = New System.Drawing.Point(614, 301)
         Me.lblCombinacao.Name = "lblCombinacao"
         Me.lblCombinacao.Size = New System.Drawing.Size(0, 13)
         Me.lblCombinacao.TabIndex = 14
@@ -182,7 +186,7 @@ Partial Class frm_apresentacao14
         'lblContracao
         '
         Me.lblContracao.AutoSize = True
-        Me.lblContracao.Location = New System.Drawing.Point(615, 339)
+        Me.lblContracao.Location = New System.Drawing.Point(615, 347)
         Me.lblContracao.Name = "lblContracao"
         Me.lblContracao.Size = New System.Drawing.Size(0, 13)
         Me.lblContracao.TabIndex = 15
@@ -191,25 +195,39 @@ Partial Class frm_apresentacao14
         '
         Me.TrataErro.ContainerControl = Me
         '
+
+        '
+
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+
+        Me.Label5.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(345, 256)
+
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(304, 19)
+        Me.Label5.TabIndex = 19
+        Me.Label5.Text = "Realize a combinação e a contração abaixo:"
+        '
         'frm_apresentacao14
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.Controls.Add(Me.Label5)
+        Me.BackColor = System.Drawing.Color.White
+
         Me.Controls.Add(Me.lblContracao)
         Me.Controls.Add(Me.lblCombinacao)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "frm_apresentacao14"
         Me.Text = "Desafio: combinações e contrações"
-        Me.Controls.SetChildIndex(Me.PictureBox1, 0)
-        Me.Controls.SetChildIndex(Me.PictureBox2, 0)
-        Me.Controls.SetChildIndex(Me.TableLayoutPanel1, 0)
-        Me.Controls.SetChildIndex(Me.Label5, 0)
-        Me.Controls.SetChildIndex(Me.lblCombinacao, 0)
-        Me.Controls.SetChildIndex(Me.lblContracao, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel1.ResumeLayout(False)
@@ -232,10 +250,11 @@ Partial Class frm_apresentacao14
     Friend WithEvents Label2 As Label
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label5 As Label
     Friend WithEvents lblCombinacao As Label
     Friend WithEvents lblContracao As Label
     Friend WithEvents TrataErro As ErrorProvider
     Friend WithEvents TextBox5 As usr_textbox
     Friend WithEvents TextBox2 As usr_textbox
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+
 End Class

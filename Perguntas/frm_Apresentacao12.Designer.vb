@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_Apresentacao12
-    Inherits frm_base
+    Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -29,6 +29,7 @@ Partial Class frm_Apresentacao12
         Me.chkList1 = New System.Windows.Forms.CheckedListBox()
         Me.chkList2 = New System.Windows.Forms.CheckedListBox()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
+
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -59,7 +60,7 @@ Partial Class frm_Apresentacao12
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(301, 250)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(138, 13)
+        Me.Label1.Size = New System.Drawing.Size(131, 13)
         Me.Label1.TabIndex = 12
         Me.Label1.Text = "Selecione as preposições:"
         '
@@ -70,7 +71,7 @@ Partial Class frm_Apresentacao12
         Me.chkList1.Items.AddRange(New Object() {"Antônio", "veio", "de", "Goiás"})
         Me.chkList1.Location = New System.Drawing.Point(304, 266)
         Me.chkList1.Name = "chkList1"
-        Me.chkList1.Size = New System.Drawing.Size(152, 89)
+        Me.chkList1.Size = New System.Drawing.Size(152, 79)
         Me.chkList1.TabIndex = 11
         '
         'chkList2
@@ -80,18 +81,21 @@ Partial Class frm_Apresentacao12
         Me.chkList2.Items.AddRange(New Object() {"Vitória", "esteve", "com", "André", "ontem"})
         Me.chkList2.Location = New System.Drawing.Point(462, 266)
         Me.chkList2.Name = "chkList2"
-        Me.chkList2.Size = New System.Drawing.Size(175, 89)
+        Me.chkList2.Size = New System.Drawing.Size(175, 79)
         Me.chkList2.TabIndex = 13
         '
         'TrataErro
         '
         Me.TrataErro.ContainerControl = Me
         '
+
         'frm_Apresentacao12
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.BackColor = System.Drawing.Color.White
+
         Me.Controls.Add(Me.chkList2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.chkList1)
@@ -99,11 +103,6 @@ Partial Class frm_Apresentacao12
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "frm_Apresentacao12"
         Me.Text = "Desafio: preposições"
-        Me.Controls.SetChildIndex(Me.PictureBox1, 0)
-        Me.Controls.SetChildIndex(Me.PictureBox2, 0)
-        Me.Controls.SetChildIndex(Me.chkList1, 0)
-        Me.Controls.SetChildIndex(Me.Label1, 0)
-        Me.Controls.SetChildIndex(Me.chkList2, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
@@ -118,4 +117,5 @@ Partial Class frm_Apresentacao12
     Friend WithEvents chkList1 As CheckedListBox
     Friend WithEvents chkList2 As CheckedListBox
     Friend WithEvents TrataErro As ErrorProvider
+
 End Class

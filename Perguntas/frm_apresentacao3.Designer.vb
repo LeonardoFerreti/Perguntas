@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_apresentacao3
-    Inherits frm_base
+     Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -25,9 +25,10 @@ Partial Class frm_apresentacao3
         Me.components = New System.ComponentModel.Container()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.chkList = New System.Windows.Forms.CheckedListBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
+
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -46,21 +47,13 @@ Partial Class frm_apresentacao3
         'chkList
         '
         Me.chkList.CheckOnClick = True
+        Me.chkList.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chkList.FormattingEnabled = True
         Me.chkList.Items.AddRange(New Object() {"Os", "meninos", "brincavam", "de", "bola"})
         Me.chkList.Location = New System.Drawing.Point(379, 266)
         Me.chkList.Name = "chkList"
-        Me.chkList.Size = New System.Drawing.Size(258, 89)
+        Me.chkList.Size = New System.Drawing.Size(258, 76)
         Me.chkList.TabIndex = 4
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(376, 250)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(206, 13)
-        Me.Label1.TabIndex = 5
-        Me.Label1.Text = "Selecione a(s) palavra(s) lexicais abaixo:"
         '
         'PictureBox1
         '
@@ -76,21 +69,36 @@ Partial Class frm_apresentacao3
         '
         Me.TrataErro.ContainerControl = Me
         '
+        'btn_avancar
+
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+
+        Me.Label1.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(375, 244)
+
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(282, 19)
+        Me.Label1.TabIndex = 35
+        Me.Label1.Text = "Selecione a(s) palavra(s) lexicais abaixo:"
+        '
         'frm_apresentacao3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.Controls.Add(Me.Label1)
+        Me.BackColor = System.Drawing.Color.White
+
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.chkList)
         Me.Name = "frm_apresentacao3"
         Me.Text = "Desafio: palavras lexicais"
-        Me.Controls.SetChildIndex(Me.chkList, 0)
-        Me.Controls.SetChildIndex(Me.Label1, 0)
-        Me.Controls.SetChildIndex(Me.PictureBox1, 0)
-        Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
@@ -100,7 +108,8 @@ Partial Class frm_apresentacao3
     End Sub
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents chkList As CheckedListBox
-    Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TrataErro As ErrorProvider
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+
 End Class

@@ -1,7 +1,7 @@
 ﻿
 Public Class frm_base
 
-    Public Event btn_avancar_click(sender As Object, e As EventArgs)
+    ' Public Event btn_avancar_click(sender As Object, e As EventArgs)
     Public Event btn_voltar_click(sender As Object, e As EventArgs)
 
     Private _mostra_botao_voltar As Boolean = True
@@ -12,7 +12,7 @@ Public Class frm_base
         Set(ByVal value As Boolean)
             _mostra_botao_voltar = value
 
-            btn_voltar.Visible = value
+            'btn_voltar.Visible = value
         End Set
     End Property
 
@@ -24,7 +24,7 @@ Public Class frm_base
         Set(ByVal value As Boolean)
             _habilita_voltar = value
 
-            btn_voltar.Enabled = value
+            ' btn_voltar.Enabled = value
         End Set
     End Property
 
@@ -36,17 +36,17 @@ Public Class frm_base
         Set(ByVal value As Boolean)
             _habilita_avancar = value
 
-            btn_avancar.Enabled = value
+            '  btn_avancar.Enabled = value
         End Set
     End Property
 
-    Private Sub btnAvancar_Click(sender As Object, e As EventArgs) Handles btn_avancar.Click
-        RaiseEvent btn_avancar_click(sender, e)
-    End Sub
+    'Private Sub btnAvancar_Click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
+    '    RaiseEvent btn_avancar.click(sender, e)
+    'End Sub
 
-    Private Sub btnVoltar_Click(sender As Object, e As EventArgs) Handles btn_voltar.Click
-        RaiseEvent btn_voltar_click(sender, e)
-    End Sub
+    'Private Sub btnVoltar_Click(sender As Object, e As EventArgs) Handles ME._btn_voltar_click
+    '    RaiseEvent btn_voltar_click(sender, e)
+    'End Sub
 
     Private Sub frm_base_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
         If MsgBox("Deseja realmente sair do sistema?", MsgBoxStyle.YesNo, "") = MsgBoxResult.Yes Then

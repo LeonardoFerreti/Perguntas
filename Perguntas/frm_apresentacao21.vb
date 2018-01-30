@@ -1,9 +1,11 @@
 ﻿Public Class frm_apresentacao21
+
+
     Private Sub frm_apresentacao21_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         TextBox1.Focus()
     End Sub
 
-    Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
+    Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles ME._btn_voltar_click
 
         Me.Hide()
 
@@ -14,7 +16,7 @@
         Next
     End Sub
 
-    Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
+    Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
         If ValidaDados() Then
             '     Me.Hide()
 
@@ -42,7 +44,7 @@
 
         If Not TextBox1.Texto.ToLower.Equals(TextBox1.Tag.ToString) Then
             ValidaDados = False
-            TrataErro.SetError(Label1, "Escreva a frase corretamente.")
+            TrataErro.SetError(label1, "Escreva a frase corretamente.")
         End If
 
         Return ValidaDados

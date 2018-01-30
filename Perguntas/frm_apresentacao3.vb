@@ -3,7 +3,7 @@
         TrataErro.SetError(Label1, String.Empty)
     End Sub
 
-    Private Sub frm_apresentacao2_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
+    Private Sub frm_apresentacao2_btn_avancar_click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
         If validaDados() Then
 
             '  Me.Hide()
@@ -23,7 +23,7 @@
 
     End Sub
 
-    Private Sub frm_apresentacao3_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
+    Private Sub frm_apresentacao3_btn_voltar_click(sender As Object, e As EventArgs) Handles ME._btn_voltar_click
         Me.Hide()
 
         For Each form As Control In Application.OpenForms
@@ -32,6 +32,7 @@
             End If
         Next
     End Sub
+
 
     Private Function validaDados() As Boolean
         validaDados = True
@@ -49,7 +50,7 @@
                 validaDados = False
             End If
         End If
-            Return validaDados
+        Return validaDados
     End Function
 
 End Class

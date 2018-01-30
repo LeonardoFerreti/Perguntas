@@ -22,7 +22,7 @@ Partial Class usr_textbox
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txt = New MetroFramework.Controls.MetroTextBox()
+        Me.txt = New TextBox()
         Me.SuspendLayout()
         '
         'txt
@@ -30,16 +30,7 @@ Partial Class usr_textbox
         '
         '
         '
-        Me.txt.CustomButton.Image = Nothing
-        Me.txt.CustomButton.Location = New System.Drawing.Point(90, 2)
-        Me.txt.CustomButton.Name = ""
-        Me.txt.CustomButton.Size = New System.Drawing.Size(19, 19)
-        Me.txt.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
-        Me.txt.CustomButton.TabIndex = 1
-        Me.txt.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
-        Me.txt.CustomButton.UseSelectable = True
-        Me.txt.CustomButton.UseVisualStyleBackColor = False
-        Me.txt.CustomButton.Visible = False
+
         Me.txt.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txt.ForeColor = System.Drawing.Color.Black
         Me.txt.Lines = New String(-1) {}
@@ -54,12 +45,8 @@ Partial Class usr_textbox
         Me.txt.ShortcutsEnabled = True
         Me.txt.Size = New System.Drawing.Size(112, 24)
         Me.txt.TabIndex = 0
-        Me.txt.Theme = MetroFramework.MetroThemeStyle.Dark
-        Me.txt.UseCustomBackColor = True
-        Me.txt.UseCustomForeColor = True
-        Me.txt.UseSelectable = True
-        Me.txt.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
-        Me.txt.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+
+
         '
         'usr_textbox
         '
@@ -72,5 +59,5 @@ Partial Class usr_textbox
 
     End Sub
 
-    Friend WithEvents txt As MetroTextBox
+    Friend WithEvents txt As TextBox
 End Class

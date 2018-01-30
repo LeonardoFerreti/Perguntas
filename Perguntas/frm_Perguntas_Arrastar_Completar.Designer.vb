@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_Perguntas_Arrastar_Completar
-    Inherits frm_base
+     Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -62,7 +62,6 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel10 = New System.Windows.Forms.TableLayoutPanel()
         Me.TextBox31 = New Perguntas.usr_textbox()
         Me.TextBox32 = New Perguntas.usr_textbox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -74,6 +73,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
@@ -92,7 +92,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.ListBox1.AllowDrop = True
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Items.AddRange(New Object() {"LI", "CON", "PU", "TA", "SAR", "DOR", "SER", "DE", "NAR", "TO", "VER", "DE", "POIS", "VI", "TER", "TE", "TRO", "VI"})
-        Me.ListBox1.Location = New System.Drawing.Point(138, 67)
+        Me.ListBox1.Location = New System.Drawing.Point(138, 70)
         Me.ListBox1.MultiColumn = True
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(524, 69)
@@ -105,7 +105,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox4, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.TextBox3, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(24, 175)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(24, 191)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -127,7 +127,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox4.Tag = "LI"
         Me.TextBox4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox4.Texto = ""
-        Me.TextBox4.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox4.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox4.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox3
@@ -158,7 +158,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel2.Controls.Add(Me.TextBox6, 2, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.TextBox7, 1, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.TextBox8, 0, 0)
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(449, 175)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(449, 191)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 1
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -180,7 +180,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox5.Tag = "DOR"
         Me.TextBox5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox5.Texto = ""
-        Me.TextBox5.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox5.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox5.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox6
@@ -197,7 +197,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox6.Tag = "TA"
         Me.TextBox6.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox6.Texto = ""
-        Me.TextBox6.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox6.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox6.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox7
@@ -214,7 +214,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox7.Tag = "PU"
         Me.TextBox7.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox7.Texto = ""
-        Me.TextBox7.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox7.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox7.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox8
@@ -243,7 +243,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel3.Controls.Add(Me.TextBox10, 2, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.TextBox11, 1, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.TextBox12, 0, 0)
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(24, 211)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(24, 227)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 1
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -282,7 +282,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox11.Tag = "VI"
         Me.TextBox11.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox11.Texto = ""
-        Me.TextBox11.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox11.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox11.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox12
@@ -299,7 +299,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox12.Tag = "SER"
         Me.TextBox12.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox12.Texto = ""
-        Me.TextBox12.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox12.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox12.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TableLayoutPanel4
@@ -311,7 +311,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel4.Controls.Add(Me.TextBox9, 2, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.TextBox13, 1, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.TextBox14, 0, 0)
-        Me.TableLayoutPanel4.Location = New System.Drawing.Point(24, 247)
+        Me.TableLayoutPanel4.Location = New System.Drawing.Point(24, 263)
         Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
         Me.TableLayoutPanel4.RowCount = 1
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -333,7 +333,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox9.Tag = "DE"
         Me.TextBox9.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox9.Texto = ""
-        Me.TextBox9.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox9.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox9.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox13
@@ -367,7 +367,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox14.Tag = "VER"
         Me.TextBox14.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox14.Texto = ""
-        Me.TextBox14.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox14.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox14.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TableLayoutPanel5
@@ -379,7 +379,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel5.Controls.Add(Me.TextBox15, 2, 0)
         Me.TableLayoutPanel5.Controls.Add(Me.TextBox16, 1, 0)
         Me.TableLayoutPanel5.Controls.Add(Me.TextBox17, 0, 0)
-        Me.TableLayoutPanel5.Location = New System.Drawing.Point(24, 283)
+        Me.TableLayoutPanel5.Location = New System.Drawing.Point(24, 299)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
         Me.TableLayoutPanel5.RowCount = 1
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -401,7 +401,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox15.Tag = "SAR"
         Me.TextBox15.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox15.Texto = ""
-        Me.TextBox15.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox15.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox15.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox16
@@ -418,7 +418,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox16.Tag = "VI"
         Me.TextBox16.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox16.Texto = ""
-        Me.TextBox16.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox16.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox16.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox17
@@ -447,7 +447,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel6.Controls.Add(Me.TextBox18, 2, 0)
         Me.TableLayoutPanel6.Controls.Add(Me.TextBox19, 1, 0)
         Me.TableLayoutPanel6.Controls.Add(Me.TextBox20, 0, 0)
-        Me.TableLayoutPanel6.Location = New System.Drawing.Point(24, 315)
+        Me.TableLayoutPanel6.Location = New System.Drawing.Point(24, 331)
         Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
         Me.TableLayoutPanel6.RowCount = 1
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -469,7 +469,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox18.Tag = "TE"
         Me.TextBox18.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox18.Texto = ""
-        Me.TextBox18.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox18.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox18.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox19
@@ -503,7 +503,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox20.Tag = "TO"
         Me.TextBox20.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox20.Texto = ""
-        Me.TextBox20.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox20.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox20.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TableLayoutPanel7
@@ -515,7 +515,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel7.Controls.Add(Me.TextBox21, 2, 0)
         Me.TableLayoutPanel7.Controls.Add(Me.TextBox22, 1, 0)
         Me.TableLayoutPanel7.Controls.Add(Me.TextBox23, 0, 0)
-        Me.TableLayoutPanel7.Location = New System.Drawing.Point(449, 315)
+        Me.TableLayoutPanel7.Location = New System.Drawing.Point(449, 331)
         Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
         Me.TableLayoutPanel7.RowCount = 1
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -537,7 +537,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox21.Tag = "TRO"
         Me.TextBox21.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox21.Texto = ""
-        Me.TextBox21.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox21.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox21.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox22
@@ -554,7 +554,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox22.Tag = "CON"
         Me.TextBox22.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox22.Texto = ""
-        Me.TextBox22.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox22.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox22.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox23
@@ -583,7 +583,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel8.Controls.Add(Me.TextBox24, 2, 0)
         Me.TableLayoutPanel8.Controls.Add(Me.TextBox25, 1, 0)
         Me.TableLayoutPanel8.Controls.Add(Me.TextBox26, 0, 0)
-        Me.TableLayoutPanel8.Location = New System.Drawing.Point(449, 281)
+        Me.TableLayoutPanel8.Location = New System.Drawing.Point(449, 297)
         Me.TableLayoutPanel8.Name = "TableLayoutPanel8"
         Me.TableLayoutPanel8.RowCount = 1
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -605,7 +605,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox24.Tag = "NAR"
         Me.TextBox24.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox24.Texto = ""
-        Me.TextBox24.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox24.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox24.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox25
@@ -639,7 +639,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox26.Tag = "TER"
         Me.TextBox26.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox26.Texto = ""
-        Me.TextBox26.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox26.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox26.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TableLayoutPanel9
@@ -649,7 +649,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel9.Controls.Add(Me.TextBox28, 1, 0)
         Me.TableLayoutPanel9.Controls.Add(Me.TextBox29, 0, 0)
-        Me.TableLayoutPanel9.Location = New System.Drawing.Point(449, 246)
+        Me.TableLayoutPanel9.Location = New System.Drawing.Point(449, 262)
         Me.TableLayoutPanel9.Name = "TableLayoutPanel9"
         Me.TableLayoutPanel9.RowCount = 1
         Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -671,7 +671,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox28.Tag = "POIS"
         Me.TextBox28.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox28.Texto = ""
-        Me.TextBox28.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox28.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox28.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox29
@@ -698,7 +698,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TableLayoutPanel10.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel10.Controls.Add(Me.TextBox31, 1, 0)
         Me.TableLayoutPanel10.Controls.Add(Me.TextBox32, 0, 0)
-        Me.TableLayoutPanel10.Location = New System.Drawing.Point(449, 212)
+        Me.TableLayoutPanel10.Location = New System.Drawing.Point(449, 228)
         Me.TableLayoutPanel10.Name = "TableLayoutPanel10"
         Me.TableLayoutPanel10.RowCount = 1
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -720,7 +720,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox31.Tag = "DE"
         Me.TextBox31.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox31.Texto = ""
-        Me.TextBox31.TEXTO_BACKCOLOR = System.Drawing.Color.Empty
+        Me.TextBox31.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox31.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'TextBox32
@@ -740,19 +740,10 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.TextBox32.TEXTO_BACKCOLOR = System.Drawing.Color.Gainsboro
         Me.TextBox32.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(21, 144)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(361, 13)
-        Me.Label1.TabIndex = 14
-        Me.Label1.Text = "Arraste as silabas para os quadros abaixo para completar as palavras:"
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(324, 184)
+        Me.Label2.Location = New System.Drawing.Point(175, 201)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(0, 13)
         Me.Label2.TabIndex = 15
@@ -760,7 +751,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(246, 219)
+        Me.Label3.Location = New System.Drawing.Point(246, 235)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(0, 13)
         Me.Label3.TabIndex = 16
@@ -768,7 +759,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(274, 256)
+        Me.Label4.Location = New System.Drawing.Point(274, 272)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(0, 13)
         Me.Label4.TabIndex = 17
@@ -776,7 +767,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(246, 292)
+        Me.Label5.Location = New System.Drawing.Point(246, 308)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(0, 13)
         Me.Label5.TabIndex = 18
@@ -784,7 +775,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(276, 326)
+        Me.Label6.Location = New System.Drawing.Point(276, 342)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(0, 13)
         Me.Label6.TabIndex = 19
@@ -792,7 +783,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(744, 185)
+        Me.Label7.Location = New System.Drawing.Point(744, 201)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(0, 13)
         Me.Label7.TabIndex = 20
@@ -800,7 +791,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(595, 221)
+        Me.Label8.Location = New System.Drawing.Point(595, 237)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(0, 13)
         Me.Label8.TabIndex = 21
@@ -808,7 +799,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(595, 254)
+        Me.Label9.Location = New System.Drawing.Point(595, 270)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(0, 13)
         Me.Label9.TabIndex = 22
@@ -816,7 +807,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(671, 290)
+        Me.Label10.Location = New System.Drawing.Point(671, 306)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(0, 13)
         Me.Label10.TabIndex = 23
@@ -824,7 +815,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(671, 323)
+        Me.Label11.Location = New System.Drawing.Point(671, 339)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(0, 13)
         Me.Label11.TabIndex = 24
@@ -833,11 +824,25 @@ Partial Class frm_Perguntas_Arrastar_Completar
         '
         Me.TrataErro.ContainerControl = Me
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(21, 155)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(470, 18)
+        Me.Label1.TabIndex = 50
+        Me.Label1.Text = "Arraste as silabas para os quadros abaixo para completar as palavras:"
+        '
         'frm_Perguntas_Arrastar_Completar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
@@ -848,7 +853,6 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TableLayoutPanel9)
         Me.Controls.Add(Me.TableLayoutPanel10)
         Me.Controls.Add(Me.TableLayoutPanel7)
@@ -860,6 +864,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.Controls.Add(Me.TableLayoutPanel2)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.ListBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_Perguntas_Arrastar_Completar"
         Me.Text = "Arraste e complete as palavras"
         Me.Controls.SetChildIndex(Me.ListBox1, 0)
@@ -873,7 +878,6 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.Controls.SetChildIndex(Me.TableLayoutPanel7, 0)
         Me.Controls.SetChildIndex(Me.TableLayoutPanel10, 0)
         Me.Controls.SetChildIndex(Me.TableLayoutPanel9, 0)
-        Me.Controls.SetChildIndex(Me.Label1, 0)
         Me.Controls.SetChildIndex(Me.Label2, 0)
         Me.Controls.SetChildIndex(Me.Label3, 0)
         Me.Controls.SetChildIndex(Me.Label4, 0)
@@ -884,6 +888,7 @@ Partial Class frm_Perguntas_Arrastar_Completar
         Me.Controls.SetChildIndex(Me.Label9, 0)
         Me.Controls.SetChildIndex(Me.Label10, 0)
         Me.Controls.SetChildIndex(Me.Label11, 0)
+        Me.Controls.SetChildIndex(Me.Label1, 0)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel2.ResumeLayout(False)
         Me.TableLayoutPanel3.ResumeLayout(False)
@@ -911,7 +916,6 @@ Partial Class frm_Perguntas_Arrastar_Completar
     Friend WithEvents TableLayoutPanel8 As TableLayoutPanel
     Friend WithEvents TableLayoutPanel9 As TableLayoutPanel
     Friend WithEvents TableLayoutPanel10 As TableLayoutPanel
-    Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
@@ -951,4 +955,6 @@ Partial Class frm_Perguntas_Arrastar_Completar
     Friend WithEvents TextBox29 As usr_textbox
     Friend WithEvents TextBox31 As usr_textbox
     Friend WithEvents TextBox32 As usr_textbox
+    Friend WithEvents Label1 As Windows.Forms.Label
+
 End Class

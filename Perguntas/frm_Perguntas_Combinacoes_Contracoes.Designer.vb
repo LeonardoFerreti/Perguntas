@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_Perguntas_Combinacoes_Contracoes
-    Inherits frm_base
+     Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -25,48 +25,49 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.components = New System.ComponentModel.Container()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.TextBox2 = New usr_textbox()
+        Me.TextBox2 = New Perguntas.usr_textbox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New usr_textbox()
+        Me.TextBox1 = New Perguntas.usr_textbox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label100 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel15 = New System.Windows.Forms.Panel()
-        Me.TextBox13 = New usr_textbox()
+        Me.TextBox13 = New Perguntas.usr_textbox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Panel14 = New System.Windows.Forms.Panel()
-        Me.TextBox8 = New usr_textbox()
+        Me.TextBox8 = New Perguntas.usr_textbox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.TextBox12 = New usr_textbox()
+        Me.TextBox12 = New Perguntas.usr_textbox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.TextBox7 = New usr_textbox()
+        Me.TextBox7 = New Perguntas.usr_textbox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.TextBox11 = New usr_textbox()
+        Me.TextBox11 = New Perguntas.usr_textbox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.TextBox6 = New usr_textbox()
+        Me.TextBox6 = New Perguntas.usr_textbox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.TextBox10 = New usr_textbox()
+        Me.TextBox10 = New Perguntas.usr_textbox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.TextBox5 = New usr_textbox()
+        Me.TextBox5 = New Perguntas.usr_textbox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.TextBox3 = New usr_textbox()
+        Me.TextBox3 = New Perguntas.usr_textbox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.TextBox9 = New usr_textbox()
+        Me.TextBox9 = New Perguntas.usr_textbox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.TextBox4 = New usr_textbox()
+        Me.TextBox4 = New Perguntas.usr_textbox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label200 = New System.Windows.Forms.Label()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
+
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -87,13 +88,14 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'TableLayoutPanel1
         '
+        Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
         Me.TableLayoutPanel1.ColumnCount = 1
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 187.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 188.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Panel3, 0, 2)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label100, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(92, 68)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(92, 78)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 3
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
@@ -109,16 +111,22 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(4, 72)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(181, 41)
+        Me.Panel3.Size = New System.Drawing.Size(182, 41)
         Me.Panel3.TabIndex = 4
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.White
+        Me.TextBox2.ForeColor = System.Drawing.Color.Black
         Me.TextBox2.Location = New System.Drawing.Point(112, 14)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox2.somenteLeitura = False
         Me.TextBox2.TabIndex = 2
         Me.TextBox2.Tag = "aonde"
+        Me.TextBox2.Texto = ""
+        Me.TextBox2.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox2.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label2
         '
@@ -137,16 +145,22 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(4, 25)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(181, 40)
+        Me.Panel2.Size = New System.Drawing.Size(182, 40)
         Me.Panel2.TabIndex = 3
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.White
+        Me.TextBox1.ForeColor = System.Drawing.Color.Black
         Me.TextBox1.Location = New System.Drawing.Point(112, 14)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox1.somenteLeitura = False
         Me.TextBox1.TabIndex = 1
         Me.TextBox1.Tag = "ao"
+        Me.TextBox1.Texto = ""
+        Me.TextBox1.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox1.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label1
         '
@@ -164,13 +178,14 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Label100.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label100.Location = New System.Drawing.Point(4, 1)
         Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(181, 20)
+        Me.Label100.Size = New System.Drawing.Size(182, 20)
         Me.Label100.TabIndex = 0
         Me.Label100.Text = "Combinações"
         Me.Label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TableLayoutPanel2
         '
+        Me.TableLayoutPanel2.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
         Me.TableLayoutPanel2.ColumnCount = 2
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 192.0!))
@@ -187,7 +202,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TableLayoutPanel2.Controls.Add(Me.Panel5, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Panel4, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Label200, 0, 0)
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(348, 67)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(348, 77)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 7
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
@@ -212,11 +227,17 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'TextBox13
         '
-        Me.TextBox13.Location = New System.Drawing.Point(129, 11)
+        Me.TextBox13.BackColor = System.Drawing.Color.White
+        Me.TextBox13.ForeColor = System.Drawing.Color.Black
+        Me.TextBox13.Location = New System.Drawing.Point(131, 11)
         Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox13.Size = New System.Drawing.Size(54, 22)
+        Me.TextBox13.somenteLeitura = False
         Me.TextBox13.TabIndex = 11
         Me.TextBox13.Tag = "naquilo"
+        Me.TextBox13.Texto = ""
+        Me.TextBox13.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox13.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label13
         '
@@ -240,11 +261,17 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(130, 14)
+        Me.TextBox8.BackColor = System.Drawing.Color.White
+        Me.TextBox8.ForeColor = System.Drawing.Color.Black
+        Me.TextBox8.Location = New System.Drawing.Point(131, 14)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox8.Size = New System.Drawing.Size(51, 22)
+        Me.TextBox8.somenteLeitura = False
         Me.TextBox8.TabIndex = 6
         Me.TextBox8.Tag = "dele"
+        Me.TextBox8.Texto = ""
+        Me.TextBox8.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox8.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label8
         '
@@ -268,11 +295,17 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'TextBox12
         '
-        Me.TextBox12.Location = New System.Drawing.Point(129, 11)
+        Me.TextBox12.BackColor = System.Drawing.Color.White
+        Me.TextBox12.ForeColor = System.Drawing.Color.Black
+        Me.TextBox12.Location = New System.Drawing.Point(131, 11)
         Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox12.Size = New System.Drawing.Size(54, 22)
+        Me.TextBox12.somenteLeitura = False
         Me.TextBox12.TabIndex = 10
         Me.TextBox12.Tag = "naquele"
+        Me.TextBox12.Texto = ""
+        Me.TextBox12.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox12.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label12
         '
@@ -296,11 +329,17 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(130, 11)
+        Me.TextBox7.BackColor = System.Drawing.Color.White
+        Me.TextBox7.ForeColor = System.Drawing.Color.Black
+        Me.TextBox7.Location = New System.Drawing.Point(131, 11)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox7.Size = New System.Drawing.Size(51, 22)
+        Me.TextBox7.somenteLeitura = False
         Me.TextBox7.TabIndex = 5
         Me.TextBox7.Tag = "daquilo"
+        Me.TextBox7.Texto = ""
+        Me.TextBox7.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox7.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label7
         '
@@ -324,11 +363,17 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'TextBox11
         '
-        Me.TextBox11.Location = New System.Drawing.Point(129, 11)
+        Me.TextBox11.BackColor = System.Drawing.Color.White
+        Me.TextBox11.ForeColor = System.Drawing.Color.Black
+        Me.TextBox11.Location = New System.Drawing.Point(131, 11)
         Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox11.Size = New System.Drawing.Size(54, 22)
+        Me.TextBox11.somenteLeitura = False
         Me.TextBox11.TabIndex = 9
         Me.TextBox11.Tag = "daquela"
+        Me.TextBox11.Texto = ""
+        Me.TextBox11.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox11.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label11
         '
@@ -352,11 +397,17 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(130, 11)
+        Me.TextBox6.BackColor = System.Drawing.Color.White
+        Me.TextBox6.ForeColor = System.Drawing.Color.Black
+        Me.TextBox6.Location = New System.Drawing.Point(131, 11)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox6.Size = New System.Drawing.Size(51, 22)
+        Me.TextBox6.somenteLeitura = False
         Me.TextBox6.TabIndex = 4
         Me.TextBox6.Tag = "naquela"
+        Me.TextBox6.Texto = ""
+        Me.TextBox6.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox6.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label6
         '
@@ -380,11 +431,17 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(129, 11)
+        Me.TextBox10.BackColor = System.Drawing.Color.White
+        Me.TextBox10.ForeColor = System.Drawing.Color.Black
+        Me.TextBox10.Location = New System.Drawing.Point(131, 11)
         Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox10.Size = New System.Drawing.Size(54, 22)
+        Me.TextBox10.somenteLeitura = False
         Me.TextBox10.TabIndex = 8
         Me.TextBox10.Tag = "daí"
+        Me.TextBox10.Texto = ""
+        Me.TextBox10.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox10.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label10
         '
@@ -408,11 +465,17 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(130, 11)
+        Me.TextBox5.BackColor = System.Drawing.Color.White
+        Me.TextBox5.ForeColor = System.Drawing.Color.Black
+        Me.TextBox5.Location = New System.Drawing.Point(131, 11)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(51, 22)
+        Me.TextBox5.somenteLeitura = False
         Me.TextBox5.TabIndex = 3
         Me.TextBox5.Tag = "dali"
+        Me.TextBox5.Texto = ""
+        Me.TextBox5.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox5.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label5
         '
@@ -436,11 +499,17 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(130, 11)
+        Me.TextBox3.BackColor = System.Drawing.Color.White
+        Me.TextBox3.ForeColor = System.Drawing.Color.Black
+        Me.TextBox3.Location = New System.Drawing.Point(131, 11)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(51, 22)
+        Me.TextBox3.somenteLeitura = False
         Me.TextBox3.TabIndex = 1
         Me.TextBox3.Tag = "da"
+        Me.TextBox3.Texto = ""
+        Me.TextBox3.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox3.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label3
         '
@@ -464,11 +533,17 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(129, 11)
+        Me.TextBox9.BackColor = System.Drawing.Color.White
+        Me.TextBox9.ForeColor = System.Drawing.Color.Black
+        Me.TextBox9.Location = New System.Drawing.Point(131, 11)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox9.Size = New System.Drawing.Size(54, 22)
+        Me.TextBox9.somenteLeitura = False
         Me.TextBox9.TabIndex = 7
         Me.TextBox9.Tag = "dela"
+        Me.TextBox9.Texto = ""
+        Me.TextBox9.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox9.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label9
         '
@@ -492,11 +567,17 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(130, 11)
+        Me.TextBox4.BackColor = System.Drawing.Color.White
+        Me.TextBox4.ForeColor = System.Drawing.Color.Black
+        Me.TextBox4.Location = New System.Drawing.Point(131, 11)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(51, 22)
+        Me.TextBox4.somenteLeitura = False
         Me.TextBox4.TabIndex = 2
         Me.TextBox4.Tag = "daqui"
+        Me.TextBox4.Texto = ""
+        Me.TextBox4.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox4.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label4
         '
@@ -524,17 +605,19 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         Me.TrataErro.ContainerControl = Me
         '
+
+        '
         'frm_Perguntas_Combinacoes_Contracoes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.BackColor = System.Drawing.Color.White
+
         Me.Controls.Add(Me.TableLayoutPanel2)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "frm_Perguntas_Combinacoes_Contracoes"
         Me.Text = "Combinações e Contrações"
-        Me.Controls.SetChildIndex(Me.TableLayoutPanel1, 0)
-        Me.Controls.SetChildIndex(Me.TableLayoutPanel2, 0)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
@@ -565,6 +648,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel4.PerformLayout()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -612,4 +696,5 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
     Friend WithEvents TextBox3 As usr_textbox
     Friend WithEvents Label3 As Label
     Friend WithEvents TrataErro As ErrorProvider
+
 End Class

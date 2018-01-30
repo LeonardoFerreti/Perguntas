@@ -1,9 +1,11 @@
 ﻿Public Class frm_apresentacao9
+
+
     Private Sub frm_apresentacao9_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         TextBox1.Focus()
     End Sub
 
-    Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
+    Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles ME._btn_voltar_click
         Me.Hide()
 
         For Each form As Control In Application.OpenForms
@@ -13,7 +15,7 @@
         Next
     End Sub
 
-    Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
+    Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
         If ValidaDados() Then
 
             '      Me.Hide()

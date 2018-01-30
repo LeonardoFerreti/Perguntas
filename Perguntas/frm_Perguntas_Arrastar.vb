@@ -29,7 +29,7 @@
         CType(sender, ListBox).Items.Add(str)
     End Sub
 
-    Private Sub frm_Perguntas_Arrastar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
+    Private Sub frm_Perguntas_Arrastar_btn_avancar_click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
         If validaDados() Then
 
             '    Me.Hide()
@@ -48,7 +48,7 @@
         End If
     End Sub
 
-    Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
+    Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles ME._btn_voltar_click
         Me.Hide()
 
         For Each form As Control In Application.OpenForms
@@ -59,6 +59,7 @@
     End Sub
 
     Private Sub frm_Perguntas_Arrastar_Load(sender As Object, e As EventArgs) Handles Me.Load
+
         listaConteudo.AddRange({"favor", "aqui", "livro", "novo", "mesa", "bom", "tá(está)", "encontrou",
                                 "acontecer", "comparecer", "repente", "apontador", "amor", "certeza", "nome", "luz", "ver", "três", "esperando", "tem", "liga", "menina", "menino", "avisa",
                                 "amar", "atrasado", "olhar", "terminar", "verdadeiro"})

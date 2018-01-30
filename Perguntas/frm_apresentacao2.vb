@@ -1,5 +1,5 @@
 ﻿Public Class frm_apresentacao2
-    Private Sub frm_apresentacao2_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
+    Private Sub frm_apresentacao2_btn_avancar_click(sender As Object, e As EventArgs) Handles Me._btn_avancar_click
         '      Me.Hide()
 
         Dim frm As frm_apresentacao3 = Nothing
@@ -15,7 +15,7 @@
         frm.Focus()
     End Sub
 
-    Private Sub frm_apresentacao2_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
+    Private Sub frm_apresentacao2_btn_voltar_click(sender As Object, e As EventArgs) Handles Me._btn_voltar_click
         Me.Hide()
         For Each form As Control In Application.OpenForms
             If TypeOf form Is frm_apresentacao Then
@@ -24,6 +24,5 @@
         Next
 
     End Sub
-
 
 End Class

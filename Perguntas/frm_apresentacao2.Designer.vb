@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_apresentacao2
-    Inherits frm_base
+    Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -31,7 +31,7 @@ Partial Class frm_apresentacao2
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao11
-        Me.PictureBox2.Location = New System.Drawing.Point(122, 63)
+        Me.PictureBox2.Location = New System.Drawing.Point(122, 78)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(436, 269)
         Me.PictureBox2.TabIndex = 4
@@ -51,9 +51,11 @@ Partial Class frm_apresentacao2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_apresentacao2"
         Me.Text = "Palavras lexicais e palavras funcionais"
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
@@ -67,4 +69,5 @@ Partial Class frm_apresentacao2
 
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
+
 End Class

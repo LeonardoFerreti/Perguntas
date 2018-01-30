@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_Perguntas_Contracao_Obliquo
-    Inherits frm_base
+     Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -25,21 +25,22 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.components = New System.ComponentModel.Container()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.TextBox3 = New usr_textbox()
+        Me.TextBox3 = New Perguntas.usr_textbox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TextBox4 = New usr_textbox()
+        Me.TextBox4 = New Perguntas.usr_textbox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.TextBox2 = New usr_textbox()
+        Me.TextBox2 = New Perguntas.usr_textbox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New usr_textbox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New Perguntas.usr_textbox()
         Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.TableLayoutPanel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -52,9 +53,10 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         '
         'TableLayoutPanel2
         '
+        Me.TableLayoutPanel2.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
         Me.TableLayoutPanel2.ColumnCount = 1
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 176.0!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 230.0!))
         Me.TableLayoutPanel2.Controls.Add(Me.Panel3, 0, 4)
         Me.TableLayoutPanel2.Controls.Add(Me.Panel2, 0, 4)
         Me.TableLayoutPanel2.Controls.Add(Me.Panel6, 0, 1)
@@ -80,16 +82,22 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(4, 133)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(222, 29)
+        Me.Panel3.Size = New System.Drawing.Size(224, 29)
         Me.Panel3.TabIndex = 3
         '
         'TextBox3
         '
+        Me.TextBox3.BackColor = System.Drawing.Color.White
+        Me.TextBox3.ForeColor = System.Drawing.Color.Black
         Me.TextBox3.Location = New System.Drawing.Point(129, 5)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(88, 22)
+        Me.TextBox3.somenteLeitura = False
         Me.TextBox3.TabIndex = 3
         Me.TextBox3.Tag = "conosco"
+        Me.TextBox3.Texto = ""
+        Me.TextBox3.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox3.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label3
         '
@@ -108,16 +116,22 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(4, 169)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(222, 33)
+        Me.Panel2.Size = New System.Drawing.Size(224, 33)
         Me.Panel2.TabIndex = 4
         '
         'TextBox4
         '
+        Me.TextBox4.BackColor = System.Drawing.Color.White
+        Me.TextBox4.ForeColor = System.Drawing.Color.Black
         Me.TextBox4.Location = New System.Drawing.Point(129, 8)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(88, 22)
+        Me.TextBox4.somenteLeitura = False
         Me.TextBox4.TabIndex = 4
         Me.TextBox4.Tag = "convosco"
+        Me.TextBox4.Texto = ""
+        Me.TextBox4.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox4.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label4
         '
@@ -136,16 +150,22 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel6.Location = New System.Drawing.Point(4, 97)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(222, 29)
+        Me.Panel6.Size = New System.Drawing.Size(224, 29)
         Me.Panel6.TabIndex = 2
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.White
+        Me.TextBox2.ForeColor = System.Drawing.Color.Black
         Me.TextBox2.Location = New System.Drawing.Point(129, 5)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(88, 22)
+        Me.TextBox2.somenteLeitura = False
         Me.TextBox2.TabIndex = 2
         Me.TextBox2.Tag = "consigo"
+        Me.TextBox2.Texto = ""
+        Me.TextBox2.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox2.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label2
         '
@@ -164,7 +184,7 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel5.Location = New System.Drawing.Point(4, 25)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(222, 29)
+        Me.Panel5.Size = New System.Drawing.Size(224, 29)
         Me.Panel5.TabIndex = 5
         '
         'Label6
@@ -189,31 +209,37 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         '
         'Panel4
         '
+        Me.Panel4.Controls.Add(Me.Label5)
         Me.Panel4.Controls.Add(Me.TextBox1)
-        Me.Panel4.Controls.Add(Me.Label1)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel4.Location = New System.Drawing.Point(4, 61)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(222, 29)
+        Me.Panel4.Size = New System.Drawing.Size(224, 29)
         Me.Panel4.TabIndex = 0
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(6, 5)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(83, 21)
+        Me.Label5.TabIndex = 3
+        Me.Label5.Text = "com + ti ="
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.White
+        Me.TextBox1.ForeColor = System.Drawing.Color.Black
         Me.TextBox1.Location = New System.Drawing.Point(129, 5)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(88, 22)
+        Me.TextBox1.somenteLeitura = False
         Me.TextBox1.TabIndex = 1
         Me.TextBox1.Tag = "contigo"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(9, 7)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(83, 21)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "com + ti ="
+        Me.TextBox1.Texto = ""
+        Me.TextBox1.TEXTO_BACKCOLOR = System.Drawing.Color.White
+        Me.TextBox1.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
         'Label20
         '
@@ -221,10 +247,17 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         Me.Label20.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.Location = New System.Drawing.Point(4, 1)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(222, 20)
+        Me.Label20.Size = New System.Drawing.Size(224, 20)
         Me.Label20.TabIndex = 0
         Me.Label20.Text = "Contrações"
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label1
+        '
+        Me.Label1.Location = New System.Drawing.Point(0, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(100, 23)
+        Me.Label1.TabIndex = 0
         '
         'TrataErro
         '
@@ -234,8 +267,10 @@ Partial Class frm_Perguntas_Contracao_Obliquo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.TableLayoutPanel2)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_Perguntas_Contracao_Obliquo"
         Me.Text = "Contrações de pronomes oblíquos"
         Me.Controls.SetChildIndex(Me.TableLayoutPanel2, 0)
@@ -262,7 +297,7 @@ Partial Class frm_Perguntas_Contracao_Obliquo
     Friend WithEvents Panel5 As Panel
     Friend WithEvents Panel4 As Panel
     Friend WithEvents TextBox1 As usr_textbox
-    Friend WithEvents Label1 As Label
+
     Friend WithEvents Label20 As Label
     Friend WithEvents Panel3 As Panel
     Friend WithEvents TextBox3 As usr_textbox
@@ -273,4 +308,6 @@ Partial Class frm_Perguntas_Contracao_Obliquo
     Friend WithEvents Label6 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents TrataErro As ErrorProvider
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label1 As Label
 End Class

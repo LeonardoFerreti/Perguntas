@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frm_apresentacao23
-    Inherits frm_base
+     Inherits frm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -26,6 +26,7 @@ Partial Class frm_apresentacao23
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -35,7 +36,7 @@ Partial Class frm_apresentacao23
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.Perguntas.My.Resources.Resources.imagem1
-        Me.PictureBox4.Location = New System.Drawing.Point(614, 79)
+        Me.PictureBox4.Location = New System.Drawing.Point(636, 116)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(148, 155)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -45,7 +46,7 @@ Partial Class frm_apresentacao23
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.bln2
-        Me.PictureBox2.Location = New System.Drawing.Point(287, 53)
+        Me.PictureBox2.Location = New System.Drawing.Point(294, 78)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(336, 113)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -55,7 +56,7 @@ Partial Class frm_apresentacao23
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.balao7
-        Me.PictureBox1.Location = New System.Drawing.Point(140, 197)
+        Me.PictureBox1.Location = New System.Drawing.Point(143, 215)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(404, 129)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -72,21 +73,21 @@ Partial Class frm_apresentacao23
         Me.PictureBox3.TabIndex = 12
         Me.PictureBox3.TabStop = False
         '
+
+        '
         'frm_apresentacao23
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.BackColor = System.Drawing.Color.White
+
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox3)
         Me.Name = "frm_apresentacao23"
         Me.Text = "Desafio: reescrever frases"
-        Me.Controls.SetChildIndex(Me.PictureBox3, 0)
-        Me.Controls.SetChildIndex(Me.PictureBox1, 0)
-        Me.Controls.SetChildIndex(Me.PictureBox2, 0)
-        Me.Controls.SetChildIndex(Me.PictureBox4, 0)
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -100,4 +101,5 @@ Partial Class frm_apresentacao23
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
+
 End Class

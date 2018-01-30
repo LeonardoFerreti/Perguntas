@@ -2,7 +2,7 @@
 
     Private arquivo As String = Application.StartupPath + "video_sistema_perguntas.mp4"
 
-    Private Sub frm_Perguntas_Musica_btn_avancar_click(sender As Object, e As EventArgs) Handles Me.btn_avancar_click
+    Private Sub frm_Perguntas_Musica_btn_avancar_click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
         If validaDados() Then
             '    Me.Hide()
 
@@ -20,7 +20,7 @@
         End If
     End Sub
 
-    Private Sub frm_Perguntas_Musica_btn_voltar_click(sender As Object, e As EventArgs) Handles Me.btn_voltar_click
+    Private Sub frm_Perguntas_Musica_btn_voltar_click(sender As Object, e As EventArgs) Handles ME._btn_voltar_click
         Me.Hide()
 
         For Each form As Control In Application.OpenForms
@@ -31,6 +31,7 @@
     End Sub
 
     Private Sub frm_Perguntas_Musica_Load(sender As Object, e As EventArgs) Handles Me.Load
+
         'Me.Cursor = Cursors.AppStarting
         'Dim b() As Byte = My.Resources.beijo_me_liga
         'System.IO.File.WriteAllBytes(arquivo, b)
