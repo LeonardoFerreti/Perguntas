@@ -39,7 +39,7 @@ Partial Class controle_navegacao
         Me.btn_avancar.Location = New System.Drawing.Point(256, 3)
         Me.btn_avancar.Name = "btn_avancar"
         Me.btn_avancar.Size = New System.Drawing.Size(95, 37)
-        Me.btn_avancar.TabIndex = 5
+        Me.btn_avancar.TabIndex = 0
         Me.btn_avancar.Text = "AVANÇAR"
         Me.btn_avancar.UseVisualStyleBackColor = False
         '
@@ -56,7 +56,7 @@ Partial Class controle_navegacao
         Me.btn_voltar.Location = New System.Drawing.Point(3, 3)
         Me.btn_voltar.Name = "btn_voltar"
         Me.btn_voltar.Size = New System.Drawing.Size(90, 37)
-        Me.btn_voltar.TabIndex = 4
+        Me.btn_voltar.TabIndex = 1
         Me.btn_voltar.Text = "VOLTAR"
         Me.btn_voltar.UseVisualStyleBackColor = False
         '

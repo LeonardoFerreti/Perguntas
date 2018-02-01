@@ -23,6 +23,7 @@ Partial Class frm_apresentacao14
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_apresentacao14))
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
@@ -30,20 +31,22 @@ Partial Class frm_apresentacao14
         Me.TextBox5 = New Perguntas.usr_textbox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TextBox2 = New Perguntas.usr_textbox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.lblCombinacao = New System.Windows.Forms.Label()
         Me.lblContracao = New System.Windows.Forms.Label()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.media = New AxWMPLib.AxWindowsMediaPlayer()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.media, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox2
@@ -59,7 +62,7 @@ Partial Class frm_apresentacao14
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem2
-        Me.PictureBox1.Location = New System.Drawing.Point(162, 145)
+        Me.PictureBox1.Location = New System.Drawing.Point(162, 189)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(127, 220)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -75,15 +78,17 @@ Partial Class frm_apresentacao14
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Panel3, 1, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label2, 0, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 1, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(349, 278)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(306, 309)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(260, 100)
         Me.TableLayoutPanel1.TabIndex = 12
+        Me.TableLayoutPanel1.Controls.SetChildIndex(Me.Panel2, 0)
+        Me.TableLayoutPanel1.Controls.SetChildIndex(Me.Label2, 0)
+        Me.TableLayoutPanel1.Controls.SetChildIndex(Me.Panel3, 0)
         '
         'Panel3
         '
@@ -130,17 +135,6 @@ Partial Class frm_apresentacao14
         Me.Label2.Text = "Contração"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label1
-        '
-        Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(4, 1)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(98, 48)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Combinação"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
         'Panel2
         '
         Me.Panel2.Controls.Add(Me.TextBox2)
@@ -175,6 +169,17 @@ Partial Class frm_apresentacao14
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "a + os ="
         '
+        'Label1
+        '
+        Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(4, 1)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(98, 48)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Combinação"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
         'lblCombinacao
         '
         Me.lblCombinacao.AutoSize = True
@@ -195,47 +200,60 @@ Partial Class frm_apresentacao14
         '
         Me.TrataErro.ContainerControl = Me
         '
-
-        '
-
-        '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-
-        Me.Label5.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(345, 256)
-
+        Me.Label5.Location = New System.Drawing.Point(302, 287)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(304, 19)
+        Me.Label5.Size = New System.Drawing.Size(301, 18)
         Me.Label5.TabIndex = 19
         Me.Label5.Text = "Realize a combinação e a contração abaixo:"
+        '
+        'media
+        '
+        Me.media.Enabled = True
+        Me.media.Location = New System.Drawing.Point(295, 237)
+        Me.media.Name = "media"
+        Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.media.Size = New System.Drawing.Size(376, 45)
+        Me.media.TabIndex = 37
         '
         'frm_apresentacao14
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(796, 488)
-        Me.Controls.Add(Me.Label5)
         Me.BackColor = System.Drawing.Color.White
-
+        Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.Controls.Add(Me.media)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.lblContracao)
         Me.Controls.Add(Me.lblCombinacao)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_apresentacao14"
         Me.Text = "Desafio: combinações e contrações"
+        Me.Controls.SetChildIndex(Me.PictureBox1, 0)
+        Me.Controls.SetChildIndex(Me.PictureBox2, 0)
+        Me.Controls.SetChildIndex(Me.TableLayoutPanel1, 0)
+        Me.Controls.SetChildIndex(Me.lblCombinacao, 0)
+        Me.Controls.SetChildIndex(Me.lblContracao, 0)
+        Me.Controls.SetChildIndex(Me.Label5, 0)
+        Me.Controls.SetChildIndex(Me.media, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.TableLayoutPanel1.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.media, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -256,5 +274,5 @@ Partial Class frm_apresentacao14
     Friend WithEvents TextBox5 As usr_textbox
     Friend WithEvents TextBox2 As usr_textbox
     Friend WithEvents Label5 As System.Windows.Forms.Label
-
+    Friend WithEvents media As AxWMPLib.AxWindowsMediaPlayer
 End Class

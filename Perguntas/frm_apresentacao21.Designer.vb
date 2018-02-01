@@ -24,15 +24,17 @@ Partial Class frm_apresentacao21
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_apresentacao21))
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New Perguntas.usr_textbox()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
-
         Me.label1 = New System.Windows.Forms.Label()
+        Me.media = New AxWMPLib.AxWindowsMediaPlayer()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.media, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox2
@@ -73,66 +75,50 @@ Partial Class frm_apresentacao21
         '
         Me.TrataErro.ContainerControl = Me
         '
-        'btn_avancar
-        '
-        ' Me.btn_avancar.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        '  Me.btn_avancar.AutoSize = True
-
-        ' Me.btn_avancar.Location = New System.Drawing.Point(702, 444)
-        ' Me.btn_avancar.Name = "btn_avancar"
-
-        '  Me.btn_avancar.Size = New System.Drawing.Size(85, 36)
-        '   Me.btn_avancar.TabIndex = 25
-        '  Me.btn_avancar.Text = "Avançar"
-
-        '
-        'btn_voltar
-        '
-        'Me.btn_voltar.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        'Me.btn_voltar.AutoSize = True
-
-        'Me.btn_voltar.Cursor = System.Windows.Forms.Cursors.Hand
-
-        'Me.btn_voltar.Location = New System.Drawing.Point(9, 444)
-
-        'Me.btn_voltar.Name = "btn_voltar"
-
-        'Me.btn_voltar.Size = New System.Drawing.Size(73, 36)
-        'Me.btn_voltar.TabIndex = 24
-        'Me.btn_voltar.Text = "Voltar"
-
-        '
         'label1
         '
         Me.label1.AutoSize = True
         Me.label1.BackColor = System.Drawing.Color.White
-
-        Me.label1.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.label1.Location = New System.Drawing.Point(168, 291)
-
         Me.label1.Name = "label1"
-        Me.label1.Size = New System.Drawing.Size(164, 19)
+        Me.label1.Size = New System.Drawing.Size(162, 18)
         Me.label1.TabIndex = 28
         Me.label1.Text = "Escreva a frase abaixo:"
+        '
+        'media
+        '
+        Me.media.Enabled = True
+        Me.media.Location = New System.Drawing.Point(174, 223)
+        Me.media.Name = "media"
+        Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.media.Size = New System.Drawing.Size(303, 45)
+        Me.media.TabIndex = 37
         '
         'frm_apresentacao21
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.Controls.Add(Me.media)
         Me.Controls.Add(Me.label1)
-        'Me.Controls.Add(Me.btn_avancar)
-        'Me.Controls.Add(Me.btn_voltar)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_apresentacao21"
         Me.Text = "Desafio: formar frase"
+        Me.Controls.SetChildIndex(Me.PictureBox1, 0)
+        Me.Controls.SetChildIndex(Me.PictureBox2, 0)
+        Me.Controls.SetChildIndex(Me.TextBox1, 0)
+        Me.Controls.SetChildIndex(Me.label1, 0)
+        Me.Controls.SetChildIndex(Me.media, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.media, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -145,4 +131,5 @@ Partial Class frm_apresentacao21
     'Friend WithEvents btn_avancar As System.Windows.Forms.Label
     ' Friend WithEvents btn_voltar As System.Windows.Forms.Label
     Friend WithEvents label1 As System.Windows.Forms.Label
+    Friend WithEvents media As AxWMPLib.AxWindowsMediaPlayer
 End Class

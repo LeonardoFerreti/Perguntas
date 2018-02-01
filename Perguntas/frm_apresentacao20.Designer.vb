@@ -23,6 +23,7 @@ Partial Class frm_apresentacao20
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_apresentacao20))
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New Perguntas.usr_textbox()
@@ -31,15 +32,16 @@ Partial Class frm_apresentacao20
         Me.TextBox4 = New Perguntas.usr_textbox()
         Me.TextBox5 = New Perguntas.usr_textbox()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
-
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.media = New AxWMPLib.AxWindowsMediaPlayer()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.media, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox2
@@ -66,7 +68,7 @@ Partial Class frm_apresentacao20
         '
         Me.TextBox1.BackColor = System.Drawing.Color.White
         Me.TextBox1.ForeColor = System.Drawing.Color.Black
-        Me.TextBox1.Location = New System.Drawing.Point(188, 256)
+        Me.TextBox1.Location = New System.Drawing.Point(241, 292)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 22)
         Me.TextBox1.somenteLeitura = False
@@ -80,7 +82,7 @@ Partial Class frm_apresentacao20
         '
         Me.TextBox2.BackColor = System.Drawing.Color.White
         Me.TextBox2.ForeColor = System.Drawing.Color.Black
-        Me.TextBox2.Location = New System.Drawing.Point(223, 287)
+        Me.TextBox2.Location = New System.Drawing.Point(276, 323)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 22)
         Me.TextBox2.somenteLeitura = False
@@ -94,7 +96,7 @@ Partial Class frm_apresentacao20
         '
         Me.TextBox3.BackColor = System.Drawing.Color.White
         Me.TextBox3.ForeColor = System.Drawing.Color.Black
-        Me.TextBox3.Location = New System.Drawing.Point(288, 317)
+        Me.TextBox3.Location = New System.Drawing.Point(341, 353)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 22)
         Me.TextBox3.somenteLeitura = False
@@ -108,7 +110,7 @@ Partial Class frm_apresentacao20
         '
         Me.TextBox4.BackColor = System.Drawing.Color.White
         Me.TextBox4.ForeColor = System.Drawing.Color.Black
-        Me.TextBox4.Location = New System.Drawing.Point(194, 347)
+        Me.TextBox4.Location = New System.Drawing.Point(247, 383)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(95, 22)
         Me.TextBox4.somenteLeitura = False
@@ -122,7 +124,7 @@ Partial Class frm_apresentacao20
         '
         Me.TextBox5.BackColor = System.Drawing.Color.White
         Me.TextBox5.ForeColor = System.Drawing.Color.Black
-        Me.TextBox5.Location = New System.Drawing.Point(309, 347)
+        Me.TextBox5.Location = New System.Drawing.Point(362, 383)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(93, 22)
         Me.TextBox5.somenteLeitura = False
@@ -136,90 +138,87 @@ Partial Class frm_apresentacao20
         '
         Me.TrataErro.ContainerControl = Me
         '
-
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.White
-
-        Me.Label1.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(131, 258)
-
+        Me.Label1.Location = New System.Drawing.Point(184, 294)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(54, 19)
+        Me.Label1.Size = New System.Drawing.Size(50, 18)
         Me.Label1.TabIndex = 25
         Me.Label1.Text = "Artigo:"
         '
-        'MaterialLabel1
+        'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.White
-
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(131, 289)
-
-        Me.Label2.Name = "MaterialLabel1"
+        Me.Label2.Location = New System.Drawing.Point(184, 325)
+        Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(89, 18)
         Me.Label2.TabIndex = 26
         Me.Label2.Text = "Substantivo:"
         '
-        'MaterialLabel2
+        'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.White
-
-        Me.Label3.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(131, 317)
-
-        Me.Label3.Name = "MaterialLabel2"
-        Me.Label3.Size = New System.Drawing.Size(155, 19)
+        Me.Label3.Location = New System.Drawing.Point(184, 353)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(154, 18)
         Me.Label3.TabIndex = 27
         Me.Label3.Text = "Pronome possessivo:"
         '
-        'MaterialLabel3
+        'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.White
-
-        Me.Label4.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(131, 349)
-
-        Me.Label4.Name = "MaterialLabel3"
-        Me.Label4.Size = New System.Drawing.Size(61, 19)
+        Me.Label4.Location = New System.Drawing.Point(184, 385)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(59, 18)
         Me.Label4.TabIndex = 28
         Me.Label4.Text = "Verbos:"
         '
-        'MaterialLabel4
+        'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.White
-
-        Me.Label5.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(290, 349)
-
-        Me.Label5.Name = "MaterialLabel4"
-        Me.Label5.Size = New System.Drawing.Size(17, 19)
+        Me.Label5.Location = New System.Drawing.Point(343, 385)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(16, 18)
         Me.Label5.TabIndex = 29
         Me.Label5.Text = "e"
+        '
+        'media
+        '
+        Me.media.Enabled = True
+        Me.media.Location = New System.Drawing.Point(187, 238)
+        Me.media.Name = "media"
+        Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.media.Size = New System.Drawing.Size(289, 45)
+        Me.media.TabIndex = 37
         '
         'frm_apresentacao20
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.Controls.Add(Me.media)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.BackColor = System.Drawing.Color.White
-
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.TextBox3)
@@ -227,11 +226,26 @@ Partial Class frm_apresentacao20
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_apresentacao20"
         Me.Text = "Desafio: classe gramatical"
+        Me.Controls.SetChildIndex(Me.PictureBox1, 0)
+        Me.Controls.SetChildIndex(Me.PictureBox2, 0)
+        Me.Controls.SetChildIndex(Me.TextBox1, 0)
+        Me.Controls.SetChildIndex(Me.TextBox2, 0)
+        Me.Controls.SetChildIndex(Me.TextBox3, 0)
+        Me.Controls.SetChildIndex(Me.TextBox4, 0)
+        Me.Controls.SetChildIndex(Me.TextBox5, 0)
+        Me.Controls.SetChildIndex(Me.Label1, 0)
+        Me.Controls.SetChildIndex(Me.Label2, 0)
+        Me.Controls.SetChildIndex(Me.Label3, 0)
+        Me.Controls.SetChildIndex(Me.Label4, 0)
+        Me.Controls.SetChildIndex(Me.Label5, 0)
+        Me.Controls.SetChildIndex(Me.media, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.media, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -250,5 +264,5 @@ Partial Class frm_apresentacao20
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
-
+    Friend WithEvents media As AxWMPLib.AxWindowsMediaPlayer
 End Class

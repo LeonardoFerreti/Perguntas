@@ -22,11 +22,13 @@ Partial Class frm_apresentacao11
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_apresentacao11))
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-
+        Me.media = New AxWMPLib.AxWindowsMediaPlayer()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.media, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox2
@@ -49,21 +51,33 @@ Partial Class frm_apresentacao11
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
-
-
+        'media
+        '
+        Me.media.Enabled = True
+        Me.media.Location = New System.Drawing.Point(373, 265)
+        Me.media.Name = "media"
+        Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.media.Size = New System.Drawing.Size(287, 45)
+        Me.media.TabIndex = 37
+        '
         'frm_apresentacao11
         '
-        Me.BackColor = System.Drawing.Color.White
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(796, 488)
-
+        Me.Controls.Add(Me.media)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_apresentacao11"
         Me.Text = "Explicação: preposição"
+        Me.Controls.SetChildIndex(Me.PictureBox1, 0)
+        Me.Controls.SetChildIndex(Me.PictureBox2, 0)
+        Me.Controls.SetChildIndex(Me.media, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.media, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -71,5 +85,5 @@ Partial Class frm_apresentacao11
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
-
+    Friend WithEvents media As AxWMPLib.AxWindowsMediaPlayer
 End Class

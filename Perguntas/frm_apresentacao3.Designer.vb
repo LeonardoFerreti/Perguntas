@@ -23,15 +23,17 @@ Partial Class frm_apresentacao3
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_apresentacao3))
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.chkList = New System.Windows.Forms.CheckedListBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
-
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.media = New AxWMPLib.AxWindowsMediaPlayer()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.media, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox2
@@ -50,15 +52,15 @@ Partial Class frm_apresentacao3
         Me.chkList.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chkList.FormattingEnabled = True
         Me.chkList.Items.AddRange(New Object() {"Os", "meninos", "brincavam", "de", "bola"})
-        Me.chkList.Location = New System.Drawing.Point(379, 266)
+        Me.chkList.Location = New System.Drawing.Point(357, 288)
         Me.chkList.Name = "chkList"
-        Me.chkList.Size = New System.Drawing.Size(258, 76)
+        Me.chkList.Size = New System.Drawing.Size(258, 94)
         Me.chkList.TabIndex = 4
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Perguntas.My.Resources.Resources.imagem1
-        Me.PictureBox1.Location = New System.Drawing.Point(200, 165)
+        Me.PictureBox1.Location = New System.Drawing.Point(189, 211)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(148, 155)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -69,39 +71,50 @@ Partial Class frm_apresentacao3
         '
         Me.TrataErro.ContainerControl = Me
         '
-        'btn_avancar
-
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-
-        Me.Label1.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(375, 244)
-
+        Me.Label1.Location = New System.Drawing.Point(353, 266)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(282, 19)
+        Me.Label1.Size = New System.Drawing.Size(275, 18)
         Me.Label1.TabIndex = 35
         Me.Label1.Text = "Selecione a(s) palavra(s) lexicais abaixo:"
+        '
+        'media
+        '
+        Me.media.Enabled = True
+        Me.media.Location = New System.Drawing.Point(343, 211)
+        Me.media.Name = "media"
+        Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.media.Size = New System.Drawing.Size(239, 45)
+        Me.media.TabIndex = 36
         '
         'frm_apresentacao3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(796, 488)
-        Me.Controls.Add(Me.Label1)
         Me.BackColor = System.Drawing.Color.White
-
+        Me.ClientSize = New System.Drawing.Size(796, 488)
+        Me.Controls.Add(Me.media)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.chkList)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_apresentacao3"
         Me.Text = "Desafio: palavras lexicais"
+        Me.Controls.SetChildIndex(Me.chkList, 0)
+        Me.Controls.SetChildIndex(Me.PictureBox1, 0)
+        Me.Controls.SetChildIndex(Me.PictureBox2, 0)
+        Me.Controls.SetChildIndex(Me.Label1, 0)
+        Me.Controls.SetChildIndex(Me.media, 0)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.media, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -111,5 +124,5 @@ Partial Class frm_apresentacao3
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TrataErro As ErrorProvider
     Friend WithEvents Label1 As System.Windows.Forms.Label
-
+    Friend WithEvents media As AxWMPLib.AxWindowsMediaPlayer
 End Class
