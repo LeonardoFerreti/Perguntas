@@ -53,6 +53,9 @@
             ValidaDados = False
             TrataErro.SetError(Label4, "Informe os verbos corretamente.")
         End If
+        If Not ValidaDados Then
+            System.Media.SystemSounds.Exclamation.Play()
+        End If
 
         Return ValidaDados
     End Function

@@ -1,5 +1,13 @@
 ﻿Public Class frm_apresentacao9
+    Private Sub frm_apresentacao9_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If Not IO.File.Exists(Application.StartupPath + "\" + "audioApresentacao9.mp3") Then
+            Dim b() As Byte = My.Resources.audioApresentacao9
+            System.IO.File.WriteAllBytes(Application.StartupPath + "\" + "audioApresentacao9.mp3", b)
+        End If
+        Me.media.URL = Application.StartupPath + "\" + "audioApresentacao9.mp3"
+        Me.media.Ctlcontrols.play()
 
+    End Sub
 
     Private Sub frm_apresentacao9_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         TextBox1.Focus()
@@ -40,6 +48,10 @@
             ValidaDados = False
             TrataErro.SetError(TextBox1, "Escreva a palavra corretamente.")
         End If
+        If Not ValidaDados Then
+            System.Media.SystemSounds.Exclamation.Play()
+        End If
+
         Return ValidaDados
     End Function
 

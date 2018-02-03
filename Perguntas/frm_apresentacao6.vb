@@ -1,5 +1,20 @@
 ﻿Public Class frm_apresentacao6
+    Private Sub frm_apresentacao6_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If Not IO.File.Exists(Application.StartupPath + "\" + "audioApresentacao6.mp3") Then
+            Dim b() As Byte = My.Resources.audioApresentacao6
+            System.IO.File.WriteAllBytes(Application.StartupPath + "\" + "audioApresentacao6.mp3", b)
+        End If
+        Me.media.URL = Application.StartupPath + "\" + "audioApresentacao6.mp3"
+        Me.media.Ctlcontrols.play()
 
+        If Not IO.File.Exists(Application.StartupPath + "\" + "audioApresentacao6_2.mp3") Then
+            Dim b() As Byte = My.Resources.audioApresentacao6_2
+            System.IO.File.WriteAllBytes(Application.StartupPath + "\" + "audioApresentacao6_2.mp3", b)
+        End If
+        Me.media2.URL = Application.StartupPath + "\" + "audioApresentacao6_2.mp3"
+        Me.media2.Ctlcontrols.stop()
+
+    End Sub
 
     Private Sub frm_Perguntas_Arrastar_btn_avancar_click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
 

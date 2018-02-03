@@ -25,4 +25,12 @@
 
     End Sub
 
+    Private Sub frm_apresentacao2_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If Not IO.File.Exists(Application.StartupPath + "\" + "audioApresentacao2.mp3") Then
+            Dim b() As Byte = My.Resources.audioApresentacao2
+            System.IO.File.WriteAllBytes(Application.StartupPath + "\" + "audioApresentacao2.mp3", b)
+        End If
+        Me.media.URL = Application.StartupPath + "\" + "audioApresentacao2.mp3"
+        Me.media.Ctlcontrols.play()
+    End Sub
 End Class

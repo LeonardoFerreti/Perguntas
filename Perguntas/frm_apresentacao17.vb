@@ -1,5 +1,12 @@
 ﻿Public Class frm_apresentacao17
+    Private Sub frm_apresentacao17_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If Not IO.File.Exists(Application.StartupPath + "\" + "audioApresentacao17.mp3") Then
+            Dim b() As Byte = My.Resources.audioApresentacao17
+            System.IO.File.WriteAllBytes(Application.StartupPath + "\" + "audioApresentacao17.mp3", b)
+        End If
+        Me.media.URL = Application.StartupPath + "\" + "audioApresentacao17.mp3"
 
+    End Sub
 
     Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles ME._btn_voltar_click
 

@@ -176,6 +176,9 @@
         Else
             TrataErro.SetError(Label10, String.Empty)
         End If
+        If Not validaDados Then
+            System.Media.SystemSounds.Exclamation.Play()
+        End If
 
         Return validaDados
     End Function

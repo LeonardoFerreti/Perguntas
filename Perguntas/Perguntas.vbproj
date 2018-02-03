@@ -469,7 +469,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Apresentacao.ogg" />
     <None Include="Resources\balao0.png" />
     <None Include="Resources\balao11.png" />
     <None Include="Resources\balao7.png" />
@@ -491,7 +490,6 @@
     <None Include="Resources\balao_apresentacao_23.png" />
     <None Include="Resources\balao_apresentacao_22.png" />
     <None Include="Resources\balao_apresentacao_21.png" />
-    <None Include="Resources\beijo_me_liga.mp4" />
     <None Include="Resources\Michel Teló - Ei, Psiu, Beijo Me Liga [VIDEO OFICIAL] %281%29.mp4" />
     <None Include="Resources\balao_apresentacao_20.png" />
     <None Include="Resources\balao_apresentacao_19.png" />
@@ -564,43 +562,100 @@
     <None Include="Resources\license.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Apresentacao.mp3" />
+    <None Include="Resources\audioApresentacao.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao11.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao13.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao17.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao19.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao21.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao23.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao24.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao5.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao7_2.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao10.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao15.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao16.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao18_2.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao22.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao23_2.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao24_2.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao2.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao4.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao6_2.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao9.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao12.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao14.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao18.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao20.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao22_1.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao6.mp3" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Apresentacao3.mp3" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\audioApresentacao7.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioApresentacao8.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beijo_me_liga.mp4" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\Apresentacao5.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Apresentacao6.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Apresentacao7.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Apresentacao8.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Apresentacao11.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Apresentacao13.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Apresentacao17.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Apresentacao19.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Apresentacao21.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Apresentacao23.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Apresentacao24.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

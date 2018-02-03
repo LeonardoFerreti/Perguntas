@@ -33,6 +33,14 @@
         Next
     End Sub
 
+    Private Sub frm_apresentacao3_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If Not IO.File.Exists(Application.StartupPath + "\" + "audioApresentacao3.mp3") Then
+            Dim b() As Byte = My.Resources.audioApresentacao3
+            System.IO.File.WriteAllBytes(Application.StartupPath + "\" + "audioApresentacao3.mp3", b)
+        End If
+        Me.media.URL = Application.StartupPath + "\" + "audioApresentacao3.mp3"
+
+    End Sub
 
     Private Function validaDados() As Boolean
         validaDados = True
@@ -50,6 +58,10 @@
                 validaDados = False
             End If
         End If
+        If Not validaDados Then
+            System.Media.SystemSounds.Asterisk.Play()
+        End If
+
         Return validaDados
     End Function
 

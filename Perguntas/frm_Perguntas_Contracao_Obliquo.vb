@@ -68,6 +68,9 @@
             validaDados = False
             TrataErro.SetError(Label4, "Preencha o pronome corretamente.")
         End If
+        If Not validaDados Then
+            System.Media.SystemSounds.Exclamation.Play()
+        End If
 
         Return validaDados
     End Function

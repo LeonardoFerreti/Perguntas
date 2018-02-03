@@ -2,7 +2,7 @@
 
     Private arquivo As String = Application.StartupPath + "video_sistema_perguntas.mp4"
 
-    Private Sub frm_Perguntas_Musica_btn_avancar_click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
+    Private Sub frm_Perguntas_Musica_btn_avancar_click(sender As Object, e As EventArgs) Handles Me._btn_avancar_click
         If validaDados() Then
             '    Me.Hide()
 
@@ -20,7 +20,7 @@
         End If
     End Sub
 
-    Private Sub frm_Perguntas_Musica_btn_voltar_click(sender As Object, e As EventArgs) Handles ME._btn_voltar_click
+    Private Sub frm_Perguntas_Musica_btn_voltar_click(sender As Object, e As EventArgs) Handles Me._btn_voltar_click
         Me.Hide()
 
         For Each form As Control In Application.OpenForms
@@ -31,15 +31,11 @@
     End Sub
 
     Private Sub frm_Perguntas_Musica_Load(sender As Object, e As EventArgs) Handles Me.Load
-
-        'Me.Cursor = Cursors.AppStarting
-        'Dim b() As Byte = My.Resources.beijo_me_liga
-        'System.IO.File.WriteAllBytes(arquivo, b)
-        If Not IO.File.Exists(Application.StartupPath + "video_sistema_perguntas.mp4") Then
+        If Not IO.File.Exists(Application.StartupPath + "\" + "video_sistema_perguntas.mp4") Then
             Dim b() As Byte = My.Resources.beijo_me_liga
-            System.IO.File.WriteAllBytes(Application.StartupPath + "video_sistema_perguntas.mp4", b)
+            System.IO.File.WriteAllBytes(Application.StartupPath + "\" + "video_sistema_perguntas.mp4", b)
         End If
-        Me.media.URL = Application.StartupPath + "video_sistema_perguntas.mp4"
+        Me.media.URL = Application.StartupPath + "\" + "video_sistema_perguntas.mp4"
         Me.media.Ctlcontrols.play()
     End Sub
 
@@ -111,6 +107,10 @@
             validaDados = False
             TrataErro.SetError(Label19, "palavra incorreta!")
         End If
+        If Not validaDados Then
+            System.Media.SystemSounds.Exclamation.Play()
+        End If
+
         Return validaDados
     End Function
 

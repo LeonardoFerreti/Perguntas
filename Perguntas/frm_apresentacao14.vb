@@ -1,6 +1,11 @@
 ﻿Public Class frm_apresentacao14
     Private Sub frm_apresentacao14_Load(sender As Object, e As EventArgs) Handles Me.Load
-
+        If Not IO.File.Exists(Application.StartupPath + "\" + "audioApresentacao14.mp3") Then
+            Dim b() As Byte = My.Resources.audioApresentacao14
+            System.IO.File.WriteAllBytes(Application.StartupPath + "\" + "audioApresentacao14.mp3", b)
+        End If
+        Me.media.URL = Application.StartupPath + "\" + "audioApresentacao14.mp3"
+        Me.media.Ctlcontrols.play()
         TextBox2.Focus()
     End Sub
 
@@ -54,6 +59,9 @@
         If Not TextBox5.Texto.ToLower.Trim.Equals(TextBox5.Tag.ToString.ToLower) Then
             validaDados = False
             TrataErro.SetError(lblContracao, "Informe a contração correta.")
+        End If
+        If Not validaDados Then
+            System.Media.SystemSounds.Exclamation.Play()
         End If
 
         Return validaDados

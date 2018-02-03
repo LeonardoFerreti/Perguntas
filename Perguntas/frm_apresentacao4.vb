@@ -48,8 +48,20 @@
                 validaDados = False
             End If
         End If
+        If Not validaDados Then
+            System.Media.SystemSounds.Exclamation.Play()
+        End If
+
         Return validaDados
     End Function
 
+    Private Sub frm_apresentacao4_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If Not IO.File.Exists(Application.StartupPath + "\" + "audioApresentacao4.mp3") Then
+            Dim b() As Byte = My.Resources.audioApresentacao4
+            System.IO.File.WriteAllBytes(Application.StartupPath + "\" + "audioApresentacao4.mp3", b)
+        End If
+        Me.media.URL = Application.StartupPath + "\" + "audioApresentacao4.mp3"
+        Me.media.Ctlcontrols.play()
+    End Sub
 
 End Class

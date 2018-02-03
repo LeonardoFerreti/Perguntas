@@ -120,6 +120,9 @@
             validaDados = False
             TrataErro.SetError(Label11, "Preencha a palavra corretamente.")
         End If
+        If Not validaDados Then
+            System.Media.SystemSounds.Exclamation.Play()
+        End If
 
         Return validaDados
     End Function

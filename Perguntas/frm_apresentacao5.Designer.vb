@@ -28,13 +28,13 @@ Partial Class frm_apresentacao5
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.media = New AxWMPLib.AxWindowsMediaPlayer()
-        Me.AxWindowsMediaPlayer1 = New AxWMPLib.AxWindowsMediaPlayer()
+        Me.media2 = New AxWMPLib.AxWindowsMediaPlayer()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.media, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.AxWindowsMediaPlayer1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.media2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox3
@@ -86,14 +86,14 @@ Partial Class frm_apresentacao5
         Me.media.Size = New System.Drawing.Size(250, 45)
         Me.media.TabIndex = 37
         '
-        'AxWindowsMediaPlayer1
+        'media2
         '
-        Me.AxWindowsMediaPlayer1.Enabled = True
-        Me.AxWindowsMediaPlayer1.Location = New System.Drawing.Point(529, 309)
-        Me.AxWindowsMediaPlayer1.Name = "AxWindowsMediaPlayer1"
-        Me.AxWindowsMediaPlayer1.OcxState = CType(resources.GetObject("AxWindowsMediaPlayer1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxWindowsMediaPlayer1.Size = New System.Drawing.Size(256, 45)
-        Me.AxWindowsMediaPlayer1.TabIndex = 38
+        Me.media2.Enabled = True
+        Me.media2.Location = New System.Drawing.Point(529, 309)
+        Me.media2.Name = "media2"
+        Me.media2.OcxState = CType(resources.GetObject("media2.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.media2.Size = New System.Drawing.Size(256, 45)
+        Me.media2.TabIndex = 38
         '
         'frm_apresentacao5
         '
@@ -101,7 +101,7 @@ Partial Class frm_apresentacao5
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(796, 488)
-        Me.Controls.Add(Me.AxWindowsMediaPlayer1)
+        Me.Controls.Add(Me.media2)
         Me.Controls.Add(Me.media)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox1)
@@ -115,13 +115,13 @@ Partial Class frm_apresentacao5
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox3, 0)
         Me.Controls.SetChildIndex(Me.media, 0)
-        Me.Controls.SetChildIndex(Me.AxWindowsMediaPlayer1, 0)
+        Me.Controls.SetChildIndex(Me.media2, 0)
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.media, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.AxWindowsMediaPlayer1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.media2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -131,5 +131,5 @@ Partial Class frm_apresentacao5
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents media As AxWMPLib.AxWindowsMediaPlayer
-    Friend WithEvents AxWindowsMediaPlayer1 As AxWMPLib.AxWindowsMediaPlayer
+    Friend WithEvents media2 As AxWMPLib.AxWindowsMediaPlayer
 End Class

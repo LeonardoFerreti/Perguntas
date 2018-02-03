@@ -139,6 +139,9 @@
             ValidaDados = False
             TrataErro.SetError(Label30, "Informe as sílabas corretamente.")
         End If
+        If Not ValidaDados Then
+            System.Media.SystemSounds.Exclamation.Play()
+        End If
 
         Return ValidaDados
     End Function

@@ -104,6 +104,9 @@
                 Return False
             End If
         Next
+        If Not validaDados Then
+            System.Media.SystemSounds.Exclamation.Play()
+        End If
 
         Return validaDados
     End Function

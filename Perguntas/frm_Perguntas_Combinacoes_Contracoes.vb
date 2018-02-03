@@ -101,6 +101,9 @@
             validaDados = False
             TrataErro.SetError(Label13, "Reescreva corretamente a contração.")
         End If
+        If Not validaDados Then
+            System.Media.SystemSounds.Exclamation.Play()
+        End If
 
         Return validaDados
     End Function
