@@ -40,6 +40,7 @@ Partial Class frm_apresentacao14
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.Label5 = New System.Windows.Forms.Label()
         Me.media = New AxWMPLib.AxWindowsMediaPlayer()
+        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
@@ -76,6 +77,7 @@ Partial Class frm_apresentacao14
         Me.TableLayoutPanel1.ColumnCount = 2
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 104.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.Label6, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel3, 1, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label2, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 1, 0)
@@ -84,11 +86,9 @@ Partial Class frm_apresentacao14
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(260, 100)
         Me.TableLayoutPanel1.TabIndex = 12
-        Me.TableLayoutPanel1.Controls.SetChildIndex(Me.Panel2, 0)
-        Me.TableLayoutPanel1.Controls.SetChildIndex(Me.Label2, 0)
-        Me.TableLayoutPanel1.Controls.SetChildIndex(Me.Panel3, 0)
         '
         'Panel3
         '
@@ -204,11 +204,11 @@ Partial Class frm_apresentacao14
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label5.Location = New System.Drawing.Point(302, 287)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(301, 18)
+        Me.Label5.Size = New System.Drawing.Size(301, 20)
         Me.Label5.TabIndex = 19
         Me.Label5.Text = "Realize a combinação e a contração abaixo:"
         '
@@ -220,6 +220,18 @@ Partial Class frm_apresentacao14
         Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
         Me.media.Size = New System.Drawing.Size(376, 45)
         Me.media.TabIndex = 37
+        Me.media.TabStop = False
+        '
+        'Label6
+        '
+        Me.Label6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(4, 1)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(98, 48)
+        Me.Label6.TabIndex = 2
+        Me.Label6.Text = "Combinação"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'frm_apresentacao14
         '
@@ -247,7 +259,6 @@ Partial Class frm_apresentacao14
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.TableLayoutPanel1.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.Panel2.ResumeLayout(False)
@@ -275,4 +286,5 @@ Partial Class frm_apresentacao14
     Friend WithEvents TextBox2 As usr_textbox
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents media As AxWMPLib.AxWindowsMediaPlayer
+    Friend WithEvents Label6 As Label
 End Class

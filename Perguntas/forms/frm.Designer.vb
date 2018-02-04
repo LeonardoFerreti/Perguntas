@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,17 +20,28 @@ Partial Class frm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.Controle_navegacao1 = New Perguntas.controle_navegacao()
         Me.barra_titulo = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.control_barra = New System.Windows.Forms.TableLayoutPanel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Controle_navegacao1 = New Perguntas.controle_navegacao()
         Me.barra_titulo.SuspendLayout()
         Me.control_barra.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'Controle_navegacao1
+        '
+        Me.Controle_navegacao1.BackColor = System.Drawing.Color.Transparent
+        Me.Controle_navegacao1.BTN_AVANCAR_TEXT = "AVANÇAR"
+        Me.Controle_navegacao1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Controle_navegacao1.Location = New System.Drawing.Point(0, 422)
+        Me.Controle_navegacao1.Name = "Controle_navegacao1"
+        Me.Controle_navegacao1.Size = New System.Drawing.Size(713, 43)
+        Me.Controle_navegacao1.TabIndex = 5
+        Me.Controle_navegacao1.VOLTAR_VISIBLE = True
         '
         'barra_titulo
         '
@@ -39,7 +50,7 @@ Partial Class frm
         Me.barra_titulo.Dock = System.Windows.Forms.DockStyle.Top
         Me.barra_titulo.Location = New System.Drawing.Point(0, 25)
         Me.barra_titulo.Name = "barra_titulo"
-        Me.barra_titulo.Size = New System.Drawing.Size(713, 36)
+        Me.barra_titulo.Size = New System.Drawing.Size(713, 39)
         Me.barra_titulo.TabIndex = 4
         '
         'Label1
@@ -82,26 +93,15 @@ Partial Class frm
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'Controle_navegacao1
-        '
-        Me.Controle_navegacao1.BackColor = System.Drawing.Color.Transparent
-        Me.Controle_navegacao1.BTN_AVANCAR_TEXT = "AVANÇAR"
-        Me.Controle_navegacao1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Controle_navegacao1.Location = New System.Drawing.Point(0, 422)
-        Me.Controle_navegacao1.Name = "Controle_navegacao1"
-        Me.Controle_navegacao1.Size = New System.Drawing.Size(713, 43)
-        Me.Controle_navegacao1.TabIndex = 5
-        Me.Controle_navegacao1.VOLTAR_VISIBLE = True
-        '
         'frm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(713, 465)
         Me.ControlBox = False
-        Me.Controls.Add(Me.Controle_navegacao1)
         Me.Controls.Add(Me.barra_titulo)
         Me.Controls.Add(Me.control_barra)
+        Me.Controls.Add(Me.Controle_navegacao1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

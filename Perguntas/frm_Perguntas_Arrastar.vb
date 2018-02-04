@@ -73,6 +73,7 @@
         TrataErro.SetError(Label1, String.Empty)
         TrataErro.SetError(Label2, String.Empty)
         TrataErro.SetError(Label3, String.Empty)
+        TENTATIVAS_TELA_ARRASTAR_PALAVRAS += 1
 
         If listTodasPalavras.Items.Count > 0 Then
             ' validaDados = False
@@ -106,6 +107,9 @@
         Next
         If Not validaDados Then
             System.Media.SystemSounds.Exclamation.Play()
+            If TENTATIVAS_TELA_ARRASTAR_PALAVRAS < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ARRASTAR_PALAVRAS -= DIMINUIR_ERRO_TELA_ARRASTAR_PALAVRAS
+            End If
         End If
 
         Return validaDados

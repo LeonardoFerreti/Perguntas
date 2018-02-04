@@ -20,7 +20,9 @@
         Next
     End Sub
 
-    Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
+    Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me._btn_avancar_click
+        media.Ctlcontrols.stop()
+
         Me.Hide()
 
         Dim frm As frm_apresentacao18 = Nothing

@@ -5,6 +5,7 @@
     Private Sub frm_Perguntas_Musica_btn_avancar_click(sender As Object, e As EventArgs) Handles Me._btn_avancar_click
         If validaDados() Then
             '    Me.Hide()
+            Me.media.Ctlcontrols.stop()
 
             Dim frm As frm_resultado = Nothing
             For Each form As Control In Application.OpenForms
@@ -74,6 +75,7 @@
 
     Private Function validaDados() As Boolean
         validaDados = True
+        TENTATIVAS_TELA_MUSICA += 1
 
         If Not TextBox1.Texto.ToLower.Trim.Equals(TextBox1.Tag.ToString.ToLower) Then
             validaDados = False
@@ -109,6 +111,9 @@
         End If
         If Not validaDados Then
             System.Media.SystemSounds.Exclamation.Play()
+            If TENTATIVAS_TELA_MUSICA < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_MUSICA -= DIMINUIR_ERRO_TELA_MUSICA
+            End If
         End If
 
         Return validaDados

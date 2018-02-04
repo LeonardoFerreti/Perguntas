@@ -21,7 +21,7 @@
         CType(sender, usr_textbox).Texto = str
     End Sub
 
-    Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles ME._btn_voltar_click
+    Private Sub frm_Perguntas_Arrastar_btn_voltar_click(sender As Object, e As EventArgs) Handles Me._btn_voltar_click
         Me.Hide()
 
         For Each form As Control In Application.OpenForms
@@ -31,7 +31,7 @@
         Next
     End Sub
 
-    Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
+    Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles Me._btn_avancar_click
         If validaDados() Then
             '    Me.Hide()
 
@@ -62,63 +62,92 @@
         TrataErro.SetError(Label9, String.Empty)
         TrataErro.SetError(Label10, String.Empty)
         TrataErro.SetError(Label11, String.Empty)
+        TENTATIVAS_TELA_ARRASTAR_COMPLETAR += 1
+
 
         If Not TextBox4.Texto.ToLower.Trim.Equals(TextBox4.Tag.ToString.ToLower) Then
             validaDados = False
             TrataErro.SetError(Label2, "Preencha a palavra corretamente.")
         End If
 
-        If Not (TextBox11.Texto.ToLower.Trim.Equals(TextBox11.Tag.ToString.ToLower) OrElse
-            TextBox12.Texto.ToLower.Trim.Equals(TextBox12.Tag.ToString.ToLower)) Then
+        If (Not TextBox11.Texto.ToLower.Trim.Equals(TextBox11.Tag.ToString.ToLower)) OrElse
+           (Not TextBox12.Texto.ToLower.Trim.Equals(TextBox12.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label3, "Preencha a palavra corretamente.")
+            If TENTATIVAS_TELA_ARRASTAR_COMPLETAR < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ARRASTAR_COMPLETAR -= DIMINUIR_ERRO_TELA_ARRASTAR_COMPLETAR
+            End If
         End If
 
-        If Not (TextBox14.Texto.ToLower.Trim.Equals(TextBox14.Tag.ToString.ToLower) OrElse
-            TextBox9.Texto.ToLower.Trim.Equals(TextBox9.Tag.ToString.ToLower)) Then
+        If (Not TextBox14.Texto.ToLower.Trim.Equals(TextBox14.Tag.ToString.ToLower)) Or
+           (Not TextBox9.Texto.ToLower.Trim.Equals(TextBox9.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label4, "Preencha a palavra corretamente.")
+            If TENTATIVAS_TELA_ARRASTAR_COMPLETAR < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ARRASTAR_COMPLETAR -= DIMINUIR_ERRO_TELA_ARRASTAR_COMPLETAR
+            End If
         End If
 
-        If Not (TextBox16.Texto.ToLower.Trim.Equals(TextBox16.Tag.ToString.ToLower) OrElse
-            TextBox15.Texto.ToLower.Trim.Equals(TextBox15.Tag.ToString.ToLower)) Then
+        If (Not TextBox16.Texto.ToLower.Trim.Equals(TextBox16.Tag.ToString.ToLower)) Or
+           (Not TextBox15.Texto.ToLower.Trim.Equals(TextBox15.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label5, "Preencha a palavra corretamente.")
+            If TENTATIVAS_TELA_ARRASTAR_COMPLETAR < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ARRASTAR_COMPLETAR -= DIMINUIR_ERRO_TELA_ARRASTAR_COMPLETAR
+            End If
         End If
 
-        If Not (TextBox20.Texto.ToLower.Trim.Equals(TextBox20.Tag.ToString.ToLower) OrElse
-            TextBox18.Texto.ToLower.Trim.Equals(TextBox18.Tag.ToString.ToLower)) Then
+        If (Not TextBox20.Texto.ToLower.Trim.Equals(TextBox20.Tag.ToString.ToLower)) Or
+           (Not TextBox18.Texto.ToLower.Trim.Equals(TextBox18.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label6, "Preencha a palavra corretamente.")
+            If TENTATIVAS_TELA_ARRASTAR_COMPLETAR < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ARRASTAR_COMPLETAR -= DIMINUIR_ERRO_TELA_ARRASTAR_COMPLETAR
+            End If
         End If
 
-        If Not (TextBox7.Texto.ToLower.Trim.Equals(TextBox7.Tag.ToString.ToLower) OrElse
-            TextBox6.Texto.ToLower.Trim.Equals(TextBox6.Tag.ToString.ToLower) OrElse
-            TextBox5.Texto.ToLower.Trim.Equals(TextBox5.Tag.ToString.ToLower)) Then
+        If (Not TextBox7.Texto.ToLower.Trim.Equals(TextBox7.Tag.ToString.ToLower)) Or
+            (Not TextBox6.Texto.ToLower.Trim.Equals(TextBox6.Tag.ToString.ToLower)) Or
+           (Not TextBox5.Texto.ToLower.Trim.Equals(TextBox5.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label7, "Preencha a palavra corretamente.")
+            If TENTATIVAS_TELA_ARRASTAR_COMPLETAR < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ARRASTAR_COMPLETAR -= DIMINUIR_ERRO_TELA_ARRASTAR_COMPLETAR
+            End If
         End If
 
         If Not (TextBox31.Texto.ToLower.Trim.Equals(TextBox31.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label8, "Preencha a palavra corretamente.")
+            If TENTATIVAS_TELA_ARRASTAR_COMPLETAR < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ARRASTAR_COMPLETAR -= DIMINUIR_ERRO_TELA_ARRASTAR_COMPLETAR
+            End If
         End If
 
         If Not (TextBox28.Texto.ToLower.Trim.Equals(TextBox28.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label9, "Preencha a palavra corretamente.")
+            If TENTATIVAS_TELA_ARRASTAR_COMPLETAR < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ARRASTAR_COMPLETAR -= DIMINUIR_ERRO_TELA_ARRASTAR_COMPLETAR
+            End If
         End If
 
-        If Not (TextBox26.Texto.ToLower.Trim.Equals(TextBox26.Tag.ToString.ToLower) OrElse
-            TextBox24.Texto.ToLower.Trim.Equals(TextBox24.Tag.ToString.ToLower)) Then
+        If (Not TextBox26.Texto.ToLower.Trim.Equals(TextBox26.Tag.ToString.ToLower)) Or
+            (Not TextBox24.Texto.ToLower.Trim.Equals(TextBox24.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label10, "Preencha a palavra corretamente.")
+            If TENTATIVAS_TELA_ARRASTAR_COMPLETAR < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ARRASTAR_COMPLETAR -= DIMINUIR_ERRO_TELA_ARRASTAR_COMPLETAR
+            End If
         End If
 
-        If Not (TextBox22.Texto.ToLower.Trim.Equals(TextBox22.Tag.ToString.ToLower) OrElse
-            TextBox21.Texto.ToLower.Trim.Equals(TextBox21.Tag.ToString.ToLower)) Then
+        If (Not TextBox22.Texto.ToLower.Trim.Equals(TextBox22.Tag.ToString.ToLower)) Or
+            (Not TextBox21.Texto.ToLower.Trim.Equals(TextBox21.Tag.ToString.ToLower)) Then
             validaDados = False
             TrataErro.SetError(Label11, "Preencha a palavra corretamente.")
+            If TENTATIVAS_TELA_ARRASTAR_COMPLETAR < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ARRASTAR_COMPLETAR -= DIMINUIR_ERRO_TELA_ARRASTAR_COMPLETAR
+            End If
         End If
         If Not validaDados Then
             System.Media.SystemSounds.Exclamation.Play()

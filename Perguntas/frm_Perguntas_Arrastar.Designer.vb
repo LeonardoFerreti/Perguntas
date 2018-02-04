@@ -25,7 +25,6 @@ Partial Class frm_Perguntas_Arrastar
         Me.components = New System.ComponentModel.Container()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.listTodasPalavras = New System.Windows.Forms.ListBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -33,8 +32,8 @@ Partial Class frm_Perguntas_Arrastar
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.lstFuncionais = New System.Windows.Forms.ListBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
-
         Me.TableLayoutPanel1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -44,9 +43,6 @@ Partial Class frm_Perguntas_Arrastar
         '
         'TableLayoutPanel1
         '
-        Me.TableLayoutPanel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel1.ColumnCount = 2
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
@@ -54,36 +50,27 @@ Partial Class frm_Perguntas_Arrastar
         Me.TableLayoutPanel1.Controls.Add(Me.GroupBox3, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.GroupBox1, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.GroupBox2, 1, 1)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(2, 66)
+        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 64)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.87003!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 63.12997!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(794, 378)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(796, 424)
         Me.TableLayoutPanel1.TabIndex = 4
         '
         'GroupBox3
         '
         Me.TableLayoutPanel1.SetColumnSpan(Me.GroupBox3, 2)
-        Me.GroupBox3.Controls.Add(Me.Label1)
         Me.GroupBox3.Controls.Add(Me.listTodasPalavras)
         Me.GroupBox3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupBox3.Location = New System.Drawing.Point(3, 3)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(788, 133)
+        Me.GroupBox3.Size = New System.Drawing.Size(790, 150)
         Me.GroupBox3.TabIndex = 5
         Me.GroupBox3.TabStop = False
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(428, 13)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Selecione uma palavra do quadro abaixo e arraste para o quadro correspondente:"
+        Me.GroupBox3.Controls.SetChildIndex(Me.listTodasPalavras, 0)
         '
         'listTodasPalavras
         '
@@ -95,7 +82,7 @@ Partial Class frm_Perguntas_Arrastar
         Me.listTodasPalavras.Location = New System.Drawing.Point(3, 16)
         Me.listTodasPalavras.MultiColumn = True
         Me.listTodasPalavras.Name = "listTodasPalavras"
-        Me.listTodasPalavras.Size = New System.Drawing.Size(782, 114)
+        Me.listTodasPalavras.Size = New System.Drawing.Size(784, 131)
         Me.listTodasPalavras.TabIndex = 3
         '
         'GroupBox1
@@ -103,9 +90,9 @@ Partial Class frm_Perguntas_Arrastar
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.lstConteudo)
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupBox1.Location = New System.Drawing.Point(3, 142)
+        Me.GroupBox1.Location = New System.Drawing.Point(3, 159)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(391, 233)
+        Me.GroupBox1.Size = New System.Drawing.Size(392, 262)
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
         '
@@ -127,7 +114,7 @@ Partial Class frm_Perguntas_Arrastar
         Me.lstConteudo.FormattingEnabled = True
         Me.lstConteudo.Location = New System.Drawing.Point(3, 16)
         Me.lstConteudo.Name = "lstConteudo"
-        Me.lstConteudo.Size = New System.Drawing.Size(385, 214)
+        Me.lstConteudo.Size = New System.Drawing.Size(386, 243)
         Me.lstConteudo.TabIndex = 1
         '
         'GroupBox2
@@ -135,9 +122,9 @@ Partial Class frm_Perguntas_Arrastar
         Me.GroupBox2.Controls.Add(Me.Label3)
         Me.GroupBox2.Controls.Add(Me.lstFuncionais)
         Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupBox2.Location = New System.Drawing.Point(400, 142)
+        Me.GroupBox2.Location = New System.Drawing.Point(401, 159)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(391, 233)
+        Me.GroupBox2.Size = New System.Drawing.Size(392, 262)
         Me.GroupBox2.TabIndex = 6
         Me.GroupBox2.TabStop = False
         '
@@ -159,25 +146,34 @@ Partial Class frm_Perguntas_Arrastar
         Me.lstFuncionais.FormattingEnabled = True
         Me.lstFuncionais.Location = New System.Drawing.Point(3, 16)
         Me.lstFuncionais.Name = "lstFuncionais"
-        Me.lstFuncionais.Size = New System.Drawing.Size(385, 214)
+        Me.lstFuncionais.Size = New System.Drawing.Size(386, 243)
         Me.lstFuncionais.TabIndex = 2
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(4, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(428, 13)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Selecione uma palavra do quadro abaixo e arraste para o quadro correspondente:"
         '
         'TrataErro
         '
         Me.TrataErro.ContainerControl = Me
         '
-
-        '
         'frm_Perguntas_Arrastar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.BackColor = System.Drawing.Color.White
-
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.TableLayoutPanel1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_Perguntas_Arrastar"
         Me.Text = "Palavras de conteúdo x palavras lexicais"
+        Me.Controls.SetChildIndex(Me.TableLayoutPanel1, 0)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
@@ -187,7 +183,6 @@ Partial Class frm_Perguntas_Arrastar
         Me.GroupBox2.PerformLayout()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel

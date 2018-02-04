@@ -56,6 +56,7 @@
 
     Private Sub usr_textbox_GotFocus(sender As Object, e As EventArgs) Handles Me.GotFocus, txt.GotFocus
         Me.BackColor = Color.FromArgb(243, 244, 182)
+        txt.BackColor = Color.FromArgb(243, 244, 182)
     End Sub
 
     Private Sub usr_textbox_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown, txt.KeyDown
@@ -66,6 +67,7 @@
 
     Private Sub usr_textbox_LostFocus(sender As Object, e As EventArgs) Handles Me.LostFocus, txt.LostFocus
         Me.BackColor = Color.White
+        txt.BackColor = Color.White
     End Sub
 
 End Class

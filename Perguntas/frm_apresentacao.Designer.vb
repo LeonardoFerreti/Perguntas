@@ -58,6 +58,7 @@ Partial Class frm_apresentacao
         Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
         Me.media.Size = New System.Drawing.Size(216, 45)
         Me.media.TabIndex = 6
+        Me.media.TabStop = False
         '
         'frm_apresentacao
         '

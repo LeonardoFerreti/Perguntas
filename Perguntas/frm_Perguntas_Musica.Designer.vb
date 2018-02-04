@@ -55,7 +55,6 @@ Partial Class frm_Perguntas_Musica
         Me.Label12 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
-
         CType(Me.media, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -71,6 +70,7 @@ Partial Class frm_Perguntas_Musica
         Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
         Me.media.Size = New System.Drawing.Size(453, 355)
         Me.media.TabIndex = 1
+        Me.media.TabStop = False
         '
         'Label1
         '
@@ -413,26 +413,25 @@ Partial Class frm_Perguntas_Musica
         '
         Me.TrataErro.ContainerControl = Me
         '
-
-        '
         'frm_Perguntas_Musica
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.BackColor = System.Drawing.Color.White
-
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_Perguntas_Musica"
         Me.Text = "Complete a música"
+        Me.Controls.SetChildIndex(Me.GroupBox1, 0)
+        Me.Controls.SetChildIndex(Me.GroupBox2, 0)
         CType(Me.media, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 

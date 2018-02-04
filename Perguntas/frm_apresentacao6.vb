@@ -19,6 +19,8 @@
     Private Sub frm_Perguntas_Arrastar_btn_avancar_click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
 
         '  Me.Hide()
+        media.Ctlcontrols.stop()
+        media2.Ctlcontrols.stop()
 
         Dim frm As frm_apresentacao7 = Nothing
         For Each form As Control In Application.OpenForms

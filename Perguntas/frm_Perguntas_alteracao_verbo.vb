@@ -63,6 +63,7 @@
 
     Private Function validaDados() As Boolean
         validaDados = True
+        TENTATIVAS_TELA_ALTERAR_VERBOS += 1
 
         Dim str As String = String.Empty
 
@@ -72,6 +73,9 @@
         End If
 
         If Not (str.ToLower.Trim.Equals(TextBox1.Tag.ToString.ToLower)) Then
+            If TENTATIVAS_TELA_ALTERAR_VERBOS < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ALTERAR_VERBOS -= DIMINUIR_ERRO_TELA_ALTERAR_VERBOS
+            End If
             validaDados = False
             TrataErro.SetError(Label12, "Reescreva corretamente a frase abaixo.")
         Else
@@ -84,6 +88,9 @@
         End If
 
         If Not (str.ToLower.Trim.Equals(TextBox2.Tag.ToString.ToLower)) Then
+            If TENTATIVAS_TELA_ALTERAR_VERBOS < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ALTERAR_VERBOS -= DIMINUIR_ERRO_TELA_ALTERAR_VERBOS
+            End If
             validaDados = False
             TrataErro.SetError(Label13, "Reescreva corretamente a frase abaixo.")
         Else
@@ -96,6 +103,9 @@
         End If
 
         If Not (str.ToLower.Trim.Equals(TextBox3.Tag.ToString.ToLower)) Then
+            If TENTATIVAS_TELA_ALTERAR_VERBOS < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ALTERAR_VERBOS -= DIMINUIR_ERRO_TELA_ALTERAR_VERBOS
+            End If
             validaDados = False
             TrataErro.SetError(Label14, "Reescreva corretamente a frase abaixo.")
         Else
@@ -108,6 +118,9 @@
         End If
 
         If Not (str.ToLower.Trim.Equals(TextBox4.Tag.ToString.ToLower)) Then
+            If TENTATIVAS_TELA_ALTERAR_VERBOS < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ALTERAR_VERBOS -= DIMINUIR_ERRO_TELA_ALTERAR_VERBOS
+            End If
             validaDados = False
             TrataErro.SetError(Label15, "Reescreva corretamente a frase abaixo.")
         Else
@@ -120,6 +133,9 @@
         End If
 
         If Not (str.ToLower.Trim.Equals(TextBox5.Tag.ToString.ToLower)) Then
+            If TENTATIVAS_TELA_ALTERAR_VERBOS < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ALTERAR_VERBOS -= DIMINUIR_ERRO_TELA_ALTERAR_VERBOS
+            End If
             validaDados = False
             TrataErro.SetError(Label5, "Reescreva corretamente a frase abaixo.")
         Else
@@ -132,6 +148,9 @@
         End If
 
         If Not (str.ToLower.Trim.Equals(TextBox6.Tag.ToString.ToLower)) Then
+            If TENTATIVAS_TELA_ALTERAR_VERBOS < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ALTERAR_VERBOS -= DIMINUIR_ERRO_TELA_ALTERAR_VERBOS
+            End If
             validaDados = False
             TrataErro.SetError(Label6, "Reescreva corretamente a frase abaixo.")
         Else
@@ -144,6 +163,9 @@
         End If
 
         If Not (str.ToLower.Trim.Equals(TextBox7.Tag.ToString.ToLower)) Then
+            If TENTATIVAS_TELA_ALTERAR_VERBOS < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ALTERAR_VERBOS -= DIMINUIR_ERRO_TELA_ALTERAR_VERBOS
+            End If
             validaDados = False
             TrataErro.SetError(Label7, "Reescreva corretamente a frase abaixo.")
         Else
@@ -156,6 +178,9 @@
         End If
 
         If Not (str.ToLower.Trim.Equals(TextBox8.Tag.ToString.ToLower)) Then
+            If TENTATIVAS_TELA_ALTERAR_VERBOS < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ALTERAR_VERBOS -= DIMINUIR_ERRO_TELA_ALTERAR_VERBOS
+            End If
             validaDados = False
             TrataErro.SetError(Label17, "Reescreva corretamente a frase abaixo.")
         Else
@@ -168,6 +193,9 @@
         End If
 
         If Not (str.ToLower.Trim.Equals(TextBox10.Tag.ToString.ToLower)) Then
+            If TENTATIVAS_TELA_ALTERAR_VERBOS < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ALTERAR_VERBOS -= DIMINUIR_ERRO_TELA_ALTERAR_VERBOS
+            End If
             validaDados = False
             TrataErro.SetError(Label10, "Reescreva corretamente a frase abaixo.")
         Else
@@ -180,6 +208,9 @@
         End If
 
         If Not (str.ToLower.Trim.Equals(TextBox11.Tag.ToString.ToLower)) Then
+            If TENTATIVAS_TELA_ALTERAR_VERBOS < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_ALTERAR_VERBOS -= DIMINUIR_ERRO_TELA_ALTERAR_VERBOS
+            End If
             validaDados = False
             TrataErro.SetError(Label11, "Reescreva corretamente a frase abaixo.")
         Else

@@ -79,11 +79,11 @@ Partial Class frm_apresentacao21
         '
         Me.label1.AutoSize = True
         Me.label1.BackColor = System.Drawing.Color.White
-        Me.label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
+        Me.label1.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.label1.Location = New System.Drawing.Point(168, 291)
         Me.label1.Name = "label1"
-        Me.label1.Size = New System.Drawing.Size(162, 18)
+        Me.label1.Size = New System.Drawing.Size(158, 20)
         Me.label1.TabIndex = 28
         Me.label1.Text = "Escreva a frase abaixo:"
         '
@@ -95,6 +95,7 @@ Partial Class frm_apresentacao21
         Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
         Me.media.Size = New System.Drawing.Size(303, 45)
         Me.media.TabIndex = 37
+        Me.media.TabStop = False
         '
         'frm_apresentacao21
         '

@@ -60,31 +60,33 @@ Partial Class frm_Apresentacao12
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(300, 290)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(140, 15)
+        Me.Label1.Size = New System.Drawing.Size(178, 20)
         Me.Label1.TabIndex = 12
         Me.Label1.Text = "Selecione as preposições:"
         '
         'chkList1
         '
         Me.chkList1.CheckOnClick = True
+        Me.chkList1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chkList1.FormattingEnabled = True
         Me.chkList1.Items.AddRange(New Object() {"Antônio", "veio", "de", "Goiás"})
-        Me.chkList1.Location = New System.Drawing.Point(303, 306)
+        Me.chkList1.Location = New System.Drawing.Point(303, 310)
         Me.chkList1.Name = "chkList1"
-        Me.chkList1.Size = New System.Drawing.Size(152, 79)
+        Me.chkList1.Size = New System.Drawing.Size(152, 89)
         Me.chkList1.TabIndex = 11
         '
         'chkList2
         '
         Me.chkList2.CheckOnClick = True
+        Me.chkList2.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chkList2.FormattingEnabled = True
         Me.chkList2.Items.AddRange(New Object() {"Vitória", "esteve", "com", "André", "ontem"})
-        Me.chkList2.Location = New System.Drawing.Point(461, 306)
+        Me.chkList2.Location = New System.Drawing.Point(461, 310)
         Me.chkList2.Name = "chkList2"
-        Me.chkList2.Size = New System.Drawing.Size(175, 79)
+        Me.chkList2.Size = New System.Drawing.Size(175, 89)
         Me.chkList2.TabIndex = 13
         '
         'TrataErro
@@ -99,6 +101,7 @@ Partial Class frm_Apresentacao12
         Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
         Me.media.Size = New System.Drawing.Size(327, 45)
         Me.media.TabIndex = 37
+        Me.media.TabStop = False
         '
         'frm_Apresentacao12
         '

@@ -29,8 +29,8 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TextBox1 = New Perguntas.usr_textbox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label100 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel15 = New System.Windows.Forms.Panel()
         Me.TextBox13 = New Perguntas.usr_textbox()
@@ -67,7 +67,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label200 = New System.Windows.Forms.Label()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
-
+        Me.Label14 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -91,7 +91,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
         Me.TableLayoutPanel1.ColumnCount = 1
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 188.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 189.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Panel3, 0, 2)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label100, 0, 0)
@@ -111,7 +111,7 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(4, 72)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(182, 41)
+        Me.Panel3.Size = New System.Drawing.Size(183, 41)
         Me.Panel3.TabIndex = 4
         '
         'TextBox2
@@ -140,13 +140,15 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         'Panel2
         '
+        Me.Panel2.Controls.Add(Me.Label14)
         Me.Panel2.Controls.Add(Me.TextBox1)
-        Me.Panel2.Controls.Add(Me.Label1)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(4, 25)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(182, 40)
+        Me.Panel2.Size = New System.Drawing.Size(183, 40)
         Me.Panel2.TabIndex = 3
+        Me.Panel2.Controls.SetChildIndex(Me.TextBox1, 0)
+        Me.Panel2.Controls.SetChildIndex(Me.Label14, 0)
         '
         'TextBox1
         '
@@ -162,6 +164,17 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.TextBox1.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox1.TEXTO_FORECOLOR = System.Drawing.Color.Black
         '
+        'Label100
+        '
+        Me.Label100.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label100.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label100.Location = New System.Drawing.Point(4, 1)
+        Me.Label100.Name = "Label100"
+        Me.Label100.Size = New System.Drawing.Size(183, 20)
+        Me.Label100.TabIndex = 0
+        Me.Label100.Text = "Combinações"
+        Me.Label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -171,17 +184,6 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Label1.Size = New System.Drawing.Size(61, 21)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "a + o ="
-        '
-        'Label100
-        '
-        Me.Label100.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label100.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label100.Location = New System.Drawing.Point(4, 1)
-        Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(182, 20)
-        Me.Label100.TabIndex = 0
-        Me.Label100.Text = "Combinações"
-        Me.Label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TableLayoutPanel2
         '
@@ -605,19 +607,29 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         '
         Me.TrataErro.ContainerControl = Me
         '
-
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(12, 13)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(61, 21)
+        Me.Label14.TabIndex = 2
+        Me.Label14.Text = "a + o ="
         '
         'frm_Perguntas_Combinacoes_Contracoes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.BackColor = System.Drawing.Color.White
-
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.TableLayoutPanel2)
         Me.Controls.Add(Me.TableLayoutPanel1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_Perguntas_Combinacoes_Contracoes"
         Me.Text = "Combinações e Contrações"
+        Me.Controls.SetChildIndex(Me.TableLayoutPanel1, 0)
+        Me.Controls.SetChildIndex(Me.TableLayoutPanel2, 0)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
@@ -648,7 +660,6 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
         Me.Panel4.PerformLayout()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -696,5 +707,5 @@ Partial Class frm_Perguntas_Combinacoes_Contracoes
     Friend WithEvents TextBox3 As usr_textbox
     Friend WithEvents Label3 As Label
     Friend WithEvents TrataErro As ErrorProvider
-
+    Friend WithEvents Label14 As Label
 End Class

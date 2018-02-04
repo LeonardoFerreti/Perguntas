@@ -7,6 +7,7 @@
         If validaDados() Then
 
             '  Me.Hide()
+            media.Ctlcontrols.stop()
 
             Dim frm As frm_apresentacao4 = Nothing
             For Each form As Control In Application.OpenForms

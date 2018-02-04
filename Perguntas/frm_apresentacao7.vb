@@ -1,6 +1,7 @@
 ﻿Public Class frm_apresentacao7
     Private Sub frm_apresentacao7_btn_avancar_click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
-
+        media.Ctlcontrols.stop()
+        media2.Ctlcontrols.stop()
         '   Me.Hide()
         Me.Cursor = Cursors.AppStarting
 

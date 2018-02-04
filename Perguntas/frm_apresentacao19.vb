@@ -2,7 +2,7 @@
     Private Sub frm_apresentacao19_Load(sender As Object, e As EventArgs) Handles Me.Load
         If Not IO.File.Exists(Application.StartupPath + "\" + "audioApresentacao19.mp3") Then
             Dim b() As Byte = My.Resources.audioApresentacao19
-            System.IO.File.WriteAllBytes(Application.StartupPath + "\" + "audioApresentacao119.mp3", b)
+            System.IO.File.WriteAllBytes(Application.StartupPath + "\" + "audioApresentacao19.mp3", b)
         End If
         Me.media.URL = Application.StartupPath + "\" + "audioApresentacao19.mp3"
 
@@ -21,6 +21,7 @@
     End Sub
 
     Private Sub frm_Perguntas_Arrastar_Completar_btn_avancar_click(sender As Object, e As EventArgs) Handles ME._btn_avancar_click
+        media.Ctlcontrols.stop()
 
         '     Me.Hide()
 

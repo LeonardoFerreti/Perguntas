@@ -1,6 +1,7 @@
 ﻿
 Public Class frm_apresentacao
     Private Sub frm_apresentacao_btn_avancar_click(sender As Object, e As EventArgs) Handles Me._btn_avancar_click
+        media.Ctlcontrols.stop()
 
         Dim frm As frm_apresentacao2 = Nothing
         For Each form As Control In Application.OpenForms

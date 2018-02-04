@@ -113,6 +113,7 @@ Partial Class frm_Perguntas_Frases
         Me.TextBox54 = New Perguntas.usr_textbox()
         Me.TextBox49 = New Perguntas.usr_textbox()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.Label31 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
@@ -125,6 +126,7 @@ Partial Class frm_Perguntas_Frases
         '
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.Label31, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Label5, 0, 4)
         Me.TableLayoutPanel1.Controls.Add(Me.Label4, 0, 3)
         Me.TableLayoutPanel1.Controls.Add(Me.Label3, 0, 2)
@@ -133,17 +135,14 @@ Partial Class frm_Perguntas_Frases
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(3, 3)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 5
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(335, 91)
         Me.TableLayoutPanel1.TabIndex = 1
-        Me.TableLayoutPanel1.Controls.SetChildIndex(Me.Label2, 0)
-        Me.TableLayoutPanel1.Controls.SetChildIndex(Me.Label3, 0)
-        Me.TableLayoutPanel1.Controls.SetChildIndex(Me.Label4, 0)
-        Me.TableLayoutPanel1.Controls.SetChildIndex(Me.Label5, 0)
         '
         'Label5
         '
@@ -1414,6 +1413,17 @@ Partial Class frm_Perguntas_Frases
         '
         Me.TrataErro.ContainerControl = Me
         '
+        'Label31
+        '
+        Me.Label31.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label31.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(3, 0)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(329, 18)
+        Me.Label31.TabIndex = 5
+        Me.Label31.Text = "1. SURPRESAUMAVAITERMEUFILHO."
+        Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
         'frm_Perguntas_Frases
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1426,7 +1436,6 @@ Partial Class frm_Perguntas_Frases
         Me.Text = "Organize as frases"
         Me.Controls.SetChildIndex(Me.TableLayoutPanel3, 0)
         Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.TableLayoutPanel1.PerformLayout()
         Me.TableLayoutPanel2.ResumeLayout(False)
         Me.TableLayoutPanel3.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
@@ -1528,5 +1537,5 @@ Partial Class frm_Perguntas_Frases
     Friend WithEvents TextBox50 As usr_textbox
     Friend WithEvents TextBox54 As usr_textbox
     Friend WithEvents TextBox49 As usr_textbox
-
+    Friend WithEvents Label31 As Label
 End Class

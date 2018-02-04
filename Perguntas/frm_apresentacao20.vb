@@ -14,6 +14,9 @@
         If ValidaDados() Then
             '     Me.Hide()
 
+            media.Ctlcontrols.stop()
+
+
             Dim frm As frm_apresentacao21 = Nothing
             For Each form As Control In Application.OpenForms
                 If TypeOf form Is frm_apresentacao21 Then
@@ -74,6 +77,11 @@
     End Sub
 
     Private Sub frm_apresentacao20_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If Not IO.File.Exists(Application.StartupPath + "\" + "audioApresentacao20.mp3") Then
+            Dim b() As Byte = My.Resources.audioApresentacao20
+            System.IO.File.WriteAllBytes(Application.StartupPath + "\" + "audioApresentacao20.mp3", b)
+        End If
+        Me.media.URL = Application.StartupPath + "\" + "audioApresentacao20.mp3"
 
         TextBox1.Focus()
     End Sub

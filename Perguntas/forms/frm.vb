@@ -83,4 +83,10 @@
     Private Sub Controle_navegacao1__btn_voltar_click(sender As Object, e As EventArgs) Handles Controle_navegacao1._btn_voltar_click
         RaiseEvent _btn_voltar_click(sender, e)
     End Sub
+    Protected Overrides Sub OnPaint(e As PaintEventArgs)
+        Using brush As New SolidBrush(BackColor)
+            e.Graphics.FillRectangle(brush, ClientRectangle)
+            e.Graphics.DrawRectangle(New Pen(Color.Black), 0, 0, ClientSize.Width - 1, ClientSize.Height - 1)
+        End Using
+    End Sub
 End Class

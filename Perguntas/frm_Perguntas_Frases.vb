@@ -45,6 +45,8 @@
         TrataErro.SetError(Label28, String.Empty)
         TrataErro.SetError(Label29, String.Empty)
         TrataErro.SetError(Label30, String.Empty)
+        TENTATIVAS_TELA_FRASES += 1
+
 
         If Not (TextBox1.Texto.ToLower.Trim.Equals(TextBox1.Tag.ToString.ToLower) OrElse
             TextBox2.Texto.ToLower.Trim.Equals(TextBox2.Tag.ToString.ToLower) OrElse
@@ -54,6 +56,9 @@
             TextBox6.Texto.ToLower.Trim.Equals(TextBox6.Tag.ToString.ToLower)) Then
             ValidaDados = False
             TrataErro.SetError(Label21, "Informe as sílabas corretamente.")
+            If TENTATIVAS_TELA_FRASES < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_FRASES -= DIMINUIR_ERRO_TELA_FRASES
+            End If
         End If
 
         If Not (TextBox7.Texto.ToLower.Trim.Equals(TextBox7.Tag.ToString.ToLower) OrElse
@@ -65,6 +70,9 @@
             TextBox13.Texto.ToLower.Trim.Equals(TextBox13.Tag.ToString.ToLower)) Then
             ValidaDados = False
             TrataErro.SetError(Label22, "Informe as sílabas corretamente.")
+            If TENTATIVAS_TELA_FRASES < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_FRASES -= DIMINUIR_ERRO_TELA_FRASES
+            End If
         End If
 
         If Not (TextBox14.Texto.ToLower.Trim.Equals(TextBox14.Tag.ToString.ToLower) OrElse
@@ -74,6 +82,9 @@
             TextBox18.Texto.ToLower.Trim.Equals(TextBox18.Tag.ToString.ToLower) OrElse
             TextBox19.Texto.ToLower.Trim.Equals(TextBox19.Tag.ToString.ToLower)) Then
             ValidaDados = False
+            If TENTATIVAS_TELA_FRASES < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_FRASES -= DIMINUIR_ERRO_TELA_FRASES
+            End If
             TrataErro.SetError(Label23, "Informe as sílabas corretamente.")
         End If
 
@@ -92,6 +103,9 @@
             TextBox28.Texto.ToLower.Trim.Equals(TextBox28.Tag.ToString.ToLower) OrElse
             TextBox29.Texto.ToLower.Trim.Equals(TextBox29.Tag.ToString.ToLower)) Then
             ValidaDados = False
+            If TENTATIVAS_TELA_FRASES < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_FRASES -= DIMINUIR_ERRO_TELA_FRASES
+            End If
             TrataErro.SetError(Label25, "Informe as sílabas corretamente.")
         End If
 
@@ -100,6 +114,9 @@
             TextBox32.Texto.ToLower.Trim.Equals(TextBox32.Tag.ToString.ToLower) OrElse
             TextBox33.Texto.ToLower.Trim.Equals(TextBox33.Tag.ToString.ToLower)) Then
             ValidaDados = False
+            If TENTATIVAS_TELA_FRASES < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_FRASES -= DIMINUIR_ERRO_TELA_FRASES
+            End If
             TrataErro.SetError(Label26, "Informe as sílabas corretamente.")
         End If
 
@@ -109,6 +126,9 @@
             TextBox37.Texto.ToLower.Trim.Equals(TextBox37.Tag.ToString.ToLower) OrElse
             TextBox38.Texto.ToLower.Trim.Equals(TextBox38.Tag.ToString.ToLower)) Then
             ValidaDados = False
+            If TENTATIVAS_TELA_FRASES < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_FRASES -= DIMINUIR_ERRO_TELA_FRASES
+            End If
             TrataErro.SetError(Label27, "Informe as sílabas corretamente.")
         End If
 
@@ -119,6 +139,9 @@
             TextBox43.Texto.ToLower.Trim.Equals(TextBox43.Tag.ToString.ToLower) OrElse
             TextBox44.Texto.ToLower.Trim.Equals(TextBox44.Tag.ToString.ToLower)) Then
             ValidaDados = False
+            If TENTATIVAS_TELA_FRASES < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_FRASES -= DIMINUIR_ERRO_TELA_FRASES
+            End If
             TrataErro.SetError(Label28, "Informe as sílabas corretamente.")
         End If
 
@@ -127,6 +150,9 @@
             TextBox47.Texto.ToLower.Trim.Equals(TextBox47.Tag.ToString.ToLower) OrElse
             TextBox48.Texto.ToLower.Trim.Equals(TextBox48.Tag.ToString.ToLower)) Then
             ValidaDados = False
+            If TENTATIVAS_TELA_FRASES < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_FRASES -= DIMINUIR_ERRO_TELA_FRASES
+            End If
             TrataErro.SetError(Label29, "Informe as sílabas corretamente.")
         End If
 
@@ -137,6 +163,9 @@
             TextBox53.Texto.ToLower.Trim.Equals(TextBox53.Tag.ToString.ToLower) OrElse
             TextBox54.Texto.ToLower.Trim.Equals(TextBox54.Tag.ToString.ToLower)) Then
             ValidaDados = False
+            If TENTATIVAS_TELA_FRASES < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_FRASES -= DIMINUIR_ERRO_TELA_FRASES
+            End If
             TrataErro.SetError(Label30, "Informe as sílabas corretamente.")
         End If
         If Not ValidaDados Then

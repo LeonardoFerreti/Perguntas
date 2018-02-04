@@ -38,6 +38,7 @@
     Private Function validaDados() As Boolean
         validaDados = True
         TrataErro.SetError(Label1, String.Empty)
+        TENTATIVAS_TELA_RESPONDER_PERGUNTAS += 1
 
         For Each control As Control In GroupBox1.Controls
             If TypeOf control Is usr_textbox Then
@@ -58,6 +59,9 @@
         Next
         If Not validaDados Then
             System.Media.SystemSounds.Exclamation.Play()
+            If TENTATIVAS_TELA_RESPONDER_PERGUNTAS < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_RESPONDER_PERGUNTAS -= DIMINUIR_ERRO_TELA_RESPONDER_PERGUNTAS
+            End If
         End If
 
         Return validaDados

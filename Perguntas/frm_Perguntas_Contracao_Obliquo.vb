@@ -49,24 +49,40 @@
 
     Private Function validaDados() As Boolean
         validaDados = True
+        TENTATIVAS_TELA_CONTRACAO_OBLIQUO += 1
+
+
+
         If Not (TextBox1.Texto.ToLower.Trim.Equals(TextBox1.Tag.ToString)) Then
             validaDados = False
             TrataErro.SetError(Label5, "Preencha o pronome corretamente.")
+            If TENTATIVAS_TELA_CONTRACAO_OBLIQUO < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_CONTRACAO_OBLIQUO -= DIMINUIR_ERRO_TELA_CONTRACAO_OBLIQUO
+            End If
         End If
 
         If Not (TextBox2.Texto.ToLower.Trim.Equals(TextBox2.Tag.ToString)) Then
             validaDados = False
             TrataErro.SetError(Label2, "Preencha o pronome corretamente.")
+            If TENTATIVAS_TELA_CONTRACAO_OBLIQUO < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_CONTRACAO_OBLIQUO -= DIMINUIR_ERRO_TELA_CONTRACAO_OBLIQUO
+            End If
         End If
 
         If Not (TextBox3.Texto.ToLower.Trim.Equals(TextBox3.Tag.ToString)) Then
             validaDados = False
             TrataErro.SetError(Label3, "Preencha o pronome corretamente.")
+            If TENTATIVAS_TELA_CONTRACAO_OBLIQUO < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_CONTRACAO_OBLIQUO -= DIMINUIR_ERRO_TELA_CONTRACAO_OBLIQUO
+            End If
         End If
 
         If Not (TextBox4.Texto.ToLower.Trim.Equals(TextBox4.Tag.ToString)) Then
             validaDados = False
             TrataErro.SetError(Label4, "Preencha o pronome corretamente.")
+            If TENTATIVAS_TELA_CONTRACAO_OBLIQUO < NUMERO_MAXIMO_TENTATIVAS_COM_PERDA Then
+                PONTUACAO_TELA_CONTRACAO_OBLIQUO -= DIMINUIR_ERRO_TELA_CONTRACAO_OBLIQUO
+            End If
         End If
         If Not validaDados Then
             System.Media.SystemSounds.Exclamation.Play()

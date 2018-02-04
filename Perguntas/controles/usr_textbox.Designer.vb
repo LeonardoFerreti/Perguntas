@@ -22,31 +22,18 @@ Partial Class usr_textbox
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txt = New TextBox()
+        Me.txt = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'txt
         '
-        '
-        '
-        '
-
         Me.txt.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.txt.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt.ForeColor = System.Drawing.Color.Black
-        Me.txt.Lines = New String(-1) {}
         Me.txt.Location = New System.Drawing.Point(0, 0)
-        Me.txt.MaxLength = 32767
         Me.txt.Name = "txt"
-        Me.txt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.txt.ScrollBars = System.Windows.Forms.ScrollBars.None
-        Me.txt.SelectedText = ""
-        Me.txt.SelectionLength = 0
-        Me.txt.SelectionStart = 0
-        Me.txt.ShortcutsEnabled = True
-        Me.txt.Size = New System.Drawing.Size(112, 24)
+        Me.txt.Size = New System.Drawing.Size(112, 22)
         Me.txt.TabIndex = 0
-
-
         '
         'usr_textbox
         '
@@ -54,8 +41,9 @@ Partial Class usr_textbox
         Me.Controls.Add(Me.txt)
         Me.ForeColor = System.Drawing.Color.Black
         Me.Name = "usr_textbox"
-        Me.Size = New System.Drawing.Size(112, 24)
+        Me.Size = New System.Drawing.Size(112, 20)
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
