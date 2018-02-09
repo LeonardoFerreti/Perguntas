@@ -50,7 +50,12 @@
     Private Function ValidaDados() As Boolean
         ValidaDados = True
 
-        If Not TextBox1.Texto.ToLower.Equals(TextBox1.Tag.ToString) Then
+        Dim Str As String = TextBox1.Texto
+        If Str.EndsWith(".") Then
+            Str = Str.Remove(Str.LastIndexOf("."))
+        End If
+
+        If Not Str.ToLower.Equals(TextBox1.Tag.ToString) Then
             ValidaDados = False
             TrataErro.SetError(label1, "Escreva a frase corretamente.")
         End If
