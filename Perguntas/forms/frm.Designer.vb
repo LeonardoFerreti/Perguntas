@@ -117,5 +117,5 @@ Partial Class frm
     Friend WithEvents Label1 As Label
     Friend WithEvents control_barra As TableLayoutPanel
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Controle_navegacao1 As controle_navegacao
+    Public WithEvents Controle_navegacao1 As controle_navegacao
 End Class

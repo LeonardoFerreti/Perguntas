@@ -86,7 +86,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox1.ForeColor = System.Drawing.Color.Black
         Me.TextBox1.Location = New System.Drawing.Point(0, 16)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(290, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(292, 22)
         Me.TextBox1.somenteLeitura = False
         Me.TextBox1.TabIndex = 0
         Me.TextBox1.Tag = "Todos saíram dali nervosos"
@@ -101,7 +101,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox2.ForeColor = System.Drawing.Color.Black
         Me.TextBox2.Location = New System.Drawing.Point(0, 16)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(290, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(292, 22)
         Me.TextBox2.somenteLeitura = False
         Me.TextBox2.TabIndex = 1
         Me.TextBox2.Tag = "Com certeza ela falou a verdade"
@@ -126,7 +126,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox3.ForeColor = System.Drawing.Color.Black
         Me.TextBox3.Location = New System.Drawing.Point(0, 16)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(290, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(292, 22)
         Me.TextBox3.somenteLeitura = False
         Me.TextBox3.TabIndex = 3
         Me.TextBox3.Tag = "Meu namorado me liga todos os dias"
@@ -151,7 +151,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox4.ForeColor = System.Drawing.Color.Black
         Me.TextBox4.Location = New System.Drawing.Point(0, 16)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(290, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(292, 22)
         Me.TextBox4.somenteLeitura = False
         Me.TextBox4.TabIndex = 2
         Me.TextBox4.Tag = "Ela tem que encontrar a solução para o problema"
@@ -176,7 +176,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox5.ForeColor = System.Drawing.Color.Black
         Me.TextBox5.Location = New System.Drawing.Point(0, 16)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(291, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(315, 22)
         Me.TextBox5.somenteLeitura = False
         Me.TextBox5.TabIndex = 6
         Me.TextBox5.Tag = "As meninas tentaram de novo, mas não conseguiram"
@@ -201,7 +201,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox6.ForeColor = System.Drawing.Color.Black
         Me.TextBox6.Location = New System.Drawing.Point(0, 16)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(291, 22)
+        Me.TextBox6.Size = New System.Drawing.Size(315, 22)
         Me.TextBox6.somenteLeitura = False
         Me.TextBox6.TabIndex = 5
         Me.TextBox6.Tag = "Finalmente, André falou comigo sobre a festa"
@@ -226,7 +226,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox7.ForeColor = System.Drawing.Color.Black
         Me.TextBox7.Location = New System.Drawing.Point(0, 16)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(291, 22)
+        Me.TextBox7.Size = New System.Drawing.Size(315, 22)
         Me.TextBox7.somenteLeitura = False
         Me.TextBox7.TabIndex = 8
         Me.TextBox7.Tag = "Por favor, silêncio!"
@@ -251,7 +251,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox8.ForeColor = System.Drawing.Color.Black
         Me.TextBox8.Location = New System.Drawing.Point(0, 16)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(291, 22)
+        Me.TextBox8.Size = New System.Drawing.Size(315, 22)
         Me.TextBox8.somenteLeitura = False
         Me.TextBox8.TabIndex = 7
         Me.TextBox8.Tag = "Vou amá-lo para sempre"
@@ -276,7 +276,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox9.ForeColor = System.Drawing.Color.Black
         Me.TextBox9.Location = New System.Drawing.Point(0, 20)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(291, 22)
+        Me.TextBox9.Size = New System.Drawing.Size(315, 22)
         Me.TextBox9.somenteLeitura = False
         Me.TextBox9.TabIndex = 9
         Me.TextBox9.Tag = "Ana, o que aconteceu?"
@@ -301,7 +301,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox10.ForeColor = System.Drawing.Color.Black
         Me.TextBox10.Location = New System.Drawing.Point(0, 20)
         Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(290, 22)
+        Me.TextBox10.Size = New System.Drawing.Size(292, 22)
         Me.TextBox10.somenteLeitura = False
         Me.TextBox10.TabIndex = 4
         Me.TextBox10.Tag = "Tá bom, eu vou passar na sua casa"
@@ -323,8 +323,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         '
         Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel1.ColumnCount = 2
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.30371!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.69629!))
         Me.TableLayoutPanel1.Controls.Add(Me.Panel11, 1, 4)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel10, 0, 4)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel9, 1, 3)
@@ -336,7 +336,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TableLayoutPanel1.Controls.Add(Me.Panel3, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 0, 0)
         Me.TableLayoutPanel1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(113, 102)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(109, 102)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 5
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
@@ -344,7 +344,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(593, 224)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(619, 224)
         Me.TableLayoutPanel1.TabIndex = 21
         '
         'Panel11
@@ -352,10 +352,10 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.Panel11.Controls.Add(Me.Label9)
         Me.Panel11.Controls.Add(Me.TextBox9)
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel11.Location = New System.Drawing.Point(299, 179)
+        Me.Panel11.Location = New System.Drawing.Point(301, 179)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(291, 42)
-        Me.Panel11.TabIndex = 1
+        Me.Panel11.Size = New System.Drawing.Size(315, 42)
+        Me.Panel11.TabIndex = 9
         '
         'Panel10
         '
@@ -364,18 +364,18 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.Panel10.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel10.Location = New System.Drawing.Point(3, 179)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(290, 42)
-        Me.Panel10.TabIndex = 1
+        Me.Panel10.Size = New System.Drawing.Size(292, 42)
+        Me.Panel10.TabIndex = 4
         '
         'Panel9
         '
         Me.Panel9.Controls.Add(Me.Label7)
         Me.Panel9.Controls.Add(Me.TextBox7)
         Me.Panel9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel9.Location = New System.Drawing.Point(299, 135)
+        Me.Panel9.Location = New System.Drawing.Point(301, 135)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(291, 38)
-        Me.Panel9.TabIndex = 1
+        Me.Panel9.Size = New System.Drawing.Size(315, 38)
+        Me.Panel9.TabIndex = 8
         '
         'Panel8
         '
@@ -384,18 +384,18 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel8.Location = New System.Drawing.Point(3, 135)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(290, 38)
-        Me.Panel8.TabIndex = 1
+        Me.Panel8.Size = New System.Drawing.Size(292, 38)
+        Me.Panel8.TabIndex = 3
         '
         'Panel7
         '
         Me.Panel7.Controls.Add(Me.Label8)
         Me.Panel7.Controls.Add(Me.TextBox8)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel7.Location = New System.Drawing.Point(299, 91)
+        Me.Panel7.Location = New System.Drawing.Point(301, 91)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(291, 38)
-        Me.Panel7.TabIndex = 1
+        Me.Panel7.Size = New System.Drawing.Size(315, 38)
+        Me.Panel7.TabIndex = 7
         '
         'Panel6
         '
@@ -404,18 +404,18 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel6.Location = New System.Drawing.Point(3, 91)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(290, 38)
-        Me.Panel6.TabIndex = 1
+        Me.Panel6.Size = New System.Drawing.Size(292, 38)
+        Me.Panel6.TabIndex = 2
         '
         'Panel5
         '
         Me.Panel5.Controls.Add(Me.Label5)
         Me.Panel5.Controls.Add(Me.TextBox5)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel5.Location = New System.Drawing.Point(299, 47)
+        Me.Panel5.Location = New System.Drawing.Point(301, 47)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(291, 38)
-        Me.Panel5.TabIndex = 1
+        Me.Panel5.Size = New System.Drawing.Size(315, 38)
+        Me.Panel5.TabIndex = 6
         '
         'Panel4
         '
@@ -424,7 +424,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel4.Location = New System.Drawing.Point(3, 47)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(290, 38)
+        Me.Panel4.Size = New System.Drawing.Size(292, 38)
         Me.Panel4.TabIndex = 1
         '
         'Panel3
@@ -432,10 +432,10 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.Panel3.Controls.Add(Me.Label6)
         Me.Panel3.Controls.Add(Me.TextBox6)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel3.Location = New System.Drawing.Point(299, 3)
+        Me.Panel3.Location = New System.Drawing.Point(301, 3)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(291, 38)
-        Me.Panel3.TabIndex = 1
+        Me.Panel3.Size = New System.Drawing.Size(315, 38)
+        Me.Panel3.TabIndex = 5
         '
         'Panel2
         '
@@ -444,7 +444,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(3, 3)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(290, 38)
+        Me.Panel2.Size = New System.Drawing.Size(292, 38)
         Me.Panel2.TabIndex = 0
         '
         'TrataErro

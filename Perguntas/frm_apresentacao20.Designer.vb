@@ -44,6 +44,11 @@ Partial Class frm_apresentacao20
         CType(Me.media, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
+        'Controle_navegacao1
+        '
+        Me.Controle_navegacao1.Location = New System.Drawing.Point(0, 445)
+        Me.Controle_navegacao1.Size = New System.Drawing.Size(796, 43)
+        '
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao_22
@@ -73,6 +78,7 @@ Partial Class frm_apresentacao20
         Me.TextBox1.Size = New System.Drawing.Size(100, 22)
         Me.TextBox1.somenteLeitura = False
         Me.TextBox1.TabIndex = 2
+        Me.TextBox1.TABULACAO_AUTOMATICA = True
         Me.TextBox1.Tag = "a"
         Me.TextBox1.Texto = ""
         Me.TextBox1.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -87,6 +93,7 @@ Partial Class frm_apresentacao20
         Me.TextBox2.Size = New System.Drawing.Size(100, 22)
         Me.TextBox2.somenteLeitura = False
         Me.TextBox2.TabIndex = 3
+        Me.TextBox2.TABULACAO_AUTOMATICA = True
         Me.TextBox2.Tag = "casa"
         Me.TextBox2.Texto = ""
         Me.TextBox2.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -101,6 +108,7 @@ Partial Class frm_apresentacao20
         Me.TextBox3.Size = New System.Drawing.Size(100, 22)
         Me.TextBox3.somenteLeitura = False
         Me.TextBox3.TabIndex = 4
+        Me.TextBox3.TABULACAO_AUTOMATICA = True
         Me.TextBox3.Tag = "minha"
         Me.TextBox3.Texto = ""
         Me.TextBox3.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -115,6 +123,7 @@ Partial Class frm_apresentacao20
         Me.TextBox4.Size = New System.Drawing.Size(95, 22)
         Me.TextBox4.somenteLeitura = False
         Me.TextBox4.TabIndex = 5
+        Me.TextBox4.TABULACAO_AUTOMATICA = False
         Me.TextBox4.Tag = "foi"
         Me.TextBox4.Texto = ""
         Me.TextBox4.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -129,6 +138,7 @@ Partial Class frm_apresentacao20
         Me.TextBox5.Size = New System.Drawing.Size(93, 22)
         Me.TextBox5.somenteLeitura = False
         Me.TextBox5.TabIndex = 6
+        Me.TextBox5.TABULACAO_AUTOMATICA = False
         Me.TextBox5.Tag = "pintada"
         Me.TextBox5.Texto = ""
         Me.TextBox5.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -230,6 +240,7 @@ Partial Class frm_apresentacao20
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_apresentacao20"
         Me.Text = "Desafio: classe gramatical"
+        Me.Controls.SetChildIndex(Me.Controle_navegacao1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         Me.Controls.SetChildIndex(Me.TextBox1, 0)

@@ -90,5 +90,15 @@
         TextBox1.Focus()
     End Sub
 
+    Private Sub TextBox4__textbox_keyDown(sender As Object, e As KeyEventArgs) Handles TextBox4._textbox_keyDown
+        If e.KeyCode = Keys.Enter Then
+            TextBox5.Focus()
+        End If
+    End Sub
 
+    Private Sub TextBox5__textbox_keyDown(sender As Object, e As KeyEventArgs) Handles TextBox5._textbox_keyDown
+        If e.KeyCode = Keys.Enter Then
+            Controle_navegacao1.btn_avancar.Focus()
+        End If
+    End Sub
 End Class

@@ -34,6 +34,7 @@ Partial Class frm_Perguntas_Arrastar
         Me.lstFuncionais = New System.Windows.Forms.ListBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TrataErro = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -57,20 +58,20 @@ Partial Class frm_Perguntas_Arrastar
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.87003!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 63.12997!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(796, 424)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(796, 381)
         Me.TableLayoutPanel1.TabIndex = 4
         '
         'GroupBox3
         '
         Me.TableLayoutPanel1.SetColumnSpan(Me.GroupBox3, 2)
+        Me.GroupBox3.Controls.Add(Me.Label4)
         Me.GroupBox3.Controls.Add(Me.listTodasPalavras)
         Me.GroupBox3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupBox3.Location = New System.Drawing.Point(3, 3)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(790, 150)
+        Me.GroupBox3.Size = New System.Drawing.Size(790, 134)
         Me.GroupBox3.TabIndex = 5
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Controls.SetChildIndex(Me.listTodasPalavras, 0)
         '
         'listTodasPalavras
         '
@@ -82,7 +83,7 @@ Partial Class frm_Perguntas_Arrastar
         Me.listTodasPalavras.Location = New System.Drawing.Point(3, 16)
         Me.listTodasPalavras.MultiColumn = True
         Me.listTodasPalavras.Name = "listTodasPalavras"
-        Me.listTodasPalavras.Size = New System.Drawing.Size(784, 131)
+        Me.listTodasPalavras.Size = New System.Drawing.Size(784, 115)
         Me.listTodasPalavras.TabIndex = 3
         '
         'GroupBox1
@@ -90,17 +91,18 @@ Partial Class frm_Perguntas_Arrastar
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.lstConteudo)
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupBox1.Location = New System.Drawing.Point(3, 159)
+        Me.GroupBox1.Location = New System.Drawing.Point(3, 143)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(392, 262)
+        Me.GroupBox1.Size = New System.Drawing.Size(392, 235)
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.White
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(7, 0)
+        Me.Label2.Location = New System.Drawing.Point(3, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(117, 13)
         Me.Label2.TabIndex = 5
@@ -114,7 +116,7 @@ Partial Class frm_Perguntas_Arrastar
         Me.lstConteudo.FormattingEnabled = True
         Me.lstConteudo.Location = New System.Drawing.Point(3, 16)
         Me.lstConteudo.Name = "lstConteudo"
-        Me.lstConteudo.Size = New System.Drawing.Size(386, 243)
+        Me.lstConteudo.Size = New System.Drawing.Size(386, 216)
         Me.lstConteudo.TabIndex = 1
         '
         'GroupBox2
@@ -122,17 +124,18 @@ Partial Class frm_Perguntas_Arrastar
         Me.GroupBox2.Controls.Add(Me.Label3)
         Me.GroupBox2.Controls.Add(Me.lstFuncionais)
         Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupBox2.Location = New System.Drawing.Point(401, 159)
+        Me.GroupBox2.Location = New System.Drawing.Point(401, 143)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(392, 262)
+        Me.GroupBox2.Size = New System.Drawing.Size(392, 235)
         Me.GroupBox2.TabIndex = 6
         Me.GroupBox2.TabStop = False
         '
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(6, 2)
+        Me.Label3.Location = New System.Drawing.Point(3, -1)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(105, 13)
         Me.Label3.TabIndex = 6
@@ -146,7 +149,7 @@ Partial Class frm_Perguntas_Arrastar
         Me.lstFuncionais.FormattingEnabled = True
         Me.lstFuncionais.Location = New System.Drawing.Point(3, 16)
         Me.lstFuncionais.Name = "lstFuncionais"
-        Me.lstFuncionais.Size = New System.Drawing.Size(386, 243)
+        Me.lstFuncionais.Size = New System.Drawing.Size(386, 216)
         Me.lstFuncionais.TabIndex = 2
         '
         'Label1
@@ -162,6 +165,17 @@ Partial Class frm_Perguntas_Arrastar
         'TrataErro
         '
         Me.TrataErro.ContainerControl = Me
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.White
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(3, -1)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(107, 13)
+        Me.Label4.TabIndex = 4
+        Me.Label4.Text = "Quadro de palavras"
         '
         'frm_Perguntas_Arrastar
         '
@@ -196,5 +210,5 @@ Partial Class frm_Perguntas_Arrastar
     Friend WithEvents TrataErro As ErrorProvider
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-
+    Friend WithEvents Label4 As Label
 End Class

@@ -62,6 +62,11 @@ Partial Class frm_Perguntas_alteracao_verbo
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
+        'Controle_navegacao1
+        '
+        Me.Controle_navegacao1.Location = New System.Drawing.Point(0, 445)
+        Me.Controle_navegacao1.Size = New System.Drawing.Size(796, 43)
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -84,6 +89,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.TextBox1.Size = New System.Drawing.Size(598, 22)
         Me.TextBox1.somenteLeitura = False
         Me.TextBox1.TabIndex = 1
+        Me.TextBox1.TABULACAO_AUTOMATICA = False
         Me.TextBox1.Tag = "Vamos ajudá-las"
         Me.TextBox1.Texto = ""
         Me.TextBox1.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -100,6 +106,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.TextBox2.Size = New System.Drawing.Size(555, 22)
         Me.TextBox2.somenteLeitura = False
         Me.TextBox2.TabIndex = 2
+        Me.TextBox2.TABULACAO_AUTOMATICA = False
         Me.TextBox2.Tag = "Precisamos convencê-los"
         Me.TextBox2.Texto = ""
         Me.TextBox2.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -127,7 +134,8 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.TextBox3.Size = New System.Drawing.Size(598, 22)
         Me.TextBox3.somenteLeitura = False
         Me.TextBox3.TabIndex = 3
-        Me.TextBox3.Tag = "Vamos dividi-lo?"
+        Me.TextBox3.TABULACAO_AUTOMATICA = False
+        Me.TextBox3.Tag = "Vamos dividi-lo"
         Me.TextBox3.Texto = ""
         Me.TextBox3.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox3.TEXTO_FORECOLOR = System.Drawing.Color.Black
@@ -154,6 +162,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.TextBox4.Size = New System.Drawing.Size(500, 22)
         Me.TextBox4.somenteLeitura = False
         Me.TextBox4.TabIndex = 4
+        Me.TextBox4.TABULACAO_AUTOMATICA = False
         Me.TextBox4.Tag = "É fundamental escrevê-las"
         Me.TextBox4.Texto = ""
         Me.TextBox4.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -181,6 +190,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.TextBox5.Size = New System.Drawing.Size(523, 22)
         Me.TextBox5.somenteLeitura = False
         Me.TextBox5.TabIndex = 8
+        Me.TextBox5.TABULACAO_AUTOMATICA = False
         Me.TextBox5.Tag = "Temos que compreendê-la"
         Me.TextBox5.Texto = ""
         Me.TextBox5.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -197,6 +207,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.TextBox6.Size = New System.Drawing.Size(500, 22)
         Me.TextBox6.somenteLeitura = False
         Me.TextBox6.TabIndex = 7
+        Me.TextBox6.TABULACAO_AUTOMATICA = False
         Me.TextBox6.Tag = "O camelô vai vendê-las para a torcida"
         Me.TextBox6.Texto = ""
         Me.TextBox6.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -213,6 +224,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.TextBox7.Size = New System.Drawing.Size(535, 22)
         Me.TextBox7.somenteLeitura = False
         Me.TextBox7.TabIndex = 6
+        Me.TextBox7.TABULACAO_AUTOMATICA = False
         Me.TextBox7.Tag = "É necessário abri-la com cuidado"
         Me.TextBox7.Texto = ""
         Me.TextBox7.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -229,6 +241,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.TextBox8.Size = New System.Drawing.Size(523, 22)
         Me.TextBox8.somenteLeitura = False
         Me.TextBox8.TabIndex = 5
+        Me.TextBox8.TABULACAO_AUTOMATICA = False
         Me.TextBox8.Tag = "Vou consertá-la com urgência"
         Me.TextBox8.Texto = ""
         Me.TextBox8.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -256,6 +269,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.TextBox10.Size = New System.Drawing.Size(499, 22)
         Me.TextBox10.somenteLeitura = False
         Me.TextBox10.TabIndex = 10
+        Me.TextBox10.TABULACAO_AUTOMATICA = False
         Me.TextBox10.Tag = "É essencial orientá-los nesta atividade"
         Me.TextBox10.Texto = ""
         Me.TextBox10.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -272,6 +286,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.TextBox11.Size = New System.Drawing.Size(511, 22)
         Me.TextBox11.somenteLeitura = False
         Me.TextBox11.TabIndex = 9
+        Me.TextBox11.TABULACAO_AUTOMATICA = False
         Me.TextBox11.Tag = "Simone deve encontrá-la na festa"
         Me.TextBox11.Texto = ""
         Me.TextBox11.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -414,7 +429,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(153, 279)
+        Me.Label5.Location = New System.Drawing.Point(160, 279)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(95, 15)
         Me.Label5.TabIndex = 36
@@ -436,7 +451,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(210, 307)
+        Me.Label11.Location = New System.Drawing.Point(211, 307)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(51, 15)
         Me.Label11.TabIndex = 39
@@ -447,7 +462,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.Label23.AutoSize = True
         Me.Label23.BackColor = System.Drawing.Color.Transparent
         Me.Label23.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(147, 307)
+        Me.Label23.Location = New System.Drawing.Point(148, 307)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(67, 15)
         Me.Label23.TabIndex = 38
@@ -545,6 +560,7 @@ Partial Class frm_Perguntas_alteracao_verbo
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_Perguntas_alteracao_verbo"
         Me.Text = "Alteração de verbos"
+        Me.Controls.SetChildIndex(Me.Controle_navegacao1, 0)
         Me.Controls.SetChildIndex(Me.Label1, 0)
         Me.Controls.SetChildIndex(Me.TextBox1, 0)
         Me.Controls.SetChildIndex(Me.Label2, 0)

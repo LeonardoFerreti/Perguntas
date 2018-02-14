@@ -98,8 +98,8 @@
         End If
 
         str = TextBox3.Texto
-        If str.EndsWith(".") Then
-            str = str.Remove(str.LastIndexOf("."))
+        If str.EndsWith("?") Then
+            str = str.Remove(str.LastIndexOf("?"))
         End If
 
         If Not (str.ToLower.Trim.Equals(TextBox3.Tag.ToString.ToLower)) Then
@@ -227,5 +227,60 @@
         TextBox1.Focus()
     End Sub
 
+    Private Sub TextBox1_textbox_keyDown(sender As Object, e As KeyEventArgs) Handles TextBox1._textbox_keyDown
+        If e.KeyCode = Keys.Enter Then
+            TextBox2.Focus()
+        End If
+    End Sub
+
+    Private Sub TextBox2_textbox_keyDown(sender As Object, e As KeyEventArgs) Handles TextBox2._textbox_keyDown
+        If e.KeyCode = Keys.Enter Then
+            TextBox3.Focus()
+        End If
+    End Sub
+
+    Private Sub TextBox3_textbox_keyDown(sender As Object, e As KeyEventArgs) Handles TextBox3._textbox_keyDown
+        If e.KeyCode = Keys.Enter Then
+            TextBox4.Focus()
+        End If
+    End Sub
+
+    Private Sub TextBox4_textbox_keyDown(sender As Object, e As KeyEventArgs) Handles TextBox4._textbox_keyDown
+        If e.KeyCode = Keys.Enter Then
+            TextBox8.Focus()
+        End If
+    End Sub
+    Private Sub TextBox8_textbox_keyDown(sender As Object, e As KeyEventArgs) Handles TextBox8._textbox_keyDown
+        If e.KeyCode = Keys.Enter Then
+            TextBox7.Focus()
+        End If
+    End Sub
+    Private Sub TextBox7_textbox_keyDown(sender As Object, e As KeyEventArgs) Handles TextBox7._textbox_keyDown
+        If e.KeyCode = Keys.Enter Then
+            TextBox6.Focus()
+        End If
+    End Sub
+    Private Sub TextBox6_textbox_keyDown(sender As Object, e As KeyEventArgs) Handles TextBox6._textbox_keyDown
+        If e.KeyCode = Keys.Enter Then
+            TextBox5.Focus()
+        End If
+    End Sub
+    Private Sub TextBox5_textbox_keyDown(sender As Object, e As KeyEventArgs) Handles TextBox5._textbox_keyDown
+        If e.KeyCode = Keys.Enter Then
+            TextBox11.Focus()
+        End If
+    End Sub
+
+    Private Sub TextBox11_textbox_keyDown(sender As Object, e As KeyEventArgs) Handles TextBox11._textbox_keyDown
+        If e.KeyCode = Keys.Enter Then
+            TextBox10.Focus()
+        End If
+    End Sub
+
+    Private Sub TextBox10_textbox_keyDown(sender As Object, e As KeyEventArgs) Handles TextBox10._textbox_keyDown
+        If e.KeyCode = Keys.Enter Then
+            Controle_navegacao1.btn_avancar.Focus()
+        End If
+    End Sub
 
 End Class

@@ -70,14 +70,14 @@
 
     Private Function validaDados() As Boolean
         validaDados = True
-        TrataErro.SetError(Label1, String.Empty)
+        TrataErro.SetError(Label4, String.Empty)
         TrataErro.SetError(Label2, String.Empty)
         TrataErro.SetError(Label3, String.Empty)
         TENTATIVAS_TELA_ARRASTAR_PALAVRAS += 1
 
         If listTodasPalavras.Items.Count > 0 Then
             ' validaDados = False
-            TrataErro.SetError(Label1, "Arraste todas as palavras!")
+            TrataErro.SetError(Label4, "Arraste todas as palavras!")
             Return False
         End If
 

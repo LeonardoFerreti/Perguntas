@@ -99,6 +99,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox1.Size = New System.Drawing.Size(55, 22)
         Me.TextBox1.somenteLeitura = True
         Me.TextBox1.TabIndex = 0
+        Me.TextBox1.TabStop = False
         Me.TextBox1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox1.Texto = "LELO"
         Me.TextBox1.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -113,6 +114,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox2.Size = New System.Drawing.Size(65, 22)
         Me.TextBox2.somenteLeitura = True
         Me.TextBox2.TabIndex = 1
+        Me.TextBox2.TabStop = False
         Me.TextBox2.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox2.Texto = "TRATADO"
         Me.TextBox2.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -127,6 +129,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox3.Size = New System.Drawing.Size(55, 22)
         Me.TextBox3.somenteLeitura = True
         Me.TextBox3.TabIndex = 2
+        Me.TextBox3.TabStop = False
         Me.TextBox3.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox3.Texto = "CHAPEU"
         Me.TextBox3.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -141,6 +144,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox4.Size = New System.Drawing.Size(55, 22)
         Me.TextBox4.somenteLeitura = True
         Me.TextBox4.TabIndex = 3
+        Me.TextBox4.TabStop = False
         Me.TextBox4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox4.Texto = "VERDA"
         Me.TextBox4.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -155,6 +159,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox5.Size = New System.Drawing.Size(55, 22)
         Me.TextBox5.somenteLeitura = True
         Me.TextBox5.TabIndex = 4
+        Me.TextBox5.TabStop = False
         Me.TextBox5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox5.Texto = "MAL"
         Me.TextBox5.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -169,6 +174,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox6.Size = New System.Drawing.Size(55, 22)
         Me.TextBox6.somenteLeitura = True
         Me.TextBox6.TabIndex = 5
+        Me.TextBox6.TabStop = False
         Me.TextBox6.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox6.Texto = "PONTA"
         Me.TextBox6.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -183,6 +189,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox7.Size = New System.Drawing.Size(55, 22)
         Me.TextBox7.somenteLeitura = True
         Me.TextBox7.TabIndex = 6
+        Me.TextBox7.TabStop = False
         Me.TextBox7.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox7.Texto = "TER"
         Me.TextBox7.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -197,6 +204,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox8.Size = New System.Drawing.Size(55, 22)
         Me.TextBox8.somenteLeitura = True
         Me.TextBox8.TabIndex = 7
+        Me.TextBox8.TabStop = False
         Me.TextBox8.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox8.Texto = "CASA"
         Me.TextBox8.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -211,6 +219,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox9.Size = New System.Drawing.Size(55, 22)
         Me.TextBox9.somenteLeitura = True
         Me.TextBox9.TabIndex = 8
+        Me.TextBox9.TabStop = False
         Me.TextBox9.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox9.Texto = "DEIRO"
         Me.TextBox9.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -225,6 +234,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox10.Size = New System.Drawing.Size(55, 22)
         Me.TextBox10.somenteLeitura = True
         Me.TextBox10.TabIndex = 9
+        Me.TextBox10.TabStop = False
         Me.TextBox10.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox10.Texto = "BON"
         Me.TextBox10.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -239,6 +249,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox11.Size = New System.Drawing.Size(55, 22)
         Me.TextBox11.somenteLeitura = True
         Me.TextBox11.TabIndex = 10
+        Me.TextBox11.TabStop = False
         Me.TextBox11.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox11.Texto = "MENTE"
         Me.TextBox11.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -253,6 +264,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox13.Size = New System.Drawing.Size(55, 22)
         Me.TextBox13.somenteLeitura = True
         Me.TextBox13.TabIndex = 12
+        Me.TextBox13.TabStop = False
         Me.TextBox13.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox13.Texto = "ZINHO"
         Me.TextBox13.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -267,6 +279,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox14.Size = New System.Drawing.Size(55, 22)
         Me.TextBox14.somenteLeitura = True
         Me.TextBox14.TabIndex = 13
+        Me.TextBox14.TabStop = False
         Me.TextBox14.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox14.Texto = "DADE"
         Me.TextBox14.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -281,6 +294,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox15.Size = New System.Drawing.Size(55, 22)
         Me.TextBox15.somenteLeitura = True
         Me.TextBox15.TabIndex = 14
+        Me.TextBox15.TabStop = False
         Me.TextBox15.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox15.Texto = "DOSO"
         Me.TextBox15.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -295,6 +309,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox16.Size = New System.Drawing.Size(55, 22)
         Me.TextBox16.somenteLeitura = True
         Me.TextBox16.TabIndex = 15
+        Me.TextBox16.TabStop = False
         Me.TextBox16.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox16.Texto = "MENTO"
         Me.TextBox16.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -309,6 +324,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox17.Size = New System.Drawing.Size(55, 22)
         Me.TextBox17.somenteLeitura = True
         Me.TextBox17.TabIndex = 16
+        Me.TextBox17.TabStop = False
         Me.TextBox17.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox17.Texto = "MAL"
         Me.TextBox17.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -323,6 +339,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox18.Size = New System.Drawing.Size(55, 22)
         Me.TextBox18.somenteLeitura = True
         Me.TextBox18.TabIndex = 17
+        Me.TextBox18.TabStop = False
         Me.TextBox18.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox18.Texto = "FELIZ"
         Me.TextBox18.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -337,6 +354,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox19.Size = New System.Drawing.Size(65, 22)
         Me.TextBox19.somenteLeitura = True
         Me.TextBox19.TabIndex = 18
+        Me.TextBox19.TabStop = False
         Me.TextBox19.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox19.Texto = "MINANDO"
         Me.TextBox19.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -351,6 +369,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox20.Size = New System.Drawing.Size(55, 22)
         Me.TextBox20.somenteLeitura = True
         Me.TextBox20.TabIndex = 19
+        Me.TextBox20.TabStop = False
         Me.TextBox20.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox20.Texto = "PÉ"
         Me.TextBox20.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -365,6 +384,7 @@ Partial Class frm_Perguntas_Responder
         Me.TextBox12.Size = New System.Drawing.Size(55, 22)
         Me.TextBox12.somenteLeitura = True
         Me.TextBox12.TabIndex = 20
+        Me.TextBox12.TabStop = False
         Me.TextBox12.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.TextBox12.Texto = "PARA"
         Me.TextBox12.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -513,7 +533,6 @@ Partial Class frm_Perguntas_Responder
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
-        Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.TextBox21)
         Me.GroupBox1.Controls.Add(Me.TextBox30)
         Me.GroupBox1.Controls.Add(Me.TextBox22)
@@ -529,6 +548,16 @@ Partial Class frm_Perguntas_Responder
         Me.GroupBox1.Size = New System.Drawing.Size(709, 215)
         Me.GroupBox1.TabIndex = 10
         Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Controls.SetChildIndex(Me.TextBox26, 0)
+        Me.GroupBox1.Controls.SetChildIndex(Me.TextBox25, 0)
+        Me.GroupBox1.Controls.SetChildIndex(Me.TextBox27, 0)
+        Me.GroupBox1.Controls.SetChildIndex(Me.TextBox24, 0)
+        Me.GroupBox1.Controls.SetChildIndex(Me.TextBox28, 0)
+        Me.GroupBox1.Controls.SetChildIndex(Me.TextBox23, 0)
+        Me.GroupBox1.Controls.SetChildIndex(Me.TextBox29, 0)
+        Me.GroupBox1.Controls.SetChildIndex(Me.TextBox22, 0)
+        Me.GroupBox1.Controls.SetChildIndex(Me.TextBox30, 0)
+        Me.GroupBox1.Controls.SetChildIndex(Me.TextBox21, 0)
         '
         'Label1
         '
@@ -544,25 +573,24 @@ Partial Class frm_Perguntas_Responder
         '
         Me.TrataErro.ContainerControl = Me
         '
-
-        '
         'frm_Perguntas_Responder
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.BackColor = System.Drawing.Color.White
-
+        Me.ClientSize = New System.Drawing.Size(796, 488)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.FlowLayoutPanel1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_Perguntas_Responder"
         Me.Text = "Forme palavras com sílabas:"
+        Me.Controls.SetChildIndex(Me.FlowLayoutPanel1, 0)
+        Me.Controls.SetChildIndex(Me.GroupBox1, 0)
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 

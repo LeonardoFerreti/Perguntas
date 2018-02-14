@@ -1,4 +1,16 @@
 ﻿Public Class usr_textbox
+    Event _textbox_keyDown(sender As Object, e As KeyEventArgs)
+
+
+    Private _tabulacao_automatica As Boolean = True
+    Public Property TABULACAO_AUTOMATICA() As Boolean
+        Get
+            Return _tabulacao_automatica
+        End Get
+        Set(ByVal value As Boolean)
+            _tabulacao_automatica = value
+        End Set
+    End Property
 
     Private _backColor As Drawing.Color = Color.White
     Public Property TEXTO_BACKCOLOR() As Drawing.Color
@@ -44,7 +56,6 @@
         End Set
     End Property
 
-
     Public Property Texto() As String
         Get
             Return txt.Text
@@ -60,9 +71,12 @@
     End Sub
 
     Private Sub usr_textbox_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown, txt.KeyDown
-        If e.KeyCode = Keys.Enter Then
-            SendKeys.Send("{TAB}")
+        If _tabulacao_automatica Then
+            If e.KeyCode = Keys.Enter Then
+                SendKeys.Send("{TAB}")
+            End If
         End If
+        RaiseEvent _textbox_keyDown(sender, e)
     End Sub
 
     Private Sub usr_textbox_LostFocus(sender As Object, e As EventArgs) Handles Me.LostFocus, txt.LostFocus
