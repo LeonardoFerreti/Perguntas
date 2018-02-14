@@ -69,6 +69,11 @@ Partial Class frm_Perguntas_Reescrever_Frases
         CType(Me.TrataErro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
+        'Controle_navegacao1
+        '
+        Me.Controle_navegacao1.Location = New System.Drawing.Point(0, 445)
+        Me.Controle_navegacao1.Size = New System.Drawing.Size(796, 43)
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -89,6 +94,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox1.Size = New System.Drawing.Size(292, 22)
         Me.TextBox1.somenteLeitura = False
         Me.TextBox1.TabIndex = 0
+        Me.TextBox1.TABULACAO_AUTOMATICA = True
         Me.TextBox1.Tag = "Todos saíram dali nervosos"
         Me.TextBox1.Texto = ""
         Me.TextBox1.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -104,7 +110,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox2.Size = New System.Drawing.Size(292, 22)
         Me.TextBox2.somenteLeitura = False
         Me.TextBox2.TabIndex = 1
-        Me.TextBox2.Tag = "Com certeza ela falou a verdade"
+        Me.TextBox2.TABULACAO_AUTOMATICA = True
+        Me.TextBox2.Tag = "com certeza ela falou a verdade"
         Me.TextBox2.Texto = ""
         Me.TextBox2.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox2.TEXTO_FORECOLOR = System.Drawing.Color.Black
@@ -129,6 +136,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox3.Size = New System.Drawing.Size(292, 22)
         Me.TextBox3.somenteLeitura = False
         Me.TextBox3.TabIndex = 3
+        Me.TextBox3.TABULACAO_AUTOMATICA = True
         Me.TextBox3.Tag = "Meu namorado me liga todos os dias"
         Me.TextBox3.Texto = ""
         Me.TextBox3.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -154,6 +162,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox4.Size = New System.Drawing.Size(292, 22)
         Me.TextBox4.somenteLeitura = False
         Me.TextBox4.TabIndex = 2
+        Me.TextBox4.TABULACAO_AUTOMATICA = True
         Me.TextBox4.Tag = "Ela tem que encontrar a solução para o problema"
         Me.TextBox4.Texto = ""
         Me.TextBox4.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -179,7 +188,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox5.Size = New System.Drawing.Size(315, 22)
         Me.TextBox5.somenteLeitura = False
         Me.TextBox5.TabIndex = 6
-        Me.TextBox5.Tag = "As meninas tentaram de novo, mas não conseguiram"
+        Me.TextBox5.TABULACAO_AUTOMATICA = True
+        Me.TextBox5.Tag = "as meninas tentaram de novo, mas não conseguiram"
         Me.TextBox5.Texto = ""
         Me.TextBox5.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox5.TEXTO_FORECOLOR = System.Drawing.Color.Black
@@ -204,6 +214,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox6.Size = New System.Drawing.Size(315, 22)
         Me.TextBox6.somenteLeitura = False
         Me.TextBox6.TabIndex = 5
+        Me.TextBox6.TABULACAO_AUTOMATICA = True
         Me.TextBox6.Tag = "Finalmente, André falou comigo sobre a festa"
         Me.TextBox6.Texto = ""
         Me.TextBox6.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -229,7 +240,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox7.Size = New System.Drawing.Size(315, 22)
         Me.TextBox7.somenteLeitura = False
         Me.TextBox7.TabIndex = 8
-        Me.TextBox7.Tag = "Por favor, silêncio!"
+        Me.TextBox7.TABULACAO_AUTOMATICA = True
+        Me.TextBox7.Tag = "Por favor, silêncio"
         Me.TextBox7.Texto = ""
         Me.TextBox7.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox7.TEXTO_FORECOLOR = System.Drawing.Color.Black
@@ -254,7 +266,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox8.Size = New System.Drawing.Size(315, 22)
         Me.TextBox8.somenteLeitura = False
         Me.TextBox8.TabIndex = 7
-        Me.TextBox8.Tag = "Vou amá-lo para sempre"
+        Me.TextBox8.TABULACAO_AUTOMATICA = True
+        Me.TextBox8.Tag = "vou amá-lo para sempre"
         Me.TextBox8.Texto = ""
         Me.TextBox8.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox8.TEXTO_FORECOLOR = System.Drawing.Color.Black
@@ -279,7 +292,8 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox9.Size = New System.Drawing.Size(315, 22)
         Me.TextBox9.somenteLeitura = False
         Me.TextBox9.TabIndex = 9
-        Me.TextBox9.Tag = "Ana, o que aconteceu?"
+        Me.TextBox9.TABULACAO_AUTOMATICA = True
+        Me.TextBox9.Tag = "Ana, o que aconteceu"
         Me.TextBox9.Texto = ""
         Me.TextBox9.TEXTO_BACKCOLOR = System.Drawing.Color.White
         Me.TextBox9.TEXTO_FORECOLOR = System.Drawing.Color.Black
@@ -304,6 +318,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.TextBox10.Size = New System.Drawing.Size(292, 22)
         Me.TextBox10.somenteLeitura = False
         Me.TextBox10.TabIndex = 4
+        Me.TextBox10.TABULACAO_AUTOMATICA = True
         Me.TextBox10.Tag = "Tá bom, eu vou passar na sua casa"
         Me.TextBox10.Texto = ""
         Me.TextBox10.TEXTO_BACKCOLOR = System.Drawing.Color.White
@@ -461,6 +476,7 @@ Partial Class frm_Perguntas_Reescrever_Frases
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_Perguntas_Reescrever_Frases"
         Me.Text = "Reescreva as frases"
+        Me.Controls.SetChildIndex(Me.Controle_navegacao1, 0)
         Me.Controls.SetChildIndex(Me.TableLayoutPanel1, 0)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.Panel11.ResumeLayout(False)

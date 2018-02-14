@@ -31,10 +31,15 @@ Partial Class frm_apresentacao17
         CType(Me.media, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
+        'Controle_navegacao1
+        '
+        Me.Controle_navegacao1.Location = New System.Drawing.Point(0, 445)
+        Me.Controle_navegacao1.Size = New System.Drawing.Size(796, 43)
+        '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_apresentacao_18
-        Me.PictureBox2.Location = New System.Drawing.Point(249, 64)
+        Me.PictureBox2.Image = Global.Perguntas.My.Resources.Resources.balao_novo
+        Me.PictureBox2.Location = New System.Drawing.Point(249, 65)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(485, 329)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -54,7 +59,7 @@ Partial Class frm_apresentacao17
         'media
         '
         Me.media.Enabled = True
-        Me.media.Location = New System.Drawing.Point(250, 396)
+        Me.media.Location = New System.Drawing.Point(250, 397)
         Me.media.Name = "media"
         Me.media.OcxState = CType(resources.GetObject("media.OcxState"), System.Windows.Forms.AxHost.State)
         Me.media.Size = New System.Drawing.Size(483, 45)
@@ -73,6 +78,7 @@ Partial Class frm_apresentacao17
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frm_apresentacao17"
         Me.Text = "Explicação: formas verbais"
+        Me.Controls.SetChildIndex(Me.Controle_navegacao1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox1, 0)
         Me.Controls.SetChildIndex(Me.PictureBox2, 0)
         Me.Controls.SetChildIndex(Me.media, 0)
